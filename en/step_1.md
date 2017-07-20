@@ -77,7 +77,7 @@ Let's write a Python program to encrypt a single character.
 
 --- /challenge ---### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](./print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/secret-messages/print).
 
 
 --- collapse ---
