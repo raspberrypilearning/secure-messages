@@ -13,8 +13,13 @@ interests: ''
 technologies: python
 site_areas: codeclub, python
 steps:
+- title: 'Introduction: '
+- title: The Caesar cipher
 - title: 'Challenge: Use a Caesar cipher'
+- title: Encrypting letters
 - title: 'Challenge: Variable keys'
+- title: Encrypting entire messages
+- title: Extra characters
 - title: 'Challenge: Encrypting and decrypting messages'
 - title: 'Challenge: Friendship calculator'
 

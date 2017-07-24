@@ -1,83 +1,20 @@
---- challenge ---
-## Challenge: Use a Caesar cipher
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+## Introduction: 
 
-You could even send entire sentences to each other!
+On 15 December 2015, British astronaut Tim Peake set off on the Principia mission to the International Space Station which is in orbit around Earth. This project ties in with the The Principia Space Diary, a free resource for UK schools, produced as part of European Space Agency Astronaut Tim Peake’s Principia Mission. For more information about the Space Diary, visit [http://principiaspacediary.org](http://principiaspacediary.org).
 
-## Step 2: Encrypting letters
+![Space Diary](images/space-diary.png)
 
-Let's write a Python program to encrypt a single character. 
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principa" activity on page 16 of the Space Diary.
 
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <img src="images/messages-finished.png">
+</div>
 
+### Additional information for club leaders
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
-
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
-
-	![screenshot](images/messages-alphabet.png)
-
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
-
-	![screenshot](images/messages-array.png)
-
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
-
-	![screenshot](images/messages-alphabet-array.png)
-
-	You can delete the `print` ststements once you've tried this out.
-
-+ Next, you'll need to store the secret `key` in a variable.
-
-	![screenshot](images/messages-key.png)	
-
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
-
-	![screenshot](images/messages-character.png)
-
-+ Find the `position` of the `character`.
-
-	![screenshot](images/messages-position.png)
-
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
-
-	![screenshot](images/messages-position-test.png)
-
-+ To encrypt the `character`, you should add the `key` to the `position`.
-
-	![screenshot](images/messages-newposition.png)
-
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable. 
-
-	For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
-
-	![screenshot](images/messages-newposition-test.png)
-
-+ What happens when you try and encrypt the letter 'y'?
-
-	![screenshot](images/messages-modulus-bug.png)
-
-	Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
-
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26. 
-
-	![screenshot](images/messages-modulus.png)
-
-+ Finally, you want to print the letter at the new position.
-
-	For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
-
-	![screenshot](images/messages-newcharacter.png)
-
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
-
-	![screenshot](images/messages-enc-test.png)
-
-
-
-
---- /challenge ---### Additional information for club leaders
-
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/secret-messages/print).
 
 
 --- collapse ---
