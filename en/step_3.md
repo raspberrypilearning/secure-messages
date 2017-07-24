@@ -1,10 +1,8 @@
 --- challenge ---
-## Challenge: Encrypting and decrypting messages
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+## Challenge: Use a Caesar cipher
+Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
-You could also duplicate the project and create a separate program for decrypting messages.
-
-
+You could even send entire sentences to each other!
 
 
 --- /challenge ---
