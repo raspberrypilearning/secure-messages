@@ -1,10 +1,10 @@
 ## Encrypting letters
 
-Let's write a Python program to encrypt a single character. 
+Let's write a Python program to encrypt a single character.
 
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
 
@@ -22,7 +22,7 @@ Let's write a Python program to encrypt a single character.
 
 + Next, you'll need to store the secret `key` in a variable.
 
-	![screenshot](images/messages-key.png)	
+	![screenshot](images/messages-key.png)
 
 + Next, ask the user for a single letter (called a `character`) to encrypt.
 
@@ -36,11 +36,15 @@ Let's write a Python program to encrypt a single character.
 
 	![screenshot](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`.
++ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
 
 	![screenshot](images/messages-newposition.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable. 
++ Add code to print the new character position. 
+
+	![screenshot](images/messages-newposition-print.png)
+
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
 
 	For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
 
@@ -52,7 +56,7 @@ Let's write a Python program to encrypt a single character.
 
 	Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26. 
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
 
 	![screenshot](images/messages-modulus.png)
 
@@ -65,6 +69,3 @@ Let's write a Python program to encrypt a single character.
 + Try out your code. You can also remove some of your print statements, just printing the new character at the end.
 
 	![screenshot](images/messages-enc-test.png)
-
-
-
