@@ -1,8 +1,4 @@
-## Introduction: 
-
-On 15 December 2015, British astronaut Tim Peake set off on the Principia mission to the International Space Station which is in orbit around Earth. This project ties in with the The Principia Space Diary, a free resource for UK schools, produced as part of European Space Agency Astronaut Tim Peake’s Principia Mission. For more information about the Space Diary, visit [http://principiaspacediary.org](http://principiaspacediary.org).
-
-![Space Diary](images/space-diary.png)
+## Introduction:
 
 In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principa" activity on page 16 of the Space Diary.
 
