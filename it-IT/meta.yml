@@ -1,0 +1,37 @@
+---
+hero_image: images/secret-messages.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Messaggi Segreti
+description: Crea il tuo programma di criptaggio per mandare e ricevere messaggi segreti.
+original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Introduzione
+  - 
+    title: Il messaggio cifrato Cesare
+  - 
+    title: 'Sfida: Usa un messaggio cifrato Cesar'
+  - 
+    title: Criptare lettere
+  - 
+    title: 'Sfida: Chiavi variabili'
+  - 
+    title: Criptare interi messaggi
+  - 
+    title: Caratteri Extra
+  - 
+    title: 'Sfida: Criptare e decriptare messaggi'
+  - 
+    title: 'Sfida: Calcolatore di amicizia'
