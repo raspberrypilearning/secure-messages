@@ -35,7 +35,7 @@ __يستخدم هذا المشروع Python 3.__ نوصي باستخدام [trin
 + [تحدي 'حاسبة الصداقة' مُكتمل -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
 ## الموارد المتوفرة دون اتصال بالإنترنت
-يمكن أن يكون هذا المشروع [مكتمل دون اتصال بالإنترنت] (https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) إذا كنت تفضل ذلك.
+يمكن أن يكون هذا المشروع [مكتمل دون اتصال بالإنترنت](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) إذا كنت تفضل ذلك.
 
 يمكنك العثور على المشروع المكتمل في قسم "موارد المتطوعين"، الذي يحتوي على:
 
@@ -51,7 +51,7 @@ __يستخدم هذا المشروع Python 3.__ نوصي باستخدام [trin
 
 يتناول هذا المشروع عناصر من الصفوف التالية من [المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum):
 
-+ [دمج الإنشاءات البرمجية لحل مشكلة].(https://www.raspberrypi.org/curriculum/programming/builder)
++ [دمج الإنشاءات البرمجية لحل مشكلة](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## التحديات:
 + استخدم شفرة قيصر - تشفير الأحرف والكلمات وفك تشفيرها يدويًا؛
