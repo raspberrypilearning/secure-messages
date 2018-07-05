@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## Wyzwanie: użyj szyfru Cezara
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+Czy możesz wysłać tajne słowo do przyjaciela? Zanim zaczniesz, musicie zgodzić się na tajny klucz.
 
-You could even send entire sentences to each other!
+Możesz wysyłać innym nawet całe zdania!
 
 \--- /challenge \---
