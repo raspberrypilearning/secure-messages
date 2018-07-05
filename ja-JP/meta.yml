@@ -1,0 +1,37 @@
+---
+hero_image: images / secret-messages.png
+theme: 赤
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1、design-0、programming-1、phys-comp-0、製造-0、コミュニティ-0
+title: 秘密のメッセージ
+description: 独自の暗号化プログラムを作成し、秘密のメッセージを送受信します。
+original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+interests: サイバーセキュリティと暗号
+technologies: パイソン
+site_areas: プロジェクト
+hardware: ''
+software: パイソン
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: '前書き： '
+  - 
+    title: シーザー暗号
+  - 
+    title: '課題：シーザー暗号を使用する'
+  - 
+    title: 文字の暗号化
+  - 
+    title: '課題：変数キー'
+  - 
+    title: メッセージ全体を暗号化する
+  - 
+    title: 余分な文字
+  - 
+    title: '課題：メッセージの暗号化と復号化'
+  - 
+    title: '課題：友情計算機'
