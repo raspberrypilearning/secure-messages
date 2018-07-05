@@ -1,20 +1,21 @@
-#!/bin/python3
+#! /usr/bin/python3
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-newMessage = ''
-  
-message = input('Please enter a message: ')
 
-key = input('Enter a key (1-26): ')
+neuerText = ''             # 2 einzelne Hochkommata für Leerstring
+  
+text = input('Gib hier deinen Text ein: ')
+
+key = input('Gib hier deinen Schlüssel (key) ein (1-26): ')
 key = int(key)
 
-for character in message:
-  if character in alphabet:
-    position = alphabet.find(character)
-    newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
-    newMessage += newCharacter
+for buchstabe in text:
+  if buchstabe in alphabet:
+    position = alphabet.find(buchstabe)
+    neuePosition = (position + key) % 26
+    neuerBuchstabe = alphabet[neuePosition]
+    neuerText += neuerBuchstabe
   else:
-    newMessage += character
+    neuerText += buchstabe
 
-print('Your new message is: ', newMessage)
+print('Der verschlüsselte Text lautet: ', neuerText)
