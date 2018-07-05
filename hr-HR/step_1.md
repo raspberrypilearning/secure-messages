@@ -65,10 +65,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
     
     ```python
-message = input("Please enter a message to encrypt: ").lower()
-```
-
-to make the input lower case before searching.
+    message = input("Please enter a message to encrypt: ").lower()
+    ```
+    
+    to make the input lower case before searching.
 
 \--- /collapse \---
 
