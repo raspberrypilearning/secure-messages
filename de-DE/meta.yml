@@ -18,15 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Einführung
+    title: 'Einführung: '
   - 
-    title: Die Caesar-Schiffre
+    title: Die Caesar-Chiffre
   - 
-    title: 'Aufgabe: Benutze eine Caesar-Schiffre'
+    title: 'Aufgabe: Benutze eine Caesar-Chiffre'
   - 
     title: Buchstaben verschlüsseln
   - 
-    title: 'Aufgabe: Variable Keys'
+    title: 'Aufgabe: Variable Schlüssel (key)'
   - 
     title: Komplette Mitteilungen verschlüsseln
   - 
