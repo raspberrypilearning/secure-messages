@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- Aufgabe \---
 
-## Challenge: Encrypting and decrypting messages
+## Aufgabe: Verschlüsseln und Entschlüsseln von Mitteilungen
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+Verschlüssele ein paar Mitteilungen und gib sie einem Freund/einer Freundin gemeinsam mit dem geheimen Schlüssel (key). Kann dein Freund/deine Freundin sie mit Hilfe von seinem/ihrem Programm entschlüsseln?
 
-You could also duplicate the project and create a separate program for decrypting messages.
+Du könntest das Programm auch kopieren und damit ein separates Programm zur Entschlüsselung von Mitteilungen erstellen.
 
-\--- /challenge \---
+\--- /Aufgabe \---
