@@ -65,10 +65,10 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 * Ao pesquisar usando `find ()` ou `se caractere em alfabeto:`, observe que as pesquisas fazem distinção entre maiúsculas e minúsculas. As crianças podem usar:
     
     ```python
-message = input ("Por favor insira uma mensagem para criptografar:") .lower ()
-```
-
-para tornar a entrada minúscula antes de pesquisar.
+    message = input ("Por favor insira uma mensagem para criptografar:") .lower ()
+    ```
+    
+    para tornar a entrada minúscula antes de pesquisar.
 
 \--- / colapso \---
 
