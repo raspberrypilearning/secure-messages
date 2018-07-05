@@ -8,7 +8,7 @@ Sommige tekens staan ​​niet in het alfabet, wat een fout veroorzaakt.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Je ziet op dat de spaties en de `!` tekens allemaal zijn gecodeerd als de letter 'c'
+    Je ziet dat de spaties en de `!` tekens allemaal zijn gecodeerd als de letter 'c'!
 
 + Om dit te verhelpen, ga je alleen een teken omzetten als het in het alfabet staat. Dat doe je door een `if` -instructie aan de code toe te voegen en de rest van de code te laten inspringen.
     
