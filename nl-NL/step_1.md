@@ -28,9 +28,9 @@ In dit project leren kinderen een encryptieprogramma te maken, om geheime berich
 
 Er is ook een trinket met het voltooide project:
 
-* ['Geheime berichten' voltooid - trinket.io/python/402256078c](https://trinket.io/python/39308fb1a4)
+* ['Geheime berichten' voltooid - trinket.io/python/39308fb1a4](https://trinket.io/python/39308fb1a4)
 
-* ['Vriendschapscalculator' gereed - trinket.io/python/2e852cd687](https://trinket.io/python/9b3e683a0a)
+* ['Vriendschapscalculator' gereed - trinket.io/python/9b3e683a0a](https://trinket.io/python/9b3e683a0a)
 
 ## Offline bronnen
 
