@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## Szyfrowanie całych wiadomości
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+Zamiast szyfrować i odszyfrowywać wiadomości po jednej literze, zmieńmy program tak, aby szyfrować całe wiadomości!
 
-+ Firstly, check that your code looks like this:
++ Po pierwsze sprawdź, czy Twój kod wygląda następująco:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![zrzut ekranu](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Utwórz zmienną do przechowywania nowej zaszyfrowanej wiadomości.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![zrzut ekranu](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Zmień kod, aby przechować wiadomość użytkownika, a nie tylko jedną literę.
     
-    ![screenshot](images/messages-message.png)
+    ![zrzut ekranu](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ Dodaj `for` pętlę do twojego kodu i dodaj wcięcie do reszty kodu, aby powtarzał się dla każdej litery w wiadomości.
     
-    ![screenshot](images/messages-loop.png)
+    ![zrzut ekranu](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Przetestuj swój kod. Powinieneś zobaczyć, że każda litera w wiadomości jest zaszyfrowana i wydrukowana pojedynczo.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![zrzut ekranu](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Dodajmy każdą zaszyfrowaną literę do twojej zmiennej `nowaWiadomosc`.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![zrzut ekranu](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is begin encrypted.
++ Możesz `print` `nowaWiadomosc` jak zostanie zaszyfrowana.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![zrzut ekranu](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ Jeśli usuniesz spacje przed instrukcją `print`, wyświetli się tylko zaszyfrowana wiadomość na końcu. Możesz również usunąć kod drukowania pozycji liter.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![zrzut ekranu](images/messages-print-message-comment.png)
