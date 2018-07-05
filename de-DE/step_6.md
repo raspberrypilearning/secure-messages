@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## Komplette Mitteilungen verschlüsseln
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+Anstatt die Nachricht mit nur je einem Zeichen einzeln zu verschlüsseln bzw. zu entschlüsseln, lass uns jetzt das Programm so ändern, dass komplette Mitteilungen verschlüsselt werden!
 
-+ Firstly, check that your code looks like this:
++ Prüfe als Erstes, ob dein Code so aussieht:
     
     ![screenshot](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Erstelle eine anfänglich leere String-Variable, um die neue, verschlüsselte Mitteilung zu speichern.
     
     ![screenshot](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Ändere deinen Code, damit du die Mitteilung des Nutzers und nicht nur ein Zeichen speichern kannst.
     
     ![screenshot](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ Füge eine `for` - Schleife zu deinem Code hinzu und rücke den Rest des Codes ein, damit er für jedes Zeichen in der Mitteilung wiederholt wird.
     
     ![screenshot](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Teste deinen Code. Du solltest sehen können, dass jedes Zeichen in der Mitteilung verschlüsselt ist und je einzeln ausgedruckt wird.
     
     ![screenshot](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Lass uns nun jedes der verschlüsselten Zeichen deiner Variablen `neuerText` hinzufügen.
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is begin encrypted.
++ Du kannst die neue Mitteilung `neuerText` mit `print` drucken, während sie Buchstabe für Buchstabe verschlüsselt wird.
     
     ![screenshot](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ Wenn du die Leerzeichen vor dem `print` - Statement (drucken) löschst, wird die verschlüsselte Mitteilung nur einmal am Ende angezeigt. Du kannst auch den Code zum Drucken der Positionsnummern der Buchstaben löschen.
     
     ![screenshot](images/messages-print-message-comment.png)
