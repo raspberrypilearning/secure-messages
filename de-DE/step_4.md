@@ -1,69 +1,69 @@
-## Encrypting letters
+## Buchstaben verschlüsseln
 
-Let's write a Python program to encrypt a single character.
+Lass uns ein Python Programm schreiben, um ein einzelnes Zeichen zu verschlüsseln.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Öffne die leere Python Vorlage in trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ Anstatt das Alphabet in einem Kreis aufzuzeichnen, lass es uns als String-Variable `alphabet` aufschreiben.
     
     ![screenshot](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ Jeder Buchstabe des Alphabets hat eine Positionsnummer, wir beginnen bei der Positionsnummer 0. Das heißt also, dass der Buchstabe ‘a’ sich bei Positionsnummer 0 des Alphabets befindet und der Buchstabe ‘c’ sich auf der Positionsnummer 2 befindet.
     
     ![screenshot](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ Du kannst einen Buchstaben aus deiner Variablen `alphabet` erhalten, indem du die Positionsnummer in eckigen Klammern schreibst.
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    You can delete the `print` ststements once you've tried this out.
+    Du kannst die `print` Statements (drucken) löschen, nachdem du alles ausprobiert hast.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ Als nächstes musst du den geheimen Schlüssel in der Variable `key` speichern.
     
     ![screenshot](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ Frage dann den Nutzer nach einem Buchstaben, um diesen zu verschlüsseln.
     
     ![screenshot](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ Finde die Positionsnummer (`position`) des Buchstabens (`buchstabe`) im Alphabet.
     
     ![screenshot](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ Du kannst die gespeicherte Positionsnummer `(position)` testen, indem du sie ausdruckst. Zum Beispiel, ob sich das Zeichen ‘e’ bei der Positionsnummer 4 im Alphabet befindet.
     
     ![screenshot](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ Um den Buchstaben (`buchstabe`) zu verschlüsseln, musst du den Schlüssel (`key`) mit der Positionsnummer (`position`) addieren. Das Ergebnis wird in der Variablen `neuePosition` gespeichert.
     
     ![screenshot](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ Füge nun den Programmcode hinzu, um diese neue Position des Buchstabens auszudrucken.
     
     ![screenshot](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ Teste deinen neuen Code aus. Da unser `key` = 3 ist, sollte er die Zahl 3 zu der Positionsnummer (`position`) addieren und in der Variablen `neuePosition` als neue Positionsnummer speichern.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    Zum Beispiel befindet sich der Buchstabe ‘e’ auf der Positionsnummer 4. Um dies zu verschlüsseln, addierst du den `key` (3), was insgesamt 7 ergibt.
     
     ![screenshot](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ • Was passiert, wenn du versuchst, den Buchstaben ‘y’ zu verschlüsseln?
     
     ![screenshot](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    Siehst du, dass die neue Positionsnummer (`neuePosition`) jetzt 27 beträgt? Aber es gibt gar nicht 27 Buchstaben im Alphabet!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ Du kannst den Modulo-Operator `%` benutzen, um der neuen Positionsnummer mitzuteilen, wieder auf die Positionsnummer 0 zurückzugehen, nachdem sie die Positionsnummer 26 erreicht hat.
     
     ![screenshot](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ Und zum Schluss wollen wir den Buchstaben in der neuen Positionsnummer ausdrucken.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    Zum Beispiel, wenn du den Schlüssel (key) zur Positionsnummer des Buchstaben ‘e’ addierst, erhältst du 7 und der Buchstabe auf der Positionsnummer 7 des Alphabets ist das ‘h’.
     
     ![screenshot](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ Probiere deinen neuen Code aus. Du kannst auch manche deiner print-Statements (Drucken) entfernen und einfach nur am Ende das neue Zeichen ausdrucken.
     
     ![screenshot](images/messages-enc-test.png)
