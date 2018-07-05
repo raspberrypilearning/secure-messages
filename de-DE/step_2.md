@@ -1,24 +1,24 @@
-## The Caesar cipher
+## Die Caesar-Chiffre
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+Eine Chiffre ist eine Art Geheimcode, bei dem man die Buchstaben miteinander vertauscht, damit niemand die Mitteilung lesen kann.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+Du wirst eine der ältesten und berühmtesten Chiffre benutzen, die **Caesar-Chiffre**, welche nach dem römischen Herrscher Julius Caesar benannt ist.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+Ehe wir mit der Programmierung beginnen, lass uns versuchen die Caesar-Chiffre zu benutzen, um ein Wort zu verstecken.
 
-+ Hiding a word is called **encryption**.
++ Das Verstecken eines Wortes wird ** Verschlüsselung ** (engl. encryption) genannt.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    Lass uns damit beginnen, den Buchstaben ‘a’ zu verschlüsseln. Damit wir dies tun können, müssen wir das Alphabet in einem Kreis zeichnen, wie z. B. so:
     
     ![screenshot](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ Damit du einen geheimen, verschlüsselten Buchstaben von einem normalen Buchstaben anfertigen kannst, brauchst du einen geheimen Schlüssel (key). Lass uns die Zahl 3 als Schlüssel benutzen (du kannst dir jedoch eine beliebige Zahl ausdenken).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    Damit du den Buchstaben ‘a’ **verschlüsselst**, musst du 3 Buchstaben im Uhrzeigersinn weiter gehen, wodurch du dann den Buchstaben ‘d’ erhältst:
     
     ![screenshot](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ Du kannst das, was du gelernt hast, dazu benutzen, ein komplettes Wort zu verschlüsseln. ‘hello’ (Hallo!) wird zum Beispiel als ‘khoor’ verschlüsselt. Probiere es selbst einmal aus.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ Wenn man den Text wieder zum ursprünglichen Zustand zurückstellt, nennt man das **Entschlüsselung** (engl. decryption). Um ein Wort zu entschlüsseln, musst du einfach nur den Schlüssel (key) subtrahieren (abziehen), anstatt ihn zu addieren:
     
     + k - 3 = **h**
     + h - 3 = **e**
