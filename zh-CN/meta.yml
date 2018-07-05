@@ -1,0 +1,37 @@
+---
+hero_image: images/secret-messages.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 秘密信息
+description: 制作你自己的加密程序来发送和接受秘密信息。
+original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: codeclub, python
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: '介绍'
+  - 
+    title: 凯撒密码
+  - 
+    title: '挑战：使用凯撒密码'
+  - 
+    title: 对字母进行加密
+  - 
+    title: '挑战：可变密钥'
+  - 
+    title: 对完整信息进行加密
+  - 
+    title: 其他字符
+  - 
+    title: '挑战：加密和解密信息'
+  - 
+    title: '挑战：友情计算器'
