@@ -1,69 +1,69 @@
-## Encrypting letters
+## Szyfrowanie liter
 
-Let's write a Python program to encrypt a single character.
+Napiszmy program Python, aby zaszyfrować pojedynczy znak.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Otwórz pusty szablon dla języka Python w edytorze Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ Zamiast rysować alfabet w kółku, wypiszmy go jako `alfabet` zmienną.
     
-    ![screenshot](images/messages-alphabet.png)
+    ![zrzut ekranu](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ Każda litera alfabetu ma pozycję, zaczynając od pozycji 0. Tak więc litera 'a' znajduje się na pozycji 0 alfabetu, zaś 'c' na pozycji 2.
     
-    ![screenshot](images/messages-array.png)
+    ![zrzut ekranu](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ Możesz otrzymać literę ze zmiennej `alfabet` wpisując pozycję w nawiasach kwadratowych.
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![zrzut ekranu](images/messages-alphabet-array.png)
     
-    You can delete the `print` ststements once you've tried this out.
+    Możesz usunąć `print` kiedy to wypróbujesz.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ Następnie musisz przechowywać tajny `klucz` w zmiennej.
     
-    ![screenshot](images/messages-key.png)
+    ![zrzut ekranu](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ Następnie poproś użytkownika o pojedynczą literę (nazywaną `litera`) do zaszyfrowania.
     
-    ![screenshot](images/messages-character.png)
+    ![zrzut ekranu](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ Znajdź `pozycja` dla `litera`.
     
-    ![screenshot](images/messages-position.png)
+    ![zrzut ekranu](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ Możesz przetestować zachowaną `pozycja` przez wydrukowanie jej. Na przykład litera 'e' znajduje się na pozycji 4 w alfabecie.
     
-    ![screenshot](images/messages-position-test.png)
+    ![zrzut ekranu](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ Aby zaszyfrować `litera`, powinieneś dodać `klucz` do `pozycja`. Wówczas jest ona przechowywana w zmiennej ` nowaPozycja`.
     
-    ![screenshot](images/messages-newposition.png)
+    ![zrzut ekranu](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ Dodaj kod, aby wydrukować nową pozycję litery.
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![zrzut ekranu](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ Przetestuj swój nowy kod. Jeśli twój `klucz` to 3, powinno dodać 3 do `pozycja` i zachować to w twojej zmiennej `nowaPozycja`.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    Na przykład litera 'e' znajduje się na pozycji 4. Aby ją zaszyfrować, dodaje się `klucz` (3), co daje 7.
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![zrzut ekranu](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ Co się stanie, gdy spróbujesz zaszyfrować literę 'y'?
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![zrzut ekranu](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    Zauważ, że `newPosition` to 27, a nie ma 27 liter w alfabecie!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ Możesz użyć `% ` aby nowa pozycja powróciła do pozycji 0, gdy osiągnie pozycję 26.
     
-    ![screenshot](images/messages-modulus.png)
+    ![zrzut ekranu](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ Na koniec, chcesz wydrukować literę na nowej pozycji.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    Na przykład, dodanie klucza do litery 'e' daje 7, a literą na pozycji 7 w alfabecie jest 'h'.
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![zrzut ekranu](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ Wypróbuj swój kod. Możesz także usunąć niektóre z poleceń drukowania, po prostu drukując nową literę na końcu.
     
-    ![screenshot](images/messages-enc-test.png)
+    ![zrzut ekranu](images/messages-enc-test.png)
