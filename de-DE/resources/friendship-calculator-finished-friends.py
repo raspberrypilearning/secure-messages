@@ -1,15 +1,15 @@
-#!/bin/python3
+#! /usr/bin/python3
 
-score = 0
-names = input('enter tha names of 2 people: ')
+Punktzahl = 0
+namen = input('Gib die Namen von zwei Personen ein: ').lower()
 
-for character in names:
-  if character in 'aeiou':
-    score += 5
-  if character in 'friend':
-    score += 10
+for buchstabe in namen:
+  if buchstabe in 'aeiou':
+    Punktzahl += 5
+  if Buchstabe in 'freund':
+    Punktzahl += 10
 
-print('your friendship score is :', score)
+print('Der Freundschaftsindex beträgt: ', Punktzahl)
 
-if score > 100:
-  print('best friends!')
+if Punktzahl > 100:
+  print('Beste Freunde!')
