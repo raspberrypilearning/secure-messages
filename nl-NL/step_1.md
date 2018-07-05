@@ -65,10 +65,10 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 * Bij het zoeken met `find()` of `als teken in alfabet:`, merk je dat zoekopdrachten hoofdlettergevoelig zijn. Kinderen kunnen het volgende gebruiken:
     
     ```python
-bericht = input ("Voer een bericht in om te coderen:").lower()
-```
-
-om de invoer in kleine letters te zetten voordat er wordt gezocht.
+    bericht = input ("Voer een bericht in om te coderen:").lower()
+    ```
+    
+    om de invoer in kleine letters te zetten voordat er wordt gezocht.
 
 \--- /collapse \---
 
