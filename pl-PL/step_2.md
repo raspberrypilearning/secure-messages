@@ -2,11 +2,11 @@
 
 Szyfr to rodzaj tajnego kodu, w którym zamieniasz litery tak, aby nikt nie mógł odczytać twojej wiadomości.
 
-Użyjesz jednego z najstarszych i najsłynniejszych szyfrów **szyfr Cezara**, którego nazwa pochodzi od Juliusza Cezara.
+Użyjesz jednego z najstarszych i najsłynniejszych szyfrów - **szyfr Cezara** - którego nazwa pochodzi od Juliusza Cezara.
 
 Zanim zaczniemy kodować, użyjmy szyfru Cezara, aby ukryć słowo.
 
-+ Ukrywanie słowa nazywa się **szyfrowanie**.
++ Ukrywanie słowa to **szyfrowanie**.
     
     Zacznijmy od zaszyfrowania litery "a". Aby to zrobić, możemy narysować alfabet w kółku, tak jak poniżej:
     
@@ -18,7 +18,7 @@ Zanim zaczniemy kodować, użyjmy szyfru Cezara, aby ukryć słowo.
     
     ![zrzut ekranu](images/messages-wheel-eg.png)
 
-+ Możesz użyć tego, co już umiesz, aby zaszyfrować całe słowo. Na przykład "hello" po zaszyfrowaniu to "khoor". Spróbuj samodzielnie.
++ Możesz w ten sposób zaszyfrować całe słowo. Na przykład "hello" po zaszyfrowaniu to "khoor". Spróbuj samodzielnie.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Zanim zaczniemy kodować, użyjmy szyfru Cezara, aby ukryć słowo.
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Odzyskiwanie normalnego tekstu nazywa się **deszyfrowanie**. Aby odszyfrować słowo, wystarczy odjąć klucz zamiast go dodawać:
++ Odzyskiwanie normalnego tekstu to **odszyfrowywanie**. Aby odszyfrować słowo, wystarczy odjąć klucz zamiast go dodawać:
     
     + k - 3 = **h**
     + h - 3 = **e**
