@@ -1,19 +1,20 @@
 #!/bin/python3
 
-alfabet = 'abcdefghijklmnopqrstuvwxyz' nowaWiadomosc = ''
+alfabet = 'abcdefghijklmnopqrstuvwxyz' 
+nowaWiadomosc = ''
   
-wiadomość = input ('Prosze wprowadzic wiadomosc: ')
+wiadomosc = input('Wprowadź wiadomość: ')
 
-klucz = input('Wprowadz klucz (1-26): ')
+klucz = input('Wprowadź klucz (1-26): ')
 klucz = int(klucz)
 
-for litera in wiadomość:
+for litera in wiadomosc:
   if litera in alfabet:
     pozycja = alfabet.find(litera)
     nowaPozycja = (pozycja + klucz) % 26
     nowaLitera = alfabet[nowaPozycja]
-    nowaWiadomość += nowaLitera
+    nowaWiadomosc += nowaLitera
   else:
-    nowaWiadomość += litera
+    nowaWiadomosc += litera
 
-print ('Twoja nowa wiadomość to: ', nowaWiadomosc)
+print('Twoja nowa wiadomość to: ', nowaWiadomosc)
