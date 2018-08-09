@@ -24,7 +24,7 @@
     
     ![スクリーンショット](images/messges-message-add-character.png)
 
-+ あなたはできる `プリント` `newMessage` そのままに、暗号化され始めます。
++ You can `print` the `newMessage` as it is being encrypted.
     
     ![スクリーンショット](images/messages-print-message-characters.png)
 
