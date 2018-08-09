@@ -1,35 +1,35 @@
-## The Caesar cipher
+## 카이사르 암호
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+암호는 비밀 코드의 한 유형으로, 문자를 바꿔서 아무도 당신의 메시지를 읽을 수 없도록합니다.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+가장 오래되고 유명한 암호 중 하나인 ** 카이사르 암호**는 줄리어스 시저(Julius Caesar)의 이름을 따서 명명되었습니다.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+코딩을 시작하기 전에 카이사르 암호를 사용하여 단어를 숨겨보도록 합니다.
 
-+ Hiding a word is called **encryption**.
++ 단어 숨기기를 일컬어 ** 암호화** 라고 합니다.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    문자 'a' 를 암호화 해보도록 하겠습니다. 이를 위해서 다음과 같이 알파벳을 원 안에 그려 넣을 수 있습니다.
     
-    ![screenshot](images/messages-wheel.png)
+    ![스크린샷](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ 일반적인 문자를 암호 문자로 만들려면 비밀 키가 있어야 합니다. 숫자 3을 키로 사용하겠습니다. (원하는 번호를 사용할 수도 있습니다)
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    문자 'a'를 **암호화** 하기 위해서는 3 개의 문자를 시계 방향으로 이동시키면 문자 'd'가 표시됩니다:
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![스크린샷](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ 배운 내용을 사용하여 전체 단어를 암호화 할 수 있습니다. 예를 들어, 'hello'는 'khoor' 입니다. 직접 해보십시오.
     
-    + h + 3 = **k**
-    + e + 3 = **h**
-    + l + 3 = **o**
-    + l + 3 = **o**
-    + o + 3 = **r**
+    + h + 3 = ** k **
+    + e + 3 = ** h **
+    + l + 3 = ** 0 **
+    + l + 3 = ** o **
+    + o + 3 = ** r **
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ 암호화된 텍스트를 다시 정상으로 돌리는 것을 **암호 해독**이라고합니다. 암호화된 단어의 암호 해독을 하기 위해서는 키를 추가하는 대신 빼줍니다.
     
-    + k - 3 = **h**
-    + h - 3 = **e**
-    + o - 3 = **l**
-    + o - 3 = **l**
-    + r - 3 = **o**
+    + k-3 = ** h **
+    + h-3 = ** e **
+    + o-3 = ** I **
+    + o-3 = ** I **
+    + r-3 = ** o **
