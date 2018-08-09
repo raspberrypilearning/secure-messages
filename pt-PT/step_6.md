@@ -26,7 +26,7 @@ Em vez de apenas criptografar e descriptografar mensagens de um caractere de cad
     
     ![captura de tela](images/messges-message-add-character.png)
 
-+ Você pode `imprimir` a `novaMensagem` quando ela for criptografada.
++ You can `print` the `newMessage` as it is being encrypted.
     
     ![captura de tela](images/messages-print-message-characters.png)
 
