@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## 과제: 변수 키
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+사용자가 자신의 키를 입력하여 사용할 수 있도록 프로그램을 수정하십시오. 사용자의 입력을 받아 `키`변수에 저장해야합니다.
 
-Remember to use the `int()` function to convert the input to a whole number.
+입력을 정수로 변환하는 함수 `int ()`를 사용하십시오.
 
-You can then use a negative key to decrypt messages!
+그런 다음 음수의 키를 사용하여 메시지의 암호를 해독할 수 있습니다!
 
 \--- /challenge \---
