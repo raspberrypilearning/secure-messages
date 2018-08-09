@@ -26,7 +26,7 @@
     
     ![скріншот](images/messges-message-add-character.png)
 
-+ Ви можете `надрукувати` `newMessage` , оскільки воно розпочнеться зашифрованим.
++ You can `print` the `newMessage` as it is being encrypted.
     
     ![скріншот](images/messages-print-message-characters.png)
 
