@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Wyzwanie: Kalkulator przyjaźni
+## Wyzwanie: kalkulator przyjaźni
 
-Napisz program, aby pokazać, jak kompatybilne są 2 osoby, obliczając wynik przyjaźni.
+Napisz program, który obliczy poziom kompatybilności 2 ludzi.
 
 ![zrzut ekranu](images/messages-friends.png)
 
 Program może zapętlać każdą z liter w 2 imionach i dodawać punkty do zmiennej `wynik` za każdym razem, gdy zostaną znalezione określone litery.
 
-Powinieneś zdecydować o zasadach przyznawania punktów. Na przykład możesz przyznać punkty za samogłoski lub litery znalezione w słowie "przyjaciel":
+Zdecyduje, jakie będą zasady przyznawania punktów. Na przykład możesz przyznać punkty za samogłoski lub litery znalezione w słowie "przyjaciel":
 
 ![zrzut ekranu](images/messages-friends-code.png)
 
