@@ -21,6 +21,6 @@ Możesz także przekazać użytkownikowi spersonalizowaną wiadomość na podsta
 ***
 ### Tłumaczenie wykonane przez wolontariuszy
 
- Projekt ten przetłumaczył/a **Dominika Kościukiewicz**. 
+ Projekt ten przetłumaczyła **Dominika Kościukiewicz**. 
  
  Dzięki naszym wspaniałym wolontariuszom, ludzie na całym świecie mogą nauczyć się kodowania. Tłumacząc nasze projekty możesz pomóc nam dotrzeć do większej liczby ludzi. Więcej informacji na stronie [rpf.io/translators](https://rpf.io/translators).
