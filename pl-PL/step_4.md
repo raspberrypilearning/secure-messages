@@ -4,11 +4,11 @@ Napiszmy program Python, aby zaszyfrować pojedynczy znak.
 
 + Otwórz pusty szablon dla języka Python w edytorze Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Zamiast rysować alfabet w kółku, wypiszmy go jako `alfabet` zmienną.
++ Zamiast rysować alfabet w kółku, wypiszmy go jako zmienną o nazwie `alfabet`.
     
     ![zrzut ekranu](images/messages-alphabet.png)
 
-+ Każda litera alfabetu ma pozycję, zaczynając od pozycji 0. Tak więc litera 'a' znajduje się na pozycji 0 alfabetu, zaś 'c' na pozycji 2.
++ Każda litera alfabetu ma pozycję w ciągu, zaczynając od pozycji 0. Tak więc litera 'a' znajduje się na pozycji 0 alfabetu, zaś 'c' na pozycji 2.
     
     ![zrzut ekranu](images/messages-array.png)
 
@@ -16,25 +16,25 @@ Napiszmy program Python, aby zaszyfrować pojedynczy znak.
     
     ![zrzut ekranu](images/messages-alphabet-array.png)
     
-    Możesz usunąć `print` kiedy to wypróbujesz.
+    Możesz usunąć polecenie `print` kiedy to wypróbujesz.
 
-+ Następnie musisz przechowywać tajny `klucz` w zmiennej.
++ Następnie musisz zrobić tak, aby tajny `klucz` został przechowany w zmiennej.
     
     ![zrzut ekranu](images/messages-key.png)
 
-+ Następnie poproś użytkownika o pojedynczą literę (nazywaną `litera`) do zaszyfrowania.
++ Teraz poproś użytkownika o wprowadzenie pojedynczej litery (nazywanej `litera`), która zostanie zaszyfrowana.
     
     ![zrzut ekranu](images/messages-character.png)
 
-+ Znajdź `pozycja` dla `litera`.
++ Znajdź `pozycję` wprowadzonej `litery`.
     
     ![zrzut ekranu](images/messages-position.png)
 
-+ Możesz przetestować zachowaną `pozycja` przez wydrukowanie jej. Na przykład litera 'e' znajduje się na pozycji 4 w alfabecie.
++ Możesz przetestować zapisaną `pozycję` przez wydrukowanie jej. Na przykład litera 'e' znajduje się na pozycji 4 w alfabecie.
     
     ![zrzut ekranu](images/messages-position-test.png)
 
-+ Aby zaszyfrować `litera`, powinieneś dodać `klucz` do `pozycja`. Wówczas jest ona przechowywana w zmiennej ` nowaPozycja`.
++ Aby zaszyfrować `literę`, musisz dodać `klucz` do jej `pozycji`. Następnie trzeba przechować ją w zmiennej o nazwie `nowaPozycja`.
     
     ![zrzut ekranu](images/messages-newposition.png)
 
@@ -42,7 +42,7 @@ Napiszmy program Python, aby zaszyfrować pojedynczy znak.
     
     ![zrzut ekranu](images/messages-newposition-print.png)
 
-+ Przetestuj swój nowy kod. Jeśli twój `klucz` to 3, powinno dodać 3 do `pozycja` i zachować to w twojej zmiennej `nowaPozycja`.
++ Przetestuj swój nowy kod. Jeśli twój `klucz` to 3, program powinien dodać 3 do `pozycji` i zachować to w twojej zmiennej `nowaPozycja`.
     
     Na przykład litera 'e' znajduje się na pozycji 4. Aby ją zaszyfrować, dodaje się `klucz` (3), co daje 7.
     
@@ -52,18 +52,18 @@ Napiszmy program Python, aby zaszyfrować pojedynczy znak.
     
     ![zrzut ekranu](images/messages-modulus-bug.png)
     
-    Zauważ, że `newPosition` to 27, a nie ma 27 liter w alfabecie!
+    Zauważ, że `nowaPozycja` wynosi wtedy 27, a nie ma przecież 27 liter w alfabecie!
 
-+ Możesz użyć `% ` aby nowa pozycja powróciła do pozycji 0, gdy osiągnie pozycję 26.
++ Można w tym przypadku użyć znaku `%`, który sprawie, że nowa pozycja zostanie przywrócona do pozycji 0, gdy pozycja 26 zostanie osiągnięta.
     
     ![zrzut ekranu](images/messages-modulus.png)
 
-+ Na koniec, chcesz wydrukować literę na nowej pozycji.
++ Teraz wudrukuje nową pozycję wprowadzonej litery.
     
     Na przykład, dodanie klucza do litery 'e' daje 7, a literą na pozycji 7 w alfabecie jest 'h'.
     
     ![zrzut ekranu](images/messages-newcharacter.png)
 
-+ Wypróbuj swój kod. Możesz także usunąć niektóre z poleceń drukowania, po prostu drukując nową literę na końcu.
++ Wypróbuj swój kod. Możesz także usunąć niektóre z poleceń drukowania i wydrukować jedynie nową literę na końcu.
     
     ![zrzut ekranu](images/messages-enc-test.png)
