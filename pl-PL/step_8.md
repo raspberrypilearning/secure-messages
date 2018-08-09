@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Wyzwanie: Szyfrowanie i rozszyfrowywanie wiadomości
+## Wyzwanie: szyfrowanie i rozszyfrowywanie wiadomości
 
-Zaszyfruj niektóre wiadomości i daj je przyjacielowi wraz z tajnym kluczem. Sprawdź, czy może odszyfrować je za pomocą programu!
+Zaszyfruj jakąś wiadomość i daj ją przyjacielowi wraz z tajnym kluczem. Sprawdź, czy może odszyfrować ją za pomocą programu!
 
-Można również zduplikować projekt i utworzyć osobny program do odszyfrowywania wiadomości.
+Możesz też skopiować projekt i utworzyć osobny program do odszyfrowywania wiadomości.
 
 \--- /challenge \---
