@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## 전체 메시지를 암호화하기
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+한 번에 하나의 문자를 암호화하고 암호를 해독하는 대신 프로그램을 변경하여 전체 메시지를 암호화하십시오!
 
-+ Firstly, check that your code looks like this:
++ 먼저 코드를 다음과 같은 확인하십시오:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![스크린샷](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ 암호화된 새 메시지를 저장할 변수를 만듭니다.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![스크린샷](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ 한 문자 만이 아니라 사용자의 메시지를 저장하도록 코드를 변경하십시오.
     
-    ![screenshot](images/messages-message.png)
+    ![스크린샷](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ `for`루프를 코드에 추가하고 나머지 코드를 들여 쓰기 하여 메시지의 각 문자에 대해 반복되도록 하십시오.
     
-    ![screenshot](images/messages-loop.png)
+    ![스크린샷](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ 코드를 테스트하십시오. 메시지의 각 문자가 암호화되어 한 번에 하나씩 출력됩니다.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![스크린샷](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ 암호화된 각 문자를 `newMessage` 변수에 추가해 봅시다.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![스크린샷](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is begin encrypted.
++ You can `print` the `newMessage` as it is being encrypted.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![스크린샷](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ `print`문 전에 공백을 삭제하면, 암호화된 메시지는 끝에 한 번만 표시됩니다. 문자 위치 출력 코드를 삭제할 수도 있습니다.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![스크린샷](images/messages-print-message-comment.png)
