@@ -1,3 +1,4 @@
+---
 hero_image: images/secret-messages.png
 theme: red
 duration: 2
@@ -5,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Sekretne wiadomości
-description: Naucz się, jak napisać swój własny program szyfrujący.
+title: Tajne wiadomości
+description: Stwórz swój własny program szyfrujący, aby wysyłać i odbierać tajne wiadomości.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -15,5 +16,13 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Sekretne wiadomości
+steps:
+  - title: 'Wprowadzenie'
+  - title: Szyfr Cezara
+  - title: 'Wyzwanie: użyj szyfru Cezara'
+  - title: Szyfrowanie liter
+  - title: 'Wyzwanie: klucz jako zmienna'
+  - title: Szyfrowanie całych wiadomości
+  - title: Dodatkowe litery
+  - title: 'Wyzwanie: szyfrowanie i rozszyfrowywanie wiadomości'
+  - title: 'Wyzwanie: kalkulator przyjaźni'
