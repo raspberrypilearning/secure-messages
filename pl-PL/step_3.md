@@ -2,8 +2,8 @@
 
 ## Wyzwanie: użyj szyfru Cezara
 
-Czy możesz wysłać tajne słowo do przyjaciela? Zanim zaczniesz, musicie zgodzić się na tajny klucz.
+Czy potrafisz wysłać tajne słowo do przyjaciela? Zanim zaczniesz, musicie uzgodnić tajny klucz.
 
-Możesz wysyłać innym nawet całe zdania!
+Możecie sobie nawet wysyłać całe zdania!
 
 \--- /challenge \---
