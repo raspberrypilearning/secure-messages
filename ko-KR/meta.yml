@@ -1,6 +1,6 @@
 ---
 hero_image: images/secret-messages.png
-theme: red
+theme: 빨강
 duration: 2
 listed: true
 ingredient: false
@@ -9,11 +9,11 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: 비밀 메시지
 description: 자신만의 암호화 프로그램을 만들어서 비밀 메시지를 주고 받아봅니다.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
-interests: cybersecurity-and-cryptography
-technologies: python
-site_areas: projects
+interests: 사이버 보안 및 암호화
+technologies: 파이썬 (Python)
+site_areas: 프로젝트
 hardware: ''
-software: python
+software: 파이썬 (Python)
 version: 3
 last_tested: 2017-01-01
 steps:
@@ -26,12 +26,12 @@ steps:
   - 
     title: 글자 암호화하기
   - 
-    title: 'Challenge: Variable keys'
+    title: '과제: 변수 키들'
   - 
     title: 전체 메시지를 암호화하기
   - 
     title: 추가 문자들
   - 
-    title: '도전과제: 메시지를 암호화 하고 해석 해 보기'
+    title: '도전과제: 메시지를 암호화 하고 해석해 보기'
   - 
     title: '도전과제: 우정 계산기'
