@@ -1,31 +1,31 @@
-## Extra characters
+## 추가 문자들
 
-Some characters aren't in the alphabet, which causes an error.
+일부 문자가 알파벳이 아니기 때문에 오류가 발생합니다.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ 알파벳이 아닌 일부 다른 문자로 코드를 테스트하십시오.
     
-    For example, you could use the message `hi there!!`.
+    예를 들어, `hi there!!`이라는 메시지를 사용할 수 있습니다.
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![스크린샷](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    공백과 `!` 문자는 모두 문자 'c'로 암호화됩니다!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ 이 문제를 해결하기 위해서는 문자가 알파벳인 경우에만 번역해야 합니다. 이렇게 하려면 `if` 문을 코드에 추가하고, 나머지 코드는 들여 씁니다.
     
-    ![screenshot](images/messages-if.png)
+    ![스크린샷](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ 동일한 메시지로 코드를 테스트해보십시오. 이번엔 어떻게 됩니까?
     
-    ![screenshot](images/messages-if-test.png)
+    ![스크린샷](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    이젠 문자가 알파벳이 아닌 경우 코드가 해당 문자를 건너뜁니다.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ 코드가 알파벳이 아닌 다른 문자는 암호화하지 않고 원본 문자 그대로 사용한다면 더 좋을 것입니다.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    `else`문을 코드에 추가하면, 원본 문자가 암호화 된 메시지에 추가됩니다.
     
-    ![screenshot](images/messages-else.png)
+    ![스크린샷](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ 코드를 테스트하십시오. 알파벳의 모든 문자는 암호화되지만 다른 문자는 그대로 두어야 합니다.
     
-    ![screenshot](images/messages-else-test.png)
+    ![스크린샷](images/messages-else-test.png)
