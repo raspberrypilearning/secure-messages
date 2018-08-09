@@ -1,16 +1,16 @@
 ## Dodatkowe litery
 
-Niektórych liter nie ma w alfabecie, co powoduje błąd.
+Niektórych znaków nie ma w alfabecie, co powoduje błąd.
 
-+ Przetestuj swój kod za pomocą niektórych liter, których nie ma w alfabecie.
++ Przetestuj swój kod za pomocą znaków, których nie ma w alfabecie.
     
-    Na przykład, możesz użyć wiadomości `czesc!!`.
+    Na przykład, możesz użyć wiadomości `cześć!!`.
     
     ![zrzut ekranu](images/messages-extra-characters.png)
     
-    Zauważ, że spacja i `!` są zaszyfrowane jako litera 'c'!
+    Zauważ, że spacja i znak `!` są zaszyfrowane jako litera 'c'!
 
-+ Aby to naprawić, tłumaczysz tylko te litery, które są w alfabecie. Aby to zrobić, dodaj restrykcję `if` do swojego kodu i dodaj wcięcie do reszty kodu.
++ Aby to naprawić, szyfrujesz tylko te litery, które są w alfabecie. Aby to zrobić, dodaj polecenie `if` do swojego kodu i dodaj wcięcie do reszty kodu.
     
     ![zrzut ekranu](images/messages-if.png)
 
@@ -20,12 +20,12 @@ Niektórych liter nie ma w alfabecie, co powoduje błąd.
     
     Teraz twój kod po prostu pomija każdą literę, jeśli nie ma jej w alfabecie.
 
-+ Byłoby lepiej, gdyby twój kod nie szyfrował niczego, co nie znajduje się w alfabecie, ale używał tylko oryginalnych liter.
++ Byłoby lepiej, gdyby twój kod nie szyfrował znaków, które nie znajdują się w alfabecie, a w zamian wyświetlił je takimi, jakie są.
     
-    Dodaj komendę `else` do twojego kodu, która po prostu dodaje oryginalne litery do zaszyfrowanej wiadomości.
+    Dodaj polecenie `else`, które będzie dodawać znaki w oryginalnej postaci do zaszyfrowanej wiadomości.
     
     ![zrzut ekranu](images/messages-else.png)
 
-+ Przetestuj swój kod. Powinieneś zobaczyć, że każda litera z alfabetu jest zaszyfrowana, ale wszystkie inne znaki pozostają takie same!
++ Przetestuj swój kod. Każda litera z alfabetu powinna być zaszyfrowana, a wszystkie inne znaki powinny pozostać takie same!
     
     ![zrzut ekranu](images/messages-else-test.png)
