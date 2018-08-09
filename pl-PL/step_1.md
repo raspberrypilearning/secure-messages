@@ -28,9 +28,9 @@ W tym projekcie dzieci dowiedzą się, jak stworzyć program szyfrujący, aby wy
 
 Dostępny jest też szablon zawierający ukończony projekt:
 
-* [Ukończony projekt "Tajne wiadomości" -- trinket.io/python/aac3483c97](https://trinket.io/python/402256078c)
+* [Ukończony projekt "Tajne wiadomości" -- trinket.io/python/aac3483c97](https://trinket.io/python/aac3483c97)
 
-* [Ukończony 'Kalkulator przyjaźni' -- trinket.io/python/86cec92a8f](https://trinket.io/python/2e852cd687)
+* [Ukończony 'Kalkulator przyjaźni' -- trinket.io/python/86cec92a8f](https://trinket.io/python/86cec92a8f)
 
 ## Zasoby Offline
 
