@@ -26,7 +26,7 @@ Anstatt die Nachricht mit nur je einem Zeichen einzeln zu verschlüsseln bzw. zu
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ Du kannst die neue Mitteilung `neuerText` mit `print` drucken, während sie Buchstabe für Buchstabe verschlüsselt wird.
++ You can `print` the `newMessage` as it is being encrypted.
     
     ![screenshot](images/messages-print-message-characters.png)
 
