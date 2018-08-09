@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Secret Messages
-description: Make your own encryption program, to send and receive secret messages.
+title: Tajne poruke
+description: U ovom projektu naučit ćeš kako napraviti vlastiti program za šifriranje te poslati tajne poruke prijatelju i primiti tajne poruke prijatelja.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -18,7 +18,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'Tajne poruke'
   - 
     title: The Caesar cipher
   - 
