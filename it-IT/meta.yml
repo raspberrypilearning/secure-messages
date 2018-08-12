@@ -18,11 +18,11 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduzione'
+    title: 'Introduzione: '
   - 
-    title: Il messaggio cifrato Cesare
+    title: Il cifrario di Cesare
   - 
-    title: 'Sfida: Usa un messaggio cifrato Cesar'
+    title: 'Sfida: Usa il cifrario di Cesare'
   - 
     title: Criptare lettere
   - 
