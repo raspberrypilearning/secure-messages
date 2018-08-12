@@ -12,4 +12,4 @@ for lettera in nomi:
 print('il vostro livello di amicizia è :', punteggio)
 
 if score > 100:
-  print('best friends!')
+  print('Siete ottimi amici!')
