@@ -1,20 +1,20 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-newMessage = ''
+alfabeto = 'abcdefghijklmnopqrstuvwxyz'
+nuovomessaggio = ''
   
-message = input('Please enter a message: ')
+messaggio = input('Inserisci un messaggio: ')
 
-key = input('Enter a key (1-26): ')
-key = int(key)
+chiave = input('Dimmi la chiave di cifratura (1-26)')
+chiave = int(chiave)
 
-for character in message:
-  if character in alphabet:
-    position = alphabet.find(character)
-    newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
-    newMessage += newCharacter
+for lettera in messaggio:
+  if lettera in alfabeto:
+    posizione = alfabeto.find(lettera)
+    nuovaposizione = (posizione + chiave) % 26
+    nuovocarattere = alfabeto[nuovaposizione]
+    nuovomessaggio += nuovocarattere
   else:
-    newMessage += character
+    nuovomessaggio += lettera
 
-print('Your new message is: ', newMessage)
+print('Il nuovo messaggio è: '+ nuovomessaggio)
