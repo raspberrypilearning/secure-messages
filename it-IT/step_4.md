@@ -1,18 +1,18 @@
-## Encrypting letters
+## Crittografia delle lettere
 
-Let's write a Python program to encrypt a single character.
+Scriviamo un programma Python per crittografare un singolo carattere dell'alfabeto.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Apri un modello vuoto di Python su Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ Invece di disegnare l'alfabeto in un cerchio, scriviamolo come variabile `alfabeto`.
     
     ![screenshot](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ Ogni lettera dell'alfabeto ha una posizione, a partire dalla posizione 0. Quindi la lettera 'a' è nella posizione 0 dell'alfabeto, e la lettera 'c' è in posizione 2.
     
     ![screenshot](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ Puoi ottenere una lettera dalla tua variabile `alfabeto` scrivendo la posizione tra parentesi quadre.
     
     ![screenshot](images/messages-alphabet-array.png)
     
