@@ -1,6 +1,6 @@
-## Introduction:
+## Introduzione:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principa" activity on page 16 of the Space Diary.
+In questo progetto, imparerai come creare il tuo programma di crittografia, per inviare e ricevere messaggi segreti ad un amico. Questo progetto è legato con all'attività "Terra a Principato" di pagina 16 del Diario dello Spazio.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,19 +8,19 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### Ulteriori informazioni per gli organizzatori dei club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## titolo: note per i leader del club
 
-## Introduction:
+## Introduzione:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+In questo progetto, i bambini impareranno come creare un programma di crittografia, per inviare e ricevere messaggi segreti ad un amico. Questo progetto introduce l'iterazione (looping) su una stringa di testo.
 
-## Online Resources
+## Risorse online
 
 **This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
