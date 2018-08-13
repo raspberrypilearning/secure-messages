@@ -58,12 +58,12 @@ Scriviamo un programma Python per crittografare un singolo carattere dell'alfabe
     
     ![screenshot](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ Infine, si desidera stampare la lettera nella nuova posizione.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    Ad esempio, aggiungendo la chiave alla lettera "e" si ottiene 7, e la lettera nella posizione 7 dell'alfabeto è "h".
     
     ![screenshot](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ Prova il tuo codice. Puoi anche rimuovere alcune delle istruzioni di stampa, semplicemente stampando il nuovo carattere alla fine.
     
     ![screenshot](images/messages-enc-test.png)
