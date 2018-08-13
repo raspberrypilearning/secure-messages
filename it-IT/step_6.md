@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## Crittografare interi messaggi
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+Invece di crittografare e decrittografare i messaggi un solo carattere alla volta, modifichiamo il programma per crittografare interi messaggi!
 
-+ Firstly, check that your code looks like this:
++ Innanzitutto, controlla che il tuo codice assomigli a questo:
     
     ![screenshot](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Creare una variabile per memorizzare il nuovo messaggio crittografato.
     
     ![screenshot](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Cambia il tuo codice per memorizzare un'intero messaggio dell'utente e non un solo carattere.
     
     ![screenshot](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ Aggiungi un ciclo `for` al tuo codice e rientra (indentazione) il resto del codice in modo che venga ripetuto per ogni lettera del messaggio.
     
     ![screenshot](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Prova il tuo codice. Dovresti vedere che ogni carattere nel messaggio è crittografato e stampato uno alla volta.
     
     ![screenshot](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Aggiungiamo ogni carattere crittografato alla tua variabile `nuovomessaggio`.
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Puoi stampare con`print` il `nuovomessaggio` crittografato.
     
     ![screenshot](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ Se elimini gli spazi prima della ` stampa ` dichiarazione, il messaggio crittografato verrà visualizzato solo una volta alla fine. Puoi anche cancellare il codice che stampa le posizioni dei caratteri.
     
     ![screenshot](images/messages-print-message-comment.png)
