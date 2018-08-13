@@ -1,18 +1,18 @@
-## The Caesar cipher
+## Il cifrario di Cesare
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+Una cifrario è un tipo di codice segreto, in cui si scambiano le lettere in modo che nessuno possa comprendere il messaggio.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+Utilizzerai uno dei cifrari più vecchi e famosi, il **cifrario di Caesar**, che prende il nome da Giulio Cesare.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+Prima di iniziare la codifica, proviamo ad usare il cifrario di Cesare per mascherare una parola.
 
-+ Hiding a word is called **encryption**.
++ L'operazione di mascherare una parola è detta **crittografia**.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    Iniziamo con la crittografia della lettera 'a'. Per fare ciò, possiamo disegnare l'alfabeto in un cerchio, come questo:
     
     ![screenshot](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ Per creare una lettera crittografata segreta da una normale, è necessario disporre di una chiave segreta. Usiamo il numero 3 come chiave (ma puoi usare qualsiasi numero che ti piaccia).
     
     To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
