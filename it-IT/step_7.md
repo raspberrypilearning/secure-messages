@@ -1,14 +1,14 @@
-## Extra characters
+## Caratteri Extra
 
-Some characters aren't in the alphabet, which causes an error.
+Alcuni caratteri non sono nell'alfabeto, il che causa un errore.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ Prova il tuo codice con alcuni caratteri che non sono nell'alfabeto.
     
-    For example, you could use the message `hi there!!`.
+    Ad esempio, potresti usare il messaggio `ciao a tutti!`.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    Si noti che lo spazio e il punto escalamativo `!` sono tutti crittografati con la lettera "c"!
 
 + To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
     
