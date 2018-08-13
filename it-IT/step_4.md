@@ -16,45 +16,45 @@ Scriviamo un programma Python per crittografare un singolo carattere dell'alfabe
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    You can delete the `print` ststements once you've tried this out.
+    È possibile eliminare l'istruzione `print` una volta che hai provato questo.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ Successivamente, dovrai memorizzare la `chiave segreta` in una variabile.
     
     ![screenshot](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ Quindi, chiedere all'utente una singola lettera (chiamata `carattere`) da crittografare.
     
     ![screenshot](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ Trova la `posizione` del `carattere`.
     
     ![screenshot](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ È possibile verificare la `posizione memorizzata` stampandolo. Ad esempio, quel carattere 'e' è in posizione 4 dell'alfabeto.
     
     ![screenshot](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ Per crittografare il `carattere`, dovresti sommare `la chiave` alla sua `posizione`. Questo viene quindi memorizzato in una variabile denominata `nuovaposizione` variabile.
     
     ![screenshot](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ Aggiungi del codice per visualizzare la posizione del nuovo carattere.
     
     ![screenshot](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ Prova il tuo nuovo codice. Poichè la tua `chiave` è 3, dovrebbe aggiungere 3 alla `posizione` e salvare il valore nella tua variabile `nuovaposizione`.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    Ad esempio, la lettera 'e' è in posizione 4. Per crittografare, si aggiunge la `chiave` (3) ottenendo 7.
     
     ![screenshot](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ Cosa succede quando provi a crittografare la lettera "y"?
     
     ![screenshot](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    Nota che la `nuovaposizione` vale 27, ma non ci sono 27 lettere nell'alfabeto!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ Puoi usare l'operatore modulo `%` per dire alla nuova posizione di tornare alla posizione 0 una volta raggiunta la posizione 26.
     
     ![screenshot](images/messages-modulus.png)
 
