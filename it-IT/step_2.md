@@ -14,11 +14,11 @@ Prima di iniziare la codifica, proviamo ad usare il cifrario di Cesare per masch
 
 + Per creare una lettera crittografata segreta da una normale, è necessario disporre di una chiave segreta. Usiamo il numero 3 come chiave (ma puoi usare qualsiasi numero che ti piaccia).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    Per **crittografare** la lettera 'a', basta che ti sposti di 3 lettere in senso orario per ottenere la lettera 'd':
     
     ![screenshot](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ Puoi usare ciò che hai imparato per crittografare una parola intera. Ad esempio, "hello" crittografato è "khoor". Prova tu stesso.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Prima di iniziare la codifica, proviamo ad usare il cifrario di Cesare per masch
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ Il ritorno alla normalità del testo si chiama **decrittografia**. Per decifrare una parola, basta sottrarre la chiave invece di aggiungerla:
     
     + k - 3 = **h**
     + h - 3 = **e**
