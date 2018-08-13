@@ -80,14 +80,14 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 * [File .zip con tutte le risorse del progetto](resources/secret-messages-project-resources.zip)
 * [Trinket online vuoto per Python](http://jumpto.cc/python-new)
-* [File offline vuoto per Python](resources/new-new.py)
+* [File da vuoto da scaricare per Python](resources/new-new.py)
 
-## Club leader resources
+## Risorse per gli organizzatori del club
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [File .zip con tutte le risorse del progetto completate](resources/secret-messages-volunteer-resources.zip)
+* [Trinket online completato](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [Sfida "Calcolatore dell'amicizia" completata online](https://trinket.io/python/2e852cd687)
+* [Sfida "Calcolatore dell'amicizia" completa da scaricare](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
