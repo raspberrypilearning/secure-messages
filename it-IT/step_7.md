@@ -10,22 +10,22 @@ Alcuni caratteri non sono nell'alfabeto, il che causa un errore.
     
     Si noti che lo spazio e il punto escalamativo `!` sono tutti crittografati con la lettera "c"!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ Per risolvere questo problema, devi solo tradurre un carattere se è nell'alfabeto. Per fare ciò, aggiungi un istruzione `if` e rientra con il il resto del codice.
     
     ![screenshot](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ Prova il tuo codice con lo stesso messaggio. Cosa succede questa volta?
     
     ![screenshot](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    Ora, il tuo codice salta qualsiasi carattere se non è nell'alfabeto.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ Sarebbe meglio se il tuo codice non criptasse nulla non presente nell'alfabeto, ma mantenesse il carattere originale.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    Aggiungi un'istruzione `else` al tuo codice, che aggiunga semplicemente il carattere originale al messaggio crittografato.
     
     ![screenshot](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ Prova il tuo codice. Dovresti vedere che qualsiasi carattere nell'alfabeto è crittografato, ma tutti gli altri caratteri restano inalterati!
     
     ![screenshot](images/messages-else-test.png)
