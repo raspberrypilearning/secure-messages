@@ -22,65 +22,65 @@ In questo progetto, i bambini impareranno come creare un programma di crittograf
 
 ## Risorse online
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Questo progetto utilizza Python 3.** Consigliamo di utilizzare [Trinket](https://trinket.io/) per scrivere in linguaggio Python online:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Nuovo (vuoto) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+C'è anche un file su Trinket contenente il progetto finito:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['Messaggi segreti' finito - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['Calcolatrice dell'amicizia' Finito - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## Risorse offline
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+Questo progetto può anche essere [completato offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Potete anche trovare una versione completa di questo progetto nella sezione 'Risorse per i volontari', che contiene:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Tutte le risorse sopracitate sono anche scaricabili come file progetto e volontario `.zip `.)
 
-## Learning Objectives
+## Obiettivi di apprendimento
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* Iterazione (looping) su una variabile stringa;
+* Il metodo `find()`;
+* L'operatore modulo (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combinare i costrutti base di un linguaggio di programmazione per risolvere un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Sfide
 
-* Use a Caesar cipher - encrypy and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Usa un cifrario di Cesare: crittografare e decrittografare le lettere e le parole manualmente;
+* Chiavi variabili: consentono all'utente di inserire una chiave a scelta;
+* Crittografia e decrittografia di messaggi - crittografare e decrittografare interi messaggi;
+* Calcolatrice dell'amicizia - applica l'iterazione del testo a un nuovo problema.
 
-## Frequently Asked Questions
+## Domande frequenti
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* Durante la ricerca con `find()` o `if letera in alfabeto:`, nota che le ricerche fanno distinzione tra maiuscole e minuscole. I bambini possono usare:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    messaggio = input("Inserisci un messaggio da crittografare:").lower()
     ```
     
-    to make the input lower case before searching.
+    per convertire l'input in minuscolo prima della ricerca.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiali del progetto
 
-## Project resources
+## Risorse del progetto
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [File .zip con tutte le risorse del progetto](resources/secret-messages-project-resources.zip)
+* [Trinket online vuoto per Python](http://jumpto.cc/python-new)
+* [File offline vuoto per Python](resources/new-new.py)
 
 ## Club leader resources
 
