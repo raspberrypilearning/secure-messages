@@ -1,15 +1,15 @@
 #!/bin/python3
 
-score = 0
-names = input('enter tha names of 2 people: ')
+sgor = 0
+enwau = input('Cofnodwch enwau 2 o bobl: ')
 
-for character in names:
-  if character in 'aeiou':
-    score += 5
-  if character in 'friend':
-    score += 10
+for cymeriad in enwau:
+  if cymeriad in 'aeiou':
+    sgor += 5
+  if cymeriad in 'friend':
+    sgor += 10
 
-print('your friendship score is :', score)
+print('eich sgôr cyfeillgarwch yw :', sgor)
 
-if score > 100:
-  print('best friends!')
+if sgor > 100:
+  print('ffrindiau gorau!')
