@@ -1,6 +1,6 @@
 ## 前書き：
 
-このプロジェクトでは、独自の暗号化プログラムを作成し、友人と秘密のメッセージを送受信する方法を学習します。 このプロジェクトは、スペース・ダイアリーの16ページの「地球からプリンシパへ」の活動と関連しています。
+このプロジェクトでは、独自の暗号化プログラムを作成し、友人と秘密のメッセージを送受信する方法を学習します。 This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
