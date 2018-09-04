@@ -1,9 +1,9 @@
-\--- Aufgabe \---
+\--- challenge \---
 
-## Benutze eine Caesar-Chiffre
+## Herausforderung: Benutze eine Caesar-Verschlüsselung
 
-Kannst du einem Freund/einer Freundin ein geheimes Wort zuschicken? Vor dem Start müsst ihr beide einen geheimen Schlüssel (key) vereinbaren.
+Kannst du einem Freund/einer Freundin ein geheimes Wort zuschicken? Vor dem Start müsst ihr aber beide einen geheimen Schlüssel vereinbaren.
 
-Ihr könnt euch auch einen ganzen Satz zuschicken!
+Ihr könnt euch auch ganze Sätze zuschicken!
 
-\--- /Aufgabe \---
+\--- /challenge \---
