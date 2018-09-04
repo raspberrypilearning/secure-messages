@@ -2,8 +2,8 @@
 
 ## Sfida: Usa il cifrario di Cesare
 
-Riesci a mandare una parola segreta ad un amico? Avrai entrambi bisogno di concordare una chiave segreta prima di iniziare.
+Riesci a mandare una parola segreta ad un amico? Avrete entrambi bisogno di concordare una chiave segreta prima di iniziare.
 
-Potreste anche inviarvi frasi intere!
+Potreste anche inviarvi intere frasi!
 
 \--- /challenge \---
