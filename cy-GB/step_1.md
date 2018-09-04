@@ -1,6 +1,6 @@
-## Introduction:
+## Cyflwyniad:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principa" activity on page 16 of the Space Diary.
+Yn y prosiect hwn, byddwch chi'n dysgu sut i wneud eich rhaglen amgryptio eich hun, i anfon a derbyn negeseuon cyfrinachol gyda ffrind. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### Gwybodaeth ychwanegol ar gyfer arweinwyr clwb
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Os oes angen i chi argraffu'r prosiect hwn, defnyddiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Nodiadau arweinwyr clwb
 
-## Introduction:
+## Cyflwyniad:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+Yn y prosiect hwn, bydd plant yn dysgu sut i wneud rhaglen amgryptio, i anfon a derbyn negeseuon cyfrinachol gyda ffrind. Mae'r prosiect hwn yn cyflwyno ailadrodd (dolennu) dros linyn testun.
 
-## Online Resources
+## Adnoddau Ar-lein
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Mae'r prosiect hwn yn defnyddio Python 3.** Rydym yn argymell defnyddio [trinket](https://trinket.io/) i ysgrifennu Python ar-lein. Mae'r prosiect hwn yn cynnwys y Trinkets canlynol:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Python Trinket newydd (gwag) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Mae hefyd trinket sy'n cynnwys y prosiect a gwblhawyd:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['Negeseuon Secret' wedi'i gwblhau - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['Cyfrifiannell Cyfeillgarwch' wedi'i gwblhau - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## Adnoddau All-lein
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+Gall y prosiect hwn gael ei [gwblhau all-lein](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) os yw'n well gennych.
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Gallwch hefyd ddod o hyd i fersiwn wedi'i chwblhau o'r prosiect hwn yn yr adran 'Adnoddau Gwirfoddolwyr', sy'n cynnwys:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Mae'r holl adnoddau uchod hefyd yn lawrlwythadwy fel prosiect a ffeiliau `.zip` gwirfoddolwyr.)
 
-## Learning Objectives
+## Amcanion Dysgu
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* Ailadrodd (dolennu) dros newidyn llinyn;
+* Y dull `find()` (darganfod);
+* Y gweithredwr modws (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Mae’r prosiect hwn yn cwmpasu elfennau o’r ffrydiau canlynol o [Gwricwlwm Creu Digidol Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Cyfuno lluniadau rhaglennu i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Heriau
 
-* Use a Caesar cipher - encrypy and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Defnyddio seiffr Cesar - amgryptio a dadgryptio llythrennau a geiriau â llaw;
+* Allweddi amrywiol - gan ganiatáu i'r defnyddiwr fewnbynnu allwedd ddewisol;
+* Amgryptio a dadgryptio negeseuon - amgryptio a dadgryptio negeseuon cyfan;
+* Cyfrifiannell cyfeillgarwch - cymhwyso ailadrodd testun i broblem newydd.
 
-## Frequently Asked Questions
+## Cwestiynau a Ofynnir yn Aml
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* Wrth chwilio gan ddefnyddio `find()` (darganfod) neu `if char in alphabet:` (os yw'r llythyren yn yr wyddor), nodwch fod chwiliadau yn sensitif i briflythrennau a llythrennau bach. Gall plant ddefnyddio:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    message = input ("Rhowch neges i amgryptio:").lower ()
     ```
     
-    to make the input lower case before searching.
+    i fewnbynnu llythrennau bach cyn chwilio.
 
 \--- /collapse \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: Project materials
+## title: Deunyddiau prosiect
 
-## Project resources
+## Adnoddau'r prosiect
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [.zip ffeil sy'n cynnwys holl adnoddau'r prosiect](resources/secret-messages-project-resources.zip)
+* [Trinket Python gwag ar-lein](http://jumpto.cc/python-new)
+* [Ffeil wag Python all-lein](resources/new-new.py)
 
-## Club leader resources
+## Adnoddau arweinwyr clwb
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [.zip ffeil sy'n cynnwys holl adnoddau'r prosiect wedi'u cwblhau](resources/secret-messages-volunteer-resources.zip)
+* [Prosiect Trinket wedi'i gwblhau ar-lein](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [Her 'cyfrifiannell cyfeillgarwch' wedi'i chwblhau ar-lein](https://trinket.io/python/2e852cd687)
+* [her 'cyfrifiannell Cyfeillgarwch' wedi'i chwblhau all-lein](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
