@@ -1,6 +1,6 @@
 ## Inleiding:
 
-In dit project leer je hoe je je eigen coderingsprogramma maakt, om met een vriend geheime berichten te verzenden en ontvangen. -
+In dit project leer je hoe je je eigen coderingsprogramma maakt, om met een vriend geheime berichten te verzenden en ontvangen. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
