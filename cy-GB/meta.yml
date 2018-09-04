@@ -1,37 +1,37 @@
 ---
 hero_image: images/secret-messages.png
-theme: red
+theme: coch
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Secret Messages
-description: Make your own encryption program, to send and receive secret messages.
+title: Negeseuon Cyfrinachol
+description: Gwnewch eich rhaglen amgryptio eich hun, i anfon a derbyn negeseuon cyfrinachol.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
-interests: cybersecurity-and-cryptography
+interests: seiberddiogelwch-a-cryptograffeg
 technologies: python
-site_areas: projects
+site_areas: prosiectau
 hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'Cyflwyniad: '
   - 
-    title: The Caesar cipher
+    title: Seiffr Cesar
   - 
-    title: 'Challenge: Use a Caesar cipher'
+    title: 'Her: Defnyddio seiffr Cesar'
   - 
-    title: Encrypting letters
+    title: Amgryptio llythyrau
   - 
-    title: 'Challenge: Variable keys'
+    title: 'Her: Allweddi amrywiol'
   - 
-    title: Encrypting entire messages
+    title: Amgryptio negeseuon cyfan
   - 
-    title: Extra characters
+    title: Cymeriadau ychwanegol
   - 
-    title: 'Challenge: Encrypting and decrypting messages'
+    title: 'Her: Amgryptio a dadgryptio negeseuon'
   - 
-    title: 'Challenge: Friendship calculator'
+    title: 'Her: Cyfrifiannell cyfeillgarwch'
