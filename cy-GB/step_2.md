@@ -1,24 +1,24 @@
-## The Caesar cipher
+## Seiffr Cesar
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+Mae seiffr yn fath o god cyfrinachol, lle rydych chi'n cyfnewid y llythrennau fel na all neb ddarllen eich neges.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+Byddwch chi'n defnyddio un o'r seiffrau hynaf a mwyaf enwog, y **seiffr Cesar**, a enwyd ar ôl Iŵl Cesar.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+Cyn i ni ddechrau codio, gadewch i ni geisio defnyddio seiffr Cesar i guddio gair.
 
-+ Hiding a word is called **encryption**.
++ Mae cuddio gair yn cael ei alw'n **amgryptio**.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    Gadewch i ni ddechrau wrth amgryptio y llythyren 'a'. I wneud hyn, gallwn dynnu llun yr wyddor mewn cylch, fel hyn:
     
-    ![screenshot](images/messages-wheel.png)
+    ![sgrinlun](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ I wneud llythyren gyfrinachol wedi'i hamgryptio o un arferol, mae angen i chi gael allwedd gyfrinachol. Gadewch i ni ddefnyddio'r rhif 3 fel yr allwedd (ond gallwch ddefnyddio unrhyw rif rydych chi'n ei hoffi).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    I **amgryptio** y llythyren 'a', rydych chi ddim ond yn symud 3 llythyren gyda'r cloc, a fydd yn rhoi'r llythyren 'd' i chi:
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![sgrinlun](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ Gallwch ddefnyddio'r hyn rydych chi wedi'i ddysgu i amgryptio gair cyfan. Er enghraifft, 'hello' wedi'i amgryptio yw 'khoor'. Rhowch gynnig arni'ch hun.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,10 +26,10 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ Mae cael testun yn ôl i'r arferol yn cael ei alw'n **dadgryptio**. I ddadgryptio gair, tynnwch yr allwedd yn hytrach nag ychwanegu ato:
     
     + k - 3 = **h**
-    + h - 3 = **e**
-    + o - 3 = **l**
+    + h - 3 = ** e **
+    + o - 3 = ** l **
     + o - 3 = **l**
     + r - 3 = **o**
