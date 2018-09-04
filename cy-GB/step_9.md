@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Friendship calculator
+## Her: Cyfrifiannell cyfeillgarwch
 
-Write a program to show how compatible 2 people are, by calculating a friendship score.
+Ysgrifennwch raglen i ddangos pa mor gydnaws yw 2 o bobl, trwy gyfrifo sgôr cyfeillgarwch.
 
-![screenshot](images/messages-friends.png)
+![sgrinlun](images/messages-friends.png)
 
-The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
+Gallai'r rhaglen ddolennu trwy bob un o'r cymeriadau yn y 2 enw, ac ychwanegu pwyntiau at newidyn `sgôr` bob tro y darganfyddir rhai llythrennau.
 
-You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
+Dylech benderfynu ar reolau ar gyfer dyfarnu pwyntiau. Er enghraifft, gallech ddyfarnu pwyntiau ar gyfer llafariaid, neu gymeriadau a geir yn y gair "ffrind":
 
-![screenshot](images/messages-friends-code.png)
+![sgrinlun](images/messages-friends-code.png)
 
-You could also give the user a personalised message, based on their score:
+Gallech hefyd roi neges bersonol i'r defnyddiwr, yn seiliedig ar ei sgôr:
 
-![screenshot](images/messages-best-friends.png)
+![sgrinlun](images/messages-best-friends.png)
 
 \--- /challenge \---
