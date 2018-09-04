@@ -1,31 +1,31 @@
-## Extra characters
+## Cymeriadau ychwanegol
 
-Some characters aren't in the alphabet, which causes an error.
+Nid yw rhai cymeriadau yn yr wyddor, sy'n achosi gwall.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ Profwch eich cod gyda rhai cymeriadau nad ydynt yn yr wyddor.
     
-    For example, you could use the message `hi there!!`.
+    Er enghraifft, gallech ddefnyddio'r neges `Helo 'na!!`.
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![sgrinlun](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    Sylwch fod y bwlch a'r cymeriadau `!` oll wedi'u hamgryptio fel y llythyren 'c'!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ I drwsio hyn, does dim ond angen i chi gyfieithu cymeriad os yw yn yr wyddor. I wneud hyn, ychwanegwch ddatganiad `if` (os) at eich cod, a mewnoli gweddill eich cod.
     
-    ![screenshot](images/messages-if.png)
+    ![sgrinlun](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ Profwch eich cod gyda'r un neges. Beth sy'n digwydd y tro hwn?
     
-    ![screenshot](images/messages-if-test.png)
+    ![sgrinlun](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    Nawr, mae eich cod yn sgipio unrhyw gymeriad os nad yw yn yr wyddor.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ Byddai'n well pe na bai eich cod yn amgryptio unrhyw beth nad yw yn yr wyddor, gan ddefnyddio'r cymeriad gwreiddiol yn lle.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    Ychwanegwch ddatganiad `else` (arall) at eich cod, sy'n ychwanegu'r cymeriad gwreiddiol i'r neges wedi'i hamgryptio.
     
-    ![screenshot](images/messages-else.png)
+    ![sgrinlun](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ Profwch eich cod. Dylech weld bod unrhyw gymeriad yn yr wyddor wedi'i hamgryptio, ond fod unrhyw gymeriadau eraill yn cael llonydd!
     
-    ![screenshot](images/messages-else-test.png)
+    ![sgrinlun](images/messages-else-test.png)
