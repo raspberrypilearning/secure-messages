@@ -1,6 +1,6 @@
 ## Introduzione:
 
-In questo progetto, imparerai come creare il tuo programma di crittografia, per inviare e ricevere messaggi segreti ad un amico. Questo progetto è legato con all'attività "Terra a Principato" di pagina 16 del Diario dello Spazio.
+In questo progetto, imparerai come creare il tuo programma di crittografia, per scambiare messaggi segreti con un amico. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,11 +14,11 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 ## \--- collapse \---
 
-## titolo: note per i leader del club
+## titolo: Note per i leader del club
 
 ## Introduzione:
 
-In questo progetto, i bambini impareranno come creare un programma di crittografia, per inviare e ricevere messaggi segreti ad un amico. Questo progetto introduce l'iterazione (looping) su una stringa di testo.
+In questo progetto, i bambini impareranno come creare un programma di crittografia, per scambiare messaggi segreti con un amico. Questo progetto introduce l'iterazione (looping) su una stringa di testo.
 
 ## Risorse online
 
@@ -28,7 +28,7 @@ In questo progetto, i bambini impareranno come creare un programma di crittograf
 
 C'è anche un file su Trinket contenente il progetto finito:
 
-* ['Messaggi segreti' finito - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['Messaggi segreti' Finito - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
 * ['Calcolatrice dell'amicizia' Finito - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
@@ -55,17 +55,17 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 ## Sfide
 
-* Usa un cifrario di Cesare: crittografare e decrittografare le lettere e le parole manualmente;
+* Usa un cifrario di Cesare: cripta e decripta lettere e parole manualmente;
 * Chiavi variabili: consentono all'utente di inserire una chiave a scelta;
-* Crittografia e decrittografia di messaggi - crittografare e decrittografare interi messaggi;
+* Criptare e decriptare messaggi - criptare e decriptare interi messaggi;
 * Calcolatrice dell'amicizia - applica l'iterazione del testo a un nuovo problema.
 
 ## Domande frequenti
 
-* Durante la ricerca con `find()` o `if letera in alfabeto:`, nota che le ricerche fanno distinzione tra maiuscole e minuscole. I bambini possono usare:
+* Durante la ricerca con `find()` o `if lettera in alfabeto:`, nota che le ricerche fanno distinzione tra maiuscole e minuscole. I bambini possono usare:
     
     ```python
-    messaggio = input("Inserisci un messaggio da crittografare:").lower()
+    messaggio = input("Inserisci un messaggio da criptare:").lower()
     ```
     
     per convertire l'input in minuscolo prima della ricerca.
@@ -80,14 +80,14 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 * [File .zip con tutte le risorse del progetto](resources/secret-messages-project-resources.zip)
 * [Trinket online vuoto per Python](http://jumpto.cc/python-new)
-* [File da vuoto da scaricare per Python](resources/new-new.py)
+* [File vuoto da scaricare per Python](resources/new-new.py)
 
 ## Risorse per gli organizzatori del club
 
 * [File .zip con tutte le risorse del progetto completate](resources/secret-messages-volunteer-resources.zip)
 * [Trinket online completato](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Sfida "Calcolatore dell'amicizia" completata online](https://trinket.io/python/2e852cd687)
-* [Sfida "Calcolatore dell'amicizia" completa da scaricare](resources/friendship-calculator-finished-friends.py)
+* [Sfida "Calcolatrice dell'amicizia" completata online](https://trinket.io/python/2e852cd687)
+* [sfida "Calcolatrice dell'amicizia" completa da scaricare](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
