@@ -1,6 +1,6 @@
 ## Introdução:
 
-Neste projeto, você aprenderá como criar seu próprio programa de criptografia, enviar e receber mensagens secretas com um amigo. Este projeto se relaciona com a atividade "Earth to Principa" na página 16 do Diário Espacial.
+Neste projeto, você aprenderá como criar seu próprio programa de criptografia, enviar e receber mensagens secretas com um amigo. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
