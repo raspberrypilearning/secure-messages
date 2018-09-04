@@ -1,20 +1,20 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-newMessage = ''
+wyddor = 'abcdefghijklmnopqrstuvwxyz'
+Negesnewydd = ''
   
-message = input('Please enter a message: ')
+neges = input('Cofnodwch neges: ')
 
-key = input('Enter a key (1-26): ')
-key = int(key)
+allwedd = input('Cofnodwch allwedd (1-26): ')
+allwedd = int(allwedd)
 
-for character in message:
-  if character in alphabet:
-    position = alphabet.find(character)
-    newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
-    newMessage += newCharacter
+for cymeriad in neges:
+  if cymeriad in wyddor:
+    safle = wyddor.find(cymeriad)
+    Saflenewydd = (safle + allwedd) % 26
+    Cymeriadnewydd = wyddor[Saflenewydd]
+    Negesnewydd += Cymeriadnewydd
   else:
-    newMessage += character
+    Negesnewydd += cymeriad
 
-print('Your new message is: ', newMessage)
+print('Eich neges newydd yw: ', Negesnewydd)
