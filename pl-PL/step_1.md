@@ -1,6 +1,6 @@
 ## Wprowadzenie:
 
-W tym projekcie dowiesz się, jak stworzyć swój własny program szyfrujący, aby wysyłać i odbierać tajne wiadomości od przyjaciół. Ten projekt jest powiązany z zadaniem "Ziemia do Principy" na stronie 16 Dziennika Przestrzeni.
+W tym projekcie dowiesz się, jak stworzyć swój własny program szyfrujący, aby wysyłać i odbierać tajne wiadomości od przyjaciół. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
