@@ -1,35 +1,35 @@
-## Komplette Mitteilungen verschlüsseln
+## Komplette Nachrichten verschlüsseln
 
-Anstatt die Nachricht mit nur je einem Zeichen einzeln zu verschlüsseln bzw. zu entschlüsseln, lass uns jetzt das Programm so ändern, dass komplette Mitteilungen verschlüsselt werden!
+Anstatt die Nachricht Buchstabe für Buchstabe zu verschlüsseln bzw. zu entschlüsseln, lass uns jetzt das Programm so ändern, dass komplette Nachrichten verschlüsselt werden!
 
-+ Prüfe als Erstes, ob dein Code so aussieht:
++ Prüfe erst, ob dein Code so aussieht:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![Screenshot](images/messages-character-finished.png)
 
-+ Erstelle eine anfänglich leere String-Variable, um die neue, verschlüsselte Mitteilung zu speichern.
++ Definiere eine Variable um die neue, verschlüsselte Nachricht zu speichern.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![Screenshot](images/messages-newmessage.png)
 
-+ Ändere deinen Code, damit du die Mitteilung des Nutzers und nicht nur ein Zeichen speichern kannst.
++ Ändere deinen Code, damit du die ganze Nachricht des Benutzers und nicht nur einen einzelnen Buchstaben speichern kannst.
     
-    ![screenshot](images/messages-message.png)
+    ![Screenshot](images/messages-message.png)
 
-+ Füge eine `for` - Schleife zu deinem Code hinzu und rücke den Rest des Codes ein, damit er für jedes Zeichen in der Mitteilung wiederholt wird.
++ Füge deinem Code eine `for`-Schleife hinzu und rücke den Rest des Codes ein, damit er für jeden Buchstaben in der Nachricht wiederholt wird.
     
-    ![screenshot](images/messages-loop.png)
+    ![Screenshot](images/messages-loop.png)
 
-+ Teste deinen Code. Du solltest sehen können, dass jedes Zeichen in der Mitteilung verschlüsselt ist und je einzeln ausgedruckt wird.
++ Teste deinen Code. Du solltest sehen, dass jedes Zeichen aus der Nachricht verschlüsselt und nacheinander angezeigt wird.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![Screenshot](images/messages-loop-test.png)
 
-+ Lass uns nun jedes der verschlüsselten Zeichen deiner Variablen `neuerText` hinzufügen.
++ Lass uns nun jedes verschlüsselte Zeichen zu deiner Variablen `neueNachricht` hinzufügen.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![Screenshot](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Du kannst die `neueNachricht` auch `anzeigen` während sie verschlüsselt wird.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![Screenshot](images/messages-print-message-characters.png)
 
-+ Wenn du die Leerzeichen vor dem `print` - Statement (drucken) löschst, wird die verschlüsselte Mitteilung nur einmal am Ende angezeigt. Du kannst auch den Code zum Drucken der Positionsnummern der Buchstaben löschen.
++ Wenn du die Leerzeichen vor dem `print`-Befehl löschst, wird die verschlüsselte Nachricht nur einmal zum Schluss angezeigt. Du kannst auch den Code zum Anzeigen der Positionsnummern der Buchstaben löschen.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![Screenshot](images/messages-print-message-comment.png)
