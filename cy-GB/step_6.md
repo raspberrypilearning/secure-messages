@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## Amgryptio negeseuon cyfan
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+Yn hytrach na dim ond amgryptio a dadgryptio negeseuon un cymeriad ar y tro, gadewch i ni newid y rhaglen i amgryptio negeseuon cyfan!
 
-+ Firstly, check that your code looks like this:
++ Yn gyntaf, gwiriwch fod eich cod yn edrych fel hyn:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![sgrinlun](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Crëwch newidyn i storio'r neges amgryptiedig newydd.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![sgrinlun](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Newidiwch eich cod i storio neges y defnyddiwr yn lle un cymeriad yn unig.
     
-    ![screenshot](images/messages-message.png)
+    ![sgrinlun](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ Ychwanegwch ddolen `for` (ar gyfer) i'ch cod, a mewnolwch weddill y cod fel ei fod yn cael ei ailadrodd ar gyfer pob cymeriad yn y neges.
     
-    ![screenshot](images/messages-loop.png)
+    ![sgrinlun](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Profwch eich cod. Dylech weld bod pob cymeriad yn y neges wedi'i amgryptio a'i argraffu un ar y tro.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![sgrinlun](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Gadewch i ni ychwanegu pob cymeriad wedi'i amgryptio i newidyn eich `neges newydd`.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![sgrinlun](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Gallwch `argraffu` y `neges newydd` wrth iddi gael ei hamgryptio.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![sgrinlun](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ Os ydych chi'n dileu'r bylchau cyn y datganiad `argraffu`, bydd y neges wedi'i hamgryptio ond yn ymddangos unwaith ar y diwedd. Gallwch hefyd ddileu'r cod ar gyfer argraffu safleoedd y cymeriadau.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![sgrinlun](images/messages-print-message-comment.png)
