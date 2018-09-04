@@ -1,69 +1,69 @@
-## Encrypting letters
+## Amgryptio llythrennau
 
-Let's write a Python program to encrypt a single character.
+Gadewch i ni ysgrifennu rhaglen Python i amgryptio un llythyren.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Agorwch y templed Python gwag Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ Yn lle tynnu llun o'r wyddor mewn cylch, gadewch i ni ei hysgrifennu fel newidyn `wyddor`.
     
-    ![screenshot](images/messages-alphabet.png)
+    ![sgrinlun](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ Mae gan bob llythyren o'r wyddor safle, gan ddechrau yn safle 0. Felly mae'r llythyren 'a' yn safle 0 o'r wyddor, ac mae 'c' yn safle 2.
     
-    ![screenshot](images/messages-array.png)
+    ![sgrinlun](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ Gallwch gael llythyren gan eich newidyn o'r `wyddor` trwy ysgrifennu'r safle mewn cromfachau sgwâr.
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![sgrinlun](images/messages-alphabet-array.png)
     
-    You can delete the `print` ststements once you've tried this out.
+    Gallwch ddileu'r datganiadau `argraffu` unwaith rydych chi wedi ceisio gwneud hyn.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ Nesaf, bydd angen i chi storio'r `allwedd` gyfrinachol mewn newidyn.
     
-    ![screenshot](images/messages-key.png)
+    ![sgrinlun](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ Nesaf, gofynnwch i'r defnyddiwr am un llythyren (a elwir yn `gymeriad`) i'w hamgryptio.
     
-    ![screenshot](images/messages-character.png)
+    ![sgrinlun](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ Canfyddwch `safle` y `cymeriad`.
     
-    ![screenshot](images/messages-position.png)
+    ![sgrinlun](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ Gallwch brofi'r `safle` wedi ei storio trwy ei argraffu. Er enghraifft, mae'r cymeriad 'e' yn safle 4 yn yr wyddor.
     
-    ![screenshot](images/messages-position-test.png)
+    ![sgrinlun](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ I amgryptio'r `cymeriad`, dylech ychwanegu'r `allwedd` i'r `safle`. Yna caiff hyn ei storio mewn newidyn `safle newydd`.
     
-    ![screenshot](images/messages-newposition.png)
+    ![sgrinlun](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ Ychwanegwch god i argraffu safle newydd y cymeriad.
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![sgrinlun](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ Profwch eich cod newydd. Gan fod eich `allwedd` yn 3, dylai ychwanegu 3 i'r `safle` a'i storio yn eich newidyn `safle newydd`.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    Er enghraifft, mae'r llythyren 'e' yn safle 4. I'w hamgryptio, rydych chi'n ychwanegu'r `allwedd` (3), gan roi 7.
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![sgrinlun](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ Beth sy'n digwydd pan fyddwch chi'n ceisio amgryptio'r llythyren 'y'?
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![sgrinlun](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    Sylwch sut mae'r `safle newydd` yn 27, ac nid oes 27 o lythrennau yn yr wyddor!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ Gallwch chi ddefnyddio `%` i ddweud wrth y safle newydd i fynd yn ôl i safle 0 unwaith y bydd yn cyrraedd safle 26.
     
-    ![screenshot](images/messages-modulus.png)
+    ![sgrinlun](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ Yn olaf, rydych am argraffu'r llythyren yn y safle newydd.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    Er enghraifft, mae ychwanegu'r allwedd i'r llythyren 'e' yn rhoi 7, ac mae'r llythyren yn safle 7 yr wyddor yn 'h'.
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![sgrinlun](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ Rhowch gynnig ar eich cod. Gallwch hefyd gael gwared â rhai o'ch datganiadau argraffu, gan argraffu'r cymeriad newydd ar y diwedd yn unig.
     
-    ![screenshot](images/messages-enc-test.png)
+    ![sgrinlun](images/messages-enc-test.png)
