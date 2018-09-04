@@ -1,6 +1,6 @@
 ## Введення:
 
-У цьому проекті ви дізнаєтеся, як створити власну програму шифрування, щоб надсилати та отримувати секретні повідомлення з друзями. Цей проект пов'язаний з діяльністю "Земля до Принсіпи" на сторінці 16 дільника пробірок.
+У цьому проекті ви дізнаєтеся, як створити власну програму шифрування, щоб надсилати та отримувати секретні повідомлення з друзями. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
