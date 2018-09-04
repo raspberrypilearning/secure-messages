@@ -1,6 +1,6 @@
 ## 들어가며:
 
-이 프로젝트에서는 자신만의 암호화 프로그램을 만들고, 친구와 비밀 메시지를 주고받는 방법을 배웁니다. 
+이 프로젝트에서는 자신만의 암호화 프로그램을 만들고, 친구와 비밀 메시지를 주고받는 방법을 배웁니다. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
