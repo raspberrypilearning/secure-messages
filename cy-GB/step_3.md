@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## Her: Defnyddio seiffr Cesar
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+Allwch chi anfon gair gyfrinachol at ffrind? Bydd angen i'r ddau ohonoch gytuno ar allwedd gyfrinachol cyn i chi ddechrau.
 
-You could even send entire sentences to each other!
+Gallech hyd yn oed anfon brawddegau cyfan at eich gilydd!
 
 \--- /challenge \---
