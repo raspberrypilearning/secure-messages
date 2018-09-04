@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## Her: Allweddi amrywiol
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+Addaswch eich rhaglen, fel y gall y defnyddiwr nodi ei allwedd ei hun i'w defnyddio. Bydd angen i chi gael mewnbwn y defnyddiwr, a'i storio yn y newidyn `allwedd`.
 
-Remember to use the `int()` function to convert the input to a whole number.
+Cofiwch ddefnyddio'r swyddogaeth `int()` (cyfanrif) i droi'r mewnbwn yn rhif cyfan.
 
-You can then use a negative key to decrypt messages!
+Yna gallwch chi ddefnyddio allwedd negyddol i ddadgryptio negeseuon!
 
 \--- /challenge \---
