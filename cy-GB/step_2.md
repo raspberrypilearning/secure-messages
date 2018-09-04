@@ -29,7 +29,7 @@ Cyn i ni ddechrau codio, gadewch i ni geisio defnyddio seiffr Cesar i guddio gai
 + Mae cael testun yn ôl i'r arferol yn cael ei alw'n **dadgryptio**. I ddadgryptio gair, tynnwch yr allwedd yn hytrach nag ychwanegu ato:
     
     + k - 3 = **h**
-    + h - 3 = ** e **
-    + o - 3 = ** l **
+    + h - 3 = **e**
+    + o - 3 = **l**
     + o - 3 = **l**
     + r - 3 = **o**

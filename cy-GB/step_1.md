@@ -28,9 +28,9 @@ Yn y prosiect hwn, bydd plant yn dysgu sut i wneud rhaglen amgryptio, i anfon a 
 
 Mae hefyd trinket sy'n cynnwys y prosiect a gwblhawyd:
 
-* ['Negeseuon Secret' wedi'i gwblhau - trinket.io/python/402256078c](https://trinket.io/python/0bc1806422)
+* ['Negeseuon Secret' wedi'i gwblhau - trinket.io/python/0bc1806422](https://trinket.io/python/0bc1806422)
 
-* ['Cyfrifiannell Cyfeillgarwch' wedi'i gwblhau - trinket.io/python/2e852cd687](https://trinket.io/python/c5ccf635f9)
+* ['Cyfrifiannell Cyfeillgarwch' wedi'i gwblhau - trinket.io/python/c5ccf635f9](https://trinket.io/python/c5ccf635f9)
 
 ## Adnoddau All-lein
 
