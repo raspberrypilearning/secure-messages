@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## Her: Amgryptio a dadgryptio negeseuon
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+Amgryptiwch rai negeseuon, a rhowch hwy i ffrind ynghyd â'r allwedd gyfrinachol. Cewch weld a all eu dadgryptio gan ddefnyddio'i raglen!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+Gallech hefyd ddyblygu'r prosiect a chreu rhaglen ar wahân ar gyfer dadgryptio negeseuon.
 
 \--- /challenge \---
