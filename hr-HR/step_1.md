@@ -36,24 +36,24 @@ Također je uključen i trinket koji sadrži dovršeni projekt:
 
 Ako želite, ovaj projekt možete [izraditi offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Dovršenu verziju projekta možete pronaći i u odjeljku 'Volunteer Resources' koji sadrži:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Svi spomenuti materijali nalaze se u materijalima projekta i materijalima za volontere, koje je moguće preuzeti kao `.zip` datoteke.)
 
-## Learning Objectives
+## Ishodi učenja
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* Korištenje iteracija (petlji) nad string varijablama;
+* Korištenje `find()` metode;
+* Korištenje modularnog operatora (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Making](http://rpf.io/curriculum) nastavnog plana i programa:
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Uporaba različitih programskih struktura za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Izazovi
 
 * Use a Caesar cipher - encrypy and decrypt letters and words manually;
 * Variable keys - allowing the user to input a chosen key;
