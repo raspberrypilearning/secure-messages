@@ -55,26 +55,26 @@ Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Mak
 
 ## Izazovi
 
-* Use a Caesar cipher - encrypy and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Isprobaj Cezarovu šifru - ručno šifriranje i dešifriranje slova i riječi;
+* Promjenjivi ključevi - korisnik unosi odabrani ključ;
+* Šifriranje i dešifriranje poruka - šifriranje i dešifriranje cijelih poruka;
+* Kalkulator prijateljstva - primjena iteracije nad tekstom na novi problem.
 
-## Frequently Asked Questions
+## Često postavljana pitanja
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* Prilikom pretraživanja pomoću `find()` ili `if char in alphabet:`, imajte na umu da su metode osjetljive na velika i mala slova. Djeca mogu koristiti:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    message = input("Unesi poruku za šifriranje: ").lower()
     ```
     
-    to make the input lower case before searching.
+    kako bi unos bio napisan malim slovima prilikom pretrage.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materijali projekta
 
 ## Project resources
 
