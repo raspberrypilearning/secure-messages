@@ -36,7 +36,7 @@ Također je uključen i trinket koji sadrži dovršeni projekt:
 
 Ako želite, ovaj projekt možete [izraditi offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-Dovršenu verziju projekta možete pronaći i u odjeljku 'Volunteer Resources' koji sadrži:
+Dovršenu verziju projekta možete pronaći i u odjeljku 'Resursi za volontere' koji sadrži:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
@@ -76,18 +76,18 @@ Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Mak
 
 ## title: Materijali projekta
 
-## Project resources
+## Resursi projekta
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [.zip datoteka koja sadrži sve materijale projekta](resources/secret-messages-project-resources.zip)
+* [Prazan online Python Trinket](http://jumpto.cc/python-new)
+* [Prazan offline Python Trinket](resources/new-new.py)
 
-## Club leader resources
+## Materijali za voditelja Kluba
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [.zip datoteka koja sadrži sve dovršene materijale projekta](resources/secret-messages-volunteer-resources.zip)
+* [Dovršeni online Trinket projekt](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [Dovršeni online izazov 'Kalkulator prijateljstva'](https://trinket.io/python/2e852cd687)
+* [dovršeni offline izazov 'Kalkulator prijateljstva'](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
