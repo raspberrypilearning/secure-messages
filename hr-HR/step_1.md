@@ -1,6 +1,6 @@
-## Introduction:
+## Uvod:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+U ovom projektu naučit ćeš kako napraviti vlastiti program za šifriranje te poslati tajne poruke prijatelju i primiti tajne poruke od prjatelja. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,15 +8,15 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### Dodatne informacije za voditelje kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Ako trebate ispisati ovaj projekt, koristite [verziju koja je prilagođena pisaču](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Bilješke za voditelje Kluba
 
-## Introduction:
+## Uvod:
 
 In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
 
