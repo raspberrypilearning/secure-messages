@@ -20,18 +20,18 @@ steps:
   - 
     title: 'Tajne poruke'
   - 
-    title: The Caesar cipher
+    title: Cezarova šifra
   - 
-    title: 'Challenge: Use a Caesar cipher'
+    title: 'Izazov: Isprobaj Cezarovu šifru'
   - 
-    title: Encrypting letters
+    title: Šifriranje slova
   - 
-    title: 'Challenge: Variable keys'
+    title: 'Izazov: Promjenjivi ključevi'
   - 
-    title: Encrypting entire messages
+    title: Šifriranje poruka
   - 
-    title: Extra characters
+    title: Dodatni znakovi
   - 
-    title: 'Challenge: Encrypting and decrypting messages'
+    title: 'Izazov: Šifriranje i dešifriranje poruka'
   - 
-    title: 'Challenge: Friendship calculator'
+    title: 'Izazov: Kalkulator prijateljstva'
