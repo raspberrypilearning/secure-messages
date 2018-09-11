@@ -18,23 +18,23 @@ Ako trebate ispisati ovaj projekt, koristite [verziju koja je prilagođena pisa�
 
 ## Uvod:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+U ovom projektu djeca će naučiti kako napraviti program za šifriranje poruka te izmjenjivati tajne poruke s prijateljem. U projektu se koristi iteracija (petlja) nad tekstualnim podacima.
 
-## Online Resources
+## Online izvori
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**U ovom projektu koristi se Python 3.** Predlažemo korištenje [trinketa](https://trinket.io/) za online pisanje u Pythonu. Projekt sadrži sljedeće Trinkete:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Novi (prazan) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Također je uključen i trinket koji sadrži dovršeni projekt:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Secret Messages’ dovršeni projekt -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ dovršen projekt -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## Offline izvori
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+Ako želite, ovaj projekt možete [izraditi offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
 You can find the completed project in the 'Volunteer Resources' section, which contains:
 
