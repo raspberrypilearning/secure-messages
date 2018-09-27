@@ -18,7 +18,7 @@ Let's write a Python program to encrypt a single character.
 
 	![screenshot](images/messages-alphabet-array.png)
 
-	You can delete the `print` ststements once you've tried this out.
+	You can delete the `print` statements once you've tried this out.
 
 + Next, you'll need to store the secret `key` in a variable.
 
