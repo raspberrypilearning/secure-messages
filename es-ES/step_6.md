@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## Encriptar mensajes completos
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+¡En vez de encriptar y desencriptar mensajes solo letra a letra, cambiemos el programa para encriptar mensajes enteros!
 
-+ Firstly, check that your code looks like this:
++ En primer lugar, comprueba que tu código es así:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![captura de pantalla](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Crea una variable para almacenar el nuevo mensaje encriptado.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![captura de pantalla](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Cambia tu código para almacenar el mensaje completo del usuario y no solo un carácter.
     
-    ![screenshot](images/messages-message.png)
+    ![captura de pantalla](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ Añade un bucle `for` a tu código e indenta el resto del código para que éste se repita con cada carácter del mensaje.
     
-    ![screenshot](images/messages-loop.png)
+    ![captura de pantalla](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Prueba tu código. Deberías ver que cada carácter del mensaje es encriptado y visualizado individualmente.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![captura de pantalla](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Ahora vamos a añadir cada carácter encriptado a tu variable `nuevoMensaje`.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![captura de pantalla](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Puedes imprimir (`print`) el `nuevoMensaje` a medida que está siendo encriptado.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![captura de pantalla](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ Si borras los espacios delante del comando `print`, el mensaje encriptado solo se visualizará una vez al final. También puedes borrar el código para imprimir las posiciones del carácter.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![captura de pantalla](images/messages-print-message-comment.png)
