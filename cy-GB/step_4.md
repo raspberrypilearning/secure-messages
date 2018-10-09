@@ -16,7 +16,7 @@ Gadewch i ni ysgrifennu rhaglen Python i amgryptio un llythyren.
     
     ![sgrinlun](images/messages-alphabet-array.png)
     
-    Gallwch ddileu'r datganiadau `argraffu` unwaith rydych chi wedi ceisio gwneud hyn.
+    You can delete the `print` statements once you've tried this out.
 
 + Nesaf, bydd angen i chi storio'r `allwedd` gyfrinachol mewn newidyn.
     
