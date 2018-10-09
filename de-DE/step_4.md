@@ -1,65 +1,69 @@
 ## Buchstaben verschlüsseln
 
-Lass uns ein Python Programm schreiben, um ein einzelnes Zeichen zu verschlüsseln. 
+Lass uns ein Python Programm schreiben, um ein einzelnes Zeichen zu verschlüsseln.
 
-+ Das leere Python Vorlage- Trinket öffnen: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
++ Öffne ein leeres Python-Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Anstatt das Alphabet in einem Kreis aufzuzeichnen, lass es uns als eine `alphabet` Variable aufschreiben.
++ Anstatt das Alphabet in einem Kreis aufzuzeichnen, lass uns dafür die Variable `alphabet` verwenden.
+    
+    ![Screenshot](images/messages-alphabet.png)
 
-	![screenshot](images/messages-alphabet.png)
++ Jeder Buchstabe des Alphabets hat eine Position, und wir beginnen mit der Position 0. Das heißt also, dass sich der Buchstabe ‘a’ an der Position 0 des Alphabets befindet und der Buchstabe ‘c’ auf Position 2 ist.
+    
+    ![Screenshot](images/messages-array.png)
 
-+ Jeder Buchstabe des Alphabets hat eine Positionsnummer, wir beginnen bei der Positionnummer 0. Das heißt also, dass der Buchstabe 'a' sich bei Positionnummer 0 des Alphabets befindet und der Buchstabe 'c' sich auf der Positionsnummer 2 befindet.
++ Du kannst einen Buchstaben aus deiner Variablen `alphabet` erhalten, indem du die Positionsnummer in eckige Klammern schreibst.
+    
+    ![Screenshot](images/messages-alphabet-array.png)
+    
+    You can delete the `print` statements once you've tried this out.
 
-	![screenshot](images/messages-array.png)
++ Dann musst du den geheimen Schlüssel in der Variablen `schluessel` speichern.
+    
+    ![Screenshot](images/messages-key.png)
 
-+ Du kannst einen Buchstaben aus deiner `alphabet` Variable erhalten, indem du die Positionsnummer in eckigen Klammern schreibst.
++ Frage dann den Benutzer nach einem einzelnen Buchstaben (einem `Zeichen`) um ihn zu verschlüsseln.
+    
+    ![Screenshot](images/messages-character.png)
 
-	![screenshot](images/messages-alphabet-array.png)
++ Finde die `Position` von diesem `Zeichen`.
+    
+    ![Screenshot](images/messages-position.png)
 
-	Du kannst die `print` (drucken) Statements löschen, nachdem du dies ausprobiert hast.
++ Du kannst die gespeicherte Position `(position)` testen, indem du sie ausdruckst. Zum Beispiel, ob sich der Buchstabe ‘e’ in der Position Nummer 4 der Variablen alphabet befindet.
+    
+    ![Screenshot](images/messages-position-test.png)
 
-+ Als nächstes musst du den geheimen `key` in einer Variable speichern.
++ Um ein `zeichen` zu verschlüsseln, musst du den Schlüssel `schluessel` zu der Position `position` addieren. Das Ergebnis wird in der Variablen `neuePosition` gespeichert.
+    
+    ![Screenshot](images/messages-newposition.png)
 
-	![screenshot](images/messages-key.png)	
++ Füge nun den Programmcode hinzu, um die neue Position des Zeichens anzuzeigen.
+    
+    ![Screenshot](images/messages-newposition-print.png)
 
-+ Frage dann den Nutzer nach einem einzigen Buchstaben (dies wird `character` (Zeichen) genannt), um dies zu verschlüsseln.
++ Teste deinen neuen Code. Da unser `schluessel` = 3 ist, sollte er die Zahl 3 zu der Position `position` addieren und das Ergebnis in der Variablen `neuePosition` speichern.
+    
+    Zum Beispiel befindet sich der Buchstabe ‘e’ auf Position Nummer 4. Um ihn zu verschlüsseln, addierst du den `schluessel` (3), was insgesamt 7 ergibt.
+    
+    ![Screenshot](images/messages-newposition-test.png)
 
-	![screenshot](images/messages-character.png)
++ Was passiert, wenn du versuchst, den Buchstaben ‘y’ zu verschlüsseln?
+    
+    ![Screenshot](images/messages-modulus-bug.png)
+    
+    Wie du siehst, ist der Wert von `neuePosition` jetzt 27, aber es gibt keine 27 Buchstaben in alphabet!
 
-+ Finde die `position` (Positionsnummer) des `character` (Zeichens).
++ Du kannst den Modulo-Operator `%` benutzen, um der neuen Position mitzuteilen, wieder auf die Position Nummer 0 zurückzugehen, nachdem sie die Position Nummer 26 erreicht hat.
+    
+    ![Screenshot](images/messages-modulus.png)
 
-	![screenshot](images/messages-position.png)
++ Und zum Schluss wollen wir den Buchstaben an der neuen Position anzeigen.
+    
+    Wenn du zum Beispiel den Schlüssel zur Position des Buchstabens ‘e’ addierst, erhältst du 7, und der Buchstabe an der Position Nummer 7 von alphabet ist das ‘h’.
+    
+    ![Screenshot](images/messages-newcharacter.png)
 
-+ Du kannst die gespeicherte `position` (Positionsnummer) testen, indem du sie ausdruckst. Zum Beispiel, ob sich das Zeichen 'e' bei der Positionsnummer 4 im Alphabet befindet.
-
-	![screenshot](images/messages-position-test.png)
-
-+ Um das `character` (Zeichen) zu verschlüsseln, solltest du den `key` in die `position` (Positionsnummer) hinzufügen.
-
-	![screenshot](images/messages-newposition.png)
-
-+ Teste deinen neuen Code aus. Da unser `key` die 3 ist, sollte er die Ziffer 3 in die `position` (Positionsnummer) addieren und in deiner `newPosition` (neuen Positionsnummer) Variable speichern. 
-
-	Zum Beispiel befindet sich der Buchstabe 'e' auf der Positionsnummer 4. Um dies zu verschlüsseln addierst du den `key` (3), was insgesamt 7 ergibt.
-
-	![screenshot](images/messages-newposition-test.png)
-
-+ Was passiert, wenn du versuchst, den Buchstaben 'y' zu verschlüsseln?
-
-	![screenshot](images/messages-modulus-bug.png)
-
-	Siehst du, dass die `newPosition` (neue Positionsnummer) jetzt 27 beträgt, aber es gibt gar nicht 27 Buchstaben im Alphabet?
-
-+ Du kannst `%` benutzen, um der neuen Positionsnummer mitzuteilen, wieder auf die Positionsnummer 0 zurückzugehen, nachdem sie die Positionsnummer 26 erreicht hat. 
-
-	![screenshot](images/messages-modulus.png)
-
-+ Und zum Schluss solltest du den Buchstaben in der neuen Positionsnummer ausdrucken.
-
-	Zum Beispiel, wenn du den Key zum Buchstaben 'e' addierst, erhältst du 7 und der Buchstabe auf der Positionsnummer 7 des Alphabets ist das 'h'.
-
-	![screenshot](images/messages-newcharacter.png)
-
-+ Probiere deinen neuen Code aus. Du kannst auch manche deiner Drucken-Statements entfernen und einfach nur am Ende das neue Zeichen ausdrucken.
-
-	![screenshot](images/messages-enc-test.png)
++ Probiere deinen neuen Code aus. Du kannst auch manche deiner print-Befehle entfernen und einfach nur zum Schluss das neue Zeichen anzeigen.
+    
+    ![Screenshot](images/messages-enc-test.png)

@@ -1,7 +1,9 @@
 --- challenge ---
-## Sfida: Usa un messaggio cifrato Cesar
-Puoi mandare una parola segreta a un amico? Dovrete entrambi concordare su una chiave segreta prima di iniziare.
 
-Potete perfino mandarvi intere sentenze l'uno all'altro.
+## Sfida: Usa il cifrario di Cesare
+
+Riesci a mandare una parola segreta ad un amico? Avrete entrambi bisogno di concordare una chiave segreta prima di iniziare.
+
+Potreste anche inviarvi intere frasi!
 
 --- /challenge ---

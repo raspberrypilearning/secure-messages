@@ -1,31 +1,31 @@
-## Caratteri Extra
+## Caratteri extra
 
-Alcuni caratteri non si trovano nell'alfabeto, e questo causa un errore.
+Alcuni caratteri non sono nell'alfabeto, il che causa un errore.
 
-+ Prova il tuo codice con alcuni caratteri che non si trovano nell'alfabeto.
++ Prova il tuo codice con alcuni caratteri che non sono nell'alfabeto.
+    
+    Ad esempio, potresti usare il messaggio `ciao a tutti!`.
+    
+    ![screenshot](images/messages-extra-characters.png)
+    
+    Nota che lo spazio e il punto escalamativo `!` sono tutti crittografati con la lettera "c"!
 
-	Per esempio, potresti usare il messaggio `hi there!!`.
++ Per risolvere questo problema, devi tradurre un carattere solo se è nell'alfabeto. Per farlo aggiungi un istruzione `if` e indenta il resto del codice.
+    
+    ![screenshot](images/messages-if.png)
 
-	![screenshot](images/messages-extra-characters.png)
++ Prova il tuo codice con lo stesso messaggio. Cosa succede questa volta?
+    
+    ![screenshot](images/messages-if-test.png)
+    
+    Ora il tuo codice salta qualsiasi carattere che non è nell'alfabeto.
 
-	Nota che lo spazio e i caratteri '!' sono tutti criptati come la lettera 'c'!
++ Sarebbe meglio se il tuo codice non criptasse nulla non presente nell'alfabeto, ma mantenesse il carattere originale.
+    
+    Aggiungi un'istruzione `else` al tuo codice che aggiunga semplicemente il carattere originale al messaggio criptato.
+    
+    ![screenshot](images/messages-else.png)
 
-+ Per risolverlo, tradurrai un carattere solo se si trova nell'alfabeto. Per fare ciò, aggiungi una frase 'if' al tuo codice e indenta il resto del codice.
-
-	![screenshot](images/messages-if.png)
-
-+ Prova il tuo codice con lo stesso messaggio. Che succede questa volta?
-
-	![screenshot](images/messages-if-test.png)
-
-	Ora, il tuo codice semplicemente salta tutti i caratteri che non sono nell'alfabeto.
-
-+ Sarebbe meglio se il tuo codice non criptasse niente che non sia nell'alfabeto, ma usasse solo il carattere originale.
-
-	Aggiungi al tuo codice una frase 'else', che semplicemente aggiunge il carattere originale al messaggio criptato.
-
-	![screenshot](images/messages-else.png)
-
-+ Prova il codice. Dovresti vedere che ogni carattere nell'alfabeto è criptato, ma tutti gli altri sono lasciati in pace!
-
-	![screenshot](images/messages-else-test.png)
++ Prova il tuo codice. Dovresti vedere che qualsiasi carattere nell'alfabeto è criptato, ma tutti gli altri caratteri restano inalterati!
+    
+    ![screenshot](images/messages-else-test.png)

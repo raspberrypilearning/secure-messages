@@ -1,31 +1,31 @@
 ## Zusätzliche Zeichen
 
-Manche Zeichen sind nicht im Alphabet, was zu einem Fehler führen kann.
+Manche Zeichen sind nicht im Alphabet enthalten, was einen Fehler verursacht.
 
 + Teste deinen Code mit ein paar Zeichen, die nicht im Alphabet sind.
+    
+    Du könntest zum Beispiel die Nachricht `Hallo Leute!!` benutzen.
+    
+    ![Screenshot](images/messages-extra-characters.png)
+    
+    Wie du siehst, wurden das Leerzeichen und die `!`-Zeichen alle als Buchstabe 'c' verschlüsselt!
 
-	Du könntest zum Beispiel die Mitteilung `hi there!!` (Hallo zusammen!!) benutzen.
++ Um dieses Problem zu beheben, solltest du ein Zeichen nur verschlüsseln, wenn es im Alphabet enthalten ist. Um dies zu tun, füge deinem Code einen `if`-Befehl hinzu und rücke den Rest deines Codes ein.
+    
+    ![Screenshot](images/messages-if.png)
 
-	![screenshot](images/messages-extra-characters.png)
++ Teste deinen Code mit der gleichen Nachricht. Was passiert diesmal?
+    
+    ![Screenshot](images/messages-if-test.png)
+    
+    Jetzt überspringt dein Code jedes Zeichen, das nicht im Alphabet enthalten ist.
 
-	Siehst du, dass das Leerzeichen und alle `!` Zeichen als Buchstabe 'c' verschlüsselt worden sind?
++ Es wäre besser, wenn dein Code alles, was nicht im Alphabet steht, nicht einfach überspringen, sondern statt dessen das ursprüngliche Zeichen benutzen würde.
+    
+    Füge deinem Code einen `else`-Befehl hinzu, der das ursprüngliche Zeichen zur verschlüsselten Nachricht hinzufügt.
+    
+    ![Screenshot](images/messages-else.png)
 
-+ Um dieses Problem zu beheben, solltest du ein Zeichen nur übersetzen, wenn es im Alphabet ist. Um dies zu tun, füge deinem Code ein `if` (wenn) Statement zu und rücke den Rest deines Codes ein.
-
-	![screenshot](images/messages-if.png)
-
-+ Teste deinen Code mit der gleichen Mitteilung. Was passiert diesmal?
-
-	![screenshot](images/messages-if-test.png)
-
-	Jetzt überspringt dein Code jedes Zeichen, wenn es nicht im Alphabet ist.
-
-+ Es wäre besser, wenn dein Code nicht alles, was nicht im Alphabet steht, überspringen würde, sondern statt dessen nur das urpsprüngliche Zeichen benutzen würde.
-
-	Füge ein `else` (andernfalls) Statement deinem Code hinzu, was nur das ursprüngliche Zeichen zur verschlüsselten Mitteilung hinzufügt.
-
-	![screenshot](images/messages-else.png)
-
-+ Teste deinen Code. Du solltest sehen können, dass jedes Zeichen im Alphabet verschlüsselt ist, das aber alle anderen Zeichen im Originalzustand bleiben!
-
-	![screenshot](images/messages-else-test.png)
++ Teste deinen Code. Du wirst sehen, dass nun jedes Zeichen im Alphabet verschlüsselt wird, dass aber alle anderen Zeichen im Originalzustand bleiben!
+    
+    ![Screenshot](images/messages-else-test.png)

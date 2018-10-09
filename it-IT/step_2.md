@@ -1,35 +1,35 @@
-## Il messaggio cifrato Cesare
+## Il cifrario di Cesare
 
-Un messaggio cifrato è un tipo di codice segreto dove scambi le lettere in modo che nessuno possa leggere il tuo messaggio.
+Un cifrario è un tipo di codice segreto in cui si cambiano le lettere in modo che nessuno possa comprendere il messaggio.
 
-Userai uno dei messaggi cifrati più antichi e famosi, il Cesare, il cui nome deriva da Giulio Cesare.
+Utilizzerai uno dei cifrari più vecchi e famosi, il **cifrario di Cesare**, che prende il nome da Giulio Cesare.
 
-Prima di iniziare a codificare, proviamo a usare il messaggio cifrato Cesar per nascondere una parola.
+Prima di iniziare il codice, proviamo ad usare il cifrario di Cesare per mascherare una parola.
 
-+ Nascondere una parola si chiama criptaggio.
++ L'operazione di mascherare una parola è detta **crittografia**.
+    
+    Iniziamo con la crittografia della lettera 'a'. Per farlo, possiamo disegnare l'alfabeto in un cerchio, come questo:
+    
+    ![screenshot](images/messages-wheel.png)
 
-	Iniziamo a criptare la lettera 'a'. Per fare ciò, possiamo disegnare l'alfabeto in un cerchio, così:
++ Per creare una lettera crittografata segreta a partire da una normale è necessario disporre di una chiave segreta. Usiamo il numero 3 come chiave (ma puoi usare qualsiasi numero che ti piaccia).
+    
+    Per **criptare** la lettera 'a', basta che ti sposti di 3 lettere in senso orario per ottenere la lettera 'd':
+    
+    ![screenshot](images/messages-wheel-eg.png)
 
-	![screenshot](images/messages-wheel.png)
++ Puoi usare ciò che hai imparato per criptare un'intera parola. Ad esempio, "hello" criptato è "khoor". Prova tu stesso.
+    
+    + h + 3 = **k**
+    + e + 3 = **h**
+    + l + 3 = **o**
+    + l + 3 = **o**
+    + o + 3 = **r**
 
-+ Per trasformare una normale lettera in una segreta criptata, dovrai avere una chiave segreta. Usiamo il numero 3 come chiave (ma puoi usre qualsiasi numero tu voglia).
-
-	Per criptare la lettera 'a', semplicemente muovi 3 lettere in senso orario, che ti daranno la lettera 'd'-
-
-	![screenshot](images/messages-wheel-eg.png)
-
-+ Puoi usare le tue conoscenze per criptare un'intera parola. Per esempio, 'hello' criptato diventa 'khoor'. Prova tu.
-
-	+ h + 3 = __k__
-	+ e + 3 = __h__
-	+ l + 3 = __o__
-	+ l + 3 = __o__
-	+ o + 3 = __r__
-
-+ Far tornare il testo alla normalità si chiama_decriptazione_. Per decriptare una parola, semplicemente sottrai la chiave invece di aggiungerla:
-
-	+ k - 3 = __h__
-	+ h - 3 = __e__
-	+ o - 3 = __l__
-	+ o - 3 = __l__
-	+ r - 3 = __o__
++ Il ritorno al testo normale si chiama **decrittografia**. Per decriptare una parola, basta sottrarre la chiave invece di aggiungerla:
+    
+    + k - 3 = **h**
+    + h - 3 = **e**
+    + o - 3 = **l**
+    + o - 3 = **l**
+    + r - 3 = **o**
