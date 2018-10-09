@@ -1,6 +1,6 @@
 ## Uvod:
 
-U ovom projektu naučit ćeš kako napraviti vlastiti program za šifriranje te poslati tajne poruke prijatelju i primiti tajne poruke od prjatelja. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+U ovom projektu naučit ćeš kako napraviti vlastiti program za šifriranje te poslati tajne poruke prijatelju i primiti tajne poruke od prjatelja. Ovaj projekt povezan je s aktivnošću "Earth to Principia" koja se nalazi na stranici 16 web stranice Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -49,7 +49,7 @@ Dovršenu verziju projekta možete pronaći i u odjeljku 'Resursi za volontere' 
 * Korištenje `find()` metode;
 * Korištenje modularnog operatora (`%`).
 
-Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Making](http://rpf.io/curriculum) nastavnog plana i programa:
+Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) nastavnog plana i programa:
 
 * [Uporaba različitih programskih struktura za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
