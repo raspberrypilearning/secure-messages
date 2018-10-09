@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## Desafío: Claves en una variable
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+Modifica tu programa de manera que el usuario pueda introducir su propia clave a usar. Tendrás que obtener la entrada del usuario y almacenarla en la variable `clave`.
 
-Remember to use the `int()` function to convert the input to a whole number.
+Recuerda usar la función `int()` para convertir la entrada a un número entero.
 
-You can then use a negative key to decrypt messages!
+Entonces puedes usar una clave negativa para desencriptar mensajes!
 
 \--- /challenge \---
