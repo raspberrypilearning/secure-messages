@@ -3,7 +3,7 @@
 In diesem Projekt lernst du, wie du dein eigenes Verschlüsselungsprogramm schreiben kannst um mit einem Freund/einer Freundin geheime Nachrichten auszutauschen. Dieses Projekt knüpft an die Aktivität "Earth to Principia" (Erde an Principia) auf Seite 16 vom "Space Diary" (Weltraumtagebuch) an (siehe principiaspacediary. org).
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/c911fdd31e?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/05224a9e3d?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/messages-finished.png">
 </div>
@@ -28,7 +28,7 @@ In diesem Projekt lernen die Kinder, wie man ein Verschlüsselungsprogramm schre
 
 Außerdem ist ein Trinket mit dem fertigen Projekt verfügbar:
 
-* [Fertiges Projekt ‘Geheime Nachrichten’ -- trinket.io/python/c911fdd31e](https://trinket.io/python/c911fdd31e)
+* [Fertiges Projekt ‘Geheime Nachrichten’ -- trinket.io/python/05224a9e3d](https://trinket.io/python/05224a9e3d)
 
 * [Fertiges Projekt ‘Freundschaftsrechner’ -- trinket.io/python/551845ccb4](https://trinket.io/python/551845ccb4)
 
@@ -85,7 +85,7 @@ title: Projektmaterial
 ## Ressourcen für Clubleiter
 
 * [.zip-Datei mit allen Ressourcen vom fertigen Projekt](resources/secret-messages-volunteer-resources.zip)
-* [Fertiges online Trinket-Projekt](https://trinket.io/python/c911fdd31e)
+* [Fertiges online Trinket-Projekt](https://trinket.io/python/05224a9e3d)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
 * [Online-Lösungsvorschlag für die Herausforderung 'Freundschaftsrechner'](https://trinket.io/python/551845ccb4)
 * [Offline-Lösungsvorschlag für die Herausforderung 'Freundschaftsrechner'](resources/friendship-calculator-finished-friends.py)

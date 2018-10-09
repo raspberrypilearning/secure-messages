@@ -20,9 +20,9 @@ steps:
   - title: 'Introduzione'
   - title: Il cifrario di Cesare
   - title: 'Sfida: Usa il cifrario di Cesare'
-  - title: Criptare lettere
+  - title: Crittografia di lettere
   - title: 'Sfida: Chiavi variabili'
   - title: Criptare interi messaggi
-  - title: Caratteri Extra
-  - title: 'Sfida: Criptare e decriptare messaggi'
+  - title: Caratteri extra
+  - title: 'Sfida: Cripta e decripta messaggi'
   - title: 'Sfida: Calcolatrice di amicizia'
