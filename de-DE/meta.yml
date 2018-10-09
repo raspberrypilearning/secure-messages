@@ -1,3 +1,4 @@
+---
 hero_image: images/secret-messages.png
 theme: red
 duration: 2
@@ -5,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Geheime Mitteilungen
-description: Erstelle dein eigenes Verschlüsselungsprogramm, um geheime Mitteilungen zu senden und zu empfangen.
+title: Geheime Nachrichten
+description: Schreibe dein eigenes Verschlüsselungsprogramm, um geheime Nachrichten zu senden und zu empfangen.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -15,13 +16,13 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: 'Einführung'
-- title: Die Caesar-Schiffre
-- title: 'Aufgabe: Benutze eine Caesar-Schiffre'
-- title: Buchstaben verschlüsseln
-- title: 'Aufgabe: Variable Keys'
-- title: Komplette Mitteilungen verschlüsseln
-- title: Zusätzliche Zeichen
-- title: 'Aufgabe: Verschlüsseln und Entschlüsseln von Mitteilungen'
-- title: 'Aufgabe: Freundschaftsrechner'
+steps:
+  - title: 'Einleitung'
+  - title: Die Caesar-Verschlüsselung
+  - title: 'Herausforderung: Benutze eine Caesar-Verschlüsselung'
+  - title: Buchstaben verschlüsseln
+  - title: 'Herausforderung: Verschiedene Schlüssel'
+  - title: Komplette Nachrichten verschlüsseln
+  - title: Zusätzliche Zeichen
+  - title: 'Herausforderung: Verschlüsseln und Entschlüsseln von Nachrichten'
+  - title: 'Herausforderung: Freundschaftsrechner'

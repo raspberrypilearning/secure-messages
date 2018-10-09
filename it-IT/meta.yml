@@ -1,3 +1,4 @@
+---
 hero_image: images/secret-messages.png
 theme: red
 duration: 2
@@ -15,13 +16,13 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: 'Introduzione'
-- title: Il messaggio cifrato Cesare
-- title: 'Sfida: Usa un messaggio cifrato Cesar'
-- title: Criptare lettere
-- title: 'Sfida: Chiavi variabili'
-- title: Criptare interi messaggi
-- title: Caratteri Extra
-- title: 'Sfida: Criptare e decriptare messaggi'
-- title: 'Sfida: Calcolatore di amicizia'
+steps:
+  - title: 'Introduzione'
+  - title: Il cifrario di Cesare
+  - title: 'Sfida: Usa il cifrario di Cesare'
+  - title: Crittografia di lettere
+  - title: 'Sfida: Chiavi variabili'
+  - title: Criptare interi messaggi
+  - title: Caratteri extra
+  - title: 'Sfida: Cripta e decripta messaggi'
+  - title: 'Sfida: Calcolatrice di amicizia'

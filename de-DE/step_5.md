@@ -1,12 +1,11 @@
 --- challenge ---
-## Aufgabe: Variable Keys 
-Modifiziere dein Programm, damit der Nutzer seinen eigenen Key zum Gebrauch eingeben kann. Du musst die Eingabe des Nutzers erhalten und sie in der `key` Variable speichern.
 
-Denke daran, die `int()`  Integer-Funktion zu benutzen, um die Eingabe zu einer Ganzzahl umzuwandeln.
+## Herausforderung: Verschiedene Schlüssel
 
-Du kannst dann einen negativen (Minus) Key benutzen, um die Mitteilungen zu entschlüsseln!
+Ändere dein Programm, damit der Benutzer seinen eigenen Schlüssel eingeben kann. Du musst die Eingabe des Benutzers abfragen und in der Variablen `schluessel` speichern.
 
+Denke daran, die `int()`-Funktion zu benutzen, um die Eingabe in eine Ganzzahl umzuwandeln.
 
-
+Du kannst dann auch einen negativen Schlüssel benutzen, um die Nachrichten zu entschlüsseln!
 
 --- /challenge ---
