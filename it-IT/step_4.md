@@ -16,7 +16,7 @@ Scriviamo un programma Python per criptare un singolo carattere dell'alfabeto.
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    È possibile eliminare il comando `print` una volta che hai provato.
+    You can delete the `print` statements once you've tried this out.
 
 + Successivamente dovrai memorizzare la `chiave segreta` in una variabile.
     
