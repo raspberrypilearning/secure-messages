@@ -16,7 +16,7 @@
     
     ![скріншот](images/messages-alphabet-array.png)
     
-    Ви можете видалити сценарії `друку` , як тільки ви спробуєте це зробити.
+    You can delete the `print` statements once you've tried this out.
 
 + Далі вам потрібно буде зберегти секретний `ключ` у змінній.
     
