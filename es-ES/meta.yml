@@ -20,18 +20,18 @@ steps:
   - 
     title: 'Introducción'
   - 
-    title: El cifrado Cesar
+    title: El cifrado César
   - 
-    title: 'Reto: Usa un cifrado Cesar'
+    title: 'Desafío: Usa un cifrado César'
   - 
     title: Encriptación de letras
   - 
-    title: 'Reto: Claves de variable'
+    title: 'Desafío: Claves de variable'
   - 
     title: Encriptar mensajes completos
   - 
     title: Caracteres adicionales
   - 
-    title: 'Reto: Cifrado y descifrado de mensajes'
+    title: 'Desafío: Cifrado y descifrado de mensajes'
   - 
-    title: 'Reto: Calculadora de amistad'
+    title: 'Desafío: Calculadora de amistad'
