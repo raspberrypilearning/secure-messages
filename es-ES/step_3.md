@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## Desafío: Usa un cifrado César
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+¿Puedes enviar una palabra secreta a un amigo? Ambos deberéis acordar una clave secreta antes de comenzar.
 
-You could even send entire sentences to each other!
+¡Incluso podríais intercambiar frases completas!
 
 \--- /challenge \---
