@@ -16,7 +16,7 @@
     
     ![스크린샷](images/messages-alphabet-array.png)
     
-    여러분이 위의 시도를 마치고 나면, `print`문을 삭제해도 괜찮습니다.
+    You can delete the `print` statements once you've tried this out.
 
 + 다음으로 비밀 `키`를 변수에 저장해야합니다.
     
