@@ -26,7 +26,7 @@
     
     ![스크린샷](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ `newMessage`를 암호화의 시작과 동시에 `출력`할 수 있습니다. 
     
     ![스크린샷](images/messages-print-message-characters.png)
 
