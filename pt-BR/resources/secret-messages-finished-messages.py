@@ -1,20 +1,20 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-newMessage = ''
+alfabeto = 'abcdefghijklmnopqrstuvwxyz'
+novaMensagem = ''
   
-message = input('Please enter a message: ')
+mensagem = input('Por favor digite uma mensagem: ')
 
-key = input('Enter a key (1-26): ')
-key = int(key)
+chave = input('Digite uma chave (1-26): ')
+chave = int(chave)
 
-for character in message:
-  if character in alphabet:
-    position = alphabet.find(character)
-    newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
-    newMessage += newCharacter
+for caractere in mensagem:
+  if caractere in alfabeto:
+    posicao = alfabeto.find(caractere)
+    novaPosicao = (posicao + chave) % 26
+    novoCaractere = alfabeto[novaPosicao]
+    novaMensagem += novoCaractere
   else:
-    newMessage += character
+    novaMensagem += caractere
 
-print('Your new message is: ', newMessage)
+print('Sua nova mensagem é: ', novaMensagem)
