@@ -30,7 +30,7 @@
         <img src="images/messages-alphabet-array.png" alt="スクリーンショット" />
       </p>
       <p>
-        あなたは削除することができます <code>印刷</code> あなたはこれを試してみた後、ststementsを。
+        You can delete the <code>print</code> statements once you've tried this out.
       </p>
     </li>
     
