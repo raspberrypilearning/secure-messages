@@ -14,7 +14,7 @@ Vamos escrever um programa em Python para criptografar um único caractere.
 
 <p><img src="images/messages-alphabet-array.png" alt="captura de tela" /></p>
 
-<p>Você pode excluir as <code>stdements` de impressão depois de ter feito isso.
+<p>You can delete the <code>print` statements once you've tried this out.
 
 + Em seguida, você precisará armazenar a chave secreta `` em uma variável.
     
