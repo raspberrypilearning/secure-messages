@@ -8,45 +8,45 @@ Neste projeto, você aprenderá como criar seu próprio programa de criptografia
   <img src="images/messages-finished.png">
 </div>
 
-### Informação adicional para líderes de clubes
+### Informação adicional para líderes de clube
 
 Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
-## \--- colapso \---
+## \--- collapse \---
 
-## título: notas do líder do clube
+## title: Notas do líder do clube
 
 ## Introdução:
 
-Neste projeto, as crianças aprenderão como fazer um programa de criptografia, enviar e receber mensagens secretas com um amigo. Este projeto introduz a iteração (loop) sobre uma cadeia de texto.
+Neste projeto, as crianças aprenderão como fazer um programa de criptografia, enviar e receber mensagens secretas com um amigo. Este projeto introduz iteração (laço) sobre uma cadeia de texto.
 
-## Recursos online
+## Recursos Online
 
 **Este projeto usa o Python 3.** Recomendamos usar [trinket](https://trinket.io/) para escrever Python online. Este projeto contém os seguintes Trinkets:
 
 * [Novo Trinket Python (em branco) - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-Há também uma bugiganga contendo o projeto finalizado:
+Há também um trinket contendo o projeto finalizado:
 
-* ['Mensagens Secretas' Finalizadas - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['Mensagens Secretas' Finalizado - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* ['Friendship Calculator' Finalizado - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['Calculadora de Amizade' Finalizado - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Recursos offline
+## Recursos Offline
 
 Este projeto pode ser [concluído off-line](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) , se preferir.
 
 Você pode encontrar o projeto concluído na seção "Recursos para Voluntários", que contém:
 
-* mensagens-acabadas / messages.py
-* mensagens-acabadas / friends.py
+* messages-finished/messages.py
+* messages-finished/friends.py
 
-(Todos os recursos acima também podem ser baixados como arquivos `.zip` do projeto e voluntários.)
+(Todos os recursos acima também podem ser baixados como arquivos `.zip` do projeto e dos voluntários.)
 
-## objetivos de aprendizado
+## Objetivos de aprendizado
 
 * Iteração (loop) sobre uma variável de string;
-* O `find ()` método;
+* O método `find ()`;
 * O operador de módulo (`%`).
 
 Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
@@ -58,23 +58,23 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 * Use uma cifra de César - criptografe e descriptografe letras e palavras manualmente;
 * Chaves variáveis ​​- permitindo ao usuário inserir uma chave escolhida;
 * Criptografar e descriptografar mensagens - criptografando e descriptografando mensagens inteiras;
-* Calculadora de amizade - aplicando iteração de texto a um novo problema.
+* Calculadora de amizade - aplicando iteração em texto a um novo problema.
 
-## perguntas frequentes
+## Perguntas Frequentes
 
-* Ao pesquisar usando `find ()` ou `se caractere em alfabeto:`, observe que as pesquisas fazem distinção entre maiúsculas e minúsculas. As crianças podem usar:
+* Ao pesquisar usando `find ()` ou `if caractere in alfabeto:`, observe que as buscas fazem distinção entre maiúsculas e minúsculas. As crianças podem usar:
     
     ```python
-    message = input ("Por favor insira uma mensagem para criptografar:") .lower ()
+    mensagem = input("Por favor insira uma mensagem para criptografar: ").lower()
     ```
     
-    para tornar a entrada minúscula antes de pesquisar.
+    para tornar a entrada minúscula antes de buscar.
 
-\--- / colapso \---
+\--- /collapse \---
 
-## \--- colapso \---
+## \--- collapse \---
 
-## Título: Materiais do projeto
+## title: Materiais do projeto
 
 ## Recursos do projeto
 
@@ -85,9 +85,9 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 ## Recursos do líder do clube
 
 * [arquivo .zip contendo todos os recursos do projeto concluídos](resources/secret-messages-volunteer-resources.zip)
-* [Projeto Trinket concluído online](https://trinket.io/python/402256078c)
-* [secret-messages-finished / messages.py](resources/secret-messages-finished-messages.py)
-* ["Desafio da calculadora da amizade" concluído on-line](https://trinket.io/python/2e852cd687)
-* [Completo offline 'Amizade calculadora' desafio](resources/friendship-calculator-finished-friends.py)
+* [Projeto Trinket online e completo](https://trinket.io/python/402256078c)
+* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [Desafio da "Calculadora de amizade" concluído on-line](https://trinket.io/python/2e852cd687)
+* [desafio da "Calculadora de amizade" concluído offline](resources/friendship-calculator-finished-friends.py)
 
-\--- / colapso \---
+\--- /collapse \---
