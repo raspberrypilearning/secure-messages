@@ -1,6 +1,6 @@
 ## Einleitung:
 
-In diesem Projekt lernst du, wie du dein eigenes Verschlüsselungsprogramm schreiben kannst um mit einem Freund/einer Freundin geheime Nachrichten auszutauschen. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+In diesem Projekt lernst du, wie du dein eigenes Verschlüsselungsprogramm schreiben kannst um mit einem Freund/einer Freundin geheime Nachrichten auszutauschen. Dieses Projekt knüpft an die Aktivität "Earth to Principia" (Erde an Principia) auf Seite 16 vom "Space Diary" (Weltraumtagebuch) an (siehe principiaspacediary. org).
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
