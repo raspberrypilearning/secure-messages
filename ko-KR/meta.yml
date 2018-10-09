@@ -1,6 +1,6 @@
 ---
 hero_image: images/secret-messages.png
-theme: 빨강
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -11,14 +11,14 @@ description: 자신만의 암호화 프로그램을 만들어서 비밀 메시�
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: 사이버 보안 및 암호화
 technologies: 파이썬 (Python)
-site_areas: 프로젝트
+site_areas: projects
 hardware: ''
-software: 파이썬 (Python)
+software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: '들어가며:'
+    title: '들어가며: '
   - 
     title: 카이사르 암호
   - 
