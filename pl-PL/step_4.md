@@ -16,7 +16,7 @@ Napiszmy program Python, aby zaszyfrować pojedynczy znak.
     
     ![zrzut ekranu](images/messages-alphabet-array.png)
     
-    Możesz usunąć polecenie `print` kiedy to wypróbujesz.
+    You can delete the `print` statements once you've tried this out.
 
 + Następnie musisz zrobić tak, aby tajny `klucz` został przechowany w zmiennej.
     
