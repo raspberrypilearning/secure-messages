@@ -16,7 +16,7 @@ Lass uns ein Python Programm schreiben, um ein einzelnes Zeichen zu verschlüsse
     
     ![Screenshot](images/messages-alphabet-array.png)
     
-    Du kannst die `print`-Befehle löschen, wenn du alles ausprobiert hast.
+    You can delete the `print` statements once you've tried this out.
 
 + Dann musst du den geheimen Schlüssel in der Variablen `schluessel` speichern.
     
