@@ -16,7 +16,7 @@ We gaan een Python-programma schrijven om een ​​enkel teken te coderen.
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    De regels met `print` kun je verwijderen als je het hebt uitgeprobeerd.
+    You can delete the `print` statements once you've tried this out.
 
 + Nu moet je de geheime `sleutel` in een variabele opslaan.
     
