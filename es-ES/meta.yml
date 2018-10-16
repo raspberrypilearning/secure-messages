@@ -26,12 +26,12 @@ steps:
   - 
     title: Encriptación de letras
   - 
-    title: 'Desafío: Claves de variable'
+    title: 'Desafío: Claves en una variable'
   - 
     title: Encriptar mensajes completos
   - 
     title: Caracteres adicionales
   - 
-    title: 'Desafío: Cifrado y descifrado de mensajes'
+    title: 'Desafío: Encriptado y desencriptado de mensajes'
   - 
     title: 'Desafío: Calculadora de amistad'
