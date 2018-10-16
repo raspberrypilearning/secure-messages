@@ -26,6 +26,6 @@ Algunos caracteres no están en el alfabeto, lo que causa un error.
     
     ![captura de pantalla](images/messages-else.png)
 
-+ Prueba tu código. ¡Ahora debería ver que cada carácter en el alfabeto es encriptado pero que cualquier otro carácter se queda tal como está!
++ Prueba tu código. ¡Ahora deberías ver que cada carácter en el alfabeto es encriptado pero que cualquier otro carácter se queda tal como está!
     
     ![captura de pantalla](images/messages-else-test.png)
