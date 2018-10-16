@@ -1,11 +1,11 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-newMessage = ''
+alfabeto = 'abcdefghijklmnñopqrstuvwxyz'
+nuevoMensaje = ''
   
-message = input('Please enter a message: ')
+mensaje = input('Por favor, introduce un mensaje: ')
 
-key = input('Enter a key (1-26): ')
+clave = input('Introduce una clave (1-27): ')
 key = int(key)
 
 for character in message:
