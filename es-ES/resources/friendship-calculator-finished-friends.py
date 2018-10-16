@@ -1,15 +1,15 @@
 #!/bin/python3
 
-score = 0
-names = input('enter tha names of 2 people: ')
+puntos = 0
+nombres = input('Introduce el nombre de 2 personas: ')
 
-for character in names:
-  if character in 'aeiou':
-    score += 5
-  if character in 'friend':
-    score += 10
+for caracter in nombres:
+  if caracter in 'aeiou':
+    puntos += 5
+  if caracter in 'amigo':
+    puntos += 10
 
-print('your friendship score is :', score)
+print('Vuestro índice de amistad es de: ', puntos)
 
-if score > 100:
-  print('best friends!')
+if puntos > 100:
+  print('¡Sois los mejores amigos!')
