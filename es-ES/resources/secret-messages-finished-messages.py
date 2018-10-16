@@ -6,11 +6,11 @@ nuevoMensaje = ''
 mensaje = input('Por favor, introduce un mensaje: ')
 
 clave = input('Introduce una clave (1-27): ')
-key = int(key)
+clave = int(clave)
 
-for character in message:
-  if character in alphabet:
-    position = alphabet.find(character)
+for caracter in mensaje:
+  if caracter in alfabeto:
+    posicion = alfabeto.find(caracter)
     newPosition = (position + key) % 26
     newCharacter = alphabet[newPosition]
     newMessage += newCharacter
