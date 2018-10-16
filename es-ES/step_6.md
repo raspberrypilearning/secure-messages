@@ -14,7 +14,7 @@
     
     ![captura de pantalla](images/messages-message.png)
 
-+ Añade un bucle `for` a tu código e indenta el resto del código para que éste se repita con cada carácter del mensaje.
++ Añade un bucle `for` a tu código e indenta el resto del código para que este se repita con cada carácter del mensaje.
     
     ![captura de pantalla](images/messages-loop.png)
 
