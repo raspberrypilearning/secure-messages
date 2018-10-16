@@ -11,10 +11,10 @@ clave = int(clave)
 for caracter in mensaje:
   if caracter in alfabeto:
     posicion = alfabeto.find(caracter)
-    newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
-    newMessage += newCharacter
+    nuevaPosicion = (posicion + clave) % 27
+    nuevoCaracter = alfabeto[nuevaPosicion]
+    nuevoMensaje += nuevoCaracter
   else:
-    newMessage += character
+    nuevoMensaje += caracter
 
-print('Your new message is: ', newMessage)
+print('Tu nuevo mensaje es: ', nuevoMensaje)
