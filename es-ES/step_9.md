@@ -12,7 +12,7 @@ Debes decidir las reglas para otorgar puntos. Por ejemplo, podrías otorgar punt
 
 ![captura de pantalla](images/messages-friends-code.png)
 
-También puedes darle al usuario un mensaje personalizado, basado en su puntuación:
+También puedes mostrar al usuario un mensaje personalizado, basado en su puntuación:
 
 ![captura de pantalla](images/messages-best-friends.png)
 
