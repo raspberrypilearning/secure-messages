@@ -16,7 +16,7 @@ Escribamos un programa en Python para encriptar un solo carácter.
     
     ![captura de pantalla](images/messages-alphabet-array.png)
     
-    Una vez que lo hayas comprobado, puedes borrar las sentencias `print`.
+    Una vez que hayas comprobado esto, puedes borrar las sentencias `print`.
 
 + A continuación tienes que guardar la `clave` secreta en una variable.
     
