@@ -1,9 +1,9 @@
-\--- haaste \---
+\--- challenge \---
 
-## Haaste: Käytä Caesar-salausta
+## Challenge: Use a Caesar cipher
 
-Voitko lähettää salaisen sanan kaverille? Sinun on sovittava salaisesta avaimesta ennen kuin aloitat.
+Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
-Voit jopa lähettää koko lauseita toisillemme!
+You could even send entire sentences to each other!
 
-\--- /haaste \---
+\--- /challenge \---
