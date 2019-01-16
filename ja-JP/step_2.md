@@ -1,37 +1,35 @@
-## シーザー暗号
+## The Caesar cipher
 
-暗号は秘密のコードの一種で、誰もあなたのメッセージを読むことができないように文字を入れ替えます。
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-Julius Caesarにちなんで命名された、最も古く有名な暗号である **シーザー暗号**を使用します。
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-コーディングを始める前に、シーザー暗号を使って単語を隠してみましょう。
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ 単語を隠すことは **暗号化**と呼ばれ** 。</p> 
++ Hiding a word is called **encryption**.
     
-    まず文字 'a'を暗号化しましょう。これを行うには、次のように円でアルファベットを描くことができます：
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
-    ![スクリーンショット](images/messages-wheel.png)</li> 
+    ![screenshot](images/messages-wheel.png)
+
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    + 通常の暗号化された文字を秘密にするには、秘密の鍵が必要です。キーとして番号3を使用しましょう（ただし、好きな番号を使用できます）。
-        
-        </strong> 文字を ' **'に暗号化するには、3文字を時計回りに動かすだけで、文字 'd'が得られます。</p> 
-        
-        ![スクリーンショット](images/messages-wheel-eg.png)</li> 
-        
-        + 学んだことを使って、単語全体を暗号化することができます。たとえば、 'hello'は 'khoor'です。自分で試してみてください。
-            
-            + h + 3 = **k**
-            + e + 3 = **時間**
-            + l + 3 = **o**
-            + l + 3 = **o**
-            + o + 3 = **r**
-        
-        + テキストを通常に戻すことを「解読</strong>と呼び **。単語を解読するには、キーを追加するのではなく減算するだけです：</p> 
-            
-            + K - 3 = **、H**
-            + h - 3 = **e**
-            + **- 3 = ** l**</li> 
-                
-                + **- 3 = ** l**</li> 
-                    
-                    + r-3 = **o** </ul></li> </ul>
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    
+    ![screenshot](images/messages-wheel-eg.png)
+
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
+    
+    + h + 3 = **k**
+    + e + 3 = **h**
+    + l + 3 = **o**
+    + l + 3 = **o**
+    + o + 3 = **r**
+
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
+    
+    + k - 3 = **h**
+    + h - 3 = **e**
+    + o - 3 = **l**
+    + o - 3 = **l**
+    + r - 3 = **o**
