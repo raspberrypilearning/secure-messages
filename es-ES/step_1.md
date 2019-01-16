@@ -30,7 +30,7 @@ También hay un Trinket con el proyecto acabado:
 
 * [‘Mensajes secretos’ terminado -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Calculadora de la amistad’ terminado -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Calculadora de amistad’ terminado -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
 ## Recursos sin conexión
 
