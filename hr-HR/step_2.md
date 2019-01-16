@@ -1,24 +1,24 @@
-## Cezarova šifra
+## The Caesar cipher
 
-Šifra je vrsta tajnog kôda gdje se slova međusobno zamjenjuju tako da nitko ne može pročitati tvoju poruku.
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-Koristit ćeš jedan od najstarijih načina šifriranja, **Cezarovu šifru**, koji je nazvan po Juliju Cezaru.
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-Prije nego započnemo s kodiranjem, pokušajmo sakriti riječ koristeći Cezarovu šifru.
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ Skrivanje riječi naziva se **enkripcija**.
++ Hiding a word is called **encryption**.
     
-    Započnimo sa šifriranjem slova 'a'. Nacrtat ćemo englesku abecedu u krugu kako bi sakrili slovo:
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
     ![screenshot](images/messages-wheel.png)
 
-+ Da bi od običnog slova napravio tajno šifrirano slovo, moraš imati tajni ključ. Koristit ćemo broj 3 kao tajni ključ (ali možeš koristiti bilo koji broj).
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    Za **enkripciju** slova 'a', pomakni se za tri slova unaprijed, u smjeru kazaljke na satu. Tako ćeš dobiti slovo 'd':
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
     ![screenshot](images/messages-wheel-eg.png)
 
-+ Iskoristi naučeno i šifriraj riječ. Primjerice, kada šifriramo riječ 'hello' dobit ćemo 'khoor'. Pokušaj!
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Prije nego započnemo s kodiranjem, pokušajmo sakriti riječ koristeći Cezarov
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Vraćanje teksta u početni oblik naziva se **dekripcija**. Za dešifriranje riječi jednostavno oduzmi tajni ključ od slova umjesto da ga dodaš:
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
     
     + k - 3 = **h**
     + h - 3 = **e**
