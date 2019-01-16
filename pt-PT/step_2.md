@@ -1,24 +1,24 @@
-## A cifra de César
+## The Caesar cipher
 
-Uma cifra é um tipo de código secreto, onde você troca as letras para que ninguém possa ler sua mensagem.
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-Você estará usando uma das mais antigas e famosas cifras, a **César cifra**, que leva o nome de Júlio César.
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-Antes de começarmos a codificar, vamos tentar usar a cifra de César para esconder uma palavra.
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ Ocultar uma palavra é chamado de **criptografia**.
++ Hiding a word is called **encryption**.
     
-    Vamos começar criptografando a letra 'a'. Para fazer isso, podemos desenhar o alfabeto em um círculo, assim:
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
-    ![captura de tela](images/messages-wheel.png)
+    ![screenshot](images/messages-wheel.png)
 
-+ Para criar uma carta criptografada secreta de uma carta normal, você precisa ter uma chave secreta. Vamos usar o número 3 como chave (mas você pode usar qualquer número que quiser).
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    Para **criptografar** a letra 'a', você apenas move 3 letras no sentido horário, o que lhe dará a letra 'd':
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
-    ![captura de tela](images/messages-wheel-eg.png)
+    ![screenshot](images/messages-wheel-eg.png)
 
-+ Você pode usar o que aprendeu para criptografar uma palavra inteira. Por exemplo, 'olá' criptografado é 'khoor'. Tente você mesmo.
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Antes de começarmos a codificar, vamos tentar usar a cifra de César para escon
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Retornar o texto ao normal é chamado de **decriptografia**. Para descriptografar uma palavra, basta subtrair a chave em vez de adicioná-la:
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
     
     + k - 3 = **h**
     + h - 3 = **e**
