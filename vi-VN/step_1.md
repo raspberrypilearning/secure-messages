@@ -1,6 +1,6 @@
-## Giới thiệu:
+## Introduction:
 
-Trong dự án này, bạn sẽ học cách tạo chương trình mã hóa của riêng bạn, để gửi và nhận tin nhắn bí mật với một người bạn. Dự án này gắn liền với hoạt động "Trái đất đến Nguyên tắc" trên trang 16 của Nhật Ký Không Gian.
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ Trong dự án này, bạn sẽ học cách tạo chương trình mã hóa của
   <img src="images/messages-finished.png">
 </div>
 
-### Thông tin bổ sung cho các nhà lãnh đạo câu lạc bộ
+### Additional information for club leaders
 
-Nếu bạn cần in dự án này, hãy sử dụng [phiên bản thân thiện với máy in](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-## title: Ghi chú của leader club
+## title: Club leader notes
 
-## Giới thiệu:
+## Introduction:
 
-Trong dự án này, trẻ sẽ học cách tạo một chương trình mã hóa, gửi và nhận tin nhắn bí mật với một người bạn. Dự án này giới thiệu lặp (lặp) trên một chuỗi văn bản.
+In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
 
-## Những nguồn thông tin trên mạng
+## Online Resources
 
-**Dự án này sử dụng Python 3.** Chúng tôi khuyên bạn nên sử dụng [trinket](https://trinket.io/) để viết Python trực tuyến. Dự án này chứa các nữ trang sau đây:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [Mới (trống) Trinket Python - jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-Ngoài ra còn có một vật đính kèm chứa dự án đã hoàn thành:
+There is also a trinket containing the finished project:
 
-* [Đã hoàn tất 'Tin nhắn bí mật' - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* ['Tình bạn Máy tính' Xong - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Tài nguyên ngoại tuyến
+## Offline Resources
 
-Dự án này có thể là [hoàn thành ngoại tuyến](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) nếu được ưu tiên.
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
 
-Bạn có thể tìm thấy dự án đã hoàn thành trong phần 'Tài nguyên tình nguyện', trong đó có:
+You can find the completed project in the 'Volunteer Resources' section, which contains:
 
-* messages-finished / messages.py
-* messages-finished / friends.py
+* messages-finished/messages.py
+* messages-finished/friends.py
 
-(Tất cả các tài nguyên trên cũng có thể tải xuống dưới dạng dự án và tình nguyện viên `.zip` tệp.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Mục tiêu học tập
+## Learning Objectives
 
-* Lặp lại (lặp) qua biến chuỗi;
-* Phương thức `find ()`;
-* Toán tử mô đun (`%`).
+* Iteration (looping) over a string variable;
+* The `find()` method;
+* The modulus operator (`%`).
 
-Dự án này bao gồm các yếu tố từ các chuỗi sau đây của [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Kết hợp các cấu trúc lập trình để giải quyết vấn đề.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Thách thức
+## Challenges
 
-* Sử dụng mật mã Caesar - mã hóa và giải mã các chữ cái và các từ theo cách thủ công;
-* Các phím biến - cho phép người dùng nhập một khóa đã chọn;
-* Mã hóa và giải mã tin nhắn - mã hóa và giải mã toàn bộ thông điệp;
-* Tính hữu nghị - áp dụng lặp lại văn bản cho một vấn đề mới.
+* Use a Caesar cipher - encrypy and decrypt letters and words manually;
+* Variable keys - allowing the user to input a chosen key;
+* Encrypting and decrypting messages - encrypting and decrypting whole messages;
+* Friendship calculator - applying text iteration to a new problem.
 
-## Các câu hỏi thường gặp
+## Frequently Asked Questions
 
-* Khi tìm kiếm bằng cách sử dụng `find ()` hoặc `nếu char trong bảng chữ cái:`, lưu ý rằng các tìm kiếm phân biệt chữ hoa chữ thường. Trẻ em có thể sử dụng:
+* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
     
     ```python
-    message = input ("Vui lòng nhập tin nhắn để mã hóa:") .lower ()
+    message = input("Please enter a message to encrypt: ").lower()
     ```
     
-    để làm cho trường hợp đầu vào thấp hơn trước khi tìm kiếm.
+    to make the input lower case before searching.
 
-\--- /sự sụp đổ \---
+\--- /collapse \---
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-## title: Tài liệu dự án
+## title: Project materials
 
-## Tài nguyên dự án
+## Project resources
 
-* [tệp .zip chứa tất cả tài nguyên dự án](resources/secret-messages-project-resources.zip)
-* [Trực tuyến trống Python Trinket](http://jumpto.cc/python-new)
-* [Tệp Python trống ngoại tuyến](resources/new-new.py)
+* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
+* [Online blank Python Trinket](http://jumpto.cc/python-new)
+* [Offline blank Python file](resources/new-new.py)
 
-## Tài nguyên lãnh đạo câu lạc bộ
+## Club leader resources
 
-* [tệp .zip chứa tất cả tài nguyên dự án đã hoàn thành](resources/secret-messages-volunteer-resources.zip)
-* [Dự án Trinket hoàn thành trực tuyến](https://trinket.io/python/402256078c)
-* [secret-messages-finished / messages.py](resources/secret-messages-finished-messages.py)
-* [Trực tuyến hoàn thành 'tình bạn máy tính' thách thức](https://trinket.io/python/2e852cd687)
-* [ẩn hoàn thành thử thách 'Tình bạn máy tính'](resources/friendship-calculator-finished-friends.py)
+* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
+* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
 
-\--- /sự sụp đổ \---
+\--- /collapse \---
