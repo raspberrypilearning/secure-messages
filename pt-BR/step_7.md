@@ -1,31 +1,31 @@
-## Caracteres extras
+## Extra characters
 
-Alguns caracteres não estão no alfabeto, o que causa um erro.
+Some characters aren't in the alphabet, which causes an error.
 
-+ Teste seu código com alguns caracteres que não estão no alfabeto.
++ Test out your code with some characters that aren't in the alphabet.
     
-    Por exemplo, você poderia usar a mensagem `oi amigo!!`.
+    For example, you could use the message `hi there!!`.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Observe que os caracteres de espaço e `!` são todos criptografados como a letra 'c'!
+    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
 
-+ Para corrigir isso, você só quer traduzir um caractere se estiver no alfabeto. Para fazer isso, adicione uma instrução `if` ao seu código e indente o resto do seu código.
++ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
     
     ![screenshot](images/messages-if.png)
 
-+ Teste seu código com a mesma mensagem. O que acontece desta vez?
++ Test your code with the same message. What happens this time?
     
     ![screenshot](images/messages-if-test.png)
     
-    Agora, seu código simplesmente ignora qualquer caractere se não estiver no alfabeto.
+    Now, your code just skips any character if it's not in the alphabet.
 
-+ Seria melhor se o seu código não criptografasse qualquer coisa que não estivesse no alfabeto, mas apenas usasse o caractere original.
++ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
     
-    Adicione uma instrução `else` ao seu código, que apenas adiciona o caractere original à mensagem criptografada.
+    Add an `else` statement to your code, which just adds the original character to the encrypted message.
     
     ![screenshot](images/messages-else.png)
 
-+ Teste seu código. Você deve ver que qualquer caractere no alfabeto é criptografado, mas quaisquer outros caracteres são deixados em paz!
++ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
     
     ![screenshot](images/messages-else-test.png)
