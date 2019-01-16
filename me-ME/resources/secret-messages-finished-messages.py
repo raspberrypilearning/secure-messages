@@ -1,20 +1,20 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-newMessage = ''
+abeceda = 'abcdefghijklmnopqrstuvwxyz'
+novaPoruka = ''
   
-message = input('Please enter a message: ')
+poruka = input('Unesi poruku: ')
 
-key = input('Enter a key (1-26): ')
-key = int(key)
+kljuc = input('Unesi ključ (1-26): ')
+kljuc = int(kljuc)
 
-for character in message:
-  if character in alphabet:
-    position = alphabet.find(character)
-    newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
-    newMessage += newCharacter
+for znak in poruka:
+  if znak in abeceda:
+    pozicija = abeceda.find(znak)
+    novaPozicija = (pozicija + kljuc) % 26
+    noviZnak = abeceda[novaPozicija]
+    novaPoruka += noviZnak
   else:
-    newMessage += character
+    novaPoruka += znak
 
-print('Your new message is: ', newMessage)
+print('Tvoja nova poruka je: ', novaPoruka)
