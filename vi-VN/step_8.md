@@ -1,9 +1,9 @@
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: Mã hóa và giải mã tin nhắn
+## Challenge: Encrypting and decrypting messages
 
-Mã hóa một số tin nhắn và đưa chúng cho bạn bè cùng với khóa bí mật. Xem họ có thể giải mã chúng bằng chương trình của họ không!
+Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
 
-Bạn cũng có thể sao chép dự án và tạo một chương trình riêng để giải mã thư.
+You could also duplicate the project and create a separate program for decrypting messages.
 
-\--- /thử thách \---
+\--- /challenge \---
