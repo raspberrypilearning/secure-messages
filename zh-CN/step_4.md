@@ -1,40 +1,40 @@
-## Encrypting letters
+## 对字母进行加密
 
-Let's write a Python program to encrypt a single character.
+让我们编写一个Python程序来加密单个字符。
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ 单击链接<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>，打开一个空白的Trinket Python模版。
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ 与其在圆圈中绘制字母表, 不如将其写入`alphabet`变量中。
     
     ![screenshot](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ 字母表中的每个字母都有一个位置，从位置0开始。因此字母“a”位于字母表的第0位，“c”位于第2位。
     
     ![screenshot](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ 通过将其位置写在方括号内, 可以从 `alphabet` 变量中获取某个字母。
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    尝试此操作后, 您可以删除 `print` 语句。
 
-+ Next, you'll need to store the secret `key` in a variable.
++ 接下来，你要将密钥保存在变量`key`中。
     
     ![screenshot](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ 接下来，询问用户一个字母（保存到变量`character`）进行加密。
     
     ![screenshot](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ 找到字母（变量` character`）在字母表中的位置（变量` position`）。
     
     ![screenshot](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ 你可以通过显示变量` position`来进行测试。比如，字母”e"在字母表中的位置是4。
     
     ![screenshot](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ 若要加密字母（在变量` character`中），你需要将字母的位置（在变量` position`中）加上密钥的值（在变量` key`中），然后将其保存到` newPosition `变量中。
     
     ![screenshot](images/messages-newposition.png)
 
