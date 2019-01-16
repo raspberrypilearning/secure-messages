@@ -1,37 +1,37 @@
 ---
 hero_image: images/secret-messages.png
-theme: 红色
+theme: red
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: 秘密消息
-description: 制作你自己的加密程序来发送和接受秘密信息。
-original_url: https://codeclubprojects.org/zh-CN/python/secret-messages
-interests: 网络安全和密码学
+title: Secret Messages
+description: Make your own encryption program, to send and receive secret messages.
+original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+interests: cybersecurity-and-cryptography
 technologies: python
-site_areas: codeclub, python
+site_areas: projects
 hardware: ''
 software: python
 version: 3
-last_tested: 2017年1月1日
+last_tested: 2017-01-01
 steps:
   - 
-    title: '介绍：'
+    title: 'Introduction: '
   - 
-    title: 凯撒密码
+    title: The Caesar cipher
   - 
-    title: '挑战：使用凯撒密码'
+    title: 'Challenge: Use a Caesar cipher'
   - 
-    title: 对字母进行加密
+    title: Encrypting letters
   - 
-    title: '挑战：可变密钥'
+    title: 'Challenge: Variable keys'
   - 
-    title: 加密整条消息
+    title: Encrypting entire messages
   - 
-    title: 其他字符
+    title: Extra characters
   - 
-    title: '挑战：加密和解密消息'
+    title: 'Challenge: Encrypting and decrypting messages'
   - 
-    title: '挑战：友情计算器'
+    title: 'Challenge: Friendship calculator'
