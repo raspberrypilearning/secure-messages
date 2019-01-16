@@ -1,143 +1,69 @@
-## 文字の暗号化
+## Encrypting letters
 
-単一の文字を暗号化するPythonプログラムを作成しましょう。
+Let's write a Python program to encrypt a single character.
 
-+ ブランクのPythonテンプレートを開き <a href="http://jumpto.cc/python-new" target="_blank">。Trinket： <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new</a>。</p></li> 
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
+
++ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
     
-    <li>
-      <p>
-        円でアルファベットを描くのではなく、 <code>アルファベット</code> 変数として書き出しましょう。
-      </p>
-      <p>
-        <img src="images/messages-alphabet.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-alphabet.png)
+
++ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
     
-    <li>
-      <p>
-        アルファベットの各文字には、位置0から始まる位置があります。したがって、文字「a」はアルファベットの位置0にあり、「c」は位置2にあります。
-      </p>
-      <p>
-        <img src="images/messages-array.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-array.png)
+
++ You can get a letter from your `alphabet` variable by writing the position in square brackets.
     
-    <li>
-      <p>
-        位置を角かっこで書くことによって、 <code>アルファベット</code> 変数から手紙を得ることができます。
-      </p>
-      <p>
-        <img src="images/messages-alphabet-array.png" alt="スクリーンショット" />
-      </p>
-      <p>
-        You can delete the <code>print</code> statements once you've tried this out.
-      </p>
-    </li>
+    ![screenshot](images/messages-alphabet-array.png)
     
-    <li>
-      <p>
-        次に、秘密の <code>キー</code> を変数に格納する必要があります。
-      </p>
-      <p>
-        <img src="images/messages-key.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    You can delete the `print` statements once you've tried this out.
+
++ Next, you'll need to store the secret `key` in a variable.
     
-    <li>
-      <p>
-        次に、ユーザーに暗号化する</code>文字（ <code>文字</code>と呼ばれる）を尋ねます。
-      </p>
-      <p>
-        <img src="images/messages-character.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-key.png)
+
++ Next, ask the user for a single letter (called a `character`) to encrypt.
     
-    <li>
-      <p>
-        <code>文字</code>の <code>位置</code> を探します。
-      </p>
-      <p>
-        <img src="images/messages-position.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-character.png)
+
++ Find the `position` of the `character`.
     
-    <li>
-      <p>
-        保存された <code>ポジション</code> を印刷することでテストできます。たとえば、その文字「e」は、アルファベットの4桁目にあります。
-      </p>
-      <p>
-        <img src="images/messages-position-test.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-position.png)
+
++ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
     
-    <li>
-      <p>
-        <code>文字</code>を暗号化するには、 <code>キー</code> を <code>位置</code>追加する必要があります。これは <code>newPosition</code> 変数に格納されます。
-      </p>
-      <p>
-        <img src="images/messages-newposition.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-position-test.png)
+
++ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
     
-    <li>
-      <p>
-        新しい文字位置を印刷するコードを追加します。
-      </p>
-      <p>
-        <img src="images/messages-newposition-print.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-newposition.png)
+
++ Add code to print the new character position.
     
-    <li>
-      <p>
-        新しいコードをテストしてください。あなたの <code>キー</code> が3であるので、 <code>位置</code> 3を加え、 <code>newPosition</code> 変数にそれを格納する必要があります。
-      </p>
-      <p>
-        たとえば、文字 'e'は位置4にあります。暗号化するには、 <code>キー</code> （3）を追加して7を付けます。
-      </p>
-      <p>
-        <img src="images/messages-newposition-test.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-newposition-print.png)
+
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
     
-    <li>
-      <p>
-        「y」という文字を暗号化しようとするとどうなりますか？
-      </p>
-      <p>
-        <img src="images/messages-modulus-bug.png" alt="スクリーンショット" />
-      </p>
-      <p>
-        <code>newPosition</code> が27であり、アルファベットに27文字がないことに注目してください。
-      </p>
-    </li>
+    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
     
-    <li>
-      <p>
-        <code>％</code> を使用して、新しいポジションに、ポジション26に戻るとポジション0に戻るように指示できます。
-      </p>
-      <p>
-        <img src="images/messages-modulus.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-newposition-test.png)
+
++ What happens when you try and encrypt the letter 'y'?
     
-    <li>
-      <p>
-        最後に、新しい位置に文字を印刷したいとします。
-      </p>
-      <p>
-        たとえば、文字「e」にキーを追加すると7が、アルファベットの位置7にある文字は「h」になります。
-      </p>
-      <p>
-        <img src="images/messages-newcharacter.png" alt="スクリーンショット" />
-      </p>
-    </li>
+    ![screenshot](images/messages-modulus-bug.png)
     
-    <li>
-      <p>
-        あなたのコードを試してみてください。最後に新しい文字を印刷するだけで、印刷ステートメントのいくつかを削除することもできます。
-      </p>
-      <p>
-        <img src="images/messages-enc-test.png" alt="スクリーンショット" />
-      </p>
-    </li></ul>
+    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
+    
+    ![screenshot](images/messages-modulus.png)
+
++ Finally, you want to print the letter at the new position.
+    
+    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    
+    ![screenshot](images/messages-newcharacter.png)
+
++ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
+    
+    ![screenshot](images/messages-enc-test.png)
