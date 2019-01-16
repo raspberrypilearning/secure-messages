@@ -1,9 +1,9 @@
-\--- utmaning \---
+\--- challenge \---
 
-## Utmaning: Kryptering och dekryptering av meddelanden
+## Challenge: Encrypting and decrypting messages
 
-Kryptera vissa meddelanden och ge dem till en vän tillsammans med den hemliga nyckeln. Se om de kan dekryptera dem med hjälp av deras program!
+Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
 
-Du kan också duplicera projektet och skapa ett separat program för att dekryptera meddelanden.
+You could also duplicate the project and create a separate program for decrypting messages.
 
-\--- /utmaning \---
+\--- /challenge \---
