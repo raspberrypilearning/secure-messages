@@ -1,6 +1,6 @@
-## 前書き：
+## Introduction:
 
-このプロジェクトでは、独自の暗号化プログラムを作成し、友人と秘密のメッセージを送受信する方法を学習します。 This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,85 +8,86 @@
   <img src="images/messages-finished.png">
 </div>
 
-### クラブ指導者のための追加情報
+### Additional information for club leaders
 
-あなたはこのプロジェクトを印刷する必要がある場合は、使用してください [プリンターに優しいバージョン](https://projects.raspberrypi.org/en/projects/secret-messages/print)。
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
-## \---崩壊\---
+## \--- collapse \---
 
-## title：クラブリーダーノート
+## title: Club leader notes
 
-## 前書き：
+## Introduction:
 
-このプロジェクトでは、子供たちは暗号化プログラムを作成する方法、友人と秘密のメッセージを送受信する方法を学びます。このプロジェクトでは、テキスト文字列に対して反復（ループ）を導入しています。
+In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
 
-## オンラインリソース
+## Online Resources
 
-**このプロジェクトではPython 3を使用しています** [装飾](https://trinket.io/) を使ってPythonをオンラインで書くことをお勧めします。このプロジェクトには、次の装飾品が含まれています：
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [新しい（ブランク）Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-完成したプロジェクトを含む小物もあります：
+There is also a trinket containing the finished project:
 
-* [「秘密のメッセージ」が完了しました - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* ['Friendship Calculator'が終了しました - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## オフラインリソース
+## Offline Resources
 
-このプロジェクトは、することができます [オフライン完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) 好まます。
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
 
-完成したプロジェクトは、以下を含む「ボランティアリソース」セクションで見つけることができます。
+You can find the completed project in the 'Volunteer Resources' section, which contains:
 
-* messages-finished / messages.py
-* messages-finished / friends.py
+* messages-finished/messages.py
+* messages-finished/friends.py
 
-（上記のリソースはすべて、プロジェクトとしてダウンロード可能で、 `.zip` ファイルをボランティアします）。
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## 学習目標
+## Learning Objectives
 
-* 文字列変数に対する反復（ループ）。
-* `find（）` メソッド。
-* モジュラス演算子（`％`）。
+* Iteration (looping) over a string variable;
+* The `find()` method;
+* The modulus operator (`%`).
 
-このプロジェクトでは、以下の要素を網羅しています [ラズベリーパイデジタルメイクカリキュラム](http://rpf.io/curriculum)：
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## 課題
+## Challenges
 
-* シーザー暗号を使用する - 手動で文字と単語を暗号化して解読する。
-* 変数キー - ユーザーが選択したキーを入力できるようにします。
-* メッセージの暗号化と復号化 - メッセージ全体の暗号化と復号化。
-* 友情計算 - 新しい問題にテキスト反復を適用する。
+* Use a Caesar cipher - encrypy and decrypt letters and words manually;
+* Variable keys - allowing the user to input a chosen key;
+* Encrypting and decrypting messages - encrypting and decrypting whole messages;
+* Friendship calculator - applying text iteration to a new problem.
 
-## よくある質問
+## Frequently Asked Questions
 
-* アルファベット：</code>charが `場合、find（）` または `を使用して検索する場合、検索では大文字と小文字が区別されます。子供は以下を使用できます：</p>
-
-<pre><code class="python">message = input（ "暗号化するメッセージを入力してください："）.lower（）
-`</pre> 
+* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
     
-    検索する前に入力を小文字にします。</li> </ul> 
+    ```python
+    message = input("Please enter a message to encrypt: ").lower()
+    ```
     
-    \--- /崩壊\---
-    
-    ## \---崩壊\---
-    
-    ## title：プロジェクト資料
-    
-    ## プロジェクトリソース
-    
-    * [すべてのプロジェクトリソースを含む.zipファイル](resources/secret-messages-project-resources.zip)
-    * [オンラインブランクPython Trinket](http://jumpto.cc/python-new)
-    * [オフライン空のPythonファイル](resources/new-new.py)
-    
-    ## クラブリーダーのリソース
-    
-    * [完了したすべてのプロジェクトリソースを含む.zipファイル](resources/secret-messages-volunteer-resources.zip)
-    * [オンラインで完成したTrinketプロジェクト](https://trinket.io/python/402256078c)
-    * [secret-messages-finished / messages.py](resources/secret-messages-finished-messages.py)
-    * [オンラインで完了した '友情計算機'の課題](https://trinket.io/python/2e852cd687)
-    * [オフライン完了「友情計算機」の課題](resources/friendship-calculator-finished-friends.py)
-    
-    \--- /崩壊\---
+    to make the input lower case before searching.
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Project materials
+
+## Project resources
+
+* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
+* [Online blank Python Trinket](http://jumpto.cc/python-new)
+* [Offline blank Python file](resources/new-new.py)
+
+## Club leader resources
+
+* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
+* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+
+\--- /collapse \---
