@@ -1,35 +1,35 @@
-## Шифрування всіх повідомлень
+## Encrypting entire messages
 
-Замість того, щоб просто шифрувати та дешифрувати повідомлення одночасно один символ, давайте змінити програму для шифрування всіх повідомлень!
+Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
-+ По-перше, переконайтеся, що ваш код виглядає так:
++ Firstly, check that your code looks like this:
     
-    ![скріншот](images/messages-character-finished.png)
+    ![screenshot](images/messages-character-finished.png)
 
-+ Створіть змінну, щоб зберегти нове зашифроване повідомлення.
++ Create a variable to store the new encrypted message.
     
-    ![скріншот](images/messages-newmessage.png)
+    ![screenshot](images/messages-newmessage.png)
 
-+ Змініть код, щоб зберігати повідомлення користувача, а не лише один символ.
++ Change your code to store the user's message and not just one character.
     
-    ![скріншот](images/messages-message.png)
+    ![screenshot](images/messages-message.png)
 
-+ Додайте `для циклі` до свого коду та віддайте решту частини коду так, щоб воно повторювалося для кожного символу в повідомленні.
++ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
     
-    ![скріншот](images/messages-loop.png)
+    ![screenshot](images/messages-loop.png)
 
-+ Перевірте свій код. Ви повинні побачити, що кожен символ у повідомленні зашифрований і надрукований по одному.
++ Test your code. You should see that each character in the message is encrypted and printed one at a time.
     
-    ![скріншот](images/messages-loop-test.png)
+    ![screenshot](images/messages-loop-test.png)
 
-+ Додамо кожен зашифрований символ до вашої `newMessage` змінної.
++ Let's add each encrypted character to your `newMessage` variable.
     
-    ![скріншот](images/messges-message-add-character.png)
+    ![screenshot](images/messges-message-add-character.png)
 
 + You can `print` the `newMessage` as it is being encrypted.
     
-    ![скріншот](images/messages-print-message-characters.png)
+    ![screenshot](images/messages-print-message-characters.png)
 
-+ Якщо ви видалите пропуски перед оператором `print` , зашифроване повідомлення буде відображатися лише один раз наприкінці. Ви також можете видалити код для друку позицій символів.
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
     
-    ![скріншот](images/messages-print-message-comment.png)
+    ![screenshot](images/messages-print-message-comment.png)
