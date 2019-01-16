@@ -1,19 +1,19 @@
-\--- utmaning \---
+\--- challenge \---
 
-## Utmaning: Friendship Calculator
+## Challenge: Friendship calculator
 
-Skriv ett program för att visa hur kompatibelt 2 personer är, genom att beräkna ett vänskapsspel.
+Write a program to show how compatible 2 people are, by calculating a friendship score.
 
-![skärmdump](images/messages-friends.png)
+![screenshot](images/messages-friends.png)
 
-Programmet kan gå igenom var och en av tecknen i de 2 namnen och lägga till poäng till en `poäng` variabel varje gång vissa bokstäver hittas.
+The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
 
-Du bör bestämma regler för tilldelning av poäng. Till exempel kan du tilldela poäng för vokaler eller tecken som finns i ordet "vän":
+You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
 
-![skärmdump](images/messages-friends-code.png)
+![screenshot](images/messages-friends-code.png)
 
-Du kan också ge användaren ett personligt meddelande, baserat på deras poäng:
+You could also give the user a personalised message, based on their score:
 
-![skärmdump](images/messages-best-friends.png)
+![screenshot](images/messages-best-friends.png)
 
-\--- /utmaning \---
+\--- /challenge \---
