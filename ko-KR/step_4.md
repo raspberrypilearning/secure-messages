@@ -1,69 +1,69 @@
-## 글자 암호화하기
+## Encrypting letters
 
-단일 문자를 암호화하는 파이썬 프로그램을 작성해 보겠습니다.
+Let's write a Python program to encrypt a single character.
 
-+ 공백의 파이썬 Trinket 템플릿을 엽니다. <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new </a>
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ 원안에 알파벳을 그리는 대신 `알파벳`변수로 써 봅시다.
++ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
     
-    ![스크린샷](images/messages-alphabet.png)
+    ![screenshot](images/messages-alphabet.png)
 
-+ 알파벳의 각 문자는 위치 0부터 시작하여 위치를 가집니다. 따라서 문자 'a'는 알파벳의 위치 0에 있고 'c'는 위치 2에 있습니다.
++ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
     
-    ![스크린샷](images/messages-array.png)
+    ![screenshot](images/messages-array.png)
 
-+ 대괄호로 안에 위치를 적어 넣음으로써 `알파벳`변수의 문자를 얻을 수 있습니다.
++ You can get a letter from your `alphabet` variable by writing the position in square brackets.
     
-    ![스크린샷](images/messages-alphabet-array.png)
+    ![screenshot](images/messages-alphabet-array.png)
     
-    위의 시도를 마치고 난 경우라면, `print`문을 삭제해도 괜찮습니다.
+    You can delete the `print` statements once you've tried this out.
 
-+ 다음으로 비밀 `키`를 변수에 저장해야합니다.
++ Next, you'll need to store the secret `key` in a variable.
     
-    ![스크린샷](images/messages-key.png)
+    ![screenshot](images/messages-key.png)
 
-+ 다음으로 사용자에게 (`character` 라 불리는) 단일 문자를 사용하여 암호화합니다.
++ Next, ask the user for a single letter (called a `character`) to encrypt.
     
-    ![스크린샷](images/messages-character.png)
+    ![screenshot](images/messages-character.png)
 
-+ `문자`의 `위치`를 찾습니다.
++ Find the `position` of the `character`.
     
-    ![스크린샷](images/messages-position.png)
+    ![screenshot](images/messages-position.png)
 
-+ 그것을 출력하여 저장된 `위치`를 테스트 할 수 있습니다. 예를 들어, 문자 'e'는 알파벳 4의 위치에 있습니다.
++ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
     
-    ![스크린샷](images/messages-position-test.png)
+    ![screenshot](images/messages-position-test.png)
 
-+ `문자`를 암호화하기 위해서는 `위치`에 추가해야합니다. 그 뒤에 `newPosition` 변수에 저장됩니다.
++ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
     
-    ![스크린샷](images/messages-newposition.png)
+    ![screenshot](images/messages-newposition.png)
 
-+ 새로운 문자 위치를 출력하는 코드를 추가하십시오.
++ Add code to print the new character position.
     
-    ![스크린샷](images/messages-newposition-print.png)
+    ![screenshot](images/messages-newposition-print.png)
 
-+ 새 코드를 테스트하십시오. 여러분의 `키`가 3이므로 `위치`에 3을 더합니다. 그리고 `newPosition`변수에 저장합니다.
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
     
-    예를 들어, 문자 'e'는 위치 4에 있습니다. 암호화하려면 7에 해당하는 `키`(3)을 추가하십시오 ,
+    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
     
-    ![스크린샷](images/messages-newposition-test.png)
+    ![screenshot](images/messages-newposition-test.png)
 
-+ 문자 'y'를 암호화하면 어떻게 됩니까?
++ What happens when you try and encrypt the letter 'y'?
     
-    ![스크린샷](images/messages-modulus-bug.png)
+    ![screenshot](images/messages-modulus-bug.png)
     
-    어떻게 `newPosition` 변수가 27이 되고, 알파벳 안에 27자가 안되는 것을 확인하십시오.
+    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ 당신은 `%`를 사용하여 새 위치가 26에 도달하면 포지션 0으로 되돌아 가도록 지시할 수 있습니다.
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
     
-    ![스크린샷](images/messages-modulus.png)
+    ![screenshot](images/messages-modulus.png)
 
-+ 마지막으로, 새 위치에 편지를 출력할 수 있습니다.
++ Finally, you want to print the letter at the new position.
     
-    예를 들어, 문자 'e' 에 키를 추가하면 7이 되고, 알파벳 7의 문자는 'h'가됩니다.
+    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
     
-    ![스크린샷](images/messages-newcharacter.png)
+    ![screenshot](images/messages-newcharacter.png)
 
-+ 코드를 시험해보십시오. 끝부분에 새 문자를 출력하기만 하면 인쇄 문을 일부 제거할 수도 있습니다.
++ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
     
-    ![스크린샷](images/messages-enc-test.png)
+    ![screenshot](images/messages-enc-test.png)
