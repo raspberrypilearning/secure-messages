@@ -1,24 +1,24 @@
-## 凯撒密码
+## The Caesar cipher
 
-密码是一种机密的代码，通过替换字母来防止他人读取你的信息。
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-您将使用最古老和最著名的密码之一，**凯撒密码**，它是以朱利叶斯·凯撒的名字命名的。
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-在开始编码之前，让我们尝试使用凯撒密码隐藏一个单词。
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ 隐藏一个词称为**加密** 。
++ Hiding a word is called **encryption**.
     
-    让我们从加密字母'a'开始。为此，我们将字母表绘制在一个圆圈中，如下图所示：
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
-    ![截图](images/messages-wheel.png)
+    ![screenshot](images/messages-wheel.png)
 
-+ 将一个正常的字母加密，你需要一个密钥。让我们使用数字3作为密钥（但你也可以使用你想要的任何数字）。
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    要**加密**字母‘a’，你只需顺时针移动3个字母，你将得到字母‘d’：
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
-    ![截图](images/messages-wheel-eg.png)
+    ![screenshot](images/messages-wheel-eg.png)
 
-+ 依此类推，你便可以加密整个单词了。比如，‘hello’加密后就变成‘khoor’了。自己试试吧。
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ 将文本恢复正常称为**解密** 。要解密一个单词，只需减去密钥而不是加上密钥：
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
     
     + k - 3 = **h**
     + h - 3 = **e**
