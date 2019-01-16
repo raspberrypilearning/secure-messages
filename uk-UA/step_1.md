@@ -1,6 +1,6 @@
-## Введення:
+## Introduction:
 
-У цьому проекті ви дізнаєтеся, як створити власну програму шифрування, щоб надсилати та отримувати секретні повідомлення з друзями. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@
   <img src="images/messages-finished.png">
 </div>
 
-### Додаткова інформація для лідерів клубу
+### Additional information for club leaders
 
-Якщо вам потрібно надрукувати цей проект, скористайтеся [Версія для друку](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
-## \--- колапс \---
+## \--- collapse \---
 
-## title: Керівник клубу відзначає
+## title: Club leader notes
 
-## Введення:
+## Introduction:
 
-У цьому проекті діти навчаться робити програму шифрування, щоб надсилати та отримувати секретні повідомлення з другом. Цей проект вводить ітерацію (цикл) над текстовим рядком.
+In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
 
-## Інтернет-ресурси
+## Online Resources
 
-**Цей проект використовує Python 3.** Ми рекомендуємо використовувати [trinket](https://trinket.io/) для написання Python в Інтернеті. Цей проект містить наступні брелки:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [Новий (порожній) Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-Існує також дрібничка, що містить готовий проект:
+There is also a trinket containing the finished project:
 
-* ["Секретні повідомлення" завершено - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* ["Калькулятор дружби" завершено - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Офісні ресурси
+## Offline Resources
 
-Цей проект може бути [завершений автономно](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) , якщо воно є бажаним.
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
 
-Виконаний проект можна знайти в розділі "Ресурси добровільних ресурсів", який містить:
+You can find the completed project in the 'Volunteer Resources' section, which contains:
 
-* messages-finished / messages.py
-* повідомлення завершено / friends.py
+* messages-finished/messages.py
+* messages-finished/friends.py
 
-(Всі вищезазначені ресурси також можна завантажувати як проекти та добровільні `.zip` файли.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Мета навчання
+## Learning Objectives
 
-* Ітерація (цикл) над рядковою змінною;
-* Метод `find ()`;
-* Оператор модуля (`%`).
+* Iteration (looping) over a string variable;
+* The `find()` method;
+* The modulus operator (`%`).
 
-Цей проект охоплює елементи з наступних напрямків програми [Малярка Пі-Бі-Сі.](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Об'єднати конструктор програмування для вирішення проблеми.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Виклики
+## Challenges
 
-* Використовуйте шифр Цезаря - шифруйте і розшифровуйте літери та слова вручну;
-* Змінні клавіші - дозволяє користувачеві вводити обрану клавішу;
-* Шифрування та дешифрування повідомлень - шифрування та дешифрування цілих повідомлень;
-* Калькулятор дружби - застосування текстової ітерації до нової проблеми.
+* Use a Caesar cipher - encrypy and decrypt letters and words manually;
+* Variable keys - allowing the user to input a chosen key;
+* Encrypting and decrypting messages - encrypting and decrypting whole messages;
+* Friendship calculator - applying text iteration to a new problem.
 
-## Питання що часто задаються
+## Frequently Asked Questions
 
-* Під час пошуку за допомогою `find ()` або `, якщо в алфавіті символу:`, зауважте, що пошуки є чутливими до регістру. Діти можуть використовувати:
+* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
     
     ```python
-    message = input ("Будь ласка, введіть повідомлення для шифрування:"). lower ()
+    message = input("Please enter a message to encrypt: ").lower()
     ```
     
-    щоб ввести нижній регістр введення перед пошуком.
+    to make the input lower case before searching.
 
-\--- / колапс \---
+\--- /collapse \---
 
-## \--- колапс \---
+## \--- collapse \---
 
-## title: Проектні матеріали
+## title: Project materials
 
-## Ресурси проекту
+## Project resources
 
-* [.zip-файл, що містить всі ресурси проекту](resources/secret-messages-project-resources.zip)
-* [Онлайн-бланк Python Trinket](http://jumpto.cc/python-new)
-* [Неактивний файл Python](resources/new-new.py)
+* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
+* [Online blank Python Trinket](http://jumpto.cc/python-new)
+* [Offline blank Python file](resources/new-new.py)
 
-## Керівник ресурсів Клубу
+## Club leader resources
 
-* [.zip-файл, що містить всі завершені ресурси проекту](resources/secret-messages-volunteer-resources.zip)
-* [Онлайн завершив проект "Брелок"](https://trinket.io/python/402256078c)
-* [секретні повідомлення-закінчені / messages.py](resources/secret-messages-finished-messages.py)
-* [Інтернет завершив "Калькулятор Дружби" виклик](https://trinket.io/python/2e852cd687)
-* [в автономному режимі завершення "Калькулятор дружби"](resources/friendship-calculator-finished-friends.py)
+* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
+* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
 
-\--- / колапс \---
+\--- /collapse \---
