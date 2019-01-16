@@ -1,69 +1,69 @@
-## Шифрування літер
+## Encrypting letters
 
-Давайте написати програму Python для шифрування одного символу.
+Let's write a Python program to encrypt a single character.
 
-+ Відкрийте пустий шаблон Python Брелок: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Замість того, щоб малювати алфавіт у колі, давайте написати як `алфавіт`.
++ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
     
-    ![скріншот](images/messages-alphabet.png)
+    ![screenshot](images/messages-alphabet.png)
 
-+ Кожна буква алфавіту має позицію, починаючи з позиції 0. Таким чином, буква 'a' знаходиться в положенні 0 алфавіту, а 'c' знаходиться в положенні 2.
++ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
     
-    ![скріншот](images/messages-array.png)
+    ![screenshot](images/messages-array.png)
 
-+ Ви можете отримати лист з вашої `алфавіту` змінної, написавши позицію у квадратних дужках.
++ You can get a letter from your `alphabet` variable by writing the position in square brackets.
     
-    ![скріншот](images/messages-alphabet-array.png)
+    ![screenshot](images/messages-alphabet-array.png)
     
     You can delete the `print` statements once you've tried this out.
 
-+ Далі вам потрібно буде зберегти секретний `ключ` у змінній.
++ Next, you'll need to store the secret `key` in a variable.
     
-    ![скріншот](images/messages-key.png)
+    ![screenshot](images/messages-key.png)
 
-+ Потім запитайте користувача, щоб зашифрувати одну букву (називається `символом`).
++ Next, ask the user for a single letter (called a `character`) to encrypt.
     
-    ![скріншот](images/messages-character.png)
+    ![screenshot](images/messages-character.png)
 
-+ Знайдіть `позицію` з символу ``.
++ Find the `position` of the `character`.
     
-    ![скріншот](images/messages-position.png)
+    ![screenshot](images/messages-position.png)
 
-+ Ви можете перевірити збережену `позицію` , роздрукувати її. Наприклад, цей символ 'e' знаходиться в положенні 4 в алфавіті.
++ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
     
-    ![скріншот](images/messages-position-test.png)
+    ![screenshot](images/messages-position-test.png)
 
-+ Щоб зашифрувати `символ`, потрібно додати `ключ` у позицію ``. Потім він зберігається в `newPosition`.
++ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
     
-    ![скріншот](images/messages-newposition.png)
+    ![screenshot](images/messages-newposition.png)
 
-+ Додайте код, щоб надрукувати нову позицію символів.
++ Add code to print the new character position.
     
-    ![скріншот](images/messages-newposition-print.png)
+    ![screenshot](images/messages-newposition-print.png)
 
-+ Випробуйте свій новий код. Оскільки ваш `ключ` становить 3, він повинен додати 3 до `позиції` і зберегти його у вашій `newPosition` змінній.
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
     
-    Наприклад, буква 'e' знаходиться в позиції 4. Для шифрування ви додаєте `ключ` (3), даючи 7.
+    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
     
-    ![скріншот](images/messages-newposition-test.png)
+    ![screenshot](images/messages-newposition-test.png)
 
-+ Що станеться при спробі шифрувати букву 'y'?
++ What happens when you try and encrypt the letter 'y'?
     
-    ![скріншот](images/messages-modulus-bug.png)
+    ![screenshot](images/messages-modulus-bug.png)
     
-    Зверніть увагу, як `newPosition` становить 27, а в алфавіті немає 27 букв!
+    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ Ви можете використовувати `%` , щоб вказати нову позицію, щоб повернутися до позиції 0, як тільки вона потрапить до позиції 26.
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
     
-    ![скріншот](images/messages-modulus.png)
+    ![screenshot](images/messages-modulus.png)
 
-+ Нарешті, ви хочете надрукувати лист на новій позиції.
++ Finally, you want to print the letter at the new position.
     
-    Наприклад, додавання ключа до букви "е" дає 7, а буква в позиції 7 алфавіту - "h".
+    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
     
-    ![скріншот](images/messages-newcharacter.png)
+    ![screenshot](images/messages-newcharacter.png)
 
-+ Спробуй свій код. Ви також можете видалити деякі з ваших описів друку, просто надрукуючи новий символ наприкінці.
++ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
     
-    ![скріншот](images/messages-enc-test.png)
+    ![screenshot](images/messages-enc-test.png)
