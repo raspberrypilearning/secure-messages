@@ -1,9 +1,9 @@
-\--- haaste \---
+\--- challenge \---
 
-## Haaste: Viestien salaaminen ja salauksen purku
+## Challenge: Encrypting and decrypting messages
 
-Salaa joitain viestejä ja anna ne ystävälle seksi-avaimen mukana. Katso, voivatko ne purkaa niitä käyttämällä ohjelmaa!
+Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
 
-Voit myös kopioida projektin ja luoda erillisen ohjelman salauksen purkamiseksi.
+You could also duplicate the project and create a separate program for decrypting messages.
 
-\--- /haaste \---
+\--- /challenge \---
