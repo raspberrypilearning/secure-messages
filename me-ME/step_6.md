@@ -1,35 +1,35 @@
-## Šifrovanje cijelih poruka
+## Encrypting entire messages
 
-Podesimo program da šifruje cijele poruke, umjesto da šifruje i dešifruje jedan po jedan znak!
+Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
-+ Prvo provjeri da li tvoj kôd izgleda ovako:
++ Firstly, check that your code looks like this:
     
     ![screenshot](images/messages-character-finished.png)
 
-+ Kreiraj promjenljivu u kojoj ćeš sačuvati novu šifrovanu poruku.
++ Create a variable to store the new encrypted message.
     
     ![screenshot](images/messages-newmessage.png)
 
-+ Izmijeni svoj kôd tako da sačuva korisnikovu poruku, a ne samo jedan znak.
++ Change your code to store the user's message and not just one character.
     
     ![screenshot](images/messages-message.png)
 
-+ Svom kôdu dodaj `for` petlju, a zatim uvuci ostatak kôda kako bi se ponavljao za svaki znak poruke.
++ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
     
     ![screenshot](images/messages-loop.png)
 
-+ Isprobaj svoj kôd. Trebalo bi da se znakovi poruke šifruju i ispisuju jedan po jedan.
++ Test your code. You should see that each character in the message is encrypted and printed one at a time.
     
     ![screenshot](images/messages-loop-test.png)
 
-+ Dodajmo svaki šifrovani znak u promjenljivu `novaPoruka`.
++ Let's add each encrypted character to your `newMessage` variable.
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ Koristeći naredbu `print`, možeš da ispišeš promjenljivu `novaPoruka` dok se šifruje.
++ You can `print` the `newMessage` as it is being encrypted.
     
     ![screenshot](images/messages-print-message-characters.png)
 
-+ Ako izbrišeš razmake prije naredbe `print`, šifrovana poruka biće prikazana samo jednom na kraju. Možeš da izbrišeš i kôd za ispisivanje pozicija znakova.
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
     
     ![screenshot](images/messages-print-message-comment.png)
