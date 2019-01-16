@@ -1,35 +1,35 @@
-## Mã hóa toàn bộ thư
+## Encrypting entire messages
 
-Thay vì chỉ mã hóa và giải mã thư một ký tự cùng một lúc, hãy thay đổi chương trình để mã hóa toàn bộ thư!
+Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
-+ Trước tiên, hãy kiểm tra xem mã của bạn có trông giống như sau:
++ Firstly, check that your code looks like this:
     
-    ![ảnh chụp màn hình](images/messages-character-finished.png)
+    ![screenshot](images/messages-character-finished.png)
 
-+ Tạo một biến để lưu trữ tin nhắn được mã hóa mới.
++ Create a variable to store the new encrypted message.
     
-    ![ảnh chụp màn hình](images/messages-newmessage.png)
+    ![screenshot](images/messages-newmessage.png)
 
-+ Thay đổi mã của bạn để lưu trữ thư của người dùng chứ không phải chỉ một ký tự.
++ Change your code to store the user's message and not just one character.
     
-    ![ảnh chụp màn hình](images/messages-message.png)
+    ![screenshot](images/messages-message.png)
 
-+ Thêm vòng lặp `cho` vào mã của bạn và thụt lề phần còn lại của mã để mã được lặp lại cho mỗi ký tự trong thư.
++ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
     
-    ![ảnh chụp màn hình](images/messages-loop.png)
+    ![screenshot](images/messages-loop.png)
 
-+ Kiểm tra mã của bạn. Bạn sẽ thấy rằng mỗi ký tự trong tin nhắn được mã hóa và in từng cái một.
++ Test your code. You should see that each character in the message is encrypted and printed one at a time.
     
-    ![ảnh chụp màn hình](images/messages-loop-test.png)
+    ![screenshot](images/messages-loop-test.png)
 
-+ Hãy thêm mỗi ký tự được mã hóa vào biến `newMessage` của bạn.
++ Let's add each encrypted character to your `newMessage` variable.
     
-    ![ảnh chụp màn hình](images/messges-message-add-character.png)
+    ![screenshot](images/messges-message-add-character.png)
 
-+ Bạn có thể `in` `newMessage` vì nó đang được mã hóa.
++ You can `print` the `newMessage` as it is being encrypted.
     
-    ![ảnh chụp màn hình](images/messages-print-message-characters.png)
+    ![screenshot](images/messages-print-message-characters.png)
 
-+ Nếu bạn xóa dấu cách trước câu lệnh `in` , thông báo được mã hóa sẽ chỉ được hiển thị một lần ở cuối. Bạn cũng có thể xóa mã để in các vị trí ký tự.
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
     
-    ![ảnh chụp màn hình](images/messages-print-message-comment.png)
+    ![screenshot](images/messages-print-message-comment.png)
