@@ -1,37 +1,37 @@
 ---
-hero_image: images / secret-messages.png
-theme: đỏ
+hero_image: images/secret-messages.png
+theme: red
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, thiết kế-0, lập trình-1, phys-comp-0, sản xuất-0, cộng đồng-0
-title: Tin nhắn bí mật
-description: Làm cho chương trình mã hóa của riêng bạn, để gửi và nhận tin nhắn bí mật.
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Secret Messages
+description: Make your own encryption program, to send and receive secret messages.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
-interests: mật mã và mật mã không gian mạng
-technologies: con trăn
-site_areas: dự án
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
 hardware: ''
-software: con trăn
+software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Giới thiệu: '
+    title: 'Introduction: '
   - 
-    title: Mật mã Caesar
+    title: The Caesar cipher
   - 
-    title: 'Thách thức: Sử dụng mật mã Caesar'
+    title: 'Challenge: Use a Caesar cipher'
   - 
-    title: Mã hóa thư
+    title: Encrypting letters
   - 
-    title: 'Thách thức: Phím biến'
+    title: 'Challenge: Variable keys'
   - 
-    title: Mã hóa toàn bộ thư
+    title: Encrypting entire messages
   - 
-    title: Nhân vật phụ
+    title: Extra characters
   - 
-    title: 'Thách thức: Mã hóa và giải mã tin nhắn'
+    title: 'Challenge: Encrypting and decrypting messages'
   - 
-    title: 'Thách thức: Máy tính tình bạn'
+    title: 'Challenge: Friendship calculator'
