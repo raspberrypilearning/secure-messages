@@ -1,11 +1,11 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: змінні ключі
+## Challenge: Variable keys
 
-Змінити вашу програму, щоб користувач міг ввести власний ключ для використання. Вам потрібно буде отримати вхід користувача і зберегти його в `ключовому рядку`.
+Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
 
-Не забудьте використовувати функцію `int ()` , щоб перетворити вхід на ціле число.
+Remember to use the `int()` function to convert the input to a whole number.
 
-Потім ви можете використовувати негативний ключ для розшифрування повідомлень!
+You can then use a negative key to decrypt messages!
 
-\--- / виклик \---
+\--- /challenge \---
