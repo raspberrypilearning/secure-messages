@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## Izazov: Promjenljivi ključevi
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+Izmijeni svoj program tako da korisnik može da unese i koristi svoj ključ. Trebaće ti korisnikov unos koji ćeš sačuvati u promjenljivoj `kljuc`.
 
-Remember to use the `int()` function to convert the input to a whole number.
+Ne zaboravi da koristiš funkciju `int()` za pretvaranje unosa u cijeli broj.
 
-You can then use a negative key to decrypt messages!
+Nakon toga, možeš da koristiš i negativni ključ za dešifrovanje poruka!
 
 \--- /challenge \---
