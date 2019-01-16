@@ -1,37 +1,37 @@
 ---
-hero_image: Kuvien / secret-messages.png
-theme: punainen
+hero_image: images/secret-messages.png
+theme: red
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, ohjelmointi-1, phys-comp-0, valmistus-0, yhteisö-0
-title: Salaiset viestit
-description: Tee omat salausohjelmasi, jotta voit lähettää ja vastaanottaa salattuja viestejä.
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Secret Messages
+description: Make your own encryption program, to send and receive secret messages.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
-interests: tietoverkkojen-ja-kryptografia
-technologies: pytonkäärme
-site_areas: hankkeet
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
 hardware: ''
-software: pytonkäärme
+software: python
 version: 3
-last_tested: 01.1.2017
+last_tested: 2017-01-01
 steps:
   - 
-    title: 'Johdanto: '
+    title: 'Introduction: '
   - 
-    title: Caesarin salaus
+    title: The Caesar cipher
   - 
-    title: 'Haaste: Käytä Caesar-salausta'
+    title: 'Challenge: Use a Caesar cipher'
   - 
-    title: Kirjeiden salaaminen
+    title: Encrypting letters
   - 
-    title: 'Haaste: muuttuvat avaimet'
+    title: 'Challenge: Variable keys'
   - 
-    title: Koko viestien salaaminen
+    title: Encrypting entire messages
   - 
-    title: Lisämerkkejä
+    title: Extra characters
   - 
-    title: 'Haaste: Viestien salaaminen ja salauksen purku'
+    title: 'Challenge: Encrypting and decrypting messages'
   - 
-    title: 'Haaste: ystävyyslaskin'
+    title: 'Challenge: Friendship calculator'
