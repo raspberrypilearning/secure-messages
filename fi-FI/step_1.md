@@ -1,6 +1,6 @@
-## Johdanto:
+## Introduction:
 
-Tässä projektissa opit tekemään oman salausohjelman, lähettämään ja vastaanottamaan salaisia ​​viestejä ystäväsi kanssa. Tämä projekti liittyy Space Dayaryn toimintaan Space Diariesin sivulla 16.
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ Tässä projektissa opit tekemään oman salausohjelman, lähettämään ja vast
   <img src="images/messages-finished.png">
 </div>
 
-### Lisätietoja klubin johtajille
+### Additional information for club leaders
 
-Jos haluat tulostaa tämän projektin, käytä [Tulostettava versio](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
-## \--- romahdus \---
+## \--- collapse \---
 
-## otsikko: Klubin johtajat
+## title: Club leader notes
 
-## Johdanto:
+## Introduction:
 
-Tässä projektissa lapset oppivat laatimaan salausohjelman, lähettämään ja vastaanottamaan salaisia ​​viestejä ystävän kanssa. Tämä projekti esittelee iteraation (looping) tekstin merkkijonon yli.
+In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
 
-## Online-resurssit
+## Online Resources
 
-**Tämä projekti käyttää Python 3: tä.** Python on suositeltavaa käyttää [nikkeliä](https://trinket.io/) . Tämä projekti sisältää seuraavat leikkuuterät:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [Uusi (tyhjä) Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-On myös viimeistelyhanketta sisältävä rihmasto:
+There is also a trinket containing the finished project:
 
-* ['Salaiset viestit' Valmis - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* ['Friendship Calculator' Valmis - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline-resurssit
+## Offline Resources
 
-Tämä projekti voi olla [päättynyt offline-tilassa](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) jos se on haluttu.
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
 
-Löydät valmiin hankkeen "Vapaaehtoiset resurssit" -osioon, joka sisältää:
+You can find the completed project in the 'Volunteer Resources' section, which contains:
 
-* viestit viimeistellyt / messages.py
-* viestit viimeistellyt / friends.py
+* messages-finished/messages.py
+* messages-finished/friends.py
 
-(Kaikki yllä olevat resurssit ovat myös ladattavissa projekteina ja vapaaehtoisia `.zip` tiedostoja.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Oppimistavoitteet
+## Learning Objectives
 
-* Iterointi (looping) yli merkkijonomuuttuja;
-* `find ()` -menetelmä;
-* Moduulioperaattori (`%`).
+* Iteration (looping) over a string variable;
+* The `find()` method;
+* The modulus operator (`%`).
 
-Tämä hanke kattaa elementit seuraavista [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Yhdistä ohjelmointirakenteita ongelman ratkaisemiseksi.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## haasteet
+## Challenges
 
-* Käytä Caesarin salausta - salata ja purkaa kirjaimet ja sanat käsin;
-* Muuttuvat näppäimet - jonka avulla käyttäjä voi syöttää valitun avaimen;
-* Viestien salaus ja salauksen purku - koko viestien salaus ja salauksen purku;
-* Ystävyyslaskuri - tekstin iteroinnin soveltaminen uuteen ongelmaan.
+* Use a Caesar cipher - encrypy and decrypt letters and words manually;
+* Variable keys - allowing the user to input a chosen key;
+* Encrypting and decrypting messages - encrypting and decrypting whole messages;
+* Friendship calculator - applying text iteration to a new problem.
 
-## Usein Kysytyt Kysymykset
+## Frequently Asked Questions
 
-* Kun etsit haulla `find ()` tai `jos merkki aakkostossa:`, huomaa, että haut ovat pieniä ja isoja. Lapset voivat käyttää:
+* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
     
     ```python
-    message = input ("Syötä salasana:") .lower ()
+    message = input("Please enter a message to encrypt: ").lower()
     ```
     
-    tehdä tulo pienikokoiseksi ennen hakua.
+    to make the input lower case before searching.
 
-\--- / romahdus \---
+\--- /collapse \---
 
-## \--- romahdus \---
+## \--- collapse \---
 
-## otsikko: Projektimateriaalit
+## title: Project materials
 
-## Projektin resurssit
+## Project resources
 
-* [.zip-tiedosto, joka sisältää kaikki projektiresurssit](resources/secret-messages-project-resources.zip)
-* [Online tyhjä Python Trinket](http://jumpto.cc/python-new)
-* [Offline tyhjä Python-tiedosto](resources/new-new.py)
+* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
+* [Online blank Python Trinket](http://jumpto.cc/python-new)
+* [Offline blank Python file](resources/new-new.py)
 
-## Klubin johtajien resurssit
+## Club leader resources
 
-* [.zip-tiedosto, joka sisältää kaikki valmiit projektiresurssit](resources/secret-messages-volunteer-resources.zip)
-* [Online valmistunut Trinket-projekti](https://trinket.io/python/402256078c)
-* [salainen-viestit viimeistellyt / messages.py](resources/secret-messages-finished-messages.py)
-* [Online valmis "Friendship calculator" haaste](https://trinket.io/python/2e852cd687)
-* [offline täydellinen 'Friendship laskin' haaste](resources/friendship-calculator-finished-friends.py)
+* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
+* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
 
-\--- / romahdus \---
+\--- /collapse \---
