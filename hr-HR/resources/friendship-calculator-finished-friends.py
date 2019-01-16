@@ -1,15 +1,15 @@
 #!/bin/python3
 
-rezultat = 0
-ime = input('Unesi imena dviju osoba: ')
+score = 0
+names = input('enter tha names of 2 people: ')
 
-for znak in ime:
-  if znak in 'aeiou':
-    rezultat += 5
-  if znak in 'prijatelj':
-    rezultat += 10
+for character in names:
+  if character in 'aeiou':
+    score += 5
+  if character in 'friend':
+    score += 10
 
-print('Vas rezultat prijateljstva je :', rezultat)
+print('your friendship score is :', score)
 
-if rezultat > 100:
-  print('Najbolji prijatelji!')
+if score > 100:
+  print('best friends!')
