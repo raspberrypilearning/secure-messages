@@ -1,18 +1,18 @@
 \--- challenge \---
 
-## Izazov: Kalkulator prijateljstva
+## Challenge: Friendship calculator
 
-Napiši program koji će, računanjem bodova prijateljstva, pokazivati koliko dobro si dvije osobe odgovaraju.
+Write a program to show how compatible 2 people are, by calculating a friendship score.
 
 ![screenshot](images/messages-friends.png)
 
-Program neka prođe kroz svaki znak koji se nalazi u imenima dvaju osoba. Kada pronađe slovo koje nosi određen broj bodova, neka te bodove doda u varijablu `rezultat`.
+The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
 
-Odredi kakva će biti pravila bodovanja. Primjerice, možeš davati bodove za samoglasnike ili za znakove koji se nalaze u riječi "prijatelj":
+You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
 
 ![screenshot](images/messages-friends-code.png)
 
-Korisnicima možeš prikazati i posebnu poruku ovisno o njihovom rezultatu:
+You could also give the user a personalised message, based on their score:
 
 ![screenshot](images/messages-best-friends.png)
 
