@@ -1,69 +1,69 @@
-## Šifrovanje slova
+## Encrypting letters
 
-Napišimo Python program za šifrovanje jednog znaka.
+Let's write a Python program to encrypt a single character.
 
-+ Otvori prazan Python šablon u Trinketu: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Umjesto da crtamo abecedu u krugu, napišimo je kao promjenljivu `abeceda`.
++ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
     
     ![screenshot](images/messages-alphabet.png)
 
-+ Svako slovo abecede ima svoju poziciju, počevši od pozicije 0. Dakle, slovo 'a' je na poziciji 0 abecede, a 'c' je na poziciji 2.
++ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
     
     ![screenshot](images/messages-array.png)
 
-+ Možeš da ispišeš slovo koje se nalazi u promjenljivoj `abeceda` tako što ćeš upisati njegovu poziciju unutar uglastih zagrada.
++ You can get a letter from your `alphabet` variable by writing the position in square brackets.
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    Kada ovo isprobaš, možeš da izbrišeš naredbe `print`.
+    You can delete the `print` statements once you've tried this out.
 
-+ Zatim treba da sačuvaš tajni `ključ` u promjenljivoj.
++ Next, you'll need to store the secret `key` in a variable.
     
     ![screenshot](images/messages-key.png)
 
-+ Sada pitaj korisnika da unese jedno slovo (odnosno `znak`) koji će biti šifrovan.
++ Next, ask the user for a single letter (called a `character`) to encrypt.
     
     ![screenshot](images/messages-character.png)
 
-+ Pronađi `poziciju` tog `znaka`.
++ Find the `position` of the `character`.
     
     ![screenshot](images/messages-position.png)
 
-+ Možeš da isprobaš sačuvanu `poziciju` tako što ćeš je ispisati. Na primjer, provjeri da li je znak 'e' na poziciji 4 u abecedi.
++ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
     
     ![screenshot](images/messages-position-test.png)
 
-+ Za šifrovanje `znaka` treba `poziciji` da dodaš `ključ`. Zatim to sačuvaj u promjenljivoj `novaPozicija`.
++ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
     
     ![screenshot](images/messages-newposition.png)
 
-+ Dodaj kôd kojim ćeš ispisati novu poziciju znaka.
++ Add code to print the new character position.
     
     ![screenshot](images/messages-newposition-print.png)
 
-+ Isprobaj svoj novi kôd. Pošto je tvoj `ključ` broj 3, `poziciji` bi trebalo da bude dodat broj 3, a zatim sačuvan u tvojoj promjenljivoj `novaPozicija`.
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
     
-    Na primjer, slovo 'e' je na poziciji 4. Da ga šifruješ, dodaješ `ključ` (3), što daje 7.
+    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
     
     ![screenshot](images/messages-newposition-test.png)
 
-+ Šta se dešava kada pokušaš da šifruješ slovo 'y'?
++ What happens when you try and encrypt the letter 'y'?
     
     ![screenshot](images/messages-modulus-bug.png)
     
-    Primjećuješ li da je `novaPozicija` 27, a u engleskoj abecedi nema 27 slova!
+    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ Možeš da koristiš `%` kako bi se nova pozicija, nakon što dođe do pozicije 26, vratila na poziciju 0.
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
     
     ![screenshot](images/messages-modulus.png)
 
-+ Na kraju, želimo da ispišemo slovo koje se nalazi na novoj poziciji.
++ Finally, you want to print the letter at the new position.
     
-    Na primjer, kada dodamo ključ slovu 'e' dobićemo 7, a slovo koje se nalazi na poziciji 7 u abecedi je 'h'.
+    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
     
     ![screenshot](images/messages-newcharacter.png)
 
-+ Isprobaj svoj kôd. Možeš i da ukloniš neke od svojih print naredbi i da ispišeš samo novi znak na kraju.
++ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
     
     ![screenshot](images/messages-enc-test.png)
