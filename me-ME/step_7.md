@@ -1,31 +1,31 @@
-## Extra characters
+## Dodatni znakovi
 
-Some characters aren't in the alphabet, which causes an error.
+Neki znakovi se ne nalaze u abecedi, što uzrokuje grešku.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ Isprobaj svoj kôd koristeći nekoliko znakova koji se ne nalaze u abecedi.
     
-    For example, you could use the message `hi there!!`.
+    Na primjer, možeš da upotrijebiš poruku `hej zdravo!!`.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    Primijetićeš da su razmak i znak uzvika `!` šifrovani kao slovo 'c'!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ Da bismo to popravili, program treba da šifruje znak samo ako se nalazi u abecedi. To ćeš napraviti tako što ćeš svom kôdu dodati `if` naredbu, a ostatak kôda uvući.
     
     ![screenshot](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ Isprobaj svoj kôd koristeći istu poruku. Šta se dešava ovaj put?
     
     ![screenshot](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    Sada tvoj kôd jednostavno preskače svaki znak koji se ne nalazi u abecedi.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ Najbolje bi bilo da tvoj kôd ne šifruje znakove koji nisu u abecedi, već jednostavno koristi izvorni znak.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    Svom kôdu dodaj `else` naredbu koja će dodati izvorni znak šifrovanoj poruci.
     
     ![screenshot](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ Isprobaj svoj kôd. Trebalo bi da svi znakovi abecede budu šifrovani, a ostali znakovi da budu u svom izvornom obliku!
     
     ![screenshot](images/messages-else-test.png)
