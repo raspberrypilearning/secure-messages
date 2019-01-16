@@ -1,11 +1,11 @@
-\--- desafio \---
+\--- challenge \---
 
-## Desafio: teclas variáveis
+## Challenge: Variable keys
 
-Modifique seu programa, para que o usuário possa inserir sua própria chave para usar. Você precisará obter a entrada do usuário e armazená-lo na variável</code> da chave `.</p>
+Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
 
-<p>Lembre-se de usar a função <code>int ()` para converter a entrada em um número inteiro.
+Remember to use the `int()` function to convert the input to a whole number.
 
-Você pode então usar uma chave negativa para descriptografar mensagens!
+You can then use a negative key to decrypt messages!
 
-\--- / desafio \---
+\--- /challenge \---
