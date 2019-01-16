@@ -1,13 +1,13 @@
 ---
-hero_image: images / secret-messages.png
-theme: червоний
+hero_image: images/secret-messages.png
+theme: red
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Секретні повідомлення
-description: Створіть власну програму шифрування, щоб надсилати та отримувати секретні повідомлення.
+title: Secret Messages
+description: Make your own encryption program, to send and receive secret messages.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -20,18 +20,18 @@ steps:
   - 
     title: 'Introduction: '
   - 
-    title: Цезарний шифр
+    title: The Caesar cipher
   - 
-    title: 'Виклик: використовуйте шифр Цезаря'
+    title: 'Challenge: Use a Caesar cipher'
   - 
-    title: Шифрування літер
+    title: Encrypting letters
   - 
-    title: 'Виклик: змінні ключі'
+    title: 'Challenge: Variable keys'
   - 
-    title: Шифрування всіх повідомлень
+    title: Encrypting entire messages
   - 
-    title: Додаткові символи
+    title: Extra characters
   - 
-    title: 'Виклик: шифрування та дешифрування повідомлень'
+    title: 'Challenge: Encrypting and decrypting messages'
   - 
-    title: 'Виклик: калькулятор дружби'
+    title: 'Challenge: Friendship calculator'
