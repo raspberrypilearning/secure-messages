@@ -1,31 +1,31 @@
-## Dodatni znakovi
+## Extra characters
 
-Neki se znakovi ne nalaze u abecedi što uzrokuje grešku.
+Some characters aren't in the alphabet, which causes an error.
 
-+ Isprobaj kako radi tvoj kôd kada koristiš neke znakove koji se ne nalaze u abecedi.
++ Test out your code with some characters that aren't in the alphabet.
     
-    Primjerice, možeš napisati poruku `hej bok!!`.
+    For example, you could use the message `hi there!!`.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Primijeti da su razmak i znak uskličnika `!` šifrirani kao slovo 'c'!
+    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
 
-+ Da bi ovo popravio, program mora prevoditi znak samo ako se nalazi u abecedi. To ćeš popraviti dodavanjem `if` naredbe u kôd i uvlačenjem ostatka kôda.
++ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
     
     ![screenshot](images/messages-if.png)
 
-+ Testiraj kôd koristeći istu poruku kao prije. Što se ovaj put događa?
++ Test your code with the same message. What happens this time?
     
     ![screenshot](images/messages-if-test.png)
     
-    Sada tvoj kôd preskače svaki znak koji nije u abecedi.
+    Now, your code just skips any character if it's not in the alphabet.
 
-+ Najbolje bi bilo kada tvoj kôd ne bi šifrirao ništa što nije u abecedi, nego jednostavno koristio originalan znak.
++ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
     
-    Kôdu dodaj `else` naredbu koja će dodati originalni znak šifriranoj poruci.
+    Add an `else` statement to your code, which just adds the original character to the encrypted message.
     
     ![screenshot](images/messages-else.png)
 
-+ Testiraj kôd. Svi znakovi abecede trebali bi biti šifrirani, dok su svi ostali znakovi u originalnom obliku!
++ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
     
     ![screenshot](images/messages-else-test.png)
