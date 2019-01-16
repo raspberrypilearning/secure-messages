@@ -1,32 +1,31 @@
 ## Caracteres adicionales
 
-Algunos caracteres no son letras del abecedario, lo cual causa un error.
+Algunos caracteres no están en el alfabeto, lo que causa un error.
 
-+ Prueba tu código con caracteres no existentes en el abecedario.
++ Comprueba tu código con algunos caracteres que no están en el alfabeto.
+    
+    Por ejemplo, puedes usar el mensaje `hola a todos!!`.
+    
+    ![captura de pantalla](images/messages-extra-characters.png)
+    
+    Fíjate que el espacio y los caracteres `!` se encriptan todos como una letra 'c'!
 
-	Por ejemplo, intenta el mensaje `hi there!!`.
++ Para solucionar esto, solo quieres convertir un carácter si está en el alfabeto. Para hacer esto, añade una sentencia `if` (si...) e indenta el resto de tu código.
+    
+    ![captura de pantalla](images/messages-if.png)
 
-	![screenshot](images/messages-extra-characters.png)
++ Prueba tu código con el mismo mensaje. ¿Qué sucede ahora?
+    
+    ![captura de pantalla](images/messages-if-test.png)
+    
+    Ahora tu código simplemente omite cualquier carácter que no está en el alfabeto.
 
-	Ten en cuenta que el espacio y los caracteres `!` son todos encriptados como la letra 'c'.
++ Mejor sería que tu código no solo no encriptara cualquier cosa que no esté en el alfabeto, sino que use el carácter original.
+    
+    Añade una sentencia `else` (si no...) a tu código para que simplemente añada el carácter original al mensaje encriptado.
+    
+    ![captura de pantalla](images/messages-else.png)
 
-+ Para solucionarlo, necesitas traducir solamente los caracteres que estén en el abecedario. Para ello, añade una sentencia `if` a tu código y sangra el resto del código.
-
-	![screenshot](images/messages-if.png)
-
-+ Prueba tu código con el mismo mensaje. ¿Qué ocurre ahora?
-
-	![screenshot](images/messages-if-test.png)
-
-	A continuación, tu código simplemente omite los caracteres que no forman parte del abecedario.
-
-+ Idealmente, tu código no cifrará nada que no sea parte del abecedario y, por el contrario, usará el carácter original.
-
-	Añade una sentencia `else` a tu código para que el carácter original sea añadido al mensaje cifrado.
-
-	![screenshot](images/messages-else.png)
-
-+ Prueba tu código. Deberías ver cómo las letras del abecedario son encriptadas pero el resto de caracteres permanecen tal cual.
-
-	![screenshot](images/messages-else-test.png)
-
++ Prueba tu código. ¡Ahora deberías ver que cada carácter en el alfabeto es encriptado pero que cualquier otro carácter se queda tal como está!
+    
+    ![captura de pantalla](images/messages-else-test.png)

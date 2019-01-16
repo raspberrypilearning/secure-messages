@@ -1,7 +1,9 @@
 --- challenge ---
-## Reto: Usa un cifrado Cesar
-¿Puedes enviarle a un amigo una palabra secreta? Ambos tendréis que acordar previamente una clave secreta.
 
-¡Incluso podéis enviaros frases enteras!
+## Desafío: Usa un cifrado César
+
+¿Puedes enviar una palabra secreta a un amigo? Ambos deberéis acordar una clave secreta antes de comenzar.
+
+¡Incluso podríais intercambiar frases completas!
 
 --- /challenge ---

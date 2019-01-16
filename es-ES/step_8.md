@@ -1,9 +1,9 @@
 --- challenge ---
-## Reto: Cifrado y descifrado de mensajes 
-Cifra algunos mensajes y entrégaselos a un amigo junto con la clave secreta. ¡Averigua si pueden descifrarlos usando su programa!
 
-También puedes duplicar el proyecto y crear otro programa independiente para descifrar mensajes.
+## Desafío: Encriptado y desencriptado de mensajes
 
+Encripta algunos mensajes y dáselos a un amigo/una amiga junto con la clave secreta. ¡A ver si pueden desencriptarlos usando su programa!
 
+También puedes duplicar el proyecto y crear un programa aparte para desencriptar mensajes.
 
 --- /challenge ---

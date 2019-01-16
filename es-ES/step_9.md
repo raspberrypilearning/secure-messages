@@ -1,20 +1,25 @@
 --- challenge ---
-## Reto: Calculadora de amistad 
-Escribe un programa que muestre la compatibilidad entre 2 personas calculando una puntuación de amistad.
 
-![screenshot](images/messages-friends.png)
+## Desafío: Calculadora de amistad
 
-El programa podría, por ejemplo, ciclar por cada uno de los caracteres de los 2 nombres y añadir puntos a una variable `score` al encontrar ciertas letras.
+Escribe un programa para mostrar cuán compatibles son 2 personas calculando su índice de amistad.
 
-Debes decidir las reglas de asignación de puntuación. Por ejemplo, puedes asignar puntos a las vocales o a los caracteres que se encuentran en la palabra "amigo":
+![captura de pantalla](images/messages-friends.png)
 
-![screenshot](images/messages-friends-code.png)
+El programa podría recorrer cada una de las letras de los 2 nombres y añadir puntos a una variable `puntos` cada vez que encuentra unas letras determinadas.
 
-También puedes entregar al usuario un mensaje personalizado en función de la puntuación:
+Debes decidir las reglas para otorgar puntos. Por ejemplo, podrías otorgar puntos por vocales o caracteres que se encuentran en la palabra "amigo":
 
-![screenshot](images/messages-best-friends.png)
+![captura de pantalla](images/messages-friends-code.png)
 
+También puedes mostrar al usuario un mensaje personalizado, basado en su puntuación:
 
-
+![captura de pantalla](images/messages-best-friends.png)
 
 --- /challenge ---
+
+### Traducción aportada por la comunidad 
+
+Este proyecto fue traducido por Helmut Schlimper y revisado por Orlando Méndez. 
+
+Nuestros increíbles voluntarios de traducción nos ayudan a dar a los niños de todo el mundo la oportunidad de aprender a programar. Puedes ayudarnos a llegar a más niños traduciendo nuestros proyectos. Consigue más información en [rpf.io/translators](https://rpf.io/translators).
