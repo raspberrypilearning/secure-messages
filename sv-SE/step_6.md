@@ -1,35 +1,35 @@
-## Kryptera hela meddelanden
+## Encrypting entire messages
 
-Istället för att bara kryptera och dekryptera meddelanden ett tecken åt gången, låt oss ändra programmet för att kryptera hela meddelanden!
+Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
-+ Kontrollera först att din kod ser ut så här:
++ Firstly, check that your code looks like this:
     
-    ![skärmdump](images/messages-character-finished.png)
+    ![screenshot](images/messages-character-finished.png)
 
-+ Skapa en variabel för att lagra det nya krypterade meddelandet.
++ Create a variable to store the new encrypted message.
     
-    ![skärmdump](images/messages-newmessage.png)
+    ![screenshot](images/messages-newmessage.png)
 
-+ Ändra din kod för att lagra användarens meddelande och inte bara ett tecken.
++ Change your code to store the user's message and not just one character.
     
-    ![skärmdump](images/messages-message.png)
+    ![screenshot](images/messages-message.png)
 
-+ Lägg till en `för` loop till din kod och ange resten av koden så att den upprepas för varje tecken i meddelandet.
++ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
     
-    ![skärmdump](images/messages-loop.png)
+    ![screenshot](images/messages-loop.png)
 
-+ Testa din kod. Du bör se att varje tecken i meddelandet är krypterad och skrivs ut en i taget.
++ Test your code. You should see that each character in the message is encrypted and printed one at a time.
     
-    ![skärmdump](images/messages-loop-test.png)
+    ![screenshot](images/messages-loop-test.png)
 
-+ Låt oss lägga till varje krypterad tecken till din `newMessage` variabel.
++ Let's add each encrypted character to your `newMessage` variable.
     
-    ![skärmdump](images/messges-message-add-character.png)
+    ![screenshot](images/messges-message-add-character.png)
 
-+ Du kan `skriva ut` den `newMessage` som den krypteras.
++ You can `print` the `newMessage` as it is being encrypted.
     
-    ![skärmdump](images/messages-print-message-characters.png)
+    ![screenshot](images/messages-print-message-characters.png)
 
-+ Om du tar bort mellanslag före `utgåvan` , kommer det krypterade meddelandet endast att visas en gång i slutet. Du kan även ta bort koden för att skriva ut teckenpositionerna.
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
     
-    ![skärmdump](images/messages-print-message-comment.png)
+    ![screenshot](images/messages-print-message-comment.png)
