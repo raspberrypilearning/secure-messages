@@ -1,11 +1,11 @@
-\--- utmaning \---
+\--- challenge \---
 
-## Utmaning: Variabelnycklar
+## Challenge: Variable keys
 
-Ändra ditt program så att användaren kan ange sin egen nyckel för att använda. Du måste få användarens inmatning och lagra den i `tangenten` variabeln.
+Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
 
-Kom ihåg att använda `int ()` funktionen för att konvertera ingången till ett heltal.
+Remember to use the `int()` function to convert the input to a whole number.
 
-Du kan då använda en negativ nyckel för att dekryptera meddelanden!
+You can then use a negative key to decrypt messages!
 
-\--- /utmaning \---
+\--- /challenge \---
