@@ -1,9 +1,9 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: використовуйте шифр Цезаря
+## Challenge: Use a Caesar cipher
 
-Чи можете ви надіслати таємне слово друзі? Ви повинні обидва погодитися на секретний ключ, перш ніж почати.
+Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
-Ви навіть можете надіслати цілі речення один одному!
+You could even send entire sentences to each other!
 
-\--- / виклик \---
+\--- /challenge \---
