@@ -1,31 +1,31 @@
-## Extra tecken
+## Extra characters
 
-Vissa tecken finns inte i alfabetet, vilket orsakar ett fel.
+Some characters aren't in the alphabet, which causes an error.
 
-+ Testa din kod med några tecken som inte finns i alfabetet.
++ Test out your code with some characters that aren't in the alphabet.
     
-    Till exempel kan du använda meddelandet `hej där !!`.
+    For example, you could use the message `hi there!!`.
     
-    ![skärmdump](images/messages-extra-characters.png)
+    ![screenshot](images/messages-extra-characters.png)
     
-    Observera att utrymmet och `!` tecken är alla krypterade som bokstaven "c"!
+    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
 
-+ För att fixa det här vill du bara översätta ett tecken om det finns i alfabetet. För att göra detta lägger du till ett `om` meddelande till din kod och anger resten av koden.
++ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
     
-    ![skärmdump](images/messages-if.png)
+    ![screenshot](images/messages-if.png)
 
-+ Testa din kod med samma meddelande. Vad händer den här gången?
++ Test your code with the same message. What happens this time?
     
-    ![skärmdump](images/messages-if-test.png)
+    ![screenshot](images/messages-if-test.png)
     
-    Nu springer din kod bara på ett tecken om det inte finns i alfabetet.
+    Now, your code just skips any character if it's not in the alphabet.
 
-+ Det skulle vara bättre om din kod inte krypterade något inte i alfabetet, men använde bara den ursprungliga karaktären.
++ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
     
-    Lägg till ett `annat` meddelande till din kod, som bara lägger till den ursprungliga karaktären för det krypterade meddelandet.
+    Add an `else` statement to your code, which just adds the original character to the encrypted message.
     
-    ![skärmdump](images/messages-else.png)
+    ![screenshot](images/messages-else.png)
 
-+ Testa din kod. Du bör se att alla tecken i alfabetet är krypterade, men andra tecken lämnas ensamma!
++ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
     
-    ![skärmdump](images/messages-else-test.png)
+    ![screenshot](images/messages-else-test.png)
