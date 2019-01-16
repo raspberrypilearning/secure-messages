@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## Šifrovanje cijelih poruka
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+Podesimo program da šifruje cijele poruke, umjesto da šifruje i dešifruje jedan po jedan znak!
 
-+ Firstly, check that your code looks like this:
++ Prvo provjeri da li tvoj kôd izgleda ovako:
     
     ![screenshot](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Kreiraj promjenljivu u kojoj ćeš sačuvati novu šifrovanu poruku.
     
     ![screenshot](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Izmijeni svoj kôd tako da sačuva korisnikovu poruku, a ne samo jedan znak.
     
     ![screenshot](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ Svom kôdu dodaj `for` petlju, a zatim uvuci ostatak kôda kako bi se ponavljao za svaki znak poruke.
     
     ![screenshot](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Isprobaj svoj kôd. Trebalo bi da se znakovi poruke šifruju i ispisuju jedan po jedan.
     
     ![screenshot](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Dodajmo svaki šifrovani znak u promjenljivu `novaPoruka`.
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Koristeći naredbu `print`, možeš da ispišeš promjenljivu `novaPoruka` dok se šifruje.
     
     ![screenshot](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ Ako izbrišeš razmake prije naredbe `print`, šifrovana poruka biće prikazana samo jednom na kraju. Možeš da izbrišeš i kôd za ispisivanje pozicija znakova.
     
     ![screenshot](images/messages-print-message-comment.png)
