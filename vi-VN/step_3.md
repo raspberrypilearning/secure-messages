@@ -1,9 +1,9 @@
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: Sử dụng mật mã Caesar
+## Challenge: Use a Caesar cipher
 
-Bạn có thể gửi một từ bí mật cho một người bạn không? Cả hai bạn cần phải đồng ý về một khóa bí mật trước khi bạn bắt đầu.
+Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
-Bạn thậm chí có thể gửi toàn bộ câu cho nhau!
+You could even send entire sentences to each other!
 
-\--- /thử thách \---
+\--- /challenge \---
