@@ -1,19 +1,19 @@
-\---挑戦\---
+\--- challenge \---
 
-## 課題：友情計算機
+## Challenge: Friendship calculator
 
-友情スコアを計算することによって、2人の人がどの程度互換性があるかを示すプログラムを書く。
+Write a program to show how compatible 2 people are, by calculating a friendship score.
 
-![スクリーンショット](images/messages-friends.png)
+![screenshot](images/messages-friends.png)
 
-プログラムは2つの名前のそれぞれの文字をループし、特定の文字が見つかるたびに `スコア` 変数にポイントを追加することができます。
+The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
 
-ポイントを獲得するためのルールを決定する必要があります。たとえば、母音や単語「友人」に含まれる文字に対してポイントを与えることができます。
+You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
 
-![スクリーンショット](images/messages-friends-code.png)
+![screenshot](images/messages-friends-code.png)
 
-スコアに基づいて、ユーザーにパーソナライズされたメッセージを与えることもできます。
+You could also give the user a personalised message, based on their score:
 
-![スクリーンショット](images/messages-best-friends.png)
+![screenshot](images/messages-best-friends.png)
 
-\--- /チャレンジ\---
+\--- /challenge \---
