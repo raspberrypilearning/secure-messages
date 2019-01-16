@@ -1,24 +1,24 @@
-## Caesarin salaus
+## The Caesar cipher
 
-Salaus on salaisen koodin tyyppi, jossa voit vaihtaa kirjaimia niin, että kukaan ei voi lukea viestisi.
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-Aiot käyttää yksi vanhimmista ja tunnetuimmista salaus, The **Caesarin salakirjoitus**, joka on nimetty Julius Caesar.
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-Ennen kuin aloitamme koodauksen, yritetään käyttää Caesarin salausta piilottaaksesi sana.
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ Sanaa salataan kutsutaan **salauksella**.
++ Hiding a word is called **encryption**.
     
-    Aloitetaan salaamalla kirjain "a". Tätä varten voimme piirtää aakkoston ympyrään, kuten:
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
-    ![kuvakaappaus](images/messages-wheel.png)
+    ![screenshot](images/messages-wheel.png)
 
-+ Jos haluat salata salatun kirjeen tavallisesta, sinulla on oltava salainen avain. Käytetään numeronä 3 avaimena (mutta voit käyttää mitä tahansa haluamaasi numeroa).
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    **salataan** kirjaimella a, siirrät vain 3 kirjainta myötäpäivään, joka antaa sinulle kirjaimen "d":
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
-    ![kuvakaappaus](images/messages-wheel-eg.png)
+    ![screenshot](images/messages-wheel-eg.png)
 
-+ Voit käyttää mitä olet oppinut salaamaan koko sana. Esimerkiksi "hello" salattu on "khoor". Kokeile itseäsi.
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Ennen kuin aloitamme koodauksen, yritetään käyttää Caesarin salausta piilot
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Tekstin palauttaminen normaaliksi kutsutaan **salauksenpurkuksi**. Jos haluat purkaa sanaa, vähennä avain sen sijaan, että lisäät sen:
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
     
     + k - 3 = **h**
     + h - 3 = **e**
