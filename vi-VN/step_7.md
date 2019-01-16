@@ -1,31 +1,31 @@
-## Nhân vật phụ
+## Extra characters
 
-Một số ký tự không có trong bảng chữ cái, gây ra lỗi.
+Some characters aren't in the alphabet, which causes an error.
 
-+ Kiểm tra mã của bạn với một số ký tự không có trong bảng chữ cái.
++ Test out your code with some characters that aren't in the alphabet.
     
-    Ví dụ, bạn có thể sử dụng tin nhắn `hi there !!`.
+    For example, you could use the message `hi there!!`.
     
-    ![ảnh chụp màn hình](images/messages-extra-characters.png)
+    ![screenshot](images/messages-extra-characters.png)
     
-    Lưu ý rằng không gian và `!` ký tự được mã hóa dưới dạng chữ 'c'!
+    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
 
-+ Để khắc phục điều này, bạn chỉ muốn dịch một ký tự nếu nó nằm trong bảng chữ cái. Để thực hiện việc này, hãy thêm câu lệnh `if` vào mã của bạn và thụt lề phần còn lại của mã.
++ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
     
-    ![ảnh chụp màn hình](images/messages-if.png)
+    ![screenshot](images/messages-if.png)
 
-+ Kiểm tra mã của bạn với cùng một thông báo. Điều gì xảy ra lần này?
++ Test your code with the same message. What happens this time?
     
-    ![ảnh chụp màn hình](images/messages-if-test.png)
+    ![screenshot](images/messages-if-test.png)
     
-    Bây giờ, mã của bạn chỉ bỏ qua bất kỳ ký tự nào nếu nó không có trong bảng chữ cái.
+    Now, your code just skips any character if it's not in the alphabet.
 
-+ Sẽ tốt hơn nếu mã của bạn không mã hóa bất kỳ thứ gì không có trong bảng chữ cái, nhưng chỉ sử dụng ký tự gốc.
++ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
     
-    Thêm câu lệnh `else` vào mã của bạn, chỉ thêm ký tự gốc vào thư được mã hóa.
+    Add an `else` statement to your code, which just adds the original character to the encrypted message.
     
-    ![ảnh chụp màn hình](images/messages-else.png)
+    ![screenshot](images/messages-else.png)
 
-+ Kiểm tra mã của bạn. Bạn sẽ thấy rằng bất kỳ ký tự nào trong bảng chữ cái được mã hóa, nhưng bất kỳ ký tự nào khác đều bị bỏ lại một mình!
++ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
     
-    ![ảnh chụp màn hình](images/messages-else-test.png)
+    ![screenshot](images/messages-else-test.png)
