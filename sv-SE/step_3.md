@@ -1,9 +1,9 @@
-\--- utmaning \---
+\--- challenge \---
 
-## Utmaning: Använd en Caesar-chiffer
+## Challenge: Use a Caesar cipher
 
-Kan du skicka ett hemligt ord till en vän? Du måste båda komma överens om en hemlig nyckel innan du börjar.
+Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
-Du kan även skicka hela meningar till varandra!
+You could even send entire sentences to each other!
 
-\--- /utmaning \---
+\--- /challenge \---
