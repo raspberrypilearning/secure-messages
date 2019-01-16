@@ -1,19 +1,19 @@
-\--- haaste \---
+\--- challenge \---
 
-## Haaste: ystävyyslaskin
+## Challenge: Friendship calculator
 
-Kirjoita ohjelma, joka näyttää, kuinka yhteensopiva 2 henkilöä on, laskemalla ystävyyspistemäärä.
+Write a program to show how compatible 2 people are, by calculating a friendship score.
 
-![kuvakaappaus](images/messages-friends.png)
+![screenshot](images/messages-friends.png)
 
-Ohjelma voisi silmukan läpi kunkin merkinnän 2 nimeä ja lisätä pisteitä `pisteet` muuttujaan aina, kun tiettyjä kirjaimia löytyy.
+The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
 
-Sinun pitäisi päättää sääntöjen pisteiden myöntämisestä. Voit esimerkiksi palkita pisteitä vokaaleja tai merkkejä, jotka löytyvät sanasta "ystävä":
+You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
 
-![kuvakaappaus](images/messages-friends-code.png)
+![screenshot](images/messages-friends-code.png)
 
-Voit myös antaa käyttäjälle henkilökohtaisen viestin pisteet:
+You could also give the user a personalised message, based on their score:
 
-![kuvakaappaus](images/messages-best-friends.png)
+![screenshot](images/messages-best-friends.png)
 
-\--- /haaste \---
+\--- /challenge \---
