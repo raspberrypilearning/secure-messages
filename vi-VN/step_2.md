@@ -1,24 +1,24 @@
-## Mật mã Caesar
+## The Caesar cipher
 
-Mật mã là một loại mã bí mật, nơi bạn trao đổi các chữ cái xung quanh để không ai có thể đọc tin nhắn của bạn.
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-Bạn sẽ sử dụng một trong những mật mã lâu đời nhất và nổi tiếng nhất, mật mã **Caesar**, được đặt tên theo Julius Caesar.
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-Trước khi chúng tôi bắt đầu viết mã, hãy thử sử dụng mật mã Caesar để ẩn một từ.
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ Ẩn một từ được gọi là **mã hóa**.
++ Hiding a word is called **encryption**.
     
-    Hãy bắt đầu bằng cách mã hóa chữ 'a'. Để làm điều này, chúng ta có thể vẽ bảng chữ cái theo hình tròn, như sau:
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
-    ![ảnh chụp màn hình](images/messages-wheel.png)
+    ![screenshot](images/messages-wheel.png)
 
-+ Để tạo một thư được mã hóa bí mật từ một ký tự bình thường, bạn cần có một khóa bí mật. Hãy sử dụng số 3 làm khóa (nhưng bạn có thể sử dụng bất kỳ số nào bạn thích).
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    Để **mã hóa** chữ cái 'a', bạn chỉ cần di chuyển 3 chữ cái theo chiều kim đồng hồ, nó sẽ cho bạn chữ 'd':
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
-    ![ảnh chụp màn hình](images/messages-wheel-eg.png)
+    ![screenshot](images/messages-wheel-eg.png)
 
-+ Bạn có thể sử dụng những gì bạn đã học để mã hóa toàn bộ một từ. Ví dụ, 'hello' được mã hóa là 'kho'. Hãy thử nó cho mình.
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Trước khi chúng tôi bắt đầu viết mã, hãy thử sử dụng mật m
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Lấy văn bản trở lại bình thường được gọi là **giải mã**. Để giải mã một từ, chỉ cần trừ phím thay vì thêm nó:
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
     
     + k - 3 = **h**
     + h - 3 = **e**
