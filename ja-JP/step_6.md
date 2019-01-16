@@ -1,33 +1,35 @@
-## メッセージ全体を暗号化する
+## Encrypting entire messages
 
-メッセージを一度に1文字ずつ暗号化と復号化するのではなく、メッセージ全体を暗号化するようにプログラムを変更しましょう！
+Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
-+ まず、コードが次のようになっていることを確認します。
++ Firstly, check that your code looks like this:
     
-    ![スクリーンショット](images/messages-character-finished.png)
+    ![screenshot](images/messages-character-finished.png)
 
-+ 新しい暗号化されたメッセージを格納する変数を作成します。
++ Create a variable to store the new encrypted message.
     
-    ![スクリーンショット](images/messages-newmessage.png)
+    ![screenshot](images/messages-newmessage.png)
 
-+ 1文字だけでなくユーザーのメッセージを格納するようにコードを変更します。
++ Change your code to store the user's message and not just one character.
     
-    ![スクリーンショット](images/messages-message.png)
+    ![screenshot](images/messages-message.png)
 
-+ あなたのコードに</code> ループのために `を加えて、メッセージの各文字に対してそれが繰り返されるように残りのコードをインデントします。</p>
-
-<p><img src="images/messages-loop.png" alt="スクリーンショット" /></p></li>
-<li><p>コードをテストします。メッセージの各文字は暗号化され、一度に1つずつ印刷されることがわかります。</p>
-
-<p><img src="images/messages-loop-test.png" alt="スクリーンショット" /></p></li>
-<li><p>暗号化された各文字を <code>newMessage` 変数に追加しましょう。
++ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
     
-    ![スクリーンショット](images/messges-message-add-character.png)
+    ![screenshot](images/messages-loop.png)
+
++ Test your code. You should see that each character in the message is encrypted and printed one at a time.
+    
+    ![screenshot](images/messages-loop-test.png)
+
++ Let's add each encrypted character to your `newMessage` variable.
+    
+    ![screenshot](images/messges-message-add-character.png)
 
 + You can `print` the `newMessage` as it is being encrypted.
     
-    ![スクリーンショット](images/messages-print-message-characters.png)
+    ![screenshot](images/messages-print-message-characters.png)
 
-+ `print` ステートメントの前のスペースを削除すると、暗号化されたメッセージは最後に1回だけ表示されます。また、文字位置を印刷するためのコードを削除することもできます。
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
     
-    ![スクリーンショット](images/messages-print-message-comment.png)
+    ![screenshot](images/messages-print-message-comment.png)
