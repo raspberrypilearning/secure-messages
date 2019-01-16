@@ -1,24 +1,24 @@
-## Caesar cipher
+## The Caesar cipher
 
-En chiffer är en typ av hemlig kod, där du byter bokstäverna så att ingen kan läsa ditt meddelande.
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-Du använder en av de äldsta och mest kända cifrarna, den **Caesar cipher**, som är uppkallad efter Julius Caesar.
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-Innan vi börjar kodning, låt oss försöka använda Caesar-krypteringen för att dölja ett ord.
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ Att dölja ett ord kallas **kryptering**.
++ Hiding a word is called **encryption**.
     
-    Låt oss börja med att kryptera bokstaven "a". För att göra detta kan vi rita alfabetet i en cirkel, så här:
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
-    ![skärmdump](images/messages-wheel.png)
+    ![screenshot](images/messages-wheel.png)
 
-+ För att skapa ett hemligt krypterat brev från en vanlig, måste du ha en hemlig nyckel. Låt oss använda nummer 3 som nyckel (men du kan använda vilket som helst nummer du vill).
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    För att **kryptera** bokstaven "a" flyttar du bara 3 bokstäver medurs, vilket ger dig bokstaven "d":
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
-    ![skärmdump](images/messages-wheel-eg.png)
+    ![screenshot](images/messages-wheel-eg.png)
 
-+ Du kan använda det du har lärt dig för att kryptera ett helt ord. Till exempel "hej" krypterad är "khoor". Prova själv.
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,10 +26,10 @@ Innan vi börjar kodning, låt oss försöka använda Caesar-krypteringen för a
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Att få text tillbaka till vanligt kallas **dekryptering**. För att dekryptera ett ord, dra bara av nyckeln istället för att lägga till den:
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
     
     + k - 3 = **h**
     + h - 3 = **e**
-    + o - 3 = **1**
-    + o - 3 = **1**
+    + o - 3 = **l**
+    + o - 3 = **l**
     + r - 3 = **o**
