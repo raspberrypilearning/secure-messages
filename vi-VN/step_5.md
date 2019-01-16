@@ -1,11 +1,11 @@
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: Phím biến
+## Challenge: Variable keys
 
-Sửa đổi chương trình của bạn để người dùng có thể nhập khóa riêng của họ để sử dụng. Bạn sẽ cần lấy đầu vào của người dùng và lưu nó vào biến `key`.
+Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
 
-Hãy nhớ sử dụng hàm `int ()` để chuyển đổi đầu vào thành một số nguyên.
+Remember to use the `int()` function to convert the input to a whole number.
 
-Sau đó, bạn có thể sử dụng khóa phủ định để giải mã thư!
+You can then use a negative key to decrypt messages!
 
-\--- /thử thách \---
+\--- /challenge \---
