@@ -1,19 +1,19 @@
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: Máy tính tình bạn
+## Challenge: Friendship calculator
 
-Viết một chương trình để cho thấy mức độ tương thích của 2 người, bằng cách tính điểm tình bạn.
+Write a program to show how compatible 2 people are, by calculating a friendship score.
 
-![ảnh chụp màn hình](images/messages-friends.png)
+![screenshot](images/messages-friends.png)
 
-Chương trình có thể lặp qua từng ký tự trong 2 tên và thêm điểm vào biến `điểm` mỗi lần tìm thấy một số chữ cái.
+The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
 
-Bạn nên quyết định về các quy tắc cho điểm thưởng. Ví dụ: bạn có thể giành điểm cho nguyên âm hoặc các ký tự được tìm thấy trong từ "bạn bè":
+You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
 
-![ảnh chụp màn hình](images/messages-friends-code.png)
+![screenshot](images/messages-friends-code.png)
 
-Bạn cũng có thể cung cấp cho người dùng một thông điệp được cá nhân hóa, dựa trên điểm số của họ:
+You could also give the user a personalised message, based on their score:
 
-![ảnh chụp màn hình](images/messages-best-friends.png)
+![screenshot](images/messages-best-friends.png)
 
-\--- /thử thách \---
+\--- /challenge \---
