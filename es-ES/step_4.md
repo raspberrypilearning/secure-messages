@@ -1,65 +1,69 @@
 ## Encriptación de letras
 
-Escribamos un programa Python para encriptar un solo carácter. 
+Escribamos un programa en Python para encriptar un solo carácter.
 
-+ Abre el Trinket de la plantilla en blanco de Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. 
++ Abre la plantilla Python en blanco en Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ En lugar de dibujar el abecedario en un círculo, escribámoslo como una variable `alphabet`.
++ En vez de dibujar el alfabeto en un círculo, vamos a representarlo como una variable llamada `alfabeto`.
+    
+    ![captura de pantalla](images/messages-alphabet.png)
 
-	![screenshot](images/messages-alphabet.png)
++ Cada letra del alfabeto tiene una posición, empezando por la posición 0. Así, la letra 'a' está en la posición 0 del alfabeto y la 'c' está en la posición 2.
+    
+    ![captura de pantalla](images/messages-array.png)
 
-+ Cada letra del abecedario posee una posición, comenzando desde la posición 0. Por lo tanto, la letra 'a' está en la posición 0 del abecedario y la letra  'c' en la posición 2.
++ Puedes obtener una letra de la variable `alfabeto` escribiendo su posición entre corchetes.
+    
+    ![captura de pantalla](images/messages-alphabet-array.png)
+    
+    Una vez que hayas comprobado esto, puedes borrar las sentencias `print`.
 
-	![screenshot](images/messages-array.png)
++ A continuación tienes que guardar la `clave` secreta en una variable.
+    
+    ![captura de pantalla](images/messages-key.png)
 
-+ Podrás obtener una letra de la variable `alphabet` escribiendo la posición en los corchetes.
++ Ahora pregunta al usuario por una sola letra (llamada `carácter`) para encriptarla.
+    
+    ![captura de pantalla](images/messages-character.png)
 
-	![screenshot](images/messages-alphabet-array.png)
++ Encuentra la `posición` del `carácter`.
+    
+    ![captura de pantalla](images/messages-position.png)
 
-	Podrás borrar las sentencias `print` una vez que lo hayas probado.
++ Puedes comprobar la `posición` guardada si la imprimes. Por ejemplo, que el carácter 'e' está en la posición 4 del alfabeto.
+    
+    ![captura de pantalla](images/messages-position-test.png)
 
-+ A continuación, necesitarás almacenar una `key` secreta en una variable.
++ Para encriptar el `carácter`, tienes que sumar la `clave` a su `posición`. La suma se almacena en la variable `nuevaPosicion`.
+    
+    ![captura de pantalla](images/messages-newposition.png)
 
-	![screenshot](images/messages-key.png)	
++ Añade código para imprimir la nueva posición del carácter.
+    
+    ![captura de pantalla](images/messages-newposition-print.png)
 
-+ A continuación, pide al usuario una letra (denominada `character`) a cifrar.
++ Prueba tu nuevo código. Como tu `clave` es 3, tienes que sumar 3 a la `posición` y guardar el resultado en la variable `nuevaPosicion`.
+    
+    Por ejemplo, la letra 'e' está en la posición 4. Para encriptarla tienes que sumarle la `clave` (3), lo que da 7.
+    
+    ![captura de pantalla](images/messages-newposition-test.png)
 
-	![screenshot](images/messages-character.png)
++ ¿Que pasa si tratas de encriptar la letra 'y'?
+    
+    ![captura de pantalla](images/messages-modulus-bug.png)
+    
+    ¡Fíjate que la `nuevaPosición` es 28, y que no hay 28 letras en el alfabeto!
 
-+ Encuentra la `position` del `character`.
++ Puedes usar la función `%` para indicar que la nueva posición debe volver a la posición 0 si llega a la posición 27.
+    
+    ![captura de pantalla](images/messages-modulus.png)
 
-	![screenshot](images/messages-position.png)
++ Para acabar, quieres imprimir la letra de la nueva posición.
+    
+    Por ejemplo, sumando la clave a la letra 'e' da 7, y la letra en la posición 7 del alfabeto es 'h'.
+    
+    ![captura de pantalla](images/messages-newcharacter.png)
 
-+ Puedes probar la `position` almacenada imprimiéndola. Por ejemplo, el carácter 'e' está en la posición 4 del abecedario.
-
-	![screenshot](images/messages-position-test.png)
-
-+ Para encriptar el `character`, debes añadir la `key` a la `position`.
-
-	![screenshot](images/messages-newposition.png)
-
-+ Prueba el nuevo código. Puesto que tu `key` es 3, debe añadir 3 a la `position` y guardarla en la nueva variable `newPosition`. 
-
-	Por ejemplo, la letra 'e' está en la posición 4. Para encriptarla, añade la `key` (3), obteniendo 7.
-
-	![screenshot](images/messages-newposition-test.png)
-
-+ ¿Qué ocurre cuando intentas encriptar la letra 'y'?
-
-	![screenshot](images/messages-modulus-bug.png)
-
-	Observa cómo la `newPosition` es 27, sin embargo, !no hay 27 letras en el abecedario!
-
-+ Podrás usar `%` para indicar a la nueva posición que regrese a la posición 0 una vez llegue a la posición 26. 
-
-	![screenshot](images/messages-modulus.png)
-
-+ Por último, debes imprimir la letra en la nueva posición.
-
-	Por ejemplo, añadir la clave a la letra 'e' da 7 y la letra de la posición 7 del abecedario es 'h'.
-
-	![screenshot](images/messages-newcharacter.png)
-
-+ Prueba el código. También puedes eliminar algunas de las sentencias de impresión simplemente imprimiendo el nuevo carácter al final.
-
-	![screenshot](images/messages-enc-test.png)
++ Comprueba tu código. También puedes borrar algunas sentencias print y dejar solo la que imprime el nuevo carácter al final.
+    
+    ![captura de pantalla](images/messages-enc-test.png)
