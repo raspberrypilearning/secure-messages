@@ -1,35 +1,35 @@
-## Šifriranje poruka
+## Encrypting entire messages
 
-Podesimo program da šifrira cijele poruke, umjesto da šifrira i dešifrira jedan po jedan znak!
+Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
-+ Prvo provjeri izgleda li tvoj kôd ovako:
++ Firstly, check that your code looks like this:
     
     ![screenshot](images/messages-character-finished.png)
 
-+ Kreiraj varijablu u koju ćeš spremiti svoju novu šifriranu poruku.
++ Create a variable to store the new encrypted message.
     
     ![screenshot](images/messages-newmessage.png)
 
-+ Izmijeni kôd tako da sprema korisnikovu poruku, a ne samo jedan znak.
++ Change your code to store the user's message and not just one character.
     
     ![screenshot](images/messages-message.png)
 
-+ Svom kôdu dodaj `for` petlju, a zatim uvuci ostatak kôda kako bi se ponavljao za svaki znak poruke.
++ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
     
     ![screenshot](images/messages-loop.png)
 
-+ Testiraj kôd. Svaki znak poruke trebao bi se šifrirati i ispisivati jedan po jedan.
++ Test your code. You should see that each character in the message is encrypted and printed one at a time.
     
     ![screenshot](images/messages-loop-test.png)
 
-+ Dodajmo svaki šifrirani znak u varijablu `novaPoruka`.
++ Let's add each encrypted character to your `newMessage` variable.
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ Naredbom `print` možeš ispisati varijablu `novaPoruka` dok se šifrira.
++ You can `print` the `newMessage` as it is being encrypted.
     
     ![screenshot](images/messages-print-message-characters.png)
 
-+ Izbrišeš li prazna mjesta prije naredbe `print`, šifrirana poruka će se ispisati samo jednom na kraju. Možeš izbrisati i dio kôda koji ispisuje pozicije znakova.
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
     
     ![screenshot](images/messages-print-message-comment.png)
