@@ -1,35 +1,35 @@
-## Цезарний шифр
+## The Caesar cipher
 
-Шифр є типом секретного коду, де ви обмінюєте літери навколо, щоб ніхто не міг прочитати ваше повідомлення.
+A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
 
-Ви будете використовувати один із найстаріших і найвідоміших шифрів, **Цезарний шифр**, який називається Юлієм Цезарем.
+You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-Перш ніж розпочати кодування, давайте спробуємо використовувати шифр Caesar, щоб приховати слово.
+Before we start coding, let's try using the Caesar cipher to hide a word.
 
-+ Приховування слова називається **шифруванням**.
++ Hiding a word is called **encryption**.
     
-    Почнемо з шифрування літери "a". Для цього ми можемо намалювати алфавіт у колі, як це:
+    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
     
-    ![скріншот](images/messages-wheel.png)
+    ![screenshot](images/messages-wheel.png)
 
-+ Щоб зробити секретний зашифрований лист з нормального, вам потрібно мати секретний ключ. Давайте використовувати номер 3 як ключ (але ви можете використовувати будь-яке число, яке вам подобається).
++ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
     
-    Щоб **зашифрувати** букву 'a', просто перемістіть 3 букви за годинниковою стрілкою, яка дасть вам букву 'd':
+    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
     
-    ![скріншот](images/messages-wheel-eg.png)
+    ![screenshot](images/messages-wheel-eg.png)
 
-+ Ви можете використовувати те, що ви навчилися шифрувати ціле слово. Наприклад, "hello" зашифрований - "khoor". Спробуйте самі.
++ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
     
-    + h +3 = **k**
+    + h + 3 = **k**
     + e + 3 = **h**
     + l + 3 = **o**
     + l + 3 = **o**
-    + o +3 = **r**
+    + o + 3 = **r**
 
-+ Повернення тексту до нормального називається **розшифровкою**. Щоб розшифрувати слово, просто відніміть ключ, а не додасть його:
++ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
     
-    + к - 3 = **год**
-    + год - 3 = **e**
+    + k - 3 = **h**
+    + h - 3 = **e**
     + o - 3 = **l**
     + o - 3 = **l**
     + r - 3 = **o**
