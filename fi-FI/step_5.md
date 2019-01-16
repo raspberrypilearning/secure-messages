@@ -1,11 +1,11 @@
-\--- haaste \---
+\--- challenge \---
 
-## Haaste: muuttuvat avaimet
+## Challenge: Variable keys
 
-Muokkaa ohjelmaa niin, että käyttäjä voi syöttää oman avaimensa käytettäväksi. Sinun täytyy saada käyttäjän syöttö ja tallentaa se `avaimen` muuttujalle.
+Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
 
-Muista käyttää `int ()` -toimintoa tulosteen muuntamiseksi kokonaislukuun.
+Remember to use the `int()` function to convert the input to a whole number.
 
-Tämän jälkeen voit käyttää negatiivista avainta purkaa viestejä!
+You can then use a negative key to decrypt messages!
 
-\--- /haaste \---
+\--- /challenge \---
