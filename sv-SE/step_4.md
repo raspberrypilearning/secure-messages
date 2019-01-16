@@ -1,69 +1,69 @@
-## Kryptera bokstäver
+## Encrypting letters
 
-Låt oss skriva ett Python-program för att kryptera en enda karaktär.
+Let's write a Python program to encrypt a single character.
 
-+ Öppna den tomma Python-mallen. Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ I stället för att dra alfabetet i en cirkel, låt oss skriva ut som en `alfabet` variabel.
++ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
     
-    ![skärmdump](images/messages-alphabet.png)
+    ![screenshot](images/messages-alphabet.png)
 
-+ Varje bokstav i alfabetet har en position som börjar vid position 0. Så bokstaven "a" är i position 0 i alfabetet och "c" är i position 2.
++ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
     
-    ![skärmdump](images/messages-array.png)
+    ![screenshot](images/messages-array.png)
 
-+ Du kan få ett brev från ditt `alfabet` variabel genom att skriva positionen i fyrkantiga parenteser.
++ You can get a letter from your `alphabet` variable by writing the position in square brackets.
     
-    ![skärmdump](images/messages-alphabet-array.png)
+    ![screenshot](images/messages-alphabet-array.png)
     
-    Du kan ta bort `utgåvorna` när du har provat det här.
+    You can delete the `print` statements once you've tried this out.
 
-+ Därefter måste du lagra den hemliga `tangenten` i en variabel.
++ Next, you'll need to store the secret `key` in a variable.
     
-    ![skärmdump](images/messages-key.png)
+    ![screenshot](images/messages-key.png)
 
-+ Därefter, fråga användaren för ett enda brev (kallat en `tecken`) för att kryptera.
++ Next, ask the user for a single letter (called a `character`) to encrypt.
     
-    ![skärmdump](images/messages-character.png)
+    ![screenshot](images/messages-character.png)
 
-+ Hitta `position` av `tecken`.
++ Find the `position` of the `character`.
     
-    ![skärmdump](images/messages-position.png)
+    ![screenshot](images/messages-position.png)
 
-+ Du kan testa det lagrade `läget` genom att skriva ut det. Till exempel är det tecknet "e" i position 4 i alfabetet.
++ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
     
-    ![skärmdump](images/messages-position-test.png)
+    ![screenshot](images/messages-position-test.png)
 
-+ För att kryptera `tecknet`, bör du lägga till `tangenten` till `positionen`. Detta lagras sedan i en `newPosition` variabel.
++ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
     
-    ![skärmdump](images/messages-newposition.png)
+    ![screenshot](images/messages-newposition.png)
 
-+ Lägg till kod för att skriva ut den nya teckenpositionen.
++ Add code to print the new character position.
     
-    ![skärmdump](images/messages-newposition-print.png)
+    ![screenshot](images/messages-newposition-print.png)
 
-+ Testa din nya kod. Eftersom din `tangent` är 3, borde den lägga till 3 till `positionen` och lagra den i din `newPosition` variabel.
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
     
-    Till exempel är bokstaven "e" i position 4. För att kryptera lägger du till `tangenten` (3) och ger 7.
+    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
     
-    ![skärmdump](images/messages-newposition-test.png)
+    ![screenshot](images/messages-newposition-test.png)
 
-+ Vad händer när du försöker kryptera bokstaven "y"?
++ What happens when you try and encrypt the letter 'y'?
     
-    ![skärmdump](images/messages-modulus-bug.png)
+    ![screenshot](images/messages-modulus-bug.png)
     
-    Lägg märke till hur `newPosition` är 27, och det finns inte 27 bokstäver i alfabetet!
+    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ Du kan använda en `%` att berätta om den nya positionen att gå tillbaka till position 0 när den kommer till position 26.
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
     
-    ![skärmdump](images/messages-modulus.png)
+    ![screenshot](images/messages-modulus.png)
 
-+ Slutligen vill du skriva brevet på den nya positionen.
++ Finally, you want to print the letter at the new position.
     
-    Till exempel lägger nyckeln till bokstaven "e" 7, och bokstaven i alfabetets position 7 är "h".
+    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
     
-    ![skärmdump](images/messages-newcharacter.png)
+    ![screenshot](images/messages-newcharacter.png)
 
-+ Prova din kod. Du kan också ta bort några av dina utskriftsdeklarationer, bara skriva ut den nya karaktären i slutet.
++ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
     
-    ![skärmdump](images/messages-enc-test.png)
+    ![screenshot](images/messages-enc-test.png)
