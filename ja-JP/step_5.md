@@ -1,11 +1,11 @@
-\---挑戦\---
+\--- challenge \---
 
-## 課題：変数キー
+## Challenge: Variable keys
 
-ユーザーが独自のキーを入力して使用できるように、プログラムを変更します。ユーザーの入力を取得し、 `キー` 変数に格納する必要があります。
+Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
 
-入力を整数に変換するには、 `int（）` 関数を使用することを忘れないでください。
+Remember to use the `int()` function to convert the input to a whole number.
 
-ネガティブキーを使ってメッセージを解読することができます。
+You can then use a negative key to decrypt messages!
 
-\--- /チャレンジ\---
+\--- /challenge \---
