@@ -1,6 +1,6 @@
-## Introduktion:
+## Introduction:
 
-I det här projektet lär du dig att skapa ditt eget krypteringsprogram, att skicka och ta emot hemliga meddelanden med en vän. Detta projekt knyts samman med "Earth to Principia" -aktiviteten på sidan 16 i rymddagboken.
+In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ I det här projektet lär du dig att skapa ditt eget krypteringsprogram, att ski
   <img src="images/messages-finished.png">
 </div>
 
-### Ytterligare information för klubbledare
+### Additional information for club leaders
 
-Om du behöver skriva ut det här projektet, använd [Utskriftsvänlig version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
-## \--- kollaps \---
+## \--- collapse \---
 
-## titel: Klubbledarens anteckningar
+## title: Club leader notes
 
-## Introduktion:
+## Introduction:
 
-I det här projektet lär barnen hur man gör ett krypteringsprogram, att skicka och ta emot hemliga meddelanden med en vän. Detta projekt introducerar iteration (looping) över en textsträng.
+In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
 
 ## Online Resources
 
-**Detta projekt använder Python 3.** Vi rekommenderar att du använder [trinket](https://trinket.io/) att skriva Python online. Projektet innehåller följande prenumerationer:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [Ny (tom) Python Trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-Det finns också en prydnad som innehåller det färdiga projektet:
+There is also a trinket containing the finished project:
 
-* ["Hemliga meddelanden" är färdiga - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* ["Vänskapskalkylator" Färdig - Trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
 ## Offline Resources
 
-Detta projekt kan [fullföljas offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) om det är önskvärt.
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
 
-Du kan hitta det färdiga projektet i avsnittet "Volontärhjälp", som innehåller:
+You can find the completed project in the 'Volunteer Resources' section, which contains:
 
-* meddelanden-färdiga / messages.py
-* meddelanden-färdiga / friends.py
+* messages-finished/messages.py
+* messages-finished/friends.py
 
-(Alla resurser ovan är också nedladdnings som projekt och volontär `.zip` filer.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Lärandemål
+## Learning Objectives
 
-* Iteration (looping) över en strängvariabel;
-* `sökningen ()` metoden;
-* Moduloperatören (`%`).
+* Iteration (looping) over a string variable;
+* The `find()` method;
+* The modulus operator (`%`).
 
-Detta projekt omfattar element från följande strängar av [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Kombinera programmeringskonstruktioner för att lösa ett problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Utmaningar
+## Challenges
 
-* Använd en Caesar-kryptering - kryptera och dekryptera bokstäver och ord manuellt;
-* Variable nycklar - tillåter användaren att mata in en vald nyckel;
-* Kryptera och dekryptera meddelanden - kryptera och dekryptera hela meddelanden;
-* Vänskapsräknare - Använda text iteration till ett nytt problem.
+* Use a Caesar cipher - encrypy and decrypt letters and words manually;
+* Variable keys - allowing the user to input a chosen key;
+* Encrypting and decrypting messages - encrypting and decrypting whole messages;
+* Friendship calculator - applying text iteration to a new problem.
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-* När du söker med `hitta ()` eller `om karaktären i alfabetet:`, notera att sökningarna är skiftlägeskänsliga. Barn kan använda:
+* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
     
     ```python
-    message = input ("Vänligen ange ett meddelande för att kryptera:") .lower ()
+    message = input("Please enter a message to encrypt: ").lower()
     ```
     
-    att göra inmatningsfallet före sökning.
+    to make the input lower case before searching.
 
-\--- /kollaps \---
+\--- /collapse \---
 
-## \--- kollaps \---
+## \--- collapse \---
 
-## titel: Projektmaterial
+## title: Project materials
 
-## Projektresurser
+## Project resources
 
-* [.zip-fil som innehåller alla projektresurser](resources/secret-messages-project-resources.zip)
+* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
 * [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python-fil](resources/new-new.py)
+* [Offline blank Python file](resources/new-new.py)
 
-## Klubbledare resurser
+## Club leader resources
 
-* [.zip-fil som innehåller alla färdiga projektresurser](resources/secret-messages-volunteer-resources.zip)
-* [Online-slutförd Trinket-projektet](https://trinket.io/python/402256078c)
-* [hemliga-meddelanden-färdiga / messages.py](resources/secret-messages-finished-messages.py)
-* [Online avslutad "Friendship Calculator" utmaning](https://trinket.io/python/2e852cd687)
-* [offline komplett "Friendship Calculator" utmaning](resources/friendship-calculator-finished-friends.py)
+* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
+* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
 
-\--- /kollaps \---
+\--- /collapse \---
