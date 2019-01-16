@@ -4,7 +4,7 @@ Escribamos un programa en Python para encriptar un solo carácter.
 
 + Abre la plantilla Python en blanco en Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ En vez de dibujar el alfabeto en un círculo, vamos a representarlo como una variable `alfabeto`.
++ En vez de dibujar el alfabeto en un círculo, vamos a representarlo como una variable llamada `alfabeto`.
     
     ![captura de pantalla](images/messages-alphabet.png)
 
@@ -42,7 +42,7 @@ Escribamos un programa en Python para encriptar un solo carácter.
     
     ![captura de pantalla](images/messages-newposition-print.png)
 
-+ Prueba tu nuevo código. Como tu `clave` es 3, tienes que sumar 3 a la `posición` y guardar el resultado en la variable `nuevaPosición`.
++ Prueba tu nuevo código. Como tu `clave` es 3, tienes que sumar 3 a la `posición` y guardar el resultado en la variable `nuevaPosicion`.
     
     Por ejemplo, la letra 'e' está en la posición 4. Para encriptarla tienes que sumarle la `clave` (3), lo que da 7.
     
