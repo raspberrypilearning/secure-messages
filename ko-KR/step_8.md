@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## 도전과제: 메시지를 암호화 하고 해석해 보기
+## Challenge: Encrypting and decrypting messages
 
-일부 메시지를 암호화하고, 비밀 키와 함께 친구에게 보냅니다. 그들이 프로그램을 사용하여 해독할 수 있는지 확인하십시오!
+Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
 
-또한 프로젝트를 복제하고 메시지 해독을 위한 별도의 프로그램을 만들 수도 있습니다.
+You could also duplicate the project and create a separate program for decrypting messages.
 
 \--- /challenge \---
