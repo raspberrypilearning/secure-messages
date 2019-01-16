@@ -1,19 +1,19 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: калькулятор дружби
+## Challenge: Friendship calculator
 
-Напишіть програму, яка покаже, наскільки сумісна з двома людьми, шляхом підрахунку оцінок дружби.
+Write a program to show how compatible 2 people are, by calculating a friendship score.
 
-![скріншот](images/messages-friends.png)
+![screenshot](images/messages-friends.png)
 
-Програма може петляти через кожен з символів у двох іменах, а також додавати до `значення` змінної кожного разу, коли знайдено певні літери.
+The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
 
-Ви повинні приймати рішення щодо правил нагородження очок. Наприклад, ви можете нагородити окуляри для голосних або символи, які знаходяться в слові "друг":
+You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
 
-![скріншот](images/messages-friends-code.png)
+![screenshot](images/messages-friends-code.png)
 
-Ви також можете надати користувачеві персоналізоване повідомлення, виходячи з їх балів:
+You could also give the user a personalised message, based on their score:
 
-![скріншот](images/messages-best-friends.png)
+![screenshot](images/messages-best-friends.png)
 
-\--- / виклик \---
+\--- /challenge \---
