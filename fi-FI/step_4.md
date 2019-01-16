@@ -1,69 +1,69 @@
-## Kirjeiden salaaminen
+## Encrypting letters
 
-Kirjoita Python-ohjelma salakirjoittamaan yksittäinen merkki.
+Let's write a Python program to encrypt a single character.
 
-+ Avaa tyhjä Python-mallipohja Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Piirretään aakkosia ympyrään kirjoittamalla sen `alfanmuunnelmaksi`.
++ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
     
-    ![kuvakaappaus](images/messages-alphabet.png)
+    ![screenshot](images/messages-alphabet.png)
 
-+ Jokaisella aakkosten kirjaimella on paikka, joka alkaa paikasta 0. Niinpä kirjain "a" on aakkoston sijainnissa 0 ja "c" on kohdassa 2.
++ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
     
-    ![kuvakaappaus](images/messages-array.png)
+    ![screenshot](images/messages-array.png)
 
-+ Voit saada kirjeen `aakkosen` muuttujasta kirjoittamalla sijainnin hakasulkeissa.
++ You can get a letter from your `alphabet` variable by writing the position in square brackets.
     
-    ![kuvakaappaus](images/messages-alphabet-array.png)
+    ![screenshot](images/messages-alphabet-array.png)
     
-    Voit poistaa `tulostaa` lauseketta, kun olet kokeillut tätä.
+    You can delete the `print` statements once you've tried this out.
 
-+ Seuraavaksi sinun on tallennettava salainen `avain` muuttujaan.
++ Next, you'll need to store the secret `key` in a variable.
     
-    ![kuvakaappaus](images/messages-key.png)
+    ![screenshot](images/messages-key.png)
 
-+ Seuraavaksi pyydä käyttäjää kirjoittamaan yksi kirjain (kutsutaan `merkiksi`) salaamaan.
++ Next, ask the user for a single letter (called a `character`) to encrypt.
     
-    ![kuvakaappaus](images/messages-character.png)
+    ![screenshot](images/messages-character.png)
 
-+ Etsi `asema` `merkistä`.
++ Find the `position` of the `character`.
     
-    ![kuvakaappaus](images/messages-position.png)
+    ![screenshot](images/messages-position.png)
 
-+ Voit testata tallennetun `aseman` tulostamalla. Esimerkiksi kyseinen merkki "e" on kirjaimella 4.
++ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
     
-    ![kuvakaappaus](images/messages-position-test.png)
+    ![screenshot](images/messages-position-test.png)
 
-+ Salaa `merkki`, lisää `näppäimistö` `asemaan`. Sitten tämä tallennetaan `newPosition` -muuttujalle.
++ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
     
-    ![kuvakaappaus](images/messages-newposition.png)
+    ![screenshot](images/messages-newposition.png)
 
-+ Lisää koodi, jos haluat tulostaa uuden merkin sijainnin.
++ Add code to print the new character position.
     
-    ![kuvakaappaus](images/messages-newposition-print.png)
+    ![screenshot](images/messages-newposition-print.png)
 
-+ Testaa uusi koodi. Koska `näppäin` on 3, sen pitäisi lisätä 3 `asemaan` ja tallentaa sen `uutta positiota` -muuttujaan.
++ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
     
-    Esimerkiksi kirjain "e" on kohdassa 4. Salaamiseksi lisäät `näppäimen` (3), antamalla 7.
+    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
     
-    ![kuvakaappaus](images/messages-newposition-test.png)
+    ![screenshot](images/messages-newposition-test.png)
 
-+ Mitä tapahtuu, kun yrität salata kirjaimen "y"?
++ What happens when you try and encrypt the letter 'y'?
     
-    ![kuvakaappaus](images/messages-modulus-bug.png)
+    ![screenshot](images/messages-modulus-bug.png)
     
-    Huomaa, miten `newPosition` on 27, eikä aakkossa ole 27 kirjainta!
+    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
 
-+ Voit käyttää `%` kertoa uuden sijainnin palataksesi asentoon 0, kun se siirtyy kohtaan 26.
++ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
     
-    ![kuvakaappaus](images/messages-modulus.png)
+    ![screenshot](images/messages-modulus.png)
 
-+ Lopuksi haluat tulostaa kirjeen uuteen paikkaan.
++ Finally, you want to print the letter at the new position.
     
-    Esimerkiksi lisäämällä avain kirjaimeen "e" saadaan 7, ja aakkoksen kirjaimella 7 on kirjain "h".
+    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
     
-    ![kuvakaappaus](images/messages-newcharacter.png)
+    ![screenshot](images/messages-newcharacter.png)
 
-+ Kokeile koodia. Voit myös poistaa joitakin tulostusilmoituksia, vain tulostaa uuden merkin loppuun.
++ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
     
-    ![kuvakaappaus](images/messages-enc-test.png)
+    ![screenshot](images/messages-enc-test.png)
