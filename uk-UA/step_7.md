@@ -1,31 +1,31 @@
-## Додаткові символи
+## Extra characters
 
-Деякі символи відсутні в алфавіті, що викликає помилку.
+Some characters aren't in the alphabet, which causes an error.
 
-+ Випробуйте свій код з деякими символами, які не знаходяться в алфавіті.
++ Test out your code with some characters that aren't in the alphabet.
     
-    Наприклад, ви можете використати повідомлення `привет там !!`.
+    For example, you could use the message `hi there!!`.
     
-    ![скріншот](images/messages-extra-characters.png)
+    ![screenshot](images/messages-extra-characters.png)
     
-    Зверніть увагу, що простір і `!` символи всі зашифровані як буква "c"!
+    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
 
-+ Щоб це виправити, ви просто бажаєте перекласти символ, якщо він знаходиться в алфавіті. Для цього додайте `, якщо` , виписку у ваш код, і відступите решту свого коду.
++ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
     
-    ![скріншот](images/messages-if.png)
+    ![screenshot](images/messages-if.png)
 
-+ Перевірте свій код з тим самим повідомленням. Що станеться цього разу?
++ Test your code with the same message. What happens this time?
     
-    ![скріншот](images/messages-if-test.png)
+    ![screenshot](images/messages-if-test.png)
     
-    Тепер ваш код просто пропускає будь-який символ, якщо він відсутній у алфавіті.
+    Now, your code just skips any character if it's not in the alphabet.
 
-+ Було б краще, якщо ваш код не шифрував щось не в алфавіті, а просто використав оригінальний символ.
++ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
     
-    Додайте `інше` виписку у ваш код, який просто додає оригінальний символ до зашифрованого повідомлення.
+    Add an `else` statement to your code, which just adds the original character to the encrypted message.
     
-    ![скріншот](images/messages-else.png)
+    ![screenshot](images/messages-else.png)
 
-+ Перевірте свій код. Ви повинні побачити, що будь-який символ в алфавіті зашифрований, але будь-які інші символи залишаються окремо!
++ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
     
-    ![скріншот](images/messages-else-test.png)
+    ![screenshot](images/messages-else-test.png)
