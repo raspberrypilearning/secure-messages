@@ -1,31 +1,31 @@
-## Lisämerkkejä
+## Extra characters
 
-Jotkut merkit eivät ole aakkosissa, mikä aiheuttaa virheen.
+Some characters aren't in the alphabet, which causes an error.
 
-+ Testaa koodisi joitain merkkejä, jotka eivät ole aakkosissa.
++ Test out your code with some characters that aren't in the alphabet.
     
-    Voit esimerkiksi käyttää viestiä `hi there !!`.
+    For example, you could use the message `hi there!!`.
     
-    ![kuvakaappaus](images/messages-extra-characters.png)
+    ![screenshot](images/messages-extra-characters.png)
     
-    Huomaa, että tila ja `!` merkkiä on kaikki salattuna kirjaimella "c"!
+    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
 
-+ Korjaa tämä, haluat vain kääntää merkin, jos se on aakkosissa. Voit tehdä tämän lisäämällä koodi `if` ja koodattaaksesi loput koodista.
++ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
     
-    ![kuvakaappaus](images/messages-if.png)
+    ![screenshot](images/messages-if.png)
 
-+ Testaa koodi samalla viestillä. Mitä tapahtuu tällä kertaa?
++ Test your code with the same message. What happens this time?
     
-    ![kuvakaappaus](images/messages-if-test.png)
+    ![screenshot](images/messages-if-test.png)
     
-    Nyt koodi vain ohittaa merkin, jos se ei ole aakkosissa.
+    Now, your code just skips any character if it's not in the alphabet.
 
-+ Olisi parempi, jos koodisi ei salannut mitään aakkosissa, vaan käytti vain alkuperäistä luonnetta.
++ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
     
-    Lisää `else` -lausunto koodisi, joka vain lisää alkuperäisen merkin salattuun viestiin.
+    Add an `else` statement to your code, which just adds the original character to the encrypted message.
     
-    ![kuvakaappaus](images/messages-else.png)
+    ![screenshot](images/messages-else.png)
 
-+ Testaa koodi. Sinun pitäisi nähdä, että jokainen merkki aakkosissa on salattu, mutta kaikki muut merkit jäävät yksin!
++ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
     
-    ![kuvakaappaus](images/messages-else-test.png)
+    ![screenshot](images/messages-else-test.png)
