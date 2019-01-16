@@ -1,9 +1,9 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: шифрування та дешифрування повідомлень
+## Challenge: Encrypting and decrypting messages
 
-Шифруйте деякі повідомлення, і дайте їх друзям разом із секретним ключем. Подивіться, чи зможуть вони розшифрувати їх за допомогою своєї програми!
+Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
 
-Ви також можете дублювати проект і створити окрему програму для дешифрування повідомлень.
+You could also duplicate the project and create a separate program for decrypting messages.
 
-\--- / виклик \---
+\--- /challenge \---
