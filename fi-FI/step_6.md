@@ -1,35 +1,35 @@
-## Koko viestien salaaminen
+## Encrypting entire messages
 
-Sen sijaan, että vain salataan ja puretaan viestit yksi merkki kerrallaan, vaihdetaan ohjelmaa salakirjoittamaan koko viestejä!
+Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
 
-+ Tarkista ensin, että koodisi näyttää tältä:
++ Firstly, check that your code looks like this:
     
-    ![kuvakaappaus](images/messages-character-finished.png)
+    ![screenshot](images/messages-character-finished.png)
 
-+ Luo muuttuja tallentaaksesi uuden salatun viestin.
++ Create a variable to store the new encrypted message.
     
-    ![kuvakaappaus](images/messages-newmessage.png)
+    ![screenshot](images/messages-newmessage.png)
 
-+ Muuta koodi tallentaaksesi käyttäjän viestin, ei vain yhden merkin.
++ Change your code to store the user's message and not just one character.
     
-    ![kuvakaappaus](images/messages-message.png)
+    ![screenshot](images/messages-message.png)
 
-+ Lisää koodisi `` silmukkaan ja lue jäljellä oleva koodi niin, että se toistetaan jokaiselle merkille viestissä.
++ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
     
-    ![kuvakaappaus](images/messages-loop.png)
+    ![screenshot](images/messages-loop.png)
 
-+ Testaa koodi. Sinun pitäisi huomata, että viestin jokainen merkki on salattu ja tulostettu yksi kerrallaan.
++ Test your code. You should see that each character in the message is encrypted and printed one at a time.
     
-    ![kuvakaappaus](images/messages-loop-test.png)
+    ![screenshot](images/messages-loop-test.png)
 
-+ Lisätään jokaiseen salattuun merkkiin `uuden viestisi` muuttujalle.
++ Let's add each encrypted character to your `newMessage` variable.
     
-    ![kuvakaappaus](images/messges-message-add-character.png)
+    ![screenshot](images/messges-message-add-character.png)
 
-+ Voit `tulostaa` uuden `uuden viestin` kun sitä salataan.
++ You can `print` the `newMessage` as it is being encrypted.
     
-    ![kuvakaappaus](images/messages-print-message-characters.png)
+    ![screenshot](images/messages-print-message-characters.png)
 
-+ Jos poistat välilyönnit ennen `print` -lauseketta, salattu viesti tulee näkyviin vain kerran lopussa. Voit myös poistaa koodin merkkipaikkojen tulostusta varten.
++ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
     
-    ![kuvakaappaus](images/messages-print-message-comment.png)
+    ![screenshot](images/messages-print-message-comment.png)
