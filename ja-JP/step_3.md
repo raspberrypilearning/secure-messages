@@ -1,9 +1,9 @@
-\---挑戦\---
+\--- challenge \---
 
-## 課題：シーザー暗号を使用する
+## Challenge: Use a Caesar cipher
 
-あなたは友人に秘密の言葉を送ることができますか？あなたが始める前に秘密鍵に同意する必要があります。
+Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
 
-お互いに文章を送ることさえできます！
+You could even send entire sentences to each other!
 
-\--- /チャレンジ\---
+\--- /challenge \---
