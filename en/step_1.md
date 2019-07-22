@@ -54,7 +54,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Challenges
-+ Use a Caesar cipher - encrypy and decrypt letters and words manually;
++ Use a Caesar cipher - encrypt and decrypt letters and words manually;
 + Variable keys - allowing the user to input a chosen key;
 + Encrypting and decrypting messages - encrypting and decrypting whole messages;
 + Friendship calculator - applying text iteration to a new problem.
