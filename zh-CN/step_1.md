@@ -1,6 +1,6 @@
-## Introduction:
+## 介绍：
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+在这个项目中，您将学习如何制作自己的加密程序，用来与朋友发送和接收秘密消息。 该项目与《太空日记》中第16页的＂从地球到普林西亚＂活动有关。
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### 俱乐部导师的附加信息
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+如果您需要打印此项目，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/secret-messages/print) 。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: 俱乐部导师说明
 
-## Introduction:
+## 介绍：
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+在这个项目中，孩子们将学习如何制作加密程序，用来与朋友发送和接收秘密消息。该项目介绍用于文本字符串上的迭代（循环）。
 
-## Online Resources
+## 在线资源
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**本项目使用Python 3。**我们建议使用[ trinket](https://trinket.io/)在线编写Python代码。本项目包含以下Trinkets：
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [新建（空白）Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+还有一个包括已完成项目的Trinket：
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [完成的‘秘密消息’ -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [完成的‘友谊计算器’ -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## 离线资源
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+如果你愿意，本项目可以[离线完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)。
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+你也可以在 “志愿者资源'”部分找到该项目的完成版本，里面包含：
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(上述所有资源都可以以`.zip`压缩包的形式下载。)
 
-## Learning Objectives
+## 学习目标
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* 对字符串变量进行迭代（循环）;
+* 使用`find()`方法；
+* 模数计算符（`％` ）。
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [综合利用编程结构解决问题。](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## 挑战
 
-* Use a Caesar cipher - encrypy and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Use a Caesar cipher - encrypt and decrypt letters and words manually;
+* 可变密钥 - 允许用户输入选好的密钥;
+* 加密和解密消息 - 加密和解密整个消息；
+* 友谊计算器 - 在新问题中使用文本迭代。
 
-## Frequently Asked Questions
+## 常见问题
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* 当使用`查找()`或`if char in alphabet:`进行搜索时，请注意搜索的文本是区分大小写的。孩子们可以使用：
     
     ```python
     message = input("Please enter a message to encrypt: ").lower()
     ```
     
-    to make the input lower case before searching.
+    来进行搜索前调成小写输入。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: 项目材料
 
-## Project resources
+## 项目资源
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [包含所有项目资源的.zip文件](resources/secret-messages-project-resources.zip)
+* [在线空白Python Trinket项目](http://jumpto.cc/python-new)
+* [离线空白Python文件](resources/new-new.py)
 
-## Club leader resources
+## 俱乐部导师资源
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [包含所有完成项目资源的.zip文件](resources/secret-messages-volunteer-resources.zip)
+* [在线已完成的Trinket项目](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [在线已完成的‘友谊计算器’挑战](https://trinket.io/python/2e852cd687)
+* [离线已完成‘友谊计算器’挑战](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
