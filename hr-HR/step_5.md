@@ -8,4 +8,4 @@ Ne zaboravi koristiti funkciju `int()` za pretvaranje unosa u cijeli broj.
 
 Možeš koristiti i negativni ključ za dešifriranje poruke!
 
---- challenge ---
+--- /challenge ---
