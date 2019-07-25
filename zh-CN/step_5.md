@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## 挑战：可变密钥
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+修改你的程序，以允许用户输入自己的密钥来加密。你需要获取用户的输入，并将其存储在`key`变量中。
 
-Remember to use the `int()` function to convert the input to a whole number.
+记住使用`int()`函数将输入转换为一个整数。
 
-You can then use a negative key to decrypt messages!
+然后，你可以使用密钥的负值来解密消息！
 
 \--- /challenge \---
