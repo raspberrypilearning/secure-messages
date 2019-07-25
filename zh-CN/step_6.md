@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## 加密整条消息
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+让我们更改程序以加密整个消息, 而不是一次只对一个字符进行加密和解密!
 
-+ Firstly, check that your code looks like this:
++ 首先，确认你的代码是这样的：
     
-    ![screenshot](images/messages-character-finished.png)
+    ![截图](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ 创建一个变量来存储加密后的消息。
     
-    ![screenshot](images/messages-newmessage.png)
+    ![截图](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ 更改你的代码来存储用户的整条消息，而不仅仅是一个字母。
     
-    ![screenshot](images/messages-message.png)
+    ![截图](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ 在你的代码中添加一个`for`循环，然后缩进余下的代码使之循环地对消息中的每一个字母进行加密操作。
     
-    ![screenshot](images/messages-loop.png)
+    ![截图](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ 测试您的代码。您应该看到消息中的每个字符都经过加密了并一次只输出一个字符。
     
-    ![screenshot](images/messages-loop-test.png)
+    ![截图](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ 让我们将每个加密的字符添加到 `newMessage` 变量中。
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![截图](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ 你可以一边进行加密一边`print`（输出）`newMessage`变量的值。
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![截图](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ 如果你删除`print`语句前的空格（使其不要缩进），那么加密好的消息只会在循环结束后再显示，你还可以删除输出字符位置的代码。
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![截图](images/messages-print-message-comment.png)
