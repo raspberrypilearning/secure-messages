@@ -26,7 +26,7 @@ In plaats van het per teken versleutelen van berichten, kunnen we het programma 
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Je kunt `nieuwBericht` `printen` terwijl die wordt versleuteld.
     
     ![screenshot](images/messages-print-message-characters.png)
 
