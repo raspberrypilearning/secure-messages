@@ -1,31 +1,31 @@
-## Extra characters
+## 其他字符
 
-Some characters aren't in the alphabet, which causes an error.
+某些字符不在字母表中，这会导致错误发生。
 
-+ Test out your code with some characters that aren't in the alphabet.
++ 用一些不在字母表中的字符测试您的代码。
     
-    For example, you could use the message `hi there!!`.
+    例如，您可以试一下消息 `hi there!!`。
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![截图](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    注意空格符和`!`都被加密成了字母＇c＇！
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ 要解决这个问题，你希望只加密字母表中的字符。为此，可以添加一个`if`语句，并缩进余下的代码。
     
-    ![screenshot](images/messages-if.png)
+    ![截图](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ 使用相同的消息测试您的代码。这次会发生什么？
     
-    ![screenshot](images/messages-if-test.png)
+    ![截图](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    现在，对于任何不在字母表中的字符，你的代码将会忽略它们。
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ 如果你的代码没有加密任何不在字母表中的字符，而是直接输出这些字符本身，这样效果就会更好。
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    添加一个`else`语句，只是将这些字符本身添加到加密后的消息中去。
     
-    ![screenshot](images/messages-else.png)
+    ![截图](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ 测试您的代码。你应该看到所有在字母表中的字符都是加密的，但任何其他字符都保留了下来！
     
-    ![screenshot](images/messages-else-test.png)
+    ![截图](images/messages-else-test.png)
