@@ -55,7 +55,7 @@ Mae’r prosiect hwn yn cwmpasu elfennau o’r ffrydiau canlynol o [Gwricwlwm Cr
 
 ## Heriau
 
-* Defnyddio seiffr Cesar - amgryptio a dadgryptio llythrennau a geiriau â llaw;
+* Use a Caesar cipher - encrypt and decrypt letters and words manually;
 * Allweddi amrywiol - gan ganiatáu i'r defnyddiwr fewnbynnu allwedd ddewisol;
 * Amgryptio a dadgryptio negeseuon - amgryptio a dadgryptio negeseuon cyfan;
 * Cyfrifiannell cyfeillgarwch - cymhwyso ailadrodd testun i broblem newydd.
