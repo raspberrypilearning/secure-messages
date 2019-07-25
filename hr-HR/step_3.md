@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## Izazov: Isprobaj Cezarovu šifru
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+Možeš li poslati tajnu riječ prijatelju? Prvo se morate dogovoriti što će biti tajni ključ.
 
-You could even send entire sentences to each other!
+Možete razmijeniti i cijele rečenice!
 
 \--- /challenge \---
