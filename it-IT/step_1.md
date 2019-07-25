@@ -55,7 +55,7 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 ## Sfide
 
-* Usa un cifrario di Cesare: cripta e decripta lettere e parole manualmente;
+* Use a Caesar cipher - encrypt and decrypt letters and words manually;
 * Chiavi variabili: consentono all'utente di inserire una chiave a scelta;
 * Criptare e decriptare messaggi - criptare e decriptare interi messaggi;
 * Calcolatrice dell'amicizia - applica l'iterazione del testo a un nuovo problema.
