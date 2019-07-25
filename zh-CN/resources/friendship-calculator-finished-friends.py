@@ -1,15 +1,15 @@
 #!/bin/python3
 
 score = 0
-names = input('enter tha names of 2 people: ')
+names = input('请输入两个人的英文名字：')
 
 for character in names:
   if character in 'aeiou':
     score += 5
-  if character in 'friend':
+  if character in '朋友':
     score += 10
 
-print('your friendship score is :', score)
+print('你们的友情分数是：', score)
 
 if score > 100:
-  print('best friends!')
+  print('最好的朋友！')
