@@ -55,7 +55,7 @@ Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry
 
 ## Izazovi
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
+* Isprobaj Cezarovu šifru - ručno šifriranje i dešifriranje slova i riječi;
 * Promjenjivi ključevi - korisnik unosi odabrani ključ;
 * Šifriranje i dešifriranje poruka - šifriranje i dešifriranje cijelih poruka;
 * Kalkulator prijateljstva - primjena naredbi ponavljanja nad tekstom na novi problem.
