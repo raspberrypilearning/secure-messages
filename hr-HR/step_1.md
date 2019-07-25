@@ -1,6 +1,6 @@
-## Introduction:
+## Uvod:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+U ovom projektu naučit ćeš kako napraviti vlastiti program za šifriranje te poslati tajne poruke prijatelju i primiti tajne poruke od prijatelja. Ovaj projekt povezan je s aktivnošću "Earth to Principia" koja se nalazi na stranici 16 web stranice Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### Dodatne informacije za voditelje kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Ako želite ispisati ovaj projekt, molimo Vas da koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Bilješke za voditelja kluba
 
-## Introduction:
+## Uvod:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+U ovom projektu djeca će naučiti kako napraviti program za šifriranje poruka te izmjenjivati tajne poruke s prijateljem. U projektu se koristi ponavljanje (petlja) nad tekstualnim podacima.
 
-## Online Resources
+## Online izvori
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**U ovom projektu koristi se Python 3.** Predlažemo korištenje [trinketa](https://trinket.io/) za online pisanje u Pythonu. Projekt sadrži sljedeće Trinkete:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Novi (prazni) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Također je uključen i trinket koji sadrži dovršeni projekt:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Secret Messages’ dovršeni projekt -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ dovršeni projekt -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## Offline izvori
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+Ako želite, ovaj projekt može biti [završen offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Dovršenu verziju projekta možete pronaći i u odjeljku 'Resursi za volontere' koji sadrži:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Svi spomenuti materijali nalaze se u materijalima projekta i materijalima za volontere, koje je moguće preuzeti kao `.zip` datoteke.)
 
-## Learning Objectives
+## Ishodi učenja
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* Korištenje naredbi ponavljanja (petlji) nad nizovima znakova;
+* Korištenje `find()` metode;
+* Korištenje modularnog operatora (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Uporaba različitih programskih struktura za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Izazovi
 
-* Use a Caesar cipher - encrypy and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Use a Caesar cipher - encrypt and decrypt letters and words manually;
+* Promjenjivi ključevi - korisnik unosi odabrani ključ;
+* Šifriranje i dešifriranje poruka - šifriranje i dešifriranje cijelih poruka;
+* Kalkulator prijateljstva - primjena naredbi ponavljanja nad tekstom na novi problem.
 
-## Frequently Asked Questions
+## Često postavljana pitanja
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* Prilikom pretraživanja pomoću `find()` ili `if char in alphabet:`, imajte na umu da su metode osjetljive na velika i mala slova. Djeca mogu koristiti:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    message = input("Unesi poruku za šifriranje: ").lower()
     ```
     
-    to make the input lower case before searching.
+    kako bi unos bio napisan malim slovima prilikom pretrage.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materijali projekta
 
-## Project resources
+## Resursi projekta
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [.zip datoteka koja sadrži sve materijale projekta](resources/secret-messages-project-resources.zip)
+* [Prazan online Python Trinket](http://jumpto.cc/python-new)
+* [Prazna Offline Python datoteka](resources/new-new.py)
 
-## Club leader resources
+## Materijali za voditelja Kluba
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [.zip datoteka koja sadrži sve dovršene materijale projekta](resources/secret-messages-volunteer-resources.zip)
+* [Dovršeni online Trinket projekt](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [Dovršeni online izazov 'Kalkulator prijateljstva'](https://trinket.io/python/2e852cd687)
+* [dovršeni offline izazov 'Kalkulator prijateljstva'](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
