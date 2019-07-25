@@ -1,3 +1,4 @@
+---
 hero_image: images/secret-messages.png
 theme: red
 duration: 2
@@ -15,5 +16,13 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Tajne poruke
+steps:
+  - title: 'Uvod'
+  - title: Cezarova šifra
+  - title: 'Izazov: Isprobaj Cezarovu šifru'
+  - title: Šifriranje slova
+  - title: 'Izazov: Promjenjivi ključevi'
+  - title: Šifriranje poruka
+  - title: Dodatni znakovi
+  - title: 'Izazov: Šifriranje i dešifriranje poruka'
+  - title: 'Izazov: Kalkulator prijateljstva'
