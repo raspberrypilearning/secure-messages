@@ -55,7 +55,7 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 ## Wyzwania
 
-* Użyj szyfru Cezara - szyfruj i odszyfrowuj litery i słowa ręcznie;
+* Use a Caesar cipher - encrypt and decrypt letters and words manually;
 * Klucz jako zmienna - pozwól użytkownikowi wprowadzić wybrany klucz;
 * Szyfrowanie i odszyfrowywanie całych wiadomości;
 * Kalkulator przyjaźni - zastosowanie iteracji na tekście do nowego problemu.
