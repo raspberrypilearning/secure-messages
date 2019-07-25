@@ -55,7 +55,7 @@ Dieses Projekt umfasst Elemente aus den folgenden Zweigen des [Raspberry Pi Digi
 
 ## Herausforderungen
 
-* Verwenden einer Caesar-Verschlüsselung - manuelles Verschlüsseln und Entschlüsseln von Buchstaben und Wörtern;
+* Use a Caesar cipher - encrypt and decrypt letters and words manually;
 * Verschiedene Schlüssel - sie erlauben dem Benutzer, einen selbst gewählten Schlüssel einzugeben;
 * Verschlüsseln und Entschlüsseln von Nachrichten - Verschlüsseln und Entschlüsseln ganzer Nachrichten;
 * Freundschaftsrechner - Text-Iteration auf ein neues Problem anwenden.
