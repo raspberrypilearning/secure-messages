@@ -1,19 +1,19 @@
-\--- challenge \---
+\---challenge \---
 
-## Challenge: Friendship calculator
+## 挑战：友情计算器
 
-Write a program to show how compatible 2 people are, by calculating a friendship score.
+编写一个程序来通过计算友情得分来测试两个人是否合得来。
 
-![screenshot](images/messages-friends.png)
+![截图](images/messages-friends.png)
 
-The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
+此程序可以通过循环遍历两个人的名字中的所有字符，每一次如果发现某些特定字母时就向`score`（得分）变量中加分。
 
-You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
+你可以决定加分的规则。比如，你可以为元音加分，或者当找到任何在“friend”一词中的字母时：
 
-![screenshot](images/messages-friends-code.png)
+![截图](images/messages-friends-code.png)
 
-You could also give the user a personalised message, based on their score:
+您还可以根据用户的得分向用户提供个性化消息：
 
-![screenshot](images/messages-best-friends.png)
+![截图](images/messages-best-friends.png)
 
 \--- /challenge \---
