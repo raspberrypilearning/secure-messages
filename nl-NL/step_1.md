@@ -1,4 +1,4 @@
-## Inleiding:
+## Inleiding
 
 In dit project leer je hoe je je eigen coderingsprogramma maakt, om met een vriend geheime berichten te verzenden en ontvangen. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
@@ -10,7 +10,7 @@ In dit project leer je hoe je je eigen coderingsprogramma maakt, om met een vrie
 
 ### Aanvullende informatie voor clubleiders
 
-Als je dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
@@ -55,7 +55,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ## Uitdagingen
 
-* Gebruik een Caesarcijfer - codeer en decodeer letters en woorden handmatig;
+* Use a Caesar cipher - encrypt and decrypt letters and words manually;
 * Variabele sleutels - laat de gebruiker een gekozen sleutel invoeren;
 * Berichten coderen en decoderen - versleutelen en ontcijferen van hele berichten;
 * Vriendschapscalculator - tekst-iteratie toepassen op een nieuw probleem.
@@ -82,7 +82,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 * [Online lege Python Trinket](http://jumpto.cc/python-new)
 * [Offline leeg Python-bestand](resources/new-new.py)
 
-## Clubleider bronnen
+## Clubleiderbronnen
 
 * [.zip-bestand met alle voltooide projectresources](resources/secret-messages-volunteer-resources.zip)
 * [Online voltooid Trinket-project](https://trinket.io/python/402256078c)
