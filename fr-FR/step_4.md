@@ -18,7 +18,7 @@
     
     Tu peux supprimer les déclarations `print` une fois que tu as essayé cela.
 
-+ Ensuite, tu devras stocker la `clé` secrète dans une variable.
++ Ensuite, tu devras stocker la `clé` (key) secrète dans une variable.
     
     ![capture d'écran](images/messages-key.png)
 

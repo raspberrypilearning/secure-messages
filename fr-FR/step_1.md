@@ -1,4 +1,4 @@
-## Introduction:
+## Introduction
 
 Dans ce projet, tu apprendras à créer ton propre programme de cryptage, pour envoyer et recevoir des messages secrets avec un ami. Ce projet s'inscrit dans l'activité "Terre à Principia" à la page 16 du journal de l'espace.
 
