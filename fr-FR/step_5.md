@@ -1,11 +1,11 @@
 --- challenge ---
-## Défi : Clés variables
-Modifie ton script, pour que l'utilisateur puisse entrer leur propre clé à utiliser. Tu auras besoin de prendre l'information de l'utilisateur en entrée, puis la stocker dans la variable `key` variable.
 
-Pense à utiliser la fonction `int()` pour convertir l'entrée dans un nombre complet.
+## Défi: clés variables
 
-Tu peux par la suite utiliser une clé negative pour décrypter les messages !
+Modifie ton programme pour que l'utilisateur puisse entrer sa propre clé à utiliser. Tu devras obtenir la saisie de l'utilisateur et la stocker dans la variable `key`.
 
+N'oublie pas d'utiliser la fonction `int()` pour convertir l'entrée en un nombre entier.
 
+Tu peux ensuite utiliser une clé négative pour décrypter les messages!
 
 --- /challenge ---

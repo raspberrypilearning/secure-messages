@@ -1,3 +1,4 @@
+---
 hero_image: images/secret-messages.png
 theme: red
 duration: 2
@@ -15,13 +16,13 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: 'Introduction'
-- title: Le Code de Caesar
-- title: 'Défi : Utilisation du Code de Caesar'
-- title: Crytpage de lettres
-- title: 'Défi : Clés variables'
-- title: Chiffre des messages en entier
-- title: Plus de caractères
-- title: 'Défi : Chiffrer et déchiffrer des messages'
-- title: "Défi : Calulatrice d'amitié"
+steps:
+  - title: 'Introduction'
+  - title: Le Code de César
+  - title: 'Défi: utiliser le Code de César'
+  - title: Crypter des lettres
+  - title: 'Défi: clés variables'
+  - title: Crypter des messages entiers
+  - title: Caractères supplémentaires
+  - title: 'Défi: crypter et décrypter des messages'
+  - title: 'Défi: calculatrice d''amitié'
