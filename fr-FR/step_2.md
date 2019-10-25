@@ -1,24 +1,24 @@
-## The Caesar cipher
+## Le Code de César
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+Un chiffrement est un type de code secret dans lequel tu permutes les lettres pour que personne ne puisse lire ton message.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+Tu utiliseras l’un des plus vieux et des plus célèbres code, le **code de César**, qui porte le nom de Jules César.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+Avant de commencer à coder, essayons d’utiliser le code de César pour cacher un mot.
 
-+ Hiding a word is called **encryption**.
++ Cacher un mot s'appelle un **cryptage** .
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    Commençons par crypter la lettre 'a'. Pour ce faire, nous pouvons dessiner l'alphabet dans un cercle, comme ceci:
     
-    ![screenshot](images/messages-wheel.png)
+    ![capture d'écran](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ Pour créer une lettre cryptée secrète à partir d'une lettre normale, tu dois disposer d'une clé secrète. Utilisons le chiffre 3 comme clé (mais tu peux utiliser le nombre de ton choix).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    Pour **crypter** la lettre 'a', tu ne fais que déplacer 3 lettres dans le sens des aiguilles d'une montre, ce qui te donneras la lettre 'd':
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![capture d'écran](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ Tu peux utiliser ce que tu as appris pour crypter un mot entier. Par exemple, "hello" est crypté "khoor". Essaie-le par toi-même.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ La normalisation du texte s'appelle **décryptage** . Pour décrypter un mot, il suffit de soustraire la clé au lieu de l’ajouter:
     
     + k - 3 = **h**
     + h - 3 = **e**
