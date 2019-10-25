@@ -1,55 +1,95 @@
 ## Introduction:
 
-Dans ce projet, tu vas apprendre comment créer ton propre programme de chiffrement, pour pouvoir envoyer et recevoir des messages secrets avec un ami. Ce projet est en lien avec l'activité "Earth to Principa" (Entre Terre et Principia) qui se trouve page 16 du Carnet de Bord d'Espace.
+Dans ce projet, tu apprendras à créer ton propre programme de cryptage, pour envoyer et recevoir des messages secrets avec un ami. Ce projet s'inscrit dans l'activité "Terre à Principia" à la page 16 du journal de l'espace.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/36801fa373?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/messages-finished.png">
 </div>
 
-## Ressources en ligne
+### Informations complémentaires pour les responsables de club
 
-__Ce projet utilise Python 3.__ Nous vous conseillons d'utiliser [trinket](https://trinket.io/) pour écrire du Python en ligne. Ce projet contient les Trinkets suivants :
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/fr-FR/projects/secret-messages/print).
 
-+ [nouveau Trinket Python (vierge) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+--- collapse ---
+---
+title: Notes pour le responsable de club
+---
 
-Il y a également un trinket qui contient une version finalisée du projet :
+## Introduction:
 
-+ [‘Messages Secrets’ finalisé -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+Dans ce projet, les enfants apprendront à créer un programme de cryptage, pour envoyer et recevoir des messages secrets avec un ami. Ce projet introduit l'itération (boucle) sur une chaîne de texte.
 
-+ [‘Calculatrice d'amitié’ finalisé -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+## Ressources en-ligne
+
+**Ce projet utilise Python 3.** Nous recommandons l'utilisation de [Trinket](https://trinket.io/) pour écrire du code Python en-ligne:
+
+* [Nouveau Trinket Python (vide) -- trinket.io/python/b77c089d40](https://trinket.io/python/b77c089d40)
+
+Il existe aussi un trinket qui contient le projet terminé:
+
+* ['Messages secrets' Terminé - trinket.io/python/36801fa373](https://trinket.io/python/36801fa373)
+
+* [‘Calculatrice d'amitié’ terminé -- trinket.io/python/80799dac2c](https://trinket.io/python/80799dac2c)
 
 ## Ressources hors-ligne
-Ce projet pourrait être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si préférable.
 
-Vous pouvez trouver une version finalisée du projet dans la section 'Ressources du volontaire', qui contient :
+Ce projet peut être [terminé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si désiré.
 
-+ messages-finished/messages.py
-+ messages-finished/friends.py
+Vous pouvez aussi trouver une version terminée du projet dans la section "Ressources du bénévole" qui contient:
 
-(Toutes les ressources ci-dessus sont également téléchargeables comme des fichiers `.zip` pour le projet et les volontaires.)
+* messages-finished/messages.py
+* messages-finished/friends.py
 
-## Objectifs pédagogiques
-+ Itération (exécuter en boucle) pour une chaîne de caractères ;
-+ La méthode `find()` ;
-+ Modulo (opération) (`%`).
+(Toutes les ressources ci-dessus peuvent aussi être téléchargées dans les fichiers `.zip` projet et bénévole)
 
-Ce projet couvre des élements des parcours suivants du [Programme de Créativité Numérique Raspberry Pi](http://rpf.io/curriculum) :
+## Objectifs d'apprentissage
 
-+ [Combiner des structures de programmation afin de résoudre des problèmes.](https://www.raspberrypi.org/curriculum/programming/builder)
+* Itération (boucle) sur une variable de chaîne;
+* La méthode `find()`;
+* L'opérateur de module (`%`).
+
+Ce projet traite les éléments suivants du [Programme Raspberry Pi de Création Numérique](http://rpf.io/curriculum):
+
+* [Combiner des constructions de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Défis
-+ Utilisation du Code de Caesar (Chiffrement par décalage) - pour chiffrer et déchiffrer des lettres et mots manuellement ;
-+ Clés variables - permettre à l'utilisateur d'entrer une clé choisie ;
-+ Chiffrer et déchiffrer des messages - Cryptage et décryptage de messages entiers ;
-+ Calulatrice d'amitié - application d'itération d'un texte à une autre problèmatique.
 
-## Foire à questions
-+ Quand on cherche avec la fonction `find()` ou `if char in alphabet:`, à noter que les requêtes sont sensible à la casse. Les enfants peuvent utiliser :
+* Utilisez un code de César - crypter et décrypter les lettres et les mots manuellement;
+* Clés variables - permettant à l'utilisateur d'entrer une clé choisie;
+* Crypter et décrypter des messages - crypter et décrypter des messages entiers;
+* Calculatrice d'amitié - application d'itération de texte à un nouveau problème.
 
-	```python
-	message = input("Please enter a message to encrypt: ").lower()
-	```
+## Foire aux questions
 
-	pour transfomer l'entrée en miniscule avant de lancer la recherche.
+* Lors de la recherche avec `find()` ou `if char in alphabet` Notez que les recherches sont sensibles à la casse. Les enfants peuvent utiliser:
+    
+    ```python
+    message = input("S'il vous plaît entrer un message à chiffrer:").lower()
+    ```
+    
+    pour faire la saisie en minuscule avant de chercher.
+ 
+--- /collapse ---
+
+--- collapse ---
+---
+title: Matériels pour le projet
+---
+
+## Ressources du projet
+
+* [Fichier .zip contenant toutes les ressources du projet](resources/secret-messages-project-resources.zip)
+* [Trinket Python en-ligne vierge](https://trinket.io/python/b77c089d40)
+* [Fichier Python hors-ligne vierge](resources/new-new.py)
+
+## Ressources pour le responsable de club
+
+* [Fichier .zip contenant toutes les ressources du projet terminé](resources/secret-messages-volunteer-resources.zip)
+* [Projet Trinket en ligne terminé](https://trinket.io/python/36801fa373)
+* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [Défi de la 'calculatrice d'amitié' en ligne terminé](https://trinket.io/python/80799dac2c)
+* [défi de la 'calculatrice d'amitié' hors-ligne terminé](resources/friendship-calculator-finished-friends.py)
+
+--- /collapse ---
