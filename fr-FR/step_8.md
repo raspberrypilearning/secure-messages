@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## Défi : Crypter et décrypter des messages
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+Crypte certains messages et transmets-les à un ami avec la clé secrète. Vois si ils peuvent les décrypter en utilisant leur programme!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+Tu peux également dupliquer le projet et créer un programme séparé pour décrypter les messages.
 
 \--- /challenge \---
