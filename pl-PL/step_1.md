@@ -1,6 +1,6 @@
 ## Wprowadzenie:
 
-W tym projekcie dowiesz się, jak stworzyć swój własny program szyfrujący, aby wysyłać i odbierać tajne wiadomości od przyjaciół. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+W tym projekcie dowiesz się, jak stworzyć swój własny program szyfrujący, aby wysyłać i odbierać tajne wiadomości od przyjaciół. Ten projekt jest powiązany z zadaniem "Ziemia do Principii" na stronie 16 Dziennika Przestrzeni.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -55,7 +55,7 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 ## Wyzwania
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
+* Użyj szyfru Cezara - szyfruj i odszyfrowuj litery i słowa ręcznie;
 * Klucz jako zmienna - pozwól użytkownikowi wprowadzić wybrany klucz;
 * Szyfrowanie i odszyfrowywanie całych wiadomości;
 * Kalkulator przyjaźni - zastosowanie iteracji na tekście do nowego problemu.
