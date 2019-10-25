@@ -26,7 +26,7 @@ Zamiast szyfrować i odszyfrowywać wiadomości po jednej literze, zmieńmy prog
     
     ![zrzut ekranu](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Możesz użyć polecenia `print`, aby wydrukować zawartość zmiennej `nowaWiadomosc` jak zostanie już zaszyfrowana.
     
     ![zrzut ekranu](images/messages-print-message-characters.png)
 
