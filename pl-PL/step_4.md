@@ -54,11 +54,11 @@ Napiszmy program Python, aby zaszyfrować pojedynczy znak.
     
     Zauważ, że `nowaPozycja` wynosi wtedy 27, a nie ma przecież 27 liter w alfabecie!
 
-+ Można w tym przypadku użyć znaku `%`, który sprawie, że nowa pozycja zostanie przywrócona do pozycji 0, gdy pozycja 26 zostanie osiągnięta.
++ Można w tym przypadku użyć znaku `%`, który sprawi, że nowa pozycja zostanie przywrócona do pozycji 0, gdy pozycja 26 zostanie osiągnięta.
     
     ![zrzut ekranu](images/messages-modulus.png)
 
-+ Teraz wudrukuje nową pozycję wprowadzonej litery.
++ Na koniec wydrukuj nową pozycję wprowadzonej litery.
     
     Na przykład, dodanie klucza do litery 'e' daje 7, a literą na pozycji 7 w alfabecie jest 'h'.
     
