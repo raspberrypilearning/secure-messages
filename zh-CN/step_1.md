@@ -55,7 +55,7 @@
 
 ## 挑战
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
+* 使用凯撒密码 - 手动加密和解密字母和单词；
 * 可变密钥 - 允许用户输入选好的密钥;
 * 加密和解密消息 - 加密和解密整个消息；
 * 友谊计算器 - 在新问题中使用文本迭代。
