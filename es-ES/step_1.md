@@ -55,7 +55,7 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 
 ## Desafíos
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
+* Usar el cifrado César - encriptar y desencriptar letras y palabras de forma manual;
 * Claves variables - permitir al usuario la introducción de la clave elegida;
 * Encriptar y desencriptar mensajes - encriptar y desencriptar mensajes enteros;
 * Calculadora de amistad - aplicar la iteración sobre un texto a un nuevo problema.
