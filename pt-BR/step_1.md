@@ -56,38 +56,38 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 ## Desafios
 
 * Use uma cifra de César - criptografe e descriptografe letras e palavras manualmente;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Chaves variáveis ​​- permitindo ao usuário inserir uma chave escolhida;
+* Criptografar e descriptografar mensagens - criptografando e descriptografando mensagens inteiras;
+* Calculadora de amizade - aplicando iteração em texto a um novo problema.
 
-## Frequently Asked Questions
+## Perguntas Frequentes
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* Ao pesquisar usando `find()` ou `if caractere in alfabeto:`, observe que as buscas fazem distinção entre maiúsculas e minúsculas. As crianças podem usar:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    mensagem = input("Por favor insira uma mensagem para criptografar: ").lower()
     ```
     
-    to make the input lower case before searching.
+    para tornar a entrada minúscula antes de buscar.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiais do Projeto
 
-## Project resources
+## Recursos do projeto
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [arquivo .zip contendo todos os recursos do projeto](resources/secret-messages-project-resources.zip)
+* [Trinket de Python em branco on-line](http://jumpto.cc/python-new)
+* [Arquivo Python offline em branco](resources/new-new.py)
 
-## Club leader resources
+## Recursos do líder do clube
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [arquivo .zip contendo todos os recursos do projeto concluídos](resources/secret-messages-volunteer-resources.zip)
+* [Projeto Trinket online e completo](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [Desafio da "Calculadora de amizade" concluído on-line](https://trinket.io/python/2e852cd687)
+* [Desafio da "Calculadora de amizade" concluído offline](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
