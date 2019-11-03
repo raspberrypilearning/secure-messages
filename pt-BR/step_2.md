@@ -1,14 +1,14 @@
 ## A cifra de César
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+Uma cifra é um tipo de código secreto, onde você troca as letras para que ninguém possa ler sua mensagem.
 
 You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+Antes de começarmos a programar, vamos tentar usar a cifra de César para esconder uma palavra.
 
-+ Hiding a word is called **encryption**.
++ Esconder uma palavra é chamado de **criptografia**.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    Vamos começar criptografando a letra 'a'. Para fazer isso, podemos desenhar o alfabeto em um círculo, assim:
     
     ![screenshot](images/messages-wheel.png)
 
