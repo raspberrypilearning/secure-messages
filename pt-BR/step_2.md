@@ -2,7 +2,7 @@
 
 Uma cifra é um tipo de código secreto, onde você troca as letras para que ninguém possa ler sua mensagem.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+Você usará uma das mais antigas e famosas cifras, a **cifra de César**, que leva o nome de Júlio César.
 
 Antes de começarmos a programar, vamos tentar usar a cifra de César para esconder uma palavra.
 
@@ -12,24 +12,24 @@ Antes de começarmos a programar, vamos tentar usar a cifra de César para escon
     
     ![screenshot](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ Para criar uma carta criptografada secreta a partir de uma carta normal, você precisa ter uma chave secreta. Vamos usar o número 3 como chave (mas você pode usar qualquer número que quiser).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    Para **criptografar** a letra 'a', você apenas move 3 letras no sentido horário, o que lhe dará a letra 'd':
     
     ![screenshot](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ Você pode usar o que aprendeu para criptografar uma palavra inteira. Por exemplo, 'amigo' criptografado é 'dpljr'. Tente você mesmo.
     
-    + h + 3 = **k**
-    + e + 3 = **h**
-    + l + 3 = **o**
-    + l + 3 = **o**
+    + a + 3 = **d**
+    + m + 3 = **p**
+    + i + 3 = **l**
+    + g + 3 = **j**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ Retornar o texto ao normal é chamado de **decriptografia**. Para descriptografar uma palavra, basta subtrair a chave em vez de adicioná-la:
     
-    + k - 3 = **h**
-    + h - 3 = **e**
-    + o - 3 = **l**
-    + o - 3 = **l**
+    + d - 3 = **a**
+    + p - 3 = **m**
+    + l - 3 = **i**
+    + j - 3 = **g**
     + r - 3 = **o**
