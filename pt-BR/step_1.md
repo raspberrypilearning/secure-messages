@@ -8,25 +8,25 @@ Neste projeto, você aprenderá como criar seu próprio programa de criptografia
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### Informação adicional para líderes de clube
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Notas do líder do clube
 
-## Introduction:
+## Introdução:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+Neste projeto, as crianças aprenderão como fazer um programa de criptografia, trocar mensagens secretas com um amigo. Este projeto introduz iteração (repetição) sobre uma cadeia de texto.
 
-## Online Resources
+## Recursos Online
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Este projeto usa o Python 3.** Recomendamos usar o [trinket](https://trinket.io/) para escrever Python online. Este projeto contém os seguintes Trinkets:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Novo Trinket Python (em branco) - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Há também um trinket contendo o projeto finalizado:
 
 * [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
