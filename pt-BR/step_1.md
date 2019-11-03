@@ -32,11 +32,11 @@ Há também um trinket contendo o projeto finalizado:
 
 * ['Calculadora de Amizade' Finalizado - trinket.io/python/12ffdb16ed](https://trinket.io/python/12ffdb16ed)
 
-## Offline Resources
+## Recursos Offline
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+Este projeto pode ser [concluído off-line](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) , se preferir.
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Você pode encontrar o projeto concluído na seção "Recursos para Voluntários", que contém:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
