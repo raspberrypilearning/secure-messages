@@ -12,4 +12,4 @@ for caractere in nomes:
 print('Sua pontuação de amizade é: ', pontos)
 
 if pontos > 100:
-  print('best friends!')
+  print('Melhores amigos!')
