@@ -49,13 +49,13 @@ Você pode encontrar o projeto concluído na seção "Recursos para Voluntários
 * O método `find()`;
 * O operador de módulo (`%`).
 
-Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Desafios
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
+* Use uma cifra de César - criptografe e descriptografe letras e palavras manualmente;
 * Variable keys - allowing the user to input a chosen key;
 * Encrypting and decrypting messages - encrypting and decrypting whole messages;
 * Friendship calculator - applying text iteration to a new problem.
