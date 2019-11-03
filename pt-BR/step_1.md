@@ -41,11 +41,11 @@ Você pode encontrar o projeto concluído na seção "Recursos para Voluntários
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Todos os recursos acima também podem ser baixados como arquivos `.zip` do projeto e dos voluntários.)
 
-## Learning Objectives
+## Objetivos de aprendizado
 
-* Iteration (looping) over a string variable;
+* Iteração (repetição) sobre uma variável de string;
 * The `find()` method;
 * The modulus operator (`%`).
 
