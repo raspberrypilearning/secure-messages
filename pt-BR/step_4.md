@@ -16,29 +16,29 @@ Vamos escrever um programa em Python para criptografar um único caractere.
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    Você pode excluir as declarações de `print` depois de tentar isso.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ Em seguida, você precisará armazenar a `chave` secreta em uma variável.
     
     ![screenshot](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ Em seguida, peça ao usuário uma única letra (chamada de `caractere`) para criptografar.
     
     ![screenshot](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ Encontre a `posição` do `caractere`.
     
     ![screenshot](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ Você pode testar a `posição` armazenada imprimindo-a. Por exemplo, o caractere 'e' está na posição 4 do alfabeto.
     
     ![screenshot](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ Para criptografar o `caractere`, você deve adicionar a `chave` à `posição`. Isso é então armazenado na variável `novaPosicao`.
     
     ![screenshot](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ Adicione código para imprimir a nova posição do caractere.
     
     ![screenshot](images/messages-newposition-print.png)
 
