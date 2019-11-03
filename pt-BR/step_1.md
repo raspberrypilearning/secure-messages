@@ -3,7 +3,7 @@
 Neste projeto, você aprenderá como criar seu próprio programa de criptografia, para trocar mensagens secretas com um amigo. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/ddd818a2ac?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/messages-finished.png">
 </div>
@@ -30,7 +30,7 @@ Há também um trinket contendo o projeto finalizado:
 
 * ['Mensagens Secretas' Finalizado - trinket.io/python/ddd818a2ac](https://trinket.io/python/ddd818a2ac)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['Calculadora de Amizade' Finalizado - trinket.io/python/12ffdb16ed](https://trinket.io/python/12ffdb16ed)
 
 ## Offline Resources
 
