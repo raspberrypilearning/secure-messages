@@ -28,7 +28,7 @@ Neste projeto, as crianças aprenderão como fazer um programa de criptografia, 
 
 Há também um trinket contendo o projeto finalizado:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['Mensagens Secretas' Finalizado - trinket.io/python/ddd818a2ac](https://trinket.io/python/ddd818a2ac)
 
 * [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
