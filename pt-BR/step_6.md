@@ -4,32 +4,32 @@ Em vez de apenas criptografar e descriptografar mensagens um caractere de cada v
 
 + Em primeiro lugar, verifique se o seu código está assim:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![captura de tela](images/messages-character-finished.png)
 
 + Crie uma variável para armazenar a nova mensagem criptografada.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![captura de tela](images/messages-newmessage.png)
 
 + Altere seu código para armazenar a mensagem do usuário e não apenas um caractere.
     
-    ![screenshot](images/messages-message.png)
+    ![captura de tela](images/messages-message.png)
 
 + Adicione um laço `for` ao seu código e recue o restante do código para que ele seja repetido para cada caractere na mensagem.
     
-    ![screenshot](images/messages-loop.png)
+    ![captura de tela](images/messages-loop.png)
 
 + Teste seu código. Você deve ver que cada caractere na mensagem é criptografado e impresso um de cada vez.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![captura de tela](images/messages-loop-test.png)
 
 + Vamos adicionar cada caractere criptografado à sua variável `novaMensagem`.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![captura de tela](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ Você pode imprimir a `novaMensagem` com o comando `print` quando ela for criptografada.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![captura de tela](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ Se você excluir os espaços antes da instrução `print`, a mensagem criptografada será exibida apenas uma vez no final. Você também pode excluir o código para imprimir as posições dos caracteres.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![captura de tela](images/messages-print-message-comment.png)
