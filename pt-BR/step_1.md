@@ -1,6 +1,6 @@
 ## Introdução:
 
-Neste projeto, você aprenderá como criar seu próprio programa de criptografia, para trocar mensagens secretas com um amigo. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+Neste projeto, você aprenderá como criar seu próprio programa de criptografia, para trocar mensagens secretas com um amigo. Este projeto se relaciona com a atividade "Earth to Principa" na página 16 do Diário Espacial.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/ddd818a2ac?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -85,9 +85,9 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 ## Recursos do líder do clube
 
 * [arquivo .zip contendo todos os recursos do projeto concluídos](resources/secret-messages-volunteer-resources.zip)
-* [Projeto Trinket online e completo](https://trinket.io/python/402256078c)
+* [Projeto Trinket online e completo](https://trinket.io/python/ddd818a2ac)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Desafio da "Calculadora de amizade" concluído on-line](https://trinket.io/python/2e852cd687)
+* [Desafio da "Calculadora de amizade" concluído on-line](https://trinket.io/python/12ffdb16ed)
 * [Desafio da "Calculadora de amizade" concluído offline](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
