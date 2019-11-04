@@ -1,12 +1,12 @@
-## Encrypting entire messages
+## Criptografando mensagens inteiras
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+Em vez de apenas criptografar e descriptografar mensagens um caractere de cada vez, vamos mudar o programa para criptografar mensagens inteiras!
 
-+ Firstly, check that your code looks like this:
++ Em primeiro lugar, verifique se o seu código está assim:
     
     ![screenshot](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Crie uma variável para armazenar a nova mensagem criptografada.
     
     ![screenshot](images/messages-newmessage.png)
 
