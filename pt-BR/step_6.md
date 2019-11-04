@@ -10,19 +10,19 @@ Em vez de apenas criptografar e descriptografar mensagens um caractere de cada v
     
     ![screenshot](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Altere seu código para armazenar a mensagem do usuário e não apenas um caractere.
     
     ![screenshot](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ Adicione um laço `for` ao seu código e recue o restante do código para que ele seja repetido para cada caractere na mensagem.
     
     ![screenshot](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Teste seu código. Você deve ver que cada caractere na mensagem é criptografado e impresso um de cada vez.
     
     ![screenshot](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Vamos adicionar cada caractere criptografado à sua variável `novaMensagem`.
     
     ![screenshot](images/messges-message-add-character.png)
 
