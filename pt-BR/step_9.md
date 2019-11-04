@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Friendship calculator
+## Desafio: calculadora de amizade
 
 Write a program to show how compatible 2 people are, by calculating a friendship score.
 
