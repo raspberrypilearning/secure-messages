@@ -42,13 +42,13 @@ Vamos escrever um programa em Python para criptografar um único caractere.
     
     ![screenshot](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ Teste seu novo código. Como sua `chave` é 3, ela deve adicionar 3 à variável `posicao` e armazená-la na variável `novaPosicao`.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    Por exemplo, a letra 'e' está na posição 4. Para criptografar, você adiciona a `chave` (3), dando 7.
     
     ![screenshot](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ O que acontece quando você tenta criptografar a letra 'y'?
     
     ![screenshot](images/messages-modulus-bug.png)
     
