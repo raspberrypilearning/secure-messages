@@ -24,7 +24,6 @@ Antes de empezar a escribir código, intentemos usar el cifrado César para ocul
     + o + 3 = **r**
     + l + 3 = **o**
     + a + 3 = **d**
-    + 
 
 + Hacer que el texto vuelva a la normalidad se llama **desencriptar**. Para desencriptar una palabra, simplemente hay que restar la clave en lugar de sumarla:
     
@@ -32,4 +31,3 @@ Antes de empezar a escribir código, intentemos usar el cifrado César para ocul
     + r - 3 = **o**
     + o - 3 = **l**
     + d - 3 = **a**
-    +

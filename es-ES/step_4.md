@@ -2,7 +2,7 @@
 
 Escribamos un programa en Python para encriptar un solo carácter.
 
-+ Abre la plantilla Python en blanco en Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Abre la plantilla Python en blanco en Trinket: <a href="https://trinket.io/python/b77c089d40" target="_blank">trinket.io/python/b77c089d40</a>.
 
 + En vez de dibujar el alfabeto en un círculo, vamos a representarlo como una variable llamada `alfabeto`.
     

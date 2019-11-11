@@ -1,4 +1,4 @@
-## Introducción:
+## Introducción
 
 En este proyecto aprenderás a escribir tu propio programa de encriptado para intercambiar mensajes secretos con un/a amigo/a. Este proyecto enlaza con la actividad "Earth to Principia" en la página 16 del Diario del Espacio (Space Diary).
 
@@ -16,6 +16,7 @@ Si necesita imprimir este proyecto, use la [versión para imprimir](https://proj
 ---
 title: Notas para el líder del club
 ---
+
 ## Introducción:
 
 En este proyecto, los niños aprenderán cómo hacer un programa de encriptación para intercambiar mensajes secretos con un/a amigo/a. Este proyecto introduce la iteración (bucle) sobre una cadena de texto.
@@ -24,7 +25,7 @@ En este proyecto, los niños aprenderán cómo hacer un programa de encriptació
 
 **Este proyecto usa Python 3.** Recomendamos el uso de [Trinket](https://trinket.io/) para escribir Python en línea. Este proyecto contiene los siguientes Trinkets:
 
-* [Trinket nuevo (en blanco) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Trinket nuevo (en blanco) -- trinket.io/python/b77c089d40](https://trinket.io/python/b77c089d40)
 
 También hay un Trinket con el proyecto acabado:
 
@@ -62,7 +63,7 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 
 ## Preguntas frecuentes
 
-* Cuando se realiza una búsqueda usando `find()` o `if char in alphabet:`, hay que tener en cuenta que las búsquedas distinguen entre mayúsculas y minúsculas. Los niños pueden usar:
+* Cuando se realiza una búsqueda usando `find()` o `if caracter in alfabeto:`, hay que tener en cuenta que las búsquedas distinguen entre mayúsculas y minúsculas. Los niños pueden usar:
     
     ```python
     mensaje = input("Por favor, introducir un mensaje para su encriptación: ").lower()
@@ -76,10 +77,11 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 ---
 title: Materiales del proyecto
 ---
+
 ## Recursos del proyecto
 
 * [Archivo .zip que contiene todos los recursos del proyecto](resources/secret-messages-project-resources.zip)
-* [Trinket Python en blanco en línea](http://jumpto.cc/python-new)
+* [Trinket Python en blanco en línea](https://trinket.io/python/b77c089d40)
 * [Trinket Python en blanco sin conexión](resources/new-new.py)
 
 ## Recursos para el líder del club
