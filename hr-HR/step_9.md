@@ -18,9 +18,11 @@ Korisnicima možeš prikazati i posebnu poruku ovisno o njihovom rezultatu:
 
 --- /challenge ---
 
+***
+Ovaj su projekt preveli volonteri:
 
-**Prijevod članova zajednice**
+**Maja Manojlović**
 
-Ovaj je projekt prevela **Maja Manojlović** i pregledala **Ivana Vezjak**.
+**Ivana Vezjak**
 
-Naši nevjerojatni volonteri prevoditelji pomažu nam da djeci širom svijeta pružimo priliku da nauče programirati. Možete nam pomoći da dosegnemo više djece prevođenjem naših projekata - pročitajte više na [rpf.io/translators](https://rpf.io/translators).
+Zahvaljujući volonterima, možemo pružiti ljudima širom svijeta priliku da uče na svom jeziku. Možete nam pomoći da dođemo do većeg broja ljudi tako da postanete volonter prevoditelj. Više informacija možete pronaći na [rpf.io/translate](https://rpf.io/translate).
