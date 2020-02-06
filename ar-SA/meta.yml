@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Secret Messages
-description: Make your own encryption program, to send and receive secret messages.
+title: رسائل سرية
+description: اصنع برنامج التشفير الخاص بك لإرسال و استلام رسائل سرية.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -18,20 +18,20 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'المقدمة: '
   - 
-    title: The Caesar cipher
+    title: شفرة قيصر
   - 
-    title: 'Challenge: Use a Caesar cipher'
+    title: 'التحدي: استخدم شفرة قيصر'
   - 
-    title: Encrypting letters
+    title: تشفير الحروف
   - 
-    title: 'Challenge: Variable keys'
+    title: 'التحدي: مفاتيح المتغيرات'
   - 
-    title: Encrypting entire messages
+    title: تشفير الرسائل بأكملها
   - 
-    title: Extra characters
+    title: أحرف إضافية
   - 
-    title: 'Challenge: Encrypting and decrypting messages'
+    title: 'التحدي: تشفير الرسائل وفك تشفيرها'
   - 
-    title: 'Challenge: Friendship calculator'
+    title: 'التحدي: آلة حاسبة للصداقة'
