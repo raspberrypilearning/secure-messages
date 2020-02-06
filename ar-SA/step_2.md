@@ -1,35 +1,35 @@
-## The Caesar cipher
+## شفرة قيصر
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+الشفرة هى نوع من الرموز السرية، حيث يتم تبديل الحروف بحروف أخرى بحيث لا يستطيع أحد قراءة الرسالة.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+سوف تستخدم واحدة من أقدم وأشهر الشفرات، وهي **شفرة قيصر**، التي سميت على اسم يوليوس قيصر.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+قبل أن نبدأ كتابة التعليمة البرمجية، دعونا نحاول استخدام شفرة قيصر لإخفاء كلمة. ملحوظة: سوف يتم استخدام الابجدية العربية.
 
-+ Hiding a word is called **encryption**.
++ إخفاء كلمة يسمى **تشفير**.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    لنبدأ بتشفير حرف 'الالف'. للقيام بذلك، يمكننا رسم الحروف الأبجدية في دائرة، هكذا:
     
-    ![screenshot](images/messages-wheel.png)
+    ![لقطة الشاشة](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ لإنشاء حرف سري مشفر من حرف عادي، يجب أن يكون لديك مفتاح سري. دعونا نستخدم الرقم 3 كمفتاح (ولكن يمكنك استخدام أي رقم غيره).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    **لتشفير** الحرف 'ا' ، فقط تحرك ثلاثة أحرف في اتجاه عقارب الساعة ، والذي سيعطيك الحرف 'ث':
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![لقطة الشاشة](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ يمكنك استخدام ما تعلمته لتشفير كلمة بأكملها. على سبيل المثال، تشفير كلمة "مرحبا" هو "اشذجث". جربها بنفسك.
     
-    + h + 3 = **k**
-    + e + 3 = **h**
-    + l + 3 = **o**
-    + l + 3 = **o**
-    + o + 3 = **r**
+    + م + 3 = **ا**
+    + ر + 3 = **ش**
+    + ح + 3 = **ذ**
+    + ب+ 3 = **ج**
+    + ا + 3 = **ث**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ إعادة النص إلى حالته الطبيعية يسمى** فك التشفير**. لفك تشفير كلمة، فقط قم بطرح المفتاح بدلاً من جمعه:
     
-    + k - 3 = **h**
-    + h - 3 = **e**
-    + o - 3 = **l**
-    + o - 3 = **l**
-    + r - 3 = **o**
+    + ا - 3 = **م**
+    + ش - 3 = **ر**
+    + ذ - 3 = **ح**
+    + ج - 3 = **ب**
+    + ث - 3 = **ا**
