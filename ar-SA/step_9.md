@@ -16,7 +16,7 @@
 
 ![لقطة الشاشة](images/messages-best-friends.png)
 
---- challenge/ ---
+--- /challenge ---
 
 
 ***
