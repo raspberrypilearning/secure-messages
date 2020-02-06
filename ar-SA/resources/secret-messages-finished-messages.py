@@ -1,11 +1,11 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alphabet = 'ابتثجحخدذرزسشصضطظعغفقكلمنهوي'
 newMessage = ''
   
-message = input('Please enter a message: ')
+message = input('الرجاء إدخال رسالة: ')
 
-key = input('Enter a key (1-26): ')
+key = input('أدخل مفتاح (1-28): ')
 key = int(key)
 
 for character in message:
@@ -17,4 +17,4 @@ for character in message:
   else:
     newMessage += character
 
-print('Your new message is: ', newMessage)
+print('رسالتك الجديدة هي: ', newMessage)
