@@ -1,6 +1,6 @@
-## Introduction:
+## المقدمة:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+في هذه المشروع ستتعلم كيفية صنع برنامج التشفير الخاص بك لإرسال واستلام الرسائل السرية مع صديق. هذا المشروع مرتبط بنشاط "Earth to Principia" في الصفحة 16 من Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### معلومات إضافية لقادة النادي
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: ملاحظات قادة النادي
 
-## Introduction:
+## مقدمة:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+في هذا المشروع، سيتعلم الأطفال كيفية إنشاء برنامج تشفير، لإرسال واستلام الرسائل السرية مع صديق. يقدم هذا المشروع التكرار (حلقات) على سلسلة نصية.
 
-## Online Resources
+## الموارد المتوفرة على الإنترنت
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**يستخدم هذا المشروع Python 3.** نوصي باستخدام [trinket](https://trinket.io/) لكتابة لغة Python على الانترنت. يحتوى هذا المشروع على Trinkets التالية:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Python Trinket جديد (فارغ) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+هناك أيضًا trinket تحتوي على المشروع المكتمل:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ["رسائل سرية" مكتمل -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ["حاسبة الصداقة" مكتمل -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## الموارد المتوفرة دون اتصال بالإنترنت
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+يمكنك إكمال هذا المشروع [ دون اتصال بالإنترنت](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) إذا كنت تفضل ذلك.
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+يمكنك العثور على النسخة المكتملة من هذا المشروع في قسم "موارد المتطوعين"، و الذي يحتوي على:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(جميع الموارد المذكورة أعلاه قابلة للتنزيل أيضًا كملفات `.zip` للمشاريع والمتطوعين)
 
-## Learning Objectives
+## أهداف التعلم
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* التكرار (حلقات) على نص متغير؛
+* طريقة `()find `؛
+* معامل باقى القسمة (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [دمج الإنشاءات البرمجية لحل مشكلة.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## التحديات
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* استخدام شفرة قيصر - تشفير وفك تشفير الحروف والكلمات يدويا؛
+* مفاتيح المتغيرات - السماح للمستخدم بإدخال مفتاح مختار؛
+* تشفير الرسائل وفك تشفيرها - تشفير وفك تشفير الرسائل بأكملها؛
+* حاسبة الصداقة - تطبيق تكرار النص على مشكلة جديدة.
 
-## Frequently Asked Questions
+## الأسئلة الشائعة
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* عند البحث باستخدام `()find `او ` :if char in alphabet `، لاحظ أن عمليات البحث حساسة لحالة الأحرف. يمكن للأطفال استخدام:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    ()message = input("الرجاء ادخال رسالة لتشفيرها: ").lower
     ```
     
-    to make the input lower case before searching.
+    لجعل الإدخال بحالة الأحرف الصغيرة قبل البحث (في حالة استخدام اللغة الانكليزية).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: مواد المشروع
 
-## Project resources
+## موارد المشروع
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [ملف.zip يحتوي على جميع موارد المشروع](resources/secret-messages-project-resources.zip)
+* [Python Trinket فارغ على الانترنت](http://jumpto.cc/python-new)
+* [ملف Python فارغ بدون الاتصال بالانترنت](resources/new-new.py)
 
-## Club leader resources
+## موارد قادة النادي
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [ملف.zip يحتوي على جميع موارد المشروع المكتملة](resources/secret-messages-volunteer-resources.zip)
+* [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [تحدي "حاسبة الصداقة" مكتمل على الانترنت](https://trinket.io/python/2e852cd687)
+* [تحدي "حاسبة الصداقة" مكتمل بدون الاتصال بالانترنت](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
