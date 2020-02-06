@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## تشفير الرسائل بأكملها
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+بدلاً من تشفير الرسائل وفك تشفيرها حرفًا واحدًا في كل مرة ، دعنا نغير البرنامج لتشفير الرسائل بأكملها!
 
-+ Firstly, check that your code looks like this:
++ أولاً ، تحقق من أن الكود الخاص بك يبدو كالتالي:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![لقطة الشاشة](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ قم بإنشاء متغير لتخزين الرسالة المشفرة الجديدة.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![لقطة الشاشة](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ قم بتغيير الكود الخاص بك لتخزين رسالة المستخدم وليس مجرد حرف واحد.
     
-    ![screenshot](images/messages-message.png)
+    ![لقطة الشاشة](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ أضف حلقة ` for ` الى الكود الخاص بك، ثم ضع مسافة بادئة في بقية الكود بحيث يتكرر لكل حرف في الرسالة.
     
-    ![screenshot](images/messages-loop.png)
+    ![لقطة الشاشة](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ جرب الكود خاصتك. يجب أن ترى أن كل حرف في الرسالة تم تشفيره وطباعته حرفأ واحدأ في كل مرة.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![لقطة الشاشة](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ دعنا نضيف كل حرف مشفر إلى متغير `newMessage `.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![لقطة الشاشة](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ يمكنك استخدام ` print ` مع `newMessage` بينما يجري تشفيرها.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![لقطة الشاشة](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ ذا قمت بحذف المسافات قبل عبارة ` print ` ، سيتم عرض الرسالة المشفرة مرة واحدة فقط في النهاية. يمكنك أيضًا حذف كود طباعة مواضع الأحرف.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![لقطة الشاشة](images/messages-print-message-comment.png)
