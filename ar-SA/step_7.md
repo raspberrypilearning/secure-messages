@@ -1,31 +1,31 @@
-## Extra characters
+## أحرف إضافية
 
-Some characters aren't in the alphabet, which causes an error.
+بعض الأحرف ليست في الأبجدية العربية، مما يسبب خطأ.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ اختبر الكود الخاص بك مع بعض الأحرف الغير موجودة في الأبجدية.
     
-    For example, you could use the message `hi there!!`.
+    على سبيل المثال ، يمكنك استخدام الرسالة `اهلا بك!!`.
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![لقطة الشاشة](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    لاحظ أن المسافة و رمز علامة التعجب `! ` لا يتم تشفيرهم!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ لإصلاح ذلك ، أنت تريد فقط ترجمة حرف ما إذا كان في الأبجدية. للقيام بذلك ، أضف عبارة ` if ` الى الكود الخاص بك ثم ضع المسافة البادئة قبل بداية باقي اسطر الكود.
     
-    ![screenshot](images/messages-if.png)
+    ![لقطة الشاشة](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ اختبر الكود بنفس الرسالة. ماذا يحدث هذه المرة؟
     
-    ![screenshot](images/messages-if-test.png)
+    ![لقطة الشاشة](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    الآن ، يتخطى الكود الخاص بك أي حرف إذا لم يكن في الأبجدية.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ سيكون من الأفضل إذا لم يشفر الكود الخاص بك أي شيء ليس في الأبجدية ، ولكن يستخدم الحرف الأصلي فقط.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    أضف عبارة ` else ` للكود الخاص بك ، والتي تضيف فقط الحرف الأصلي إلى الرسالة المشفرة.
     
-    ![screenshot](images/messages-else.png)
+    ![لقطة الشاشة](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ اختبار الكودالخاص بك. يجب أن ترى أن أي حرف في الأبجدية مشفر ، و يتم ترك أي أحرف أخرى بمفردها!
     
-    ![screenshot](images/messages-else-test.png)
+    ![لقطة الشاشة](images/messages-else-test.png)
