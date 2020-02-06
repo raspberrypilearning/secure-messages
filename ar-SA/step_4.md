@@ -1,71 +1,69 @@
-## تشفير الأحرف
+## تشفير الحروف
 
 لنكتب برنامج Python لتشفير حرف واحد.
 
++ افتح الTrinket الذي يحتوي على قالب Python فارغ: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
++ بدلاً من رسم الحروف الأبجدية في دائرة، لنكتبها كمتغير `alphabet`.
+    
+    ![لقطة الشاشة](images/messages-alphabet.png)
 
-افتح Trinket الذي يحتوي على قالب Python فارغ: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ كل حرف من الحروف الأبجدية له موضع ، بدءاً من الموضع 0. لذا فإن الحرف 'ا' يكون عند الموضع 0 من الأبجدية ، و 'ت' عند الموضع 2.
+    
+    ![لقطة الشاشة](images/messages-array.png)
 
-+ بدلًا من كتابة الأحرف الأبجدية في دائرة، لنكتبها كمتغير `alphabet`.
++ يمكنك الحصول على حرف من المتغير `alphabet` عن طريق كتابة الموضع بين قوسين مربعين.
+    
+    ![لقطة الشاشة](images/messages-alphabet-array.png)
+    
+    يمكنك حذف عبارات `print` بعد أن تنتهى من تجربة هذا.
 
-	![screenshot](images/messages-alphabet.png)
++ بعد ذلك، ستحتاج إلى تخزين المفتاح السري `key` في متغير.
+    
+    ![لقطة الشاشة](images/messages-key.png)
 
-+ لكل حرف من الأحرف الأبجدية موضع، بدءًا من الموضع 0. أي أن الحرف 'a' عند الموضع 0 من الأحرف الأبجدية، والحرف 'c' عند الموضع 2.
++ ثم بعدها، اطلب من المستخدم ادخال حرف واحد (يسمى `character`) لتشفيره.
+    
+    ![لقطة الشاشة](images/messages-character.png)
 
-	![screenshot](images/messages-array.png)
++ ابحث عن الموضع `position` الخاص ب`character`.
+    
+    ![لقطة الشاشة](images/messages-position.png)
 
-+ يمكنك الحصول على حرف من المتغير `alphabet` بكتابة موضع هذا الحرف بين قوسين مربعين.
++ يمكنك اختبار `position` المخزن عن طريق طباعته. على سبيل المثال، الحرف 'ج' يكون عند الموضع 4 في الأبجدية.
+    
+    ![لقطة الشاشة](images/messages-position-test.png)
 
-	![screenshot](images/messages-alphabet-array.png)
++ لتشفير `character`، يجب عليك ان تجمع `key` و `position`. ثم يتم تخزين ذلك في متغير `newPosition`.
+    
+    ![لقطة الشاشة](images/messages-newposition.png)
 
-	يمكنك حذف عبارات `print` بعد انتهائك من اختبار هذا المتغير.
++ أضف تعليمات برمجية لطباعة موضع الحرف الجديد.
+    
+    ![لقطة الشاشة](images/messages-newposition-print.png)
 
-+ ستحتاج بعد ذلك إلى تخزين المفتاح `key` السري في متغير.
++ اختبرالتعليمات البرمجية الجديدة. لأن `key` الخاص بك هو 3، يجب أن تضيف 3 إلى `position` وتقوم بتخزينه فى المتغير `newPosition`.
+    
+    على سبيل المثال، الحرف 'ج' يكون عند الموضع 4. للتشفير، ستضيف `key` (و هو 3) مما سيعطى 7.
+    
+    ![لقطة الشاشة](images/messages-newposition-test.png)
 
-	![screenshot](images/messages-key.png)
++ ماذا يحدث عند محاولة تشفير الحرف 'و'؟
+    
+    ![لقطة الشاشة](images/messages-modulus-bug.png)
+    
+    لاحظ أن `newPosition` أصبح 30، و لكن ليس هناك 30 حرف في الأبجدية العربية!
 
-+ بعد ذلك، اطلب من المستخدم إدخال حرف واحد (ويُسمى`character`) لتشفيره.
++ يمكنك استخدام المعامل `%` لإخبار الموضع الجديد بالعودة إلى الموضع 0 عند وصوله للموضع ٢٧.
+    
+    ![لقطة الشاشة](images/messages-modulus.png)
 
-	![screenshot](images/messages-character.png)
++ أخيرًا، ستحتاج لطباعة الحرف الموجود عند الموضع الجديد.
+    
+    على سبيل المثال، إضافة المفتاح إلى الحرف 'ج' يعطي 7، والحرف الموجود عند الموضع 7 من الأبجدية هو 'خ'.
+    
+    ![لقطة الشاشة](images/messages-newcharacter.png)
 
-+ ابحث عن `position` الخاص بالحرف `character`.
-
-	![screenshot](images/messages-position.png)
-
-+ يمكنك اختبار `position` الذي تم تخزينه عن طريق طباعته. على سبيل المثال، موضع الحرف 'e' هذا هو 4 في الأحرف الأبجدية.
-
-	![screenshot](images/messages-position-test.png)
-
-+ لتشفير `character`، يجب أن تجمع `key` و`position`. ثم يتم تخزين ذلك في متغير `newPosition`.
-
-	![screenshot](images/messages-newposition.png)
-
-+ أضف تعليمة برمجية لطباعة موضع الحرف الجديد. 
-
-	![screenshot](images/messages-newposition-print.png)
-
-+ اختبر التعليمة البرمجية الجديدة. لأن قيمة `key` هي 3، ستضيف هذه التعليمة البرمجية القيمة 3 إلى `position` وتخزِّن ذلك في متغير `newPosition`.
-
-	على سبيل المثال، الحرف 'e' عند الموضع 4. لتشفيره، ستضيفُ `key`، أيْ (3)، وتحصل على 7.
-
-	![screenshot](images/messages-newposition-test.png)
-
-+ ماذا يحدث عندما تحاول تشفير الحرف 'y'؟
-
-	![screenshot](images/messages-modulus-bug.png)
-
-	لاحظ أن `newPosition` أصبح 27، ولا يوجد 27 حرفًا في الأحرف الأبجدية الإنجليزية!
-
-+ يمكنك استخدام عامل `%` لتطلب من `newPosition` العودة إلى الموضع 0 بمجرد أن يصل إلى الموضع 26.
-
-	![screenshot](images/messages-modulus.png)
-
-+ وأخيرًا، ستحتاج إلى طباعة الحرف الموجود عند الموضع الجديد.
-
-	على سبيل المثال، بإضافة المفتاح إلى الحرف 'e'، ستحصل على الموضع 7، والحرف الموجود عند الموضع 7 في الأحرف الأبجدية هو 'h'.
-
-	![screenshot](images/messages-newcharacter.png)
-
-+ اختبر التعليمة البرمجية. يمكنك أيضًا حذف بعض عبارات 'print' لطباعة الحرف الجديد فقط في النهاية.
-
-	![screenshot](images/messages-enc-test.png)
++ جرب تعليماتك البرمجية. يمكنك أيضًا حذف بعض عبارات الطباعة و القيام بطباعة الحرف الجديد فقط في النهاية.
+    
+    ![لقطة الشاشة](images/messages-enc-test.png)

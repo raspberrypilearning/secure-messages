@@ -1,40 +1,35 @@
-## تشفير الرسائل ككل
+## تشفير الرسائل بأكملها
 
-بدلًا من مجرد تشفير الرسائل وفك تشفيرها حرفًا بحرف في كل مرة، لنغيِّر البرنامج لتشفير الرسائل ككل!
+بدلاً من تشفير الرسائل وفك تشفيرها حرفًا واحدًا في كل مرة ، دعنا نغير البرنامج لتشفير الرسائل بأكملها!
 
++ أولاً ، تحقق من أن الكود الخاص بك يبدو كالتالي:
+    
+    ![لقطة الشاشة](images/messages-character-finished.png)
 
++ قم بإنشاء متغير لتخزين الرسالة المشفرة الجديدة.
+    
+    ![لقطة الشاشة](images/messages-newmessage.png)
 
-+ أولًا، تأكد من التعليمات البرمجية بالشكل التالي:
++ قم بتغيير الكود الخاص بك لتخزين رسالة المستخدم وليس مجرد حرف واحد.
+    
+    ![لقطة الشاشة](images/messages-message.png)
 
-	![screenshot](images/messages-character-finished.png)
++ أضف حلقة ` for ` الى الكود الخاص بك، ثم ضع مسافة بادئة في بقية الكود بحيث يتكرر لكل حرف في الرسالة.
+    
+    ![لقطة الشاشة](images/messages-loop.png)
 
-+ أنشئ متغيرًا لتخزين الرسالة الجديدة المشفرة.
++ جرب الكود خاصتك. يجب أن ترى أن كل حرف في الرسالة تم تشفيره وطباعته حرفأ واحدأ في كل مرة.
+    
+    ![لقطة الشاشة](images/messages-loop-test.png)
 
-	![screenshot](images/messages-newmessage.png)
++ دعنا نضيف كل حرف مشفر إلى متغير `newMessage `.
+    
+    ![لقطة الشاشة](images/messges-message-add-character.png)
 
-+ غيِّر التعليمات البرمجية لتخزين رسالة المستخدم بدلًا من تخزين حرف واحد.
++ يمكنك استخدام `print` مع `newMessage` بينما يجري تشفيرها.
+    
+    ![لقطة الشاشة](images/messages-print-message-characters.png)
 
-	![screenshot](images/messages-message.png)
-
-+ أضف حلقة `for` إلى تعليماتك البرمجية، وأضف مسافة بادئة قبل باقي التعليمات البرمجية بحيث تتكرر مع كل حرف في الرسالة.
-
-	![screenshot](images/messages-loop.png)
-
-+ اختبر التعليمة البرمجية. سترى أن كل حرف في الرسالة قد تم تشفيره وطباعته على حدة.
-
-	![screenshot](images/messages-loop-test.png)
-
-+ لنضِف كل حرف مشفَّر إلى المتغير `newMessage`.
-
-	![screenshot](images/messges-message-add-character.png)
-
-+ يمكنك استخدام `print` لطباعة `newMessage` أثناء تشفيرها.
-
-	![screenshot](images/messages-print-message-characters.png)
-
-+ إذا قمتَ بحذف المسافات الموجودة قبل عبارة `print`، فستظهر رسالتك المشفَّرة مرة واحدة فقط في النهاية. ويمكنك أيضًا حذف التعليمة البرمجية الخاصة بطباعة مواضع الأحرف.
-
-	![screenshot](images/messages-print-message-comment.png)
-
-
-
++ ذا قمت بحذف المسافات قبل عبارة `print` ، سيتم عرض الرسالة المشفرة مرة واحدة فقط في النهاية. يمكنك أيضًا حذف كود طباعة مواضع الأحرف.
+    
+    ![لقطة الشاشة](images/messages-print-message-comment.png)

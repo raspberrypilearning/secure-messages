@@ -1,24 +1,28 @@
+---
 hero_image: images/secret-messages.png
 theme: red
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: رسائل سرية
-description: أنشئ برنامج التشفير الخاص بك لإرسال رسائل سرية واستلامها.
+description: اصنع برنامج التشفير الخاص بك لإرسال و استلام رسائل سرية.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
-interests: ''
+interests: cybersecurity-and-cryptography
 technologies: python
-site_areas: codeclub, python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
 steps:
-- title: 'المقدمة'
-- title: شفرة قيصر
-- title: 'التحدي: استخدم شفرة قيصر'
-- title: تشفير الأحرف
-- title: 'التحدي: مفاتيح المتغيرات'
-- title: تشفير الرسائل ككل
-- title: أحرف إضافية
-- title: 'التحدي: تشفير الرسائل وفك تشفيرها'
-- title: 'التحدي: حاسبة الصداقة'
-
+  - title: 'المقدمة'
+  - title: شفرة قيصر
+  - title: 'التحدي: استخدم شفرة قيصر'
+  - title: تشفير الحروف
+  - title: 'التحدي: مفاتيح المتغيرات'
+  - title: تشفير الرسائل بأكملها
+  - title: أحرف إضافية
+  - title: 'التحدي: تشفير الرسائل وفك تشفيرها'
+  - title: 'التحدي: آلة حاسبة للصداقة'
