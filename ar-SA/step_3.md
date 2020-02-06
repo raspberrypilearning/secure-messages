@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## التحدي: استخدم شفرة قيصر
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+هل يمكنك إرسال كلمة سرية لصديق؟ يجب عليكما الاتفاق على مفتاح سري قبل البدء.
 
-You could even send entire sentences to each other!
+يمكنكما أيضاً إرسال جمل كاملة لبعضكما البعض!
 
 \--- /challenge \---
