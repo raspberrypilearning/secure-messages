@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## التحدي: مفاتيح المتغيرات
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+عدل البرنامج الخاص بك ، بحيث يمكن للمستخدم إدخال المفتاح الخاص بهم. للاستخدام ستحتاج إلى الحصول على إدخال المستخدم ، وتخزينه في متغير `key`.
 
-Remember to use the `int()` function to convert the input to a whole number.
+تذكر استخدام ` int () ` وسيلة لتحويل المدخلات إلى عدد صحيح.
 
-You can then use a negative key to decrypt messages!
+يمكنك بعد ذلك استخدام مفتاح سالب لفك تشفير الرسائل!
 
-\--- /challenge \---
+\--- challenge/ \---
