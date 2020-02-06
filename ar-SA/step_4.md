@@ -1,69 +1,69 @@
-## Encrypting letters
+## تشفير الحروف
 
-Let's write a Python program to encrypt a single character.
+لنكتب برنامج Python لتشفير حرف واحد.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ افتح الTrinket الذي يحتوي على قالب Python فارغ: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ بدلاً من رسم الحروف الأبجدية في دائرة، لنكتبها كمتغير `alphabet`.
     
-    ![screenshot](images/messages-alphabet.png)
+    ![لقطة الشاشة](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ كل حرف من الحروف الأبجدية له موضع ، بدءاً من الموضع 0. لذا فإن الحرف 'ا' يكون عند الموضع 0 من الأبجدية ، و 'ت' عند الموضع 2.
     
-    ![screenshot](images/messages-array.png)
+    ![لقطة الشاشة](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ يمكنك الحصول على حرف من المتغير `alphabet` عن طريق كتابة الموضع بين قوسين مربعين.
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![لقطة الشاشة](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    يمكنك حذف عبارات `print` بعد أن تنتهى من تجربة هذا.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ بعد ذلك، ستحتاج إلى تخزين المفتاح السري `key` في متغير.
     
-    ![screenshot](images/messages-key.png)
+    ![لقطة الشاشة](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ ثم بعدها، اطلب من المستخدم ادخال حرف واحد (يسمى `character`) لتشفيره.
     
-    ![screenshot](images/messages-character.png)
+    ![لقطة الشاشة](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ ابحث عن الموضع `position` الخاص ب`character`.
     
-    ![screenshot](images/messages-position.png)
+    ![لقطة الشاشة](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ يمكنك اختبار `position` المخزن عن طريق طباعته. على سبيل المثال، الحرف 'ج' يكون عند الموضع 4 في الأبجدية.
     
-    ![screenshot](images/messages-position-test.png)
+    ![لقطة الشاشة](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ لتشفير `character`، يجب عليك ان تجمع `key` و `position`. ثم يتم تخزين ذلك في متغير `newPosition`.
     
-    ![screenshot](images/messages-newposition.png)
+    ![لقطة الشاشة](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ أضف تعليمات برمجية لطباعة موضع الحرف الجديد.
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![لقطة الشاشة](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ اختبرالتعليمات البرمجية الجديدة. لأن `key` الخاص بك هو 3، يجب أن تضيف 3 إلى `position` وتقوم بتخزينه فى المتغير `newPosition`.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    على سبيل المثال، الحرف 'ج' يكون عند الموضع 4. للتشفير، ستضيف `key` (و هو 3) مما سيعطى 7.
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![لقطة الشاشة](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ ماذا يحدث عند محاولة تشفير الحرف 'و'؟
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![لقطة الشاشة](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    لاحظ أن `newPosition` أصبح 30، و لكن ليس هناك 30 حرف في الأبجدية العربية!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ يمكنك استخدام المعامل `%` لإخبار الموضع الجديد بالعودة إلى الموضع 0 عند وصوله للموضع ٢٧.
     
-    ![screenshot](images/messages-modulus.png)
+    ![لقطة الشاشة](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ أخيرًا، ستحتاج لطباعة الحرف الموجود عند الموضع الجديد.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    على سبيل المثال، إضافة المفتاح إلى الحرف 'ج' يعطي 7، والحرف الموجود عند الموضع 7 من الأبجدية هو 'خ'.
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![لقطة الشاشة](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ جرب تعليماتك البرمجية. يمكنك أيضًا حذف بعض عبارات الطباعة و القيام بطباعة الحرف الجديد فقط في النهاية.
     
-    ![screenshot](images/messages-enc-test.png)
+    ![لقطة الشاشة](images/messages-enc-test.png)
