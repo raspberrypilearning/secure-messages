@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## التحدي: تشفير الرسائل وفك تشفيرها
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+قم بتشفير بعض الرسائل ، و أعطها لصديق مع المفتاح السري. و لاحظ إذا ما امكنه فك تشفيرهم باستخدام برنامجه!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+يمكنك أيضًا تكرار المشروع وإنشاء برنامج منفصل لفك تشفير الرسائل.
 
 \--- /challenge \---
