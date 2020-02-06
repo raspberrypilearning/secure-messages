@@ -17,7 +17,7 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'المقدمة: '
+  - title: 'المقدمة'
   - title: شفرة قيصر
   - title: 'التحدي: استخدم شفرة قيصر'
   - title: تشفير الحروف
