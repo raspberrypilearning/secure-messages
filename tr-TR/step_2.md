@@ -1,35 +1,35 @@
-## The Caesar cipher
+## Sezar şifresi
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+Bir şifre, kimsenin mesajınızı okuyamaması için harflerin yerini değiştirdiğiniz bir tür gizli koddur.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+En eski ve en ünlü şifreleme yöntemlerinden birini kullanacaksınız, ismini Jül Sezar'dan alan **Sezar şifresi**.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+Kodlamaya başlamadan önce, bir kelimeyi gizlemek için Sezar şifresini kullanmayı deneyelim.
 
-+ Hiding a word is called **encryption**.
++ Bir kelimeyi gizlemeye **şifreleme** denir.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    'a' harfini şifreleyerek başlayalım. Bunu yapmak için, alfabeyi aşağıdaki gibi bir daireye çizebiliriz:
     
-    ![screenshot](images/messages-wheel.png)
+    ![ekran görüntüsü](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ Normalinden farklı olarak şifrelenmiş gizli bir harf yapmak için gizli bir anahtara ihtiyacınız var. Hadi anahtar olarak 3 sayısını kullanalım (istediğiniz başka bir sayı da olabilir).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    'a' harfini **şifrelemek** için saat yönünde 3 harf ilerleyin, bu size 'ç' harfini verecektir:
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![ekran görüntüsü](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ Bir kelimenin tamamını şifrelemek için öğrendiklerinizi kullanabilirsiniz. Örneğin, 'selam' kelimesinin şifreli hali 'uğoçö' dir. Kendinizde deneyin.
     
-    + h + 3 = **k**
-    + e + 3 = **h**
+    + s + 3 = **u**
+    + e + 3 = **ğ**
     + l + 3 = **o**
-    + l + 3 = **o**
-    + o + 3 = **r**
+    + a + 3 = **ç**
+    + m + 3 = **ö**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ Metnin normale döndürülmesine ise **şifre çözme** denir. Bir kelimenin şifresini çözmek için, bu kez eklemek yerine anahtar sayıyı çıkarın:
     
-    + k - 3 = **h**
-    + h - 3 = **e**
+    + u - 3 = **s**
+    + ğ - 3 = **e**
     + o - 3 = **l**
-    + o - 3 = **l**
-    + r - 3 = **o**
+    + ç - 3 = **a**
+    + ö - 3 = **m**
