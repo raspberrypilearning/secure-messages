@@ -1,69 +1,69 @@
-## Encrypting letters
+## Şifreli harfler
 
-Let's write a Python program to encrypt a single character.
+Hadi bir tek harfi şifrelemek için bir Python programı yazalım.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Trinket'ta boş Python şablonunu açın: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ Alfabeyi bir daire içine çizmek yerine, onu `alfabe` değişkeni olarak yazalım.
     
-    ![screenshot](images/messages-alphabet.png)
+    ![ekran görüntüsü](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ Alfabedeki her harf, 0 konumundan başlayan bir konuma sahiptir. Bu nedenle 'a' harfi alfabenin 0 konumunda ve 'c' harfi 2. konumdadır.
     
-    ![screenshot](images/messages-array.png)
+    ![ekran görüntüsü](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ `alfabe` değişkeninizden bir harfe, konumunu köşeli parantezin içine yazarak ulaşabilirsiniz.
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![ekran görüntüsü](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    Bunu bir kez denedikten sonra `print` komutlarını silebilirsiniz.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ Daha sonra gizli `anahtarı` bir değişkene kaydetmeniz gerekecek.
     
-    ![screenshot](images/messages-key.png)
+    ![ekran görüntüsü](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ Ardından kullanıcıdan şifrelemek bir harf girmesini isteyin (`harf` değişkeni isimli).
     
-    ![screenshot](images/messages-character.png)
+    ![ekran görüntüsü](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ `harf` 'in `konum` 'unu bulun.
     
-    ![screenshot](images/messages-position.png)
+    ![ekran görüntüsü](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ Veri kaydedilmiş `konum` değişkenini ekrana yazdırarak test edebilirsiniz. Örneğin, 'e' harfi alfabede 5. konumdadır.
     
-    ![screenshot](images/messages-position-test.png)
+    ![ekran görüntüsü](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ `harf`i şifrelemek için, `konum` değişkeniyle `anahtar` değişkenini toplamalısınız. Daha sonra elde edilen değer `yenikonum` değişkenine kaydedilir.
     
-    ![screenshot](images/messages-newposition.png)
+    ![ekran görüntüsü](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ Harfin yeni konumunu yazdırmak için kod ekleyin.
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![ekran görüntüsü](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ Yeni kodunuzu test edin. `anahtar`'ınız 3 olduğundan `konum` değişkenine 3 eklemeli ve bunu `yenikonum` değişkeninde saklanmalı.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    Örneğin, 'e' harfi 5 konumunda. Şifrelemek için `anahtar`'la (3) toplarız, 8 sonucunu verir.
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![ekran görüntüsü](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ 'Y' harfini şifreleyip denediğinizde neler olur?
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![ekran görüntüsü](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    Alfabede 30 harf olmadığı halde `yenikonum` değişkeninin nasıl 30 olduğuna dikkat edin!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ Yeni konum 28 olduğunda tekrar baştaki 0 konumuna dönmesini sağlamak için `%` işaretini kullanabilirsiniz.
     
-    ![screenshot](images/messages-modulus.png)
+    ![ekran görüntüsü](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ Son olarak, yeni konumdaki harfi yazdırmak istiyorsunuz.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    Örneğin 'e' harfine anahtarı eklediğimizde sonuç 8 oluyordu, alfabedeki 8. konumda ise 'ğ' harfi var.
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![ekran görüntüsü](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ Kodunuzu deneyin. Yeni harfi sadece sona yazdıran bazı yazdır komutu satırlarınızı, koddan kaldırabilirsiniz.
     
-    ![screenshot](images/messages-enc-test.png)
+    ![ekran görüntüsü](images/messages-enc-test.png)
