@@ -1,19 +1,19 @@
-\--- challenge \---
+\--- 도전 과제\---
 
-## Challenge: Friendship calculator
+## 도전과제: 우정 계산기
 
-Write a program to show how compatible 2 people are, by calculating a friendship score.
+우정 점수를 계산하여 2 명의 사이가 얼마나 좋은지 보여주는 프로그램을 작성하십시오.
 
-![screenshot](images/messages-friends.png)
+![스크린샷](images/messages-friends.png)
 
-The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
+프로그램은 2개의 이름에 있는 각 문자에 대해 반복할 수 있고 특정 문자가 발견될 때마다 `score`변수에 포인트를 추가할 수 있습니다.
 
-You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
+포인트 지급을 위한 규칙을 결정해야합니다. 예를 들어, "friend" 라는 단어에 들어있는 모음 또는 문자에 대해 점수를 부여 할 수 있습니다.
 
-![screenshot](images/messages-friends-code.png)
+![스크린샷](images/messages-friends-code.png)
 
-You could also give the user a personalised message, based on their score:
+점수에 따라 사용자에게 맞춤 메시지를 보내줄 수도 있습니다.
 
-![screenshot](images/messages-best-friends.png)
+![스크린샷](images/messages-best-friends.png)
 
-\--- /challenge \---
+\--- /도전 과제 \---
