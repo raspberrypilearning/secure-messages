@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## Uitdaging: variabele sleutels
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+Pas het programma zo aan dat de gebruiker zijn eigen sleutel kan invoeren en gebruiken. Je moet de invoer van de gebruiker ophalen en die opslaan in de `sleutel` variabele.
 
-Remember to use the `int()` function to convert the input to a whole number.
+Vergeet niet om de functie `int()` te gebruiken om de invoer om te zetten naar een geheel getal.
 
-You can then use a negative key to decrypt messages!
+Je kunt dan een negatieve sleutel gebruiken om berichten te ontsleutelen!
 
 \--- /challenge \---
