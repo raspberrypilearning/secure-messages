@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## Mesajın tamamını şifreleme
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+Mesajları bir seferde sadece birer harf şifrelemek ve şifresini çözmek yerine, mesajın tamamını şifrelemek için programı değiştirelim!
 
-+ Firstly, check that your code looks like this:
++ Öncelikle, kodunuzun şöyle görünüp görünmediğini kontrol edin:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![ekran görüntüsü](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ Yeni şifreli mesajı saklamak için bir değişken oluşturun.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![ekran görüntüsü](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ Bir harf yerine, kullanıcının mesajının hepsini bir değişkene kaydedecek şekilde kodunuzu değiştirin.
     
-    ![screenshot](images/messages-message.png)
+    ![ekran görüntüsü](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ `for` döngüsünü ekleyip kodun kalan kısmına girinti yaparak mesajın her harfinde kodun tekrarlanmasını sağlayın.
     
-    ![screenshot](images/messages-loop.png)
+    ![ekran görüntüsü](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ Kodunuzu test edin. Mesajdaki her harfin aynı anda şifrelenmiş ve tek seferde ekrana yazılmış olduğunu görmelisiniz.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![ekran görüntüsü](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ Hadi şimdi şifrelenmiş her harfi `yenimesaj` değişkeninize ekleyelim.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![ekran görüntüsü](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ `yenimesaj` 'ınızın şifrelenmiş halini `print` komutuyla yazdırabilirsiniz.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![ekran görüntüsü](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ `print` komutunun önündeki boşlukları silerseniz, şifreli mesaj en sonda sadece bir kez görüntülenecektir. Ayrıca harf konumlarını yazdıran kodu da silebilirsiniz.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![ekran görüntüsü](images/messages-print-message-comment.png)
