@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## Izazov: Šifriranje i dešifriranje poruka
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+Šifriraj nekoliko poruka te ih, zajedno sa tajnim ključem, daj prijatelju. Neka ih tvoj prijatelj pokuša dešifrirati koristeći svoj program!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+Možeš napraviti i kopiju projekta te napraviti poseban program za dešifriranje poruka.
 
 \--- /challenge \---
