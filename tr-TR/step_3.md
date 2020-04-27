@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## Meydan okuma: Bir Sezar şifresi kullanın
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+Bir arkadaşınıza gizli bir kelime gönderebilir misiniz? Başlamadan önce ikinizin de bir gizli anahtar üzerinde anlaşmaya ihtiyacınız olacak.
 
-You could even send entire sentences to each other!
+Bütün cümleyi bile birbirinize gönderebilirsiniz!
 
 \--- /challenge \---
