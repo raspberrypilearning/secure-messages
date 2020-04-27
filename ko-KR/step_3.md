@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## 도전과제: 카이사르 암호 사용해보기
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+친구에게 비밀스러운 메시지를 전달할 수 있습니까? 당신과 친구가 모두 시작하기 전에 비밀 키에 동의해야합니다.
 
-You could even send entire sentences to each other!
+서로에게 문장 전체를 보낼 수도 있습니다!
 
-\--- /challenge \---
+\--- /도전 \---
