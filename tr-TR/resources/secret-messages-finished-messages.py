@@ -1,20 +1,20 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-newMessage = ''
+alfabe = 'abcçdefgğhıijklmnoöprsştuüvyz'
+yenimesaj = ''
   
-message = input('Please enter a message: ')
+mesaj = input('Lütfen mesajınızı yazın: ')
 
-key = input('Enter a key (1-26): ')
-key = int(key)
+anahtar = input('Anahtar sayıyı girin (1-29): ')
+anahtar = int(anahtar)
 
-for character in message:
-  if character in alphabet:
-    position = alphabet.find(character)
-    newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
-    newMessage += newCharacter
+for harf in mesaj:
+  if harf in alfabe:
+    konum = alfabe.find(harf)
+    yenikonum = (konum + anahtar) % 29
+    yeniharf = alfabe[yenikonum]
+    yenimesaj += yeniharf
   else:
-    newMessage += character
+    yenimesaj += harf
 
-print('Your new message is: ', newMessage)
+print('Yeni mesajınız: ', yenimesaj)
