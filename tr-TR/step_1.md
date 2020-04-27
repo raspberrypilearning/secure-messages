@@ -1,6 +1,6 @@
-## Introduction:
+## Giriş:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+Bu projede, bir arkadaşınızla gizli mesajlaşmak için kendi şifreleme programınızı nasıl yapacağınızı öğreneceksiniz. Bu proje, Uzay Günlüğü'nün 16. sayfasında yer alan "Earth to Principia" etkinliği ile bağdaştırılıyor.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### Kulüp liderleri için ek bilgi
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürüm](https://projects.raspberrypi.org/en/projects/secret-messages/print)ü kullanın.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Kulüp lideri notları
 
-## Introduction:
+## Giriş:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+Bu projede çocuklar bir arkadaşıyla gizli mesajlaşmak için şifreleme programının nasıl yapıldığını öğrenecekler. Bu proje, bir metin dizgisinde yinelemeyi (looping) tanıtmaktadır.
 
 ## Online Resources
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Bu proje Python 3'ü kullanıyor.** Çevrimiçi Python programlama için [trinket](https://trinket.io/) kullanmanızı tavsiye ederiz. Bu proje aşağıdaki Trinketları içermektedir:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Yeni (boş) Python Trinket'ı - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+Ayrıca tamamlanmış projeyi içeren bir trinket da bulunmaktadır:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['Gizli Mesajlar' Tamamlanmış- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['Arkadaşlık Hesaplayıcısı' Tamamlanmış - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## Çevrimdışı Kaynaklar
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+Bu proje, istenirse [çevrimdışı](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) olarak tamamlanabilir.
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+Bu projenin tamamlanmış bir versiyonunu aşağıdakileri içeren 'Gönüllü Kaynaklar' bölümünde de bulabilirsiniz:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Yukarıdaki kaynakların tümü proje ve gönüllü olarak indirilebilen `.zip` dosyalarıdır)
 
-## Learning Objectives
+## Kazanımlar
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* Bir değişken dizesi üzerinde yineleme (looping);
+* `find()` yöntemi;
+* Modül operatörü (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un aşağıdaki bölümlerinden unsurları kapsamaktadır:
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Bir problemi çözmek için programlama yapılarını birleştirin.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Meydan Okumalar
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Sezar şifresi kullanın - harfleri ve kelimeleri elle şifreleyin ve şifresini çözün;
+* Değişken anahtarlar - kullanıcının seçilen bir anahtarı girmesine izin verir;
+* Mesajları şifrelemek ve şifresini çözmek - tüm mesajları şifrelemek ve şifresini çözmek;
+* Arkadaşlık hesaplayıcısı - yeni bir probleme metin döngüsü uygulama.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* `find()` ya da `if harf in alfabe:` işlevlerini kullanarak arama yaptırdığınızda, aramaların büyük/küçük harfe duyarlı olduğunu unutmayın. Çocuklar şunu:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    mesaj = input("Lütfen şifrelemek istediğiniz mesajı yazın: ").lower()
     ```
     
-    to make the input lower case before searching.
+    arama yapmadan önce küçük harfe geçmek için kullanabilirler.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Proje materyalleri
 
-## Project resources
+## Proje kaynakları
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [tüm proje kaynaklarını içeren .zip dosyası](resources/secret-messages-project-resources.zip)
+* [Çevrimiçi boş Python Trinket'ı](http://jumpto.cc/python-new)
+* [Çevrimdışı boş Python dosyası](resources/new-new.py)
 
-## Club leader resources
+## Kulüp lideri için kaynaklar
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [tamamlanmış tüm proje kaynaklarını içeren .zip dosyası](resources/secret-messages-volunteer-resources.zip)
+* [Çevrimiçi tamamlanmış Trinket projesi](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [Çevrimiçi tamamlanmış 'Arkadaşlık Hesaplayıcısı' meydan okuması](https://trinket.io/python/2e852cd687)
+* [çevrimdışı tamamlanmış 'Arkadaşlık Hesaplayıcısı' meydan okuması](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
