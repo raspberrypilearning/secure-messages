@@ -1,15 +1,15 @@
 #!/bin/python3
 
-score = 0
-names = input('enter tha names of 2 people: ')
+puan = 0
+isimler = input('2 kişinin adını yazın: ')
 
-for character in names:
-  if character in 'aeiou':
-    score += 5
-  if character in 'friend':
-    score += 10
+for harf in isimler:
+  if harf in 'aeiou':
+    puan += 5
+  if harf in 'dostluk':
+    puan += 10
 
-print('your friendship score is :', score)
+print('ikinizin arkadaşlık puanı :', puan)
 
-if score > 100:
-  print('best friends!')
+if puan > 100:
+  print('en iyi arkadaşlar!')
