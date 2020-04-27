@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## Meydan okuma: Mesajları şifreleme ve şifresini çözme
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+Bazı mesajları şifreleyin ve gizli anahtarla birlikte bir arkadaşınıza verin. Bakalım programlarını kullanarak şifrelerini çözebilecekler mi!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+Ayrıca, projeyi çoğaltabilir ve mesajların şifresini çözmek için ayrı bir program oluşturabilirsiniz.
 
 \--- /challenge \---
