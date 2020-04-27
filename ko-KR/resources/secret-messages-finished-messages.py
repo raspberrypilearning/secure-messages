@@ -3,9 +3,9 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 newMessage = ''
   
-message = input('Please enter a message: ')
+message = input('메시지를 입력하시오 : ')
 
-key = input('Enter a key (1-26): ')
+key = input('키값을 입력하시오 (1-26): ')
 key = int(key)
 
 for character in message:
@@ -17,4 +17,4 @@ for character in message:
   else:
     newMessage += character
 
-print('Your new message is: ', newMessage)
+print('새로운 메시지 : ', newMessage)
