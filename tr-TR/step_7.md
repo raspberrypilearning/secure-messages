@@ -1,31 +1,31 @@
-## Extra characters
+## Fazladan karakterler
 
-Some characters aren't in the alphabet, which causes an error.
+Bazı harfler alfabede olmadıkları için hataya sebep olabilirler.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ Kodunuzu alfabenizde olmayan bazı harflerle test edin.
     
-    For example, you could use the message `hi there!!`.
+    Örneğin, `Selam olsun!` mesajını kullanabilirsiniz.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    Mesajın kelimeleri arasındaki boşluk ve `!` ünlem işareti 'c' harfi şeklinde şifreleniyor!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ Düzeltmek için sadece alfabede olan harflerin şifrelenmesini isteyebilirsiniz. Bunu yapmak için `if` fonksiyonunu kodunuza ekleyip, kodun kalan kısmına girinti yapmalısınız.
     
     ![screenshot](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ Kodunuzu aynı mesajla tekrar test edin. Bu sefer ne olacak?
     
     ![screenshot](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    Şimdi kodunuz, alfabede olmayan karakterleri atlayacak.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ Kodunuz alfabede olmayan hiçbir karakteri şifrelemeyip sadece olanları şifrelediğinde daha iyi olacaktır.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    Kodunuza `else` işlevini ekleyerek şifreli mesaja sadece orijinal harflerin girmesini sağlayabilirsiniz.
     
     ![screenshot](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ Kodunuzu deneyin. Alfabedeki her harfin şifrelenip, diğer karakterlerin bırakıldığını görmüş olmalısınız!
     
     ![screenshot](images/messages-else-test.png)
