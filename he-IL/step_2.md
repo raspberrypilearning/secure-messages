@@ -1,24 +1,24 @@
-## The Caesar cipher
+## צופן קיסר
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+צופן הוא סוג של קוד סודי, שבו מחליפים את האותיות כדי שלא יוכלו להבין את ההודעה.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+אתם תשתמשו באחד מהצפנים העתיקים והמפורסמים בעולם, **צופן קיסר**, אשר נקרא על שמו של יוליוס קיסר.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+לפני שנתחיל לכתוב קוד, בואו ננסה להשתמש בצופן קיסר כדי להסתיר מילה.
 
-+ Hiding a word is called **encryption**.
++ הסתרת מילה נקראת **הצפנה**.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    נתחיל בהצפנת האות 'a'. כדי לעשות זאת, אנחנו יכולים לצייר את האלף-בית במעגל, כך:
     
-    ![screenshot](images/messages-wheel.png)
+    ![צילום מסך](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ כדי להפוך אות רגילה לאות מוצפנת סודית, צריכים מפתח סודי. בואו נשתמש במספר 3 כמפתח (אבל אתם יכולים להשתמש באיזה מפתח שאתם רוצים).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    כדי **להצפין** את האות 'a', צריכים להזיז 3 אותיות בכיוון השעון, מה שייתן לכם את האות 'd':
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![צילום מסך](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ אתם יכולים להשתמש במה שלמדתם כדי להצפין מילה שלמה. למשל, 'hello' לאחר הצפנה הופכת להיות 'khoor'. נסו את זה בעצמכם.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ החזרה של טקסט למצב נורמלי נקראת **פענוח**. כדי לפענח מילה, פשוט מחסרים את המפתח במקום להוסיף אותו:
     
     + k - 3 = **h**
     + h - 3 = **e**
