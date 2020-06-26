@@ -1,35 +1,35 @@
-## The Caesar cipher
+## El cifrado César
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+Un cifrado es un tipo de código secreto, donde se intercambian las letras para que nadie pueda leer tu mensaje.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+Utilizarás uno de los cifrados más antiguos y famósos, el **Cifrado César**, llamado así por Julio César.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+Antes de empezar a escribir código, intentemos usar el cifrado César para ocultar una palabra.
 
-+ Hiding a word is called **encryption**.
++ Ocultar una palabra se llama **encriptación**.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    Empecemos encriptando la letra 'a'. Para hacerlo, podemos dibujar el alfabeto en un círculo, así:
     
-    ![screenshot](images/messages-wheel.png)
+    ![captura de pantalla](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ Para hacer una letra encriptada a paritr de una normal, debes tener una clave secreta. Usemos el número 3 como la clave (pero puedes usar cualquier número que desees).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    Para **encriptar** la letra 'a', solo tienes que moverte 3 letras en el sentido de las agujas del reloj, lo que te dará la letra 'd':
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![captura de pantalla](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ Puedes usar lo aprendido para encriptar una palabra completa. Por ejemplo, 'hola' encriptada es 'krod'. Pruébalo tú mismo.
     
     + h + 3 = **k**
-    + e + 3 = **h**
+    + o + 3 = **r**
     + l + 3 = **o**
-    + l + 3 = **o**
+    + a + 3 = **d**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ Hacer que el texto vuelva a la normalidad se llama **desencripción**. Para desencriptar una palabra, solamente resta la clave en lugar de sumarla:
     
     + k - 3 = **h**
-    + h - 3 = **e**
+    + r - 3 = **o**
     + o - 3 = **l**
-    + o - 3 = **l**
+    + d - 3 = **a**
     + r - 3 = **o**
