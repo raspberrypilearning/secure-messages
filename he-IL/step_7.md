@@ -1,31 +1,31 @@
-## Extra characters
+## תווים נוספים
 
-Some characters aren't in the alphabet, which causes an error.
+חלק מהתווים לא נמצאים באלף-בית, מה שיגרום לשגיאה.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ בדקו את הקוד שלכם עם תווים שלא נמצאים באלף-בית.
     
-    For example, you could use the message `hi there!!`.
+    למשל, אתם יכולים להשתמש בהודעה `hi there!!`.
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![צילום מסך](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    שימו לב שהרווח והתווים `!` הוצפנו כאות 'c'!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ כדי לתקן את זה, אתם רוצים לתרגם תו רק אם הוא נמצא באלף-בית. כדי לעשות זאת, הוסיפו `if` לקוד, והוסיפו הזחה לשאר הקוד.
     
-    ![screenshot](images/messages-if.png)
+    ![צילום מסך](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ בדקו את התוכנית שלכם עם אותה הודעה, מה קרה הפעם?
     
-    ![screenshot](images/messages-if-test.png)
+    ![צילום מסך](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    עכשיו, הקוד שלכם פשוט מדלג על כל תו שלא נמצא באלף-בית.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ זה יהיה הרבה יותר טוב אם הקוד שלכם לא יצפין שום דבר שלא באלף-בית, ופשוט ישתמש בתו המקורי.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    הוסיפו `else` לקוד, שמוסיף את התו המקורי להודעה המוצפנת.
     
-    ![screenshot](images/messages-else.png)
+    ![צילום מסך](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ הריצו בדיקות על הקוד שלכם. אתם אמורים לראות עכשיו שכל תו באלף-בית מוצפן, אבל כל התווים האחרים נותרים בלי שינוי!
     
-    ![screenshot](images/messages-else-test.png)
+    ![צילום מסך](images/messages-else-test.png)
