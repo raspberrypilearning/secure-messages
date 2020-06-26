@@ -65,29 +65,29 @@ Este proyecto incluye elementos de los siguientes aspectos del currículo de cre
 * Cuando se realiza una búsqueda usando `find()` o `if char in alphabet:`, hay que tener en cuenta que las búsquedas distinguen entre mayúsculas y minúsculas. Los niños pueden usar:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    mensaje= input("Por favor, introduzca un mensaje para cifrar: ").lower()
     ```
     
-    to make the input lower case before searching.
+    para hacer la entrada minúscula antes de buscar.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## título: Materiales del proyecto
 
 ## Recursos del proyecto
 
 * [archivo .zip que contiene todos los recursos del proyecto](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [Trinket Python en blanco en línea](http://jumpto.cc/python-new)
+* [Trinket Python en blanco sin conexión](resources/new-new.py)
 
 ## Recursos del líder del club
 
 * [archivo .zip que contiene todos los recursos del proyecto](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
-* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [Proyecto Trinket completo en línea](https://trinket.io/python/402256078c)
+* [mensajes-secretos-finalizados/mensajes.py](resources/secret-messages-finished-messages.py)
+* [Desafío en línea completado 'Calculadora de amistad'](https://trinket.io/python/2e852cd687)
+* [desafío de 'Calculadora de Amigos' sin conexión](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
