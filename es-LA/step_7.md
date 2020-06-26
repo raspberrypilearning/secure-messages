@@ -1,31 +1,31 @@
-## Extra characters
+## Caracteres adicionales
 
-Some characters aren't in the alphabet, which causes an error.
+Algunos caracteres no están en el alfabeto, lo que causa un error.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ Comprueba tu código con algunos caracteres que no están en el alfabeto.
     
-    For example, you could use the message `hi there!!`.
+    Por ejemplo, puedes usar el mensaje `¡¡hola a todos!!`.
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![captura de pantalla](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    Fíjate que el espacio y los caracteres `¡!` se encriptan como una letra 'c'!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ Para solucionar esto, solo debes convertir un carácter si es que está en el alfabeto. Para hacer esto, añade una sentencia `if` (si...) e indenta el resto de tu código.
     
-    ![screenshot](images/messages-if.png)
+    ![captura de pantalla](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ Prueba tu código con el mismo mensaje. ¿Qué sucede ahora?
     
-    ![screenshot](images/messages-if-test.png)
+    ![captura de pantalla](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    Ahora tu código simplemente omite cualquier carácter que no está en el alfabeto.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ Mejor sería que tu código no solo no encriptara cualquier cosa que no esté en el alfabeto, sino que use el carácter no alfabetico.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    Añade una sentencia `else` (si no...) a tu código para que simplemente añada el carácter no alfabetico al mensaje encriptado.
     
-    ![screenshot](images/messages-else.png)
+    ![captura de pantalla](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ Prueba tu código. ¡Ahora deberías ver que cada carácter en el alfabeto es encriptado pero que cualquier otro carácter no alfabetico se quede tal como está!
     
-    ![screenshot](images/messages-else-test.png)
+    ![captura de pantalla](images/messages-else-test.png)
