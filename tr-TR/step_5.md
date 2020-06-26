@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## Meydan okuma: Değişken anahtarlar
 
 Programınızı kullanıcının kendi anahtarını girip kullanabilmesi için değiştirin. Kullanıcının girişini almanız ve bunu `anahtar` değişkeninde saklamanız gerekir.
 
