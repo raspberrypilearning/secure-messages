@@ -1,4 +1,4 @@
-## Mesajın tamamını şifreleme
+## Tüm mesajları şifrelemek
 
 Mesajları bir seferde sadece birer harf şifrelemek ve şifresini çözmek yerine, mesajın tamamını şifrelemek için programı değiştirelim!
 
