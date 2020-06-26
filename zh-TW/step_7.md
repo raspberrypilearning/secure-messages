@@ -1,31 +1,31 @@
-## Extra characters
+## 多餘的字元
 
-Some characters aren't in the alphabet, which causes an error.
+一些字元不在字母表中，會造成錯誤。
 
-+ Test out your code with some characters that aren't in the alphabet.
++ 使用字母表中不存在的一些字元來測試你的程式碼。
     
-    For example, you could use the message `hi there!!`.
+    例如，你可以使用 `hi there!!`（你好！！）這條資訊。
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![截圖](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    請注意空格和 `!` 字元都被加密為字母“c”！
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ 為解決這個問題，你希望只轉換字母表中的字元。為此，向你的程式碼新增一個 `if`語句，並縮排剩餘程式碼。
     
-    ![screenshot](images/messages-if.png)
+    ![螢幕截圖](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ 用同樣的資訊來測試你的程式碼。這次會發生什麼？
     
-    ![screenshot](images/messages-if-test.png)
+    ![截圖](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    現在，你的程式碼會跳過不在字母表中的字元。
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ 如果你的程式碼並未對不在字母表中的內容進行加密，而只是使用原來的字元，那就更好了。
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    向你的程式碼新增 `else` 語句，這會將原始字元新增到已加密的資訊中。
     
-    ![screenshot](images/messages-else.png)
+    ![截圖](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ 測試你的程式碼。你會看到所有字元都被加密，而其他字元則保持原樣。
     
-    ![screenshot](images/messages-else-test.png)
+    ![截圖](images/messages-else-test.png)
