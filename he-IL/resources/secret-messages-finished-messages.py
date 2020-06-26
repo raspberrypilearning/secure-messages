@@ -3,9 +3,9 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 newMessage = ''
   
-message = input('Please enter a message: ')
+message = input('אנא הזינו הודעה באנגלית: ')
 
-key = input('Enter a key (1-26): ')
+key = input('אנא הזינו מפתח (1-26): ')
 key = int(key)
 
 for character in message:
@@ -17,4 +17,4 @@ for character in message:
   else:
     newMessage += character
 
-print('Your new message is: ', newMessage)
+print('ההודעה החדשה שלכם היא: ', newMessage)
