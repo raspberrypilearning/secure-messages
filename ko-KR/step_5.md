@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- 도전 과제 \---
 
-## Uitdaging: variabele sleutels
+## 도전 과제: 변수 키들
 
-Pas het programma zo aan dat de gebruiker zijn eigen sleutel kan invoeren en gebruiken. Je moet de invoer van de gebruiker ophalen en die opslaan in de `sleutel` variabele.
+사용자가 자신의 키를 입력하여 사용할 수 있도록 프로그램을 수정하십시오. 사용자의 입력을 받아 `키`변수에 저장해야합니다.
 
-Vergeet niet om de functie `int()` te gebruiken om de invoer om te zetten naar een geheel getal.
+입력을 정수로 변환하는 함수 `int ()`를 사용하십시오.
 
-Je kunt dan een negatieve sleutel gebruiken om berichten te ontsleutelen!
+그런 다음 음수의 키를 사용하여 메시지의 암호를 해독할 수 있습니다!
 
-\--- /challenge \---
+<0>for</0>, <0>forward()</0>, <0>penup()</0> and <0>pendown()</0>를 사용해 보세요.
