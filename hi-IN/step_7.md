@@ -1,31 +1,31 @@
-## Extra characters
+## अतिरिक्त कैरेक्टर्स
 
-Some characters aren't in the alphabet, which causes an error.
+कुछ अक्षर वर्णमाला में नहीं हैं, जो त्रुटि का कारण बनता है।
 
-+ Test out your code with some characters that aren't in the alphabet.
++ कुछ ऐसे अक्षरों के साथ अपने कोड का परीक्षण करें जो वर्णमाला में नहीं हैं।
     
-    For example, you could use the message `hi there!!`.
+    उदाहरण के लिए, आप इस प्रकार के संदेश का उपयोग कर सकते हैं `hi there!!` ।
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![स्क्रीनशॉट](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    ध्यान दें कि स्पेस और `!`, सभी अक्षर 'c' के रूप में एन्क्रिप्टेड हैं!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ इसे ठीक करने के लिए, आप केवल उस अक्षर का अनुवाद करना चाहते हैं जो वर्णमाला में है। ऐसा करने के लिए, अपने कोड में `if` स्टेटमेंट जोड़ें, और अपने बाकी कोड के इंडेंट करें।
     
-    ![screenshot](images/messages-if.png)
+    ![स्क्रीनशॉट](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ अपने कोड का परीक्षण पहले वाले ही संदेश के साथ करें। इस बार क्या होता है?
     
-    ![screenshot](images/messages-if-test.png)
+    ![स्क्रीनशॉट](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    अब आपका कोड किसी भी उस अक्षर को छोड़ देता है जो वर्णमाला में नहीं है।
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ यह बेहतर होगा यदि आपका कोड वर्णमाला में ना होने वाला कुछ भी एन्क्रिप्ट नहीं करता है, लेकिन सिर्फ मूल अक्षर का उपयोग करता है।
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    अपने कोड में `else` स्टेटमेंट जोड़ें, जो एन्क्रिप्टेड संदेश में सिर्फ मूल अक्षर जोड़ता है।
     
-    ![screenshot](images/messages-else.png)
+    ![स्क्रीनशॉट](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ अपने कोड का परीक्षण करें। आपको यह देखना है कि वर्णमाला के सभी अक्षर एन्क्रिप्ट किये गए है, लेकिन अन्यों को ऐसे ही छोड़ दिया गया है!
     
-    ![screenshot](images/messages-else-test.png)
+    ![स्क्रीनशॉट](images/messages-else-test.png)
