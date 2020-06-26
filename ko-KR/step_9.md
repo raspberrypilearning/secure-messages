@@ -1,4 +1,4 @@
-\--- 도전 과제\---
+\--- challenge \---
 
 ## 도전과제: 우정 계산기
 
@@ -16,4 +16,4 @@
 
 ![스크린샷](images/messages-best-friends.png)
 
-\--- /도전 과제 \---
+\--- /challenge \---
