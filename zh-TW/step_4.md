@@ -1,69 +1,69 @@
-## Encrypting letters
+## 加密字母
 
-Let's write a Python program to encrypt a single character.
+讓我們編寫一個 Python 程式來加密一個單字元。
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ 打開空白的 Python 模板： <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>。
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ 讓我們將字母表寫出來作為 `alphabet` 變數，而不是將其畫在圓中。
     
-    ![screenshot](images/messages-alphabet.png)
+    ![螢幕截圖](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ 讓我們幫字母表中每一個字母編次序， 從0開始， 以次序代表字母， 於是 a就是0， c就是2
     
-    ![screenshot](images/messages-array.png)
+    ![截圖](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ 你在方括號內 填上位置， 便可取得 `alphabet` 的相應字母
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![截圖](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    你在測試過之後就可以刪除 `print` 語句。
 
-+ Next, you'll need to store the secret `key` in a variable.
++ 接下來，你將需要在變數中儲存密鑰 `key`。
     
-    ![screenshot](images/messages-key.png)
+    ![截圖](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ 然後，詢問使用者需要加密的字母（稱為 `character`變數）。
     
-    ![screenshot](images/messages-character.png)
+    ![截圖](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ 找到字母（變數` character`）在字母表中的位置（變數` position`）。
     
-    ![screenshot](images/messages-position.png)
+    ![截圖](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ 你可以將儲存在 `position`（位置）的字母列印出來以進行測試。例如，字元“e”位於字母表中的位置 4。
     
-    ![screenshot](images/messages-position-test.png)
+    ![截圖](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ 要加密 `character`（字元），你需要向 `position`（位置）新增 `key`（密鑰）。它隨後會被儲存在 `newPosition` 變數中。
     
-    ![screenshot](images/messages-newposition.png)
+    ![截圖](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ 新增程式碼來列印出新字元的位置。
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![截圖](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ 測試你的新程式碼。因為你的 `key`（密鑰）是 3，所以應該要把 `position`（位置）加上 3 並儲存在你的 `newPosition` 變數中。
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    例如，字母“e”位於位置 4。為了進行加密，你需要加上 `key` (3)，得出 7。
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![截圖](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ 如果你試著加密字母“y”的話，會發生什麼事情呢？
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![截圖](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    請注意 `newPosition` 現在變成 27，但是在字母表中並沒有 27 個字母！
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ 你可以使用 `%` 來告訴新位置，一旦到達位置 26，就返回位置 0。
     
-    ![screenshot](images/messages-modulus.png)
+    ![截圖](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ 最後，你想要列印出新位置的字母。
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    例如，向字母“e”新增密鑰得出 7，字母表中位置 7 的字母為“h”。
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![截圖](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ 試試你的程式碼。你還可以移除某些列印語句，只有在最後列印出新字元。
     
-    ![screenshot](images/messages-enc-test.png)
+    ![截圖](images/messages-enc-test.png)
