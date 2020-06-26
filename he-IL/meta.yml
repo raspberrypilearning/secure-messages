@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Secret Messages
-description: Make your own encryption program, to send and receive secret messages.
+title: הודעות סודיות
+description: צרו תוכנת הצפנה משלכם, כדי שתוכלו לשלוח ולקבל הודעות סודיות.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -18,20 +18,20 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 'Introduction: '
+    title: 'מבוא: '
   - 
-    title: The Caesar cipher
+    title: צופן קיסר
   - 
-    title: 'Challenge: Use a Caesar cipher'
+    title: 'אתגר: השתמשו בצופן קיסר'
   - 
-    title: Encrypting letters
+    title: הצפנת אותיות
   - 
-    title: 'Challenge: Variable keys'
+    title: 'אתגר: מפתח משתנה'
   - 
-    title: Encrypting entire messages
+    title: הצפנת הודעות שלמות
   - 
-    title: Extra characters
+    title: תווים נוספים
   - 
-    title: 'Challenge: Encrypting and decrypting messages'
+    title: 'אתגר: הצפנה ופענוח של הודעות'
   - 
-    title: 'Challenge: Friendship calculator'
+    title: 'אתגר: מחשבון חברות'
