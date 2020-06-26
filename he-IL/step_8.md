@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## אתגר: הצפנה ופענוח של הודעות
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+הצפינו כמה הודעות, ותנו אותן לחברים שלכם יחד עם המפתח הסודי. בדקו אם הם יכולים לפענח את ההודעות עם התוכניות שלהם!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+אתם יכולים גם לשכפל את התוכנית וליצור תוכנית נפרדת לפענוח הודעות.
 
 \--- /challenge \---
