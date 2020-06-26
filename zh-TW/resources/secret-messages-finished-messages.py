@@ -3,9 +3,9 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 newMessage = ''
   
-message = input('Please enter a message: ')
+message = input('請輸入一個訊息: ')
 
-key = input('Enter a key (1-26): ')
+key = input('輸入一個鑰匙 (1-26): ')
 key = int(key)
 
 for character in message:
@@ -17,4 +17,4 @@ for character in message:
   else:
     newMessage += character
 
-print('Your new message is: ', newMessage)
+print('你的新訊息是: ', newMessage)
