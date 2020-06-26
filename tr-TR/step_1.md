@@ -20,7 +20,7 @@ Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürüm](https://p
 
 Bu projede çocuklar bir arkadaşıyla gizli mesajlaşmak için şifreleme programının nasıl yapıldığını öğrenecekler. Bu proje, bir metin dizgisinde yinelemeyi (looping) tanıtmaktadır.
 
-## Online Resources
+## Çevrimiçi Kaynaklar
 
 **Bu proje Python 3'ü kullanıyor.** Çevrimiçi Python programlama için [trinket](https://trinket.io/) kullanmanızı tavsiye ederiz. Bu proje aşağıdaki Trinketları içermektedir:
 
