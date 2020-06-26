@@ -1,71 +1,69 @@
-## वर्णों को इनक्रिप्ट करना
+## अक्षरों को इनक्रिप्ट करना
 
-चलिए कैरेक्टर को इनक्रिप्ट करने के लिए पाइथन प्रोग्राम लिखें।
+आइए एक अक्षर को एन्क्रिप्ट करने के लिए पायथन प्रोग्राम लिखें।
 
++ रिक्त पायथन टेंपलेट ट्रिंकेट खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
++ किसी वृत्त में वर्णमाला बनाने के बजाय, इसे `alphabet` वेरिएबल के रूप में लिखते हैं ।
+    
+    ![स्क्रीनशॉट](images/messages-alphabet.png)
 
-+ खाली Python टेंम्पलेट ट्रिंकेट खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ वर्णमाला के प्रत्येक अक्षर की एक position होती है । position 0 पर शुरू होती है। इसलिए अक्षर 'a' वर्णमाला के स्थान पर 0 है, और 'c' स्थान 2 पर है।
+    
+    ![स्क्रीनशॉट](images/messages-array.png)
 
-+ वृत्त में अक्षर लिखने के बजाय, चलिए इसे `alphabet` वेरिएबल के रूप में लिखें।
++ आप अपने ` alphabet ` वेरिएबल कोष्ठक में स्थिति लिखकर एक अक्षर पा सकते हैं।
+    
+    ![स्क्रीनशॉट](images/messages-alphabet-array.png)
+    
+    एक बार जब आप इसे आज़मा लें, आप `print` हटा सकते हैं।
 
-	![screenshot](images/messages-alphabet.png)
++ इसके बाद, आपको गुप्त `key` एक वेरिएबल में रखनी होगी।
+    
+    ![स्क्रीनशॉट](images/messages-key.png)
 
-+ अक्षर में प्रत्येक वर्ण का स्तर है, यह स्तर 0 से आंरभ होता है। इसलिए वर्ण 'a' अक्षर के शीर्ष स्तर 0 पर होता है, और 'c' स्तर 2 पर होता है।
++ इसके बाद एन्क्रिप्ट करने के लिए उपयोगकर्ता से एक अक्षर के लिए पूछें (जिसे `character` कहा जाता है ) ।
+    
+    ![स्क्रीनशॉट](images/messages-character.png)
 
-	![screenshot](images/messages-array.png)
++ `character` की `position` का पता लगाएं।
+    
+    ![स्क्रीनशॉट](images/messages-position.png)
 
-+ आप वर्ग ब्रैकेट्स में स्तर लिखकर अपने `alphabet` वेरिएबल से वर्ण प्राप्त कर सकते हैं।
++ आप संग्रहित `position` को छापकर इसका परीक्षण कर सकते हैं। उदाहरण के लिए, वह वर्ण 'e' वर्णमाला में स्थिति 4 पर है।
+    
+    ![स्क्रीनशॉट](images/messages-position-test.png)
 
-	![screenshot](images/messages-alphabet-array.png)
++ `character` एन्क्रिप्ट करने के लिए आप `position` में `key` जोड़ें। इसे तब `newPosition` वेरिएबल में संग्रहित करें।
+    
+    ![स्क्रीनशॉट](images/messages-newposition.png)
 
-	इसका एक बार उपयोग करने पर आप `print` स्टेटमेंट को मिटा सकते हैं।
++ नई character position प्रिंट करने के लिए कोड लिखें।
+    
+    ![स्क्रीनशॉट](images/messages-newposition-print.png)
 
-+ इसके बाद, आपको वेरिएबल में गुप्त `key` (कुंजी) स्टोर करनी होगी।
++ अपने नए कोड का परीक्षण करें। अपनी `key` 3 है, इसलिए इसे 3 को `position` में जोड़ना चाहिए और इसे अपने `newPosition` वेरिएबल में संग्रहीत करना चाहिए।
+    
+    उदाहरण के लिए, 'e' position 4 पर है। एन्क्रिप्ट करने के लिए, आप `key` (3) जोड़ें, जो कि आपको 7 दे।
+    
+    ![स्क्रीनशॉट](images/messages-newposition-test.png)
 
-	![screenshot](images/messages-key.png)
++ जब आप 'y' अक्षर को एन्क्रिप्ट करके देखते हैं तो क्या होता है?
+    
+    ![स्क्रीनशॉट](images/messages-modulus-bug.png)
+    
+    ध्यान दें कि कैसे `newPosition` 27 है, और वर्णमाला में 27 अक्षर नहीं हैं!
 
-+ इसके बाद, उपयोगकर्ता को वर्ण (`character` (कैरेक्टर)) को इनक्रिप्ट करने के लिए कहें।
++ एक बार position 26 पर पहुंचने क बाद, 0 position पर वापस जाने के लिए, new position के साथ `%` का उपयोग कर सकते हैं ।
+    
+    ![स्क्रीनशॉट](images/messages-modulus.png)
 
-	![screenshot](images/messages-character.png)
++ अंत में, आप new position में अक्षर को प्रिंट करें।
+    
+    उदाहरण के लिए, 'e' अक्षर में key जोड़ने से 7 मिलता है, और वर्णमाला में 7 की position में अक्षर 'h' है।
+    
+    ![स्क्रीनशॉट](images/messages-newcharacter.png)
 
-+ `position` (कैरेक्टर) का `character` (स्तर) ढूँढ़ें।
-
-	![screenshot](images/messages-position.png)
-
-+ आप स्टोर किए गए `position` (स्तर) को प्रिंट करके इसका परीक्षण कर सकते हैं। उदाहरण के लिए, कैरेक्टर 'e' अक्षर में स्तर 4 पर है।
-
-	![screenshot](images/messages-position-test.png)
-
-+ `character` (कैरेक्टर) को इनक्रिप्ट करने के लिए, आपको `position` (स्थिति) में `key` (बटन )  शामिल करनी चाहिए। इसके बाद इसे `newPosition` वेरिएबल में स्टोर किया जाता है।
-
-	![screenshot](images/messages-newposition.png)
-
-+ नए कैरेक्टर के स्तर को प्रिंट करने के लिए कोड जोड़ें। 
-
-	![screenshot](images/messages-newposition-print.png)
-
-+ अपने नए कोड का परीक्षण करें। जैसे आपकी `key` (बटन) 3 है, इसे `position` (स्थिति) में 3 जोड़ना चाहिए और आपके `newPosition` (नई स्थिति) वेरिएबल में स्टोर करना चाहिए।
-
-	उदाहरण के लिए, वर्ण 'e' स्तर 4 पर होता है। इनक्रिप्ट करने के लिए, आप 7 दर्ज करके `key` (बटन) (3) शामिल करते हैं।
-
-	![screenshot](images/messages-newposition-test.png)
-
-+ जब आप वर्ण 'y' को इनक्रिप्ट करने का प्रयास करते हैं, तो क्या होता है?
-
-	![screenshot](images/messages-modulus-bug.png)
-
-	ध्यान दें कि कैसे `newPosition` 27 होता है, और अक्षर में 27 वर्ण नहीं हैं!
-
-+ आप नया स्तर 26 होने पर इसे वापस 0 पर जाने के लिए कहने के लिए `%` का उपयोग करते हैं।
-
-	![screenshot](images/messages-modulus.png)
-
-+ अंततः आप वर्ण को नए स्तर पर प्रिंट करना चाहते हैं।
-
-	उदाहरण के लिए, वर्ण 'e' में कुंजी शामिल करने पर यह 7 देता है, और अक्षर के स्तर 7 पर वर्ण 'h' है।
-
-	![screenshot](images/messages-newcharacter.png)
-
-+ अपने कोड का परीक्षण करें। आप अंत में नया करैक्टर प्रिंट करके, अपनी कुछ प्रिंट स्टेटमेंट्स को हटा भी सकते हैं।
-
-	![screenshot](images/messages-enc-test.png)
++ अपना कोड आज़माएं। आप अपने कुछ प्रिंट स्टेटमेंट हटा भी सकते हैं, बस अंत में नए अक्षर को प्रिंट कर सकते हैं।
+    
+    ![स्क्रीनशॉट](images/messages-enc-test.png)
