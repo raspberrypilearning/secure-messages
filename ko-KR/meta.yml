@@ -9,11 +9,11 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: 비밀 메시지
 description: 자신만의 암호화 프로그램을 만들어서 비밀 메시지를 주고 받아봅니다.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
-interests: 사이버 보안 및 암호화
-technologies: 파이썬 (Python)
-site_areas: 프로젝트
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
 hardware: ''
-software: 파이썬 (Python)
+software: python
 version: 3
 last_tested: 2017-01-01
 steps:
