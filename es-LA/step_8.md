@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## Desafío: Encriptado y desencriptado de mensajes
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+Encripta algunos mensajes y dáselos a un amigo/una amiga junto con la clave secreta. ¡A ver si pueden desencriptarlos usando su programa!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+También puedes duplicar el proyecto y crear un programa aparte para desencriptar mensajes.
 
 \--- /challenge \---
