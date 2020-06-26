@@ -1,6 +1,6 @@
-## Introduction:
+## מבוא:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+בפרויקט זה תלמדו איך ליצור תוכנת הצפנה משלכם, כדי שתוכלו לשלוח ולקבל הודעות סודיות מחברים. פרויקט זה מתקשר עם הפעילות "Earth to Principia" בעמוד 16 ב-Space Diary.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### מידע נוסף למדריכי מועדונים
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+אם אתם צריכים להדפיס את הפרויקט הזה, אנא השתמשו ב[גרסה ידידותית למדפסת](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: הערות למדריכי מועדונים
 
-## Introduction:
+## מבוא:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+בפרויקט זה הילדים ילמדו איך ליצור תוכנת הצפנה, כדי שיוכלו לשלוח ולקבל הודעות סודיות מחברים. פרויקט זה בא להציג את מושג האיטרציה (חזרה) על מחרוזת טקסט.
 
-## Online Resources
+## משאבים מקוונים
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**פרויקט זה משתמש ב-Python 3.** אנו ממליצים להשתמש ב-[Trinket](https://trinket.io/) כדי לכתוב ב-Python בדפדפן. פרויקט זה משתמש ב-Trinket-ים הבאים:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Trinket חדש (ריק) ב-Python -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+יש גם Trinket-ים שמכילים את הפרויקטים המוגמרים:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['הודעות סודיות' גמור - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['מחשבון חברות' גמור - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## משאבים לא מקוונים
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+אם ברצונכם לעשות זאת, ניתן ל[השלים באופן לא מקוון](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) את הפרויקט.
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+אפשר למצוא את הפרויקטים המוגמרים בסעיף 'משאבים למתנדבים', שמכיל:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(כל המשאבים לעיל ניתנים להורדה גם כפרויקט וגם כקובצי `.zip` של מתנדבים.)
 
-## Learning Objectives
+## מטרות למידה
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* איטרציה (חזרה) על משתנה מסוג מחרוזת;
+* הפונקציה `find()`;
+* האופרטור מודולו (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+פרויקט זה מכסה אלמנטים מהנושאים הבאים ב[תוכנית הלימודים הדיגיטלית של Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [שילוב מבני תוכנה לפיתרון בעיות.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## אתגרים
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* השתמשו בצופן קיסר - הצפנה ופענוח של אותיות ומילים באופן ידני;
+* מפתח משתנה - מאפשרים למשתמש להזין מפתח להצפנה;
+* הצפנה ופענוח של הודעות - הצפנה ופענוח של הודעות שלמות;
+* מחשבון חברות - שימוש באיטרציות על טקסט בשביל בעיה חדשה.
 
-## Frequently Asked Questions
+## שאלות נפוצות
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* כאשר מחפשים בעזרת `find()` או `if char in alphabet:`, יש לשים לב שהחיפושים תלויי-רישיות (תלויים בסוג האותיות באנגלית - גדולות או קטנות). הילדים יכולים להשתמש ב:
     
     ```python
-    message = input("Please enter a message to encrypt: ").lower()
+    message = input("אנא הזינו הודעה להצפנה: ").lower()
     ```
     
-    to make the input lower case before searching.
+    כדי להפוך את הקלט לאותיות קטנות לפני החיפוש.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: חומרים לפרויקט
 
-## Project resources
+## משאבים לפרויקט
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [קובץ .zip המכיל את כל משאבי הפרויקט](resources/secret-messages-project-resources.zip)
+* [Trinket מקוון ריק של Python](http://jumpto.cc/python-new)
+* [קובץ Python לא מקוון ריק](resources/new-new.py)
 
-## Club leader resources
+## משאבים למדריכי מועדונים
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [קובץ .zip המכיל את כל משאבי הפרויקט המוגמרים](resources/secret-messages-volunteer-resources.zip)
+* [פרויקט Trinket מוגמר באופן מקוון](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [האתגר 'מחשבון חברות' מוגמר באופן מקוון](https://trinket.io/python/2e852cd687)
+* [האתגר 'מחשבון חברות' מוגמר באופן לא מקוון](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
