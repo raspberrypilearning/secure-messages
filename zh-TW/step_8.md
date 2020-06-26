@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## 挑戰：加密和解密資訊
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+加密一些資訊，並連同密鑰一起發給朋友。看看他們能否使用自己的程式破解資訊！
 
-You could also duplicate the project and create a separate program for decrypting messages.
+你還可以複製該專案並建立一個獨立的程式用於解密資訊。
 
 \--- /challenge \---
