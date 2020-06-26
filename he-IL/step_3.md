@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## אתגר: השתמשו בצופן קיסר
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+האם אתם יכולים לשלוח מילה סודית לחבר? שניכם תצטרכו להסכים על מפתח סודי לפני שתתחילו.
 
-You could even send entire sentences to each other!
+אתם יכולים אפילו לשלוח משפטים שלמים אחד לשני!
 
 \--- /challenge \---
