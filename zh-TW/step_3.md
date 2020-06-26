@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## 挑戰：使用凱撒密碼
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+你可以向朋友發送一個祕密的單詞嗎？在開始之前，你們需要在密鑰上達成一致。
 
-You could even send entire sentences to each other!
+你們甚至可以互相傳送完整的句子！
 
 \--- /challenge \---
