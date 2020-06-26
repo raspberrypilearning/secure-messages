@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## चुनौती: वेरिएबल कीज़
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+अपना प्रोग्राम थोड़ा बदलें, ताकि उपयोगकर्ता उपयोग करने के लिए अपनी key खुद इनपुट कर सके। आपको उपयोगकर्ता का इनपुट प्राप्त करना होगा, और उसे `key` वेरिएबल में संग्रहीत करना होगा।
 
-Remember to use the `int()` function to convert the input to a whole number.
+इनपुट को पूरी संख्या में बदलने के लिए `int()` का उपयोग करना याद रखें ।
 
-You can then use a negative key to decrypt messages!
+फिर आप संदेशों को डिक्रिप्ट करने के लिए एक नेगेटिव key का उपयोग कर सकते हैं!
 
 \--- /challenge \---
