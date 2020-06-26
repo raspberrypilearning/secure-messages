@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## 對完整資訊進行加密
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+讓我們修改程式來加密完整的資訊，而非一次僅加密和解密一個字元！
 
-+ Firstly, check that your code looks like this:
++ 首先，請檢查你的程式碼是否如下所示：
     
-    ![screenshot](images/messages-character-finished.png)
+    ![截圖](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ 建立一個變數來儲存新加密的資訊。
     
-    ![screenshot](images/messages-newmessage.png)
+    ![螢幕截圖](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ 更改你的程式碼來儲存使用者的資訊，而不僅僅是一個字元。
     
-    ![screenshot](images/messages-message.png)
+    ![截圖](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ 向你的程式碼新增 `for` 迴圈，並縮排剩餘的程式碼，使其對資訊中的每個字元重複執行。
     
-    ![screenshot](images/messages-loop.png)
+    ![截圖](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ 測試你的程式碼。你會看到資訊中的每個字元一個接一個地被加密並列印出來。
     
-    ![screenshot](images/messages-loop-test.png)
+    ![截圖](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ 讓我們向你的 `newMessage` 變數新增每個被加密的字元。
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![截圖](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ 你可以在它被加密時，將`newMessage`變數`print`（列印）出來 。
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![截圖](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ 如果你刪掉 `print`（列印）語句之前的空格，被加密的資訊僅會在末尾顯示一次。你還可以刪除列印字元位置的程式碼。
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![截圖](images/messages-print-message-comment.png)
