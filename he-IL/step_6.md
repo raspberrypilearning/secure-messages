@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## הצפנת הודעות שלמות
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+במקום להצפין ולפענח תו אחד בכל פעם, בואו נשנה את התוכנית כך שהיא תוכל להצפין הודעות שלמות!
 
-+ Firstly, check that your code looks like this:
++ ראשית, בדקו שהקוד שלכם נראה כך:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![צילום מסך](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ צרו משתנה שיאחסן את ההודעה המוצפנת החדשה.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![צילום מסך](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ שנו את הקוד כך שיאחסן את כל ההודעה של המשתמש ולא רק תו אחד.
     
-    ![screenshot](images/messages-message.png)
+    ![צילום מסך](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ הוסיפו לולאת `for` לקוד, והוסיפו הזחה (אידנטציה) לשאר הקוד כדי שהוא יעשה זאת על כל תו בהודעה.
     
-    ![screenshot](images/messages-loop.png)
+    ![צילום מסך](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ הריצו בדיקות על הקוד, אתם אמורים לראות שכל תו בהודעה מוצפן ומודפס למסך, אחד בכל שורה.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![צילום מסך](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ בואו נוסיף כל תו מוצפן למשתנה `newMessage`.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![צילום מסך](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ אתם יכולים להדפיס את `newMessage` בזמן שהיא עוברת הצפנה.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![צילום מסך](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ אם תמחקו את ההזחה שלפני הפקודה `print`, ההודעה המוצפנת תוצג רק פעם אחת בסוף. אתם יכולים גם למחוק את הקוד שמדפיס את התווים שהוצפנו.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![צילום מסך](images/messages-print-message-comment.png)
