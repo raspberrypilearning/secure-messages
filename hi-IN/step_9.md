@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Friendship calculator
+## चुनौती: मित्रता कैलकुलेटर
 
-Write a program to show how compatible 2 people are, by calculating a friendship score.
+एक कार्यक्रम लिखें जो एक दोस्ती अंक की गणना करके, यह दिखाए कि 2 लोग एक दुसरे के लिए कितने अनुकूल हैं।
 
-![screenshot](images/messages-friends.png)
+![स्क्रीनशॉट](images/messages-friends.png)
 
-The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
+प्रोग्राम 2 नामों में से प्रत्येक अक्षर लूप कर सकता है, और एक `score` वेरिएबल में तब अंक जोड़ सकता है जब भी दोनों नामो के अक्षर मेल खाएं।
 
-You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
+आपको पुरस्कार देने के नियमों पर निर्णय लेना चाहिए। उदाहरण के लिए, आप "दोस्त" शब्द में पाए जाने वाले स्वरों या वर्णों के लिए अंक प्रदान कर सकते हैं:
 
-![screenshot](images/messages-friends-code.png)
+![स्क्रीनशॉट](images/messages-friends-code.png)
 
-You could also give the user a personalised message, based on their score:
+आप उपयोगकर्ता को उनके स्कोर के आधार पर एक व्यक्तिगत संदेश भी दे सकते हैं:
 
-![screenshot](images/messages-best-friends.png)
+![स्क्रीनशॉट](images/messages-best-friends.png)
 
 \--- /challenge \---
