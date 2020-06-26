@@ -1,69 +1,69 @@
-## Encrypting letters
+## הצפנת אותיות
 
-Let's write a Python program to encrypt a single character.
+בואו נכתוב תוכנית Python שמצפינה תו אחד.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ פתחו את תבנית ה-Trinket הריקה של קובץ Python: <a href="http://jumpto.cc/python-new" target="_blank"> jumpto.cc/python-new </a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ במקום לצייר את האלף-בית במעגל, נכתוב אותו כמשתנה `alphabet`.
     
-    ![screenshot](images/messages-alphabet.png)
+    ![צילום מסך](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ לכל אות באלף-בית יש מיקום, החל מהמיקום 0. האות 'a' נמצאת במיקום 0 של האלף-בית, ו-'c' נמצאת במיקום 2.
     
-    ![screenshot](images/messages-array.png)
+    ![צילום מסך](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ אפשר לקבל אות מהמשתנה `alphabet` על ידי כתיבת המיקום בסוגריים מרובעים.
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![צילום מסך](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    אתם יכולים למחוק את ה- `print`-ים שהוספתם אחרי שניסיתם את זה.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ לאחר מכן, נצטרך לשמור את ה-`key` (המפתח) במשתנה.
     
-    ![screenshot](images/messages-key.png)
+    ![צילום מסך](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ בשלב הבא, בקשו מהמשתמש אות יחידה (נקראת גם `character` - תו) להצפנה.
     
-    ![screenshot](images/messages-character.png)
+    ![צילום מסך](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ מצאו את המיקום (`position`) של התו (`character`).
     
-    ![screenshot](images/messages-position.png)
+    ![צילום מסך](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ אתם יכולים לבדוק את ה-`position` המאוחסן על ידי הדפסה למסך. למשל, לבדוק שהאות 'e' היא במיקום ה-4 באלף-בית.
     
-    ![screenshot](images/messages-position-test.png)
+    ![צילום מסך](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ כדי להצפין את ה-`character`, אתם צריכים להוסיף את ה-`key` ל-`position`. לאחר מכן התו הזה מאוחסן במשתנה `newPosition`.
     
-    ![screenshot](images/messages-newposition.png)
+    ![צילום מסך](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ הוסיפו קוד להדפסת התו החדש למסך.
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![צילום מסך](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ בדקו את הקוד החדש שלכם. מכיוון שה-`key` שלכם הוא 3, זה אמור להוסיף 3 ל-`position` ולאחסן את התו במשתנה `newPosition`.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    לדוגמה, האות 'e' היא במיקום 4, כדי להצפין אותה, צריך להוסיף את המפתח (3) - מה שנותן 7.
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![צילום מסך](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ מה קורה כשמנסים להצפין את האות 'y'?
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![צילום מסך](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    שימו לב שה-`newPosition` הוא 28, ואין 28 אותיות באלף-בית!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ אתם יכולים להשתמש ב-`%` כדי להגיד למיקום החדש לחזור ל-0 כשהוא מגיע ל-26.
     
-    ![screenshot](images/messages-modulus.png)
+    ![צילום מסך](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ בסופו של דבר, אתם רוצים להדפיס למסך את האות שנמצאת במיקום החדש.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    למשל, הוספת המפתח לאות 'e' נותן 7, והאות במיקום 7 באלף-בית היא 'h'.
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![צילום מסך](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ נסו את הקוד שלכם. אתם יכולים למחוק חלק מה-print-ים בתוכנית, כך שרק התו החדש יודפס.
     
-    ![screenshot](images/messages-enc-test.png)
+    ![צילום מסך](images/messages-enc-test.png)
