@@ -1,69 +1,69 @@
-## Encrypting letters
+## अक्षरों को इनक्रिप्ट करना
 
-Let's write a Python program to encrypt a single character.
+आइए एक अक्षर को एन्क्रिप्ट करने के लिए पायथन प्रोग्राम लिखें।
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ रिक्त पायथन टेंपलेट ट्रिंकेट खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ किसी वृत्त में वर्णमाला बनाने के बजाय, इसे `alphabet` वेरिएबल के रूप में लिखते हैं ।
     
-    ![screenshot](images/messages-alphabet.png)
+    ![स्क्रीनशॉट](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ वर्णमाला के प्रत्येक अक्षर की एक position होती है । position 0 पर शुरू होती है। इसलिए अक्षर 'a' वर्णमाला के स्थान पर 0 है, और 'c' स्थान 2 पर है।
     
-    ![screenshot](images/messages-array.png)
+    ![स्क्रीनशॉट](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ आप अपने ` alphabet ` वेरिएबल कोष्ठक में स्थिति लिखकर एक अक्षर पा सकते हैं।
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![स्क्रीनशॉट](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    एक बार जब आप इसे आज़मा लें, आप ` print ` हटा सकते हैं।
 
-+ Next, you'll need to store the secret `key` in a variable.
++ इसके बाद, आपको गुप्त `key` एक वेरिएबल में रखनी होगी।
     
-    ![screenshot](images/messages-key.png)
+    ![स्क्रीनशॉट](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ इसके बाद एन्क्रिप्ट करने के लिए उपयोगकर्ता से एक अक्षर के लिए पूछें (जिसे ` character ` कहा जाता है ) ।
     
-    ![screenshot](images/messages-character.png)
+    ![स्क्रीनशॉट](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ `character` की `position` का पता लगाएं।
     
-    ![screenshot](images/messages-position.png)
+    ![स्क्रीनशॉट](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ आप संग्रहित `position` को छापकर इसका परीक्षण कर सकते हैं। उदाहरण के लिए, वह वर्ण 'e' वर्णमाला में स्थिति 4 पर है।
     
-    ![screenshot](images/messages-position-test.png)
+    ![स्क्रीनशॉट](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ `character` एन्क्रिप्ट करने के लिए आप `position` में `key` जोड़ें। इसे तब `newPosition` वेरिएबल में संग्रहित करें।
     
-    ![screenshot](images/messages-newposition.png)
+    ![स्क्रीनशॉट](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ नई character position प्रिंट करने के लिए कोड लिखें।
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![स्क्रीनशॉट](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ अपने नए कोड का परीक्षण करें। अपनी `key` 3 है, इसलिए इसे 3 को `position ` में जोड़ना चाहिए और इसे अपने `newPosition` वेरिएबल में संग्रहीत करना चाहिए।
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    उदाहरण के लिए, 'e' position 4 पर है। एन्क्रिप्ट करने के लिए, आप `key` (3) जोड़ें, जो कि आपको 7 दे।
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![स्क्रीनशॉट](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ जब आप 'y' अक्षर को एन्क्रिप्ट करके देखते हैं तो क्या होता है?
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![स्क्रीनशॉट](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    ध्यान दें कि कैसे `newPosition` 27 है, और वर्णमाला में 27 अक्षर नहीं हैं!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ एक बार position 26 पर पहुंचने क बाद, 0 position पर वापस जाने के लिए, new position के साथ `%` का उपयोग कर सकते हैं ।
     
-    ![screenshot](images/messages-modulus.png)
+    ![स्क्रीनशॉट](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ अंत में, आप new position में अक्षर को प्रिंट करें।
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    उदाहरण के लिए, 'e' अक्षर में key जोड़ने से 7 मिलता है, और वर्णमाला में 7 की position में अक्षर 'h' है।
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![स्क्रीनशॉट](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ अपना कोड आज़माएं। आप अपने कुछ प्रिंट स्टेटमेंट हटा भी सकते हैं, बस अंत में नए अक्षर को प्रिंट कर सकते हैं।
     
-    ![screenshot](images/messages-enc-test.png)
+    ![स्क्रीनशॉट](images/messages-enc-test.png)
