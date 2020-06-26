@@ -1,0 +1,28 @@
+---
+hero_image: images/secret-messages.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: הודעות סודיות
+description: צרו תוכנת הצפנה משלכם, כדי שתוכלו לשלוח ולקבל הודעות סודיות.
+original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'מבוא: '
+  - title: צופן קיסר
+  - title: 'אתגר: השתמשו בצופן קיסר'
+  - title: הצפנת אותיות
+  - title: 'אתגר: מפתח משתנה'
+  - title: הצפנת הודעות שלמות
+  - title: תווים נוספים
+  - title: 'אתגר: הצפנה ופענוח של הודעות'
+  - title: 'אתגר: מחשבון חברות'

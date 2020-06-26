@@ -1,0 +1,28 @@
+---
+hero_image: images/secret-messages.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Gizli Mesajlar
+description: Gizli mesajlar göndermek ve almak için kendi şifreleme programınızı yapın.
+original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'Giriş: '
+  - title: Sezar şifresi
+  - title: 'Meydan okuma: Bir Sezar şifresi kullanın'
+  - title: Şifreli harfler
+  - title: 'Meydan okuma: Değişken anahtarlar'
+  - title: Tüm mesajları şifrelemek
+  - title: Fazladan karakterler
+  - title: 'Meydan okuma: Mesajları şifreleme ve şifresini çözme'
+  - title: 'Meydan okuma: Arkadaşlık hesaplayıcısı'
