@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## पूर्ण संदेशों को इनक्रिप्ट करना
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+संदेशों को केवल एक बार में एक अक्षर एन्क्रिप्ट और डिक्रिप्ट करने के बजाय, चलो पूरे संदेशों को एन्क्रिप्ट करने के लिए प्रोग्राम को बदलते हैं!
 
-+ Firstly, check that your code looks like this:
++ सबसे पहले, जांचें कि आपका कोड इस तरह दिखता है:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![स्क्रीनशॉट](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ नए एन्क्रिप्टेड संदेश को स्टोर करने के लिए एक वैरिएबल बनाएं।
     
-    ![screenshot](images/messages-newmessage.png)
+    ![स्क्रीनशॉट](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ अपना कोड बदलें ताकि उपयोगकर्ता का पूरा संदेश स्टोर हो, ना कि केवल एक अक्षर।
     
-    ![screenshot](images/messages-message.png)
+    ![स्क्रीनशॉट](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ अपने कोड में `for` लूप जोड़ें, और बाकी कोड को इंडेंट करें ताकि यह संदेश में प्रत्येक अक्षर के लिए दोहराया जाए।
     
-    ![screenshot](images/messages-loop.png)
+    ![स्क्रीनशॉट](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ अपने कोड का परीक्षण करें। आपको यह देखना चाहिए कि संदेश में प्रत्येक अक्षर एन्क्रिप्ट किया गया है और एक बार में एक ही प्रिंट किया गया है।
     
-    ![screenshot](images/messages-loop-test.png)
+    ![स्क्रीनशॉट](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ आइए प्रत्येक एन्क्रिप्ट किए गए अक्षर को अपने `newMessage` वेरिएबल में जोड़ें ।
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![स्क्रीनशॉट](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ जैसे-जैसे `newMessage` एन्क्रिप्ट किया जा रहा है, आप इसे `print` कर सकते हैं।
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![स्क्रीनशॉट](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ यदि आप `print` से पहले रिक्त स्थान हटाते हैं, एन्क्रिप्टेड संदेश केवल एक बार अंत में प्रदर्शित किया जाएगा।आप अक्षर स्थितियों को प्रिंट करने वाला कोड भी हटा सकते हैं।
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![स्क्रीनशॉट](images/messages-print-message-comment.png)
