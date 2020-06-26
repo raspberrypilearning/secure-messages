@@ -20,23 +20,23 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 En este proyecto, los niños aprenderán a hacer un programa de cifrado, a enviar y recibir mensajes secretos con un amigo. Este proyecto introduce iteración (bucle) sobre una cadena de texto.
 
-## Online Resources
+## Recursos en línea
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Este proyecto usa Python 3.** Recomendamos el uso de [Trinket](https://trinket.io/) para escribir Python en línea. Este proyecto contiene los siguientes Trinkets:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [Nuevo Trinket de Python (en blanco) -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+También hay un Trinket con el proyecto acabado:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* [‘Mensajes secretos’ terminado -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Calculadora de amistad’ terminado -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
 ## Recursos sin conexión
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+Este proyecto también se puede [completar sin conexión](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+También se puede encontrar una versión completa de este proyecto en la sección 'Recursos para voluntarios', que contiene:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
@@ -45,24 +45,24 @@ You can find the completed project in the 'Volunteer Resources' section, which c
 
 ## Objetivos del Aprendizaje
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* Iteración (bucle) sobre una variable de cadena;
+* El método `find()`;
+* El operador del módulo (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes aspectos del currículo de creación digital [Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combinar estructuras de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Desafíos
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Usar un cifrado César - cifrar y descifrar letras y palabras manualmente;
+* Claves variables - permitiendo al usuario introducir una clave elegida;
+* Cifrar y descifrar mensajes - cifrar y descifrar mensajes enteros;
+* Calculadora de amistad - aplicar iteración de texto a un nuevo problema.
 
-## Frequently Asked Questions
+## Preguntas frecuentes
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* Cuando se realiza una búsqueda usando `find()` o `if char in alphabet:`, hay que tener en cuenta que las búsquedas distinguen entre mayúsculas y minúsculas. Los niños pueden usar:
     
     ```python
     message = input("Please enter a message to encrypt: ").lower()
