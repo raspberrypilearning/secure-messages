@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## チャレンジ：キー番号を変える
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+ユーザーが独自のキー番号を入力して使用できるように、プログラムを変更します。ユーザーの入力を取得し、`key`（キー番号）変数に保存する必要があります。
 
-Remember to use the `int()` function to convert the input to a whole number.
+`int()`関数を使用して、入力を整数に変換することを忘れないでください。
 
-You can then use a negative key to decrypt messages!
+マイナスのキー番号を使ってメッセージを復号することができます。
 
 \--- /challenge \---
