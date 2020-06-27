@@ -1,7 +1,7 @@
 #!/bin/python3
 
 score = 0
-names = input('enter tha names of 2 people: ')
+names = input('2人分の名前を入力してください: ')
 
 for character in names:
   if character in 'aeiou':
@@ -9,7 +9,7 @@ for character in names:
   if character in 'friend':
     score += 10
 
-print('your friendship score is :', score)
+print('あなたたちのなかよし点数はこちらです :', score)
 
 if score > 100:
-  print('best friends!')
+    print('大のなかよしです！')
