@@ -1,24 +1,24 @@
-## The Caesar cipher
+## シーザー暗号
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+暗号とは秘密のコードの一種で、文字を入れ替えてあなたのメッセージを誰も読むことができないようにするものです。
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+ジュリアス・シーザーにちなんで命名された、最も古く有名な暗号である **シーザー暗号**を使います。
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+コーディングを始める前に、シーザー暗号を使って単語をわからなくしてみましょう。
 
-+ Hiding a word is called **encryption**.
++ 単語をわからなくすることを**暗号化**と呼びます。
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    まず文字「a」を暗号化しましょう。暗号化するために、次のようにアルファベットを円形に並べて書きます：
     
-    ![screenshot](images/messages-wheel.png)
+    ![スクリーンショット](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ 通常の文字から暗号化された文字を作るには、秘密のキー（かぎ）が必要です。キーとして数字の3を使用しましょう（ただし、好きな数字を使用できます）。
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    文字「a」を **暗号化**するのに、3文字だけ時計回りに動きます。すると文字「d」が得られます。
     
-    ![screenshot](images/messages-wheel-eg.png)
+    ![スクリーンショット](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ 学んだことを使って、単語全体を暗号化することができます。たとえば、「hello」を暗号化すると「khoor」になります。自分で試してみてください。
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ テキストを通常に戻すことを**復号**といいます。ある単語を復号するには、キーの数字を足すのではなく引けばよいのです：
     
     + k - 3 = **h**
     + h - 3 = **e**
