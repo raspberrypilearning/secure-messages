@@ -1,10 +1,10 @@
-## Encrypting letters
+## 文字の暗号化
 
-Let's write a Python program to encrypt a single character.
+アルファベット1文字を暗号化するPythonプログラムを作成しましょう。
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ 何も入力されていないPythonのTrinketテンプレートを開きます：<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ 円形に並べてアルファベットを描く代わりに、 `alphabet`（アルファベット）変数として書き出しましょう。
     
     ![screenshot](images/messages-alphabet.png)
 
