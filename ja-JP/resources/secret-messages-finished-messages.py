@@ -1,11 +1,11 @@
 #!/bin/python3
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alphabet = 'abcdefghijklmnopqrstuvwxyz';
 newMessage = ''
   
-message = input('Please enter a message: ')
+message = input('メッセージを入力してください: ')
 
-key = input('Enter a key (1-26): ')
+key = input('キー番号(1～26)を入力してください: ')
 key = int(key)
 
 for character in message:
@@ -17,4 +17,4 @@ for character in message:
   else:
     newMessage += character
 
-print('Your new message is: ', newMessage)
+print('新しいメッセージはこちらです: ', newMessage)
