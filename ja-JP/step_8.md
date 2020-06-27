@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## チャレンジ：メッセージの暗号化と復号
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+いくつかのメッセージを暗号化し、それらを秘密のキーとともにともだちに渡します。プログラムを使って復号できるかどうか確認してください！
 
-You could also duplicate the project and create a separate program for decrypting messages.
+また、プロジェクトを複製し、メッセージを復号するための別のプログラムを作成することもできます。
 
 \--- /challenge \---
