@@ -4,66 +4,66 @@
 
 + 何も入力されていないPythonのTrinketテンプレートを開きます：<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>
 
-+ 円形に並べてアルファベットを描く代わりに、 `alphabet`（アルファベット）変数として書き出しましょう。
++ 円形に並べてアルファベットを描く代わりに、`alphabet`（アルファベット）変数として書き出しましょう。
     
-    ![screenshot](images/messages-alphabet.png)
+    ![スクリーンショット](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ alphabet（アルファベット）変数の各文字には、0から始まる位置が決まっています。たとえば文字「a」はalphabet（アルファベット）変数の0の位置にあり、「c」は2の位置にあります。
     
-    ![screenshot](images/messages-array.png)
+    ![スクリーンショット](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ 角かっこ内に位置を指定すると、`alphabet`（アルファベット）変数から1文字取り出せます。
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![スクリーンショット](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    `print`文は動作を試してみたあとに削除できます。
 
-+ Next, you'll need to store the secret `key` in a variable.
++ 次に、秘密の `key`（キー番号）を変数に保存する必要があります。
     
-    ![screenshot](images/messages-key.png)
+    ![スクリーンショット](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ そして、ユーザーに暗号化する1文字（`character`（文字）と呼ばれる）をたずねます。
     
-    ![screenshot](images/messages-character.png)
+    ![スクリーンショット](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ `character`（文字）の `position`（位置）を見つけます。
     
-    ![screenshot](images/messages-position.png)
+    ![スクリーンショット](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ 文字の位置は保存されている`position`（位置）を表示することで確認できます。たとえば、文字「e」は、alphabet（アルファベット）変数の4の位置にあります。
     
-    ![screenshot](images/messages-position-test.png)
+    ![スクリーンショット](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ `character`（文字）を暗号化するには、`key`（キー番号）を`posision`（位置）に足します。これを`newPosition`（新しい位置）変数に保存します。
     
-    ![screenshot](images/messages-newposition.png)
+    ![スクリーンショット](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ 新しい文字の位置を表示するコードを追加します。
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![スクリーンショット](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ 新しいコードをテストしてください。`key`（キー番号）が3であるので、`position`（位置）に3を足して、`newPosition`（新しい位置）変数に保存します。
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    たとえば、文字「e」は4の位置にあります。暗号化するために、 `key`（キー番号、3）を足して7になります。
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![スクリーンショット](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ 文字「y」を暗号化しようとするとどうなりますか？
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![スクリーンショット](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    `newPosition`（新しい位置）は27になり、アルファベットには27文字もないことに注意してください。
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ `%`を使用すると、新しい位置が26の位置に達すると0の位置に戻るようにすることができます。
     
-    ![screenshot](images/messages-modulus.png)
+    ![スクリーンショット](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ 最終的には新しい位置の文字を表示したいですね。
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    たとえば、文字「e」の位置にkey（キー番号）を足すと7になり、alphabet（アルファベット）の7の位置にある文字は「h」になります。
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![スクリーンショット](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ コードを試してみてください。print文をいくつか削除して、最後にある新しい文字を表示する文だけにします。
     
-    ![screenshot](images/messages-enc-test.png)
+    ![スクリーンショット](images/messages-enc-test.png)
