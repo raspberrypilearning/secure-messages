@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Friendship calculator
+## チャレンジ：なかよし計算機
 
-Write a program to show how compatible 2 people are, by calculating a friendship score.
+なかよし点数を計算して、二人がどのくらい仲が良いかを示すプログラムを書きましょう。
 
-![screenshot](images/messages-friends.png)
+![スクリーンショット](images/messages-friends.png)
 
-The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
+プログラムは2つの名前にある各文字をループし、特定の文字が見つかるたびに`score`（点数）変数に得点を追加していきます。
 
-You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
+得点を与えるルールを決めておく必要があります。たとえば、母音（ぼいん）や単語「friend」（ともだち）に含まれる文字に対して得点を与えられます。
 
-![screenshot](images/messages-friends-code.png)
+![スクリーンショット](images/messages-friends-code.png)
 
-You could also give the user a personalised message, based on their score:
+なかよし点数に基づいて、ユーザーに個人あてのメッセージを伝えることもできます。
 
-![screenshot](images/messages-best-friends.png)
+![スクリーンショット](images/messages-best-friends.png)
 
 \--- /challenge \---
