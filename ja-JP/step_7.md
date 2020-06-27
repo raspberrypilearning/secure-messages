@@ -1,31 +1,31 @@
-## Extra characters
+## 余分な文字
 
-Some characters aren't in the alphabet, which causes an error.
+アルファベットに含まれていない文字があり、それがエラーを起こします。
 
-+ Test out your code with some characters that aren't in the alphabet.
++ アルファベットにない文字でコードをテストしてください。
     
-    For example, you could use the message `hi there!!`.
+    たとえば、`hi there!!`（こんにちは！！）というメッセージを使ってみましょう。
     
-    ![screenshot](images/messages-extra-characters.png)
+    ![スクリーンショット](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    スペースと文字`!`を暗号化すると、どちらも文字「c」になります。
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ これを修正するには、文字がアルファベットのときだけ変換します。こうするには、コードに`if`文を追加して、コードの残りの部分をインデントします。
     
-    ![screenshot](images/messages-if.png)
+    ![スクリーンショット](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ 同じメッセージでコードをテストします。今回はどうなりますか？
     
-    ![screenshot](images/messages-if-test.png)
+    ![スクリーンショット](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    このコードでは、アルファベットでない文字はスキップします。
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ アルファベットではないものは暗号化せず、元の文字を使うコードにした方が良いでしょう。
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    `else`文をコードに追加します。これは、暗号化されたメッセージに元の文字を追加するだけ文です。
     
-    ![screenshot](images/messages-else.png)
+    ![スクリーンショット](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ コードをテストします。アルファベットの文字はすべて暗号化されていますが、他の文字はそのままです！
     
-    ![screenshot](images/messages-else-test.png)
+    ![スクリーンショット](images/messages-else-test.png)
