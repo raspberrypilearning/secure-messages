@@ -21,7 +21,7 @@ steps:
   - title: 凱撒密碼
   - title: '挑戰：使用凱撒密碼'
   - title: 加密字母
-  - title: '挑戰：金鑰'
+  - title: '挑戰：可變的密鑰'
   - title: 加密整段訊息
   - title: 多餘的字元
   - title: '挑戰：加密和解密消息'
