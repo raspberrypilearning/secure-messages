@@ -17,7 +17,7 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: '介紹: '
+  - title: '介紹 '
   - title: 凱撒密碼
   - title: '挑戰：使用凱撒密碼'
   - title: 加密字母
