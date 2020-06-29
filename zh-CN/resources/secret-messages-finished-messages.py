@@ -3,9 +3,9 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 newMessage = ''
   
-message = input('Please enter a message: ')
+message = input('请输入一条英文消息：')
 
-key = input('Enter a key (1-26): ')
+key = input('请输入一个密钥 (1-26)：')
 key = int(key)
 
 for character in message:
@@ -17,4 +17,4 @@ for character in message:
   else:
     newMessage += character
 
-print('Your new message is: ', newMessage)
+print('你的加密后的新消息是：', newMessage)

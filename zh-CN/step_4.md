@@ -1,71 +1,69 @@
 ## 对字母进行加密
 
-让我们编写一个 Python 程序来加密单个字符。
+让我们编写一个Python程序来加密单个字符。
 
++ 单击链接<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>，打开一个空白的Python Trinket模版。
 
++ 与其在圆圈中绘制字母表, 不如将其写入`alphabet`变量中。
+    
+    ![截图](images/messages-alphabet.png)
 
-+ 打开空白 Python 模版 Trinket：<a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>。
++ 字母表中的每个字母都有一个位置，从位置0开始。因此字母“a”位于字母表的第0位，“c”位于第2位。
+    
+    ![截图](images/messages-array.png)
 
-+ 让我们将字母表写出来作为 `alphabet` 变量，而不是将其画在圆中。
++ 通过将其位置写在方括号内, 可以从 `alphabet` 变量中获取某个字母。
+    
+    ![截图](images/messages-alphabet-array.png)
+    
+    尝试此操作后, 您可以删除 `print` 语句。
 
-	![screenshot](images/messages-alphabet.png)
++ 接下来，你要将密钥保存在变量`key`中。
+    
+    ![截图](images/messages-key.png)
 
-+ 字母表中的每个字母都有一个位置，从位置 0 开始。因此，字母“a”在字母表中位于位置 0，“c”位于位置 2。
++ 接下来，询问用户一个字母（称为变量`character`）进行加密。
+    
+    ![截图](images/messages-character.png)
 
-	![screenshot](images/messages-array.png)
++ 找到字母（变量`character`）在字母表中的位置（变量`position`）。
+    
+    ![截图](images/messages-position.png)
 
-+ 你可以通过在方括号内填写位置来从 `alphabet` 变量中获取一个字母。
++ 你可以通过显示变量`position`来进行测试。比如，字母”e"在字母表中的位置是4。
+    
+    ![截图](images/messages-position-test.png)
 
-	![screenshot](images/messages-alphabet-array.png)
++ 若要加密字母（变量`character`），你需要将字母的位置（变量`position`）加上密钥的值（变量`key`），然后将其保存到`newPosition`变量中。
+    
+    ![截图](images/messages-newposition.png)
 
-	你在试过之后就可以删除 `print` 语句。
++ 添加代码以输出新的字符位置。
+    
+    ![截图](images/messages-newposition-print.png)
 
-+ 接下来，你将需要在变量中储存秘密 `key`（密钥）。
++ 测试你的新代码。由于你的`key`（密钥）是3，因此应该将`position`变量加上3并将结果存储在你的`newPosition`变量中。
+    
+    例如，字母'e'的位置是4，要加密该字母，你应当加上`key`（3）而得到7。
+    
+    ![截图](images/messages-newposition-test.png)
 
-	![screenshot](images/messages-key.png)
++ 当你尝试加密字母＇y＇时又会发生什么情况呢？
+    
+    ![截图](images/messages-modulus-bug.png)
+    
+    请注意此时 `newPosition` 的值是27，但是字母表中并没有27个字母！
 
-+ 然后，询问用户需要加密的字母（被称为 `character`（字符））。
++ 一旦达到位置26，你可以使用`%`操作符重置，从位置0重新开始。
+    
+    ![截图](images/messages-modulus.png)
 
-	![screenshot](images/messages-character.png)
++ 最后，你要输出新位置所代表的字母。
+    
+    比如，字母＇e＇加上密钥后得到7，然后字母表中位置7所代表的字母为＇h＇。
+    
+    ![截图](images/messages-newcharacter.png)
 
-+ 找到该 `character`（字符）的 `position`（位置）。
-
-	![screenshot](images/messages-position.png)
-
-+ 你可以将所储存的 `position`（位置）打印出来以进行测试。例如，字符“e”位于字母表中的位置 4。
-
-	![screenshot](images/messages-position-test.png)
-
-+ 要加密 `character`（字符），你需要向 `position`（位置）添加 `key`（密钥）。它随后会被储存在 `newPosition` 变量中。
-
-	![screenshot](images/messages-newposition.png)
-
-+ 添加代码来打印出新字符的位置。 
-
-	![screenshot](images/messages-newposition-print.png)
-
-+ 测试你的新代码。由于你的 `key`（密钥）为 3，因此应将 `position`（位置）加上 3 并储存在你的 `newPosition` 变量中。
-
-	例如，字母“e”位于位置 4。为进行加密，你需要加上 `key` (3)，得出 7。
-
-	![screenshot](images/messages-newposition-test.png)
-
-+ 你尝试加密字母“y”的话会发生什么？
-
-	![screenshot](images/messages-modulus-bug.png)
-
-	请注意 `newPosition` 现在变为 27，而在字母表中并没有 27 个字母！
-
-+ 你可以使用 `%` 来告诉新位置，一旦到达位置 26，即返回位置 0。
-
-	![screenshot](images/messages-modulus.png)
-
-+ 最后，你想要打印出新位置的字母。
-
-	例如，向字母“e”添加密钥得出 7，字母表中位置 7 的字母为“h”。
-
-	![screenshot](images/messages-newcharacter.png)
-
-+ 试试你的代码。你还可以移除某些打印语句，只在最后打印出新字符。
-
-	![screenshot](images/messages-enc-test.png)
++ 试试你的代码，你可以删除一些输出的语句，只需要在最后输出加密后的新字符就可以了。
+    
+    ![截图](images/messages-enc-test.png)
