@@ -1,24 +1,24 @@
-## The Caesar cipher
+## सीझर सायफर
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+सायफर हा एक गुप्त प्रकार चा कोडे आहे, जिथे तुम्ही अक्षरे अदलाबदल करू शकता जेणेकरून कोणीही तुमचा संदेश वाचू नाही शकत.
 
-You'll be using one of the oldest and most famous ciphers, the **Caesar cipher**, which is named after Julius Caesar.
+तुम्ही सर्वात जुने आणखी सर्वाधिक प्रसिद्ध सायफर वापरात आहात, **Caesar cipher** ज्याला जुलियस चाईसार नंतर नाव देण्यात आले आहे.
 
-Before we start coding, let's try using the Caesar cipher to hide a word.
+आम्ही कोडिंग सुरू करण्यापूर्वी, एखादा शब्द लपवण्याकरिता चाईसार सायफर(Caesar cipher) वापरण्याचा प्रयत्न करू.
 
-+ Hiding a word is called **encryption**.
++ शब्द लपविण्याला **encryption**असे म्हंटल्या जाते.
     
-    Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+    'अ' अक्षराला कूटबद्ध करायला सुरवात करूया. हे करण्यासाठी आपण वर्तुळात या प्रमाणे अक्षरे काढू शकता, असे:
     
     ![screenshot](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
++ सामान्य पासून गुप्त अक्षर तयार करण्यासाठी तुमच्याकडे एक गुप्त चाबी असणे आवश्यक आहे. 3 हा क्रमांक चाबी म्हणून वापरू(परंतु तुम्ही कोणतेही क्रमांक जे तुम्हाला आवडेल ते वापरू शकता).
     
-    To **encrypt** the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+    अक्षर 'a' **encrypt**करण्यासाठी, आपण फक्त 3 अक्षरे घड्याळाच्या दिशेने हलवा, जे तुम्हाला 'd' अक्षर देईल:
     
     ![screenshot](images/messages-wheel-eg.png)
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
++ आपण संपूर्ण शब्द कूटबद्ध(encrypt) करण्यासाठी जे शिकलात त्याचा वापर करू शकता. उदाहरणार्थ, 'hello' कूटबद्ध केलेली 'khoor' आहे. स्वत: करून पहा.
     
     + h + 3 = **k**
     + e + 3 = **h**
@@ -26,7 +26,7 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
     + l + 3 = **o**
     + o + 3 = **r**
 
-+ Getting text back to normal is called **decryption**. To decrypt a word, just subtract the key instead of adding it:
++ मजकुराला परत सामान्य स्थितीत आणण्यास **decryption** म्हणतात. एखादा शब्द डिक्रिप्ट करण्यासाठी, चाबी जोडण्याऐवजी की वजा करा:
     
     + k - 3 = **h**
     + h - 3 = **e**
