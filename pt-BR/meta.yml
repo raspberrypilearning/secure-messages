@@ -15,23 +15,23 @@ site_areas: projects
 hardware: ''
 software: python
 version: 3
-last_tested: 01/01/2017
+last_tested: 2017-01-01
 steps:
   - 
     title: 'Introdução: '
   - 
     title: A cifra de César
   - 
-    title: 'Desafio: use uma cifra de César'
+    title: 'Desafio: Use uma cifra de César'
   - 
     title: Criptografando letras
   - 
-    title: 'Desafio: chaves variáveis'
+    title: 'Desafio: Chaves variáveis'
   - 
     title: Criptografando mensagens inteiras
   - 
     title: Caracteres extras
   - 
-    title: 'Desafio: criptografar e descriptografar mensagens'
+    title: 'Desafio: Criptografar e descriptografar mensagens'
   - 
-    title: 'Desafio: calculadora de amizade'
+    title: 'Desafio: Calculadora de amizade'
