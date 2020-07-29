@@ -1,6 +1,6 @@
-## Introdução:
+## Introdução
 
-Neste projeto, você aprenderá como criar seu próprio programa de criptografia, para trocar mensagens secretas com um amigo. Este projeto se relaciona com a atividade "Earth to Principa" na página 16 do Diário Espacial.
+Neste projeto, você aprenderá como criar seu próprio programa de criptografia, para trocar mensagens secretas com um amigo. Este projeto se relaciona com a atividade "Earth to Principia" na página 16 do Diário Espacial.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/ddd818a2ac?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -10,7 +10,7 @@ Neste projeto, você aprenderá como criar seu próprio programa de criptografia
 
 ### Informação adicional para líderes de clube
 
-Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+Se você precisar imprimir este projeto, use a [Versão para Impressão](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
@@ -34,7 +34,7 @@ Há também um trinket contendo o projeto finalizado:
 
 ## Recursos Offline
 
-Este projeto pode ser [concluído off-line](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) , se preferir.
+Este projeto pode ser [concluído offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) se preferir.
 
 Você pode encontrar o projeto concluído na seção "Recursos para Voluntários", que contém:
 
@@ -43,7 +43,7 @@ Você pode encontrar o projeto concluído na seção "Recursos para Voluntários
 
 (Todos os recursos acima também podem ser baixados como arquivos `.zip` do projeto e dos voluntários.)
 
-## Objetivos de aprendizado
+## Objetivos de Aprendizado
 
 * Iteração (repetição) sobre uma variável de string;
 * O método `find()`;
@@ -51,7 +51,7 @@ Você pode encontrar o projeto concluído na seção "Recursos para Voluntários
 
 Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combinar construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Desafios
 
