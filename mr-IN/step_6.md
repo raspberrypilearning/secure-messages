@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## संपूर्ण संदेश कूटबद्ध करत आहे
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+संदेशांना एका वेळी फक्त एक वर्ण कूटबद्ध (encrypting) आणि डिक्रिप्ट (decrypting) करण्याऐवजी, संपूर्ण संदेश कूटबद्ध करण्यासाठी प्रोग्राम बदलूया!
 
-+ Firstly, check that your code looks like this:
++ प्रथम, आपला कोड असा दिसतो हे तपासा:
     
     ![screenshot](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ नवीन कूटबद्ध संदेश संचयित करण्यासाठी एक व्हेरिएबल तयार करा.
     
     ![screenshot](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ वापरकर्त्याचा संदेश संचयित करण्यासाठी आपला कोड बदला, फक्त एक वर्ण नाही.
     
     ![screenshot](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ आपल्या कोडमध्ये `for` loop जोडा, आणि उर्वरित कोड इंडेंट करा जेणेकरून संदेशातील प्रत्येक वर्णासाठी त्याची पुनरावृत्ती होईल.
     
     ![screenshot](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ आपला कोड तपासा. संदेशामधील प्रत्येक वर्ण एकावेळी कूटबद्ध व मुद्रित केलेला दिसेल.
     
     ![screenshot](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ चला आपल्या प्रत्येक एन्क्रिप्टेड वर्ण मध्ये `newMessage` चल जोडा.
     
     ![screenshot](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ आपण हे `newMessage` `print` करू शकता जसे की ते कूटबद्ध केले जात आहे.
     
     ![screenshot](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ जर आपण मोकळी जागा हटवली `print` विधानाच्या आधी, एन्क्रिप्टेड संदेश शेवटी एकदाच दिसेल. वर्ण स्थिती प्रिंट करण्यासाठी कोड तुम्ही डिलीट करू शकता.
     
     ![screenshot](images/messages-print-message-comment.png)
