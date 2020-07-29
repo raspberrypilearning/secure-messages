@@ -1,31 +1,31 @@
-## Extra characters
+## अतिरिक्त वर्ण
 
-Some characters aren't in the alphabet, which causes an error.
+काही वर्ण वर्णमाला मध्ये नाही, ज्यामुळे त्रुटी येते.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ आपला कोड तपासा काही वारणानं(characters) सोबत जे वर्ण मध्ये नाही.
     
-    For example, you could use the message `hi there!!`.
+    उदाहरणार्थ, आपण संदेश वापरू शकता `hi there!!`.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    लक्षात घ्या जागा आणखी`!` वर्ण सगळे कूटबद्ध आहे अक्षर 'क'('c') म्हणून!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ हे निश्चित करण्यासाठी, आपल्याला केवळ वर्णमाला असल्यास ते भाषांतर करायचे आहे. हे करण्यासाठी,`if` विधान जोडा आपल्या कोड मध्ये, आणि आपला उरलेला कोड इंडेंट करा.
     
     ![screenshot](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ आपला कोड तपासा सामान संदेशासह. या वेळी काय होते?
     
     ![screenshot](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    आता, आपला कोड वर्णात नसल्यास कोणत्याही वर्ण वगळतो.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ हे चांगले राहेल जर आपला कोड काहीही कूटबद्ध करेल नाही वर्णमाला मध्ये, परंतु नुकतेच मूळ वर्ण वापरा.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    आपल्या कोड मध्ये `else` विधान जोडा, जे फक्त कूटबद्ध संदेशामध्ये मूळ वर्ण जोडते.
     
     ![screenshot](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ आपला कोड तपासा. वर्णमाला मधील कोणतेही वर्ण कूटबद्ध केलेले आहे हे आपण पाहिले पाहिजे, पण कोणत्याही इतर वर्ण एकटे सोडले आहेत!
     
     ![screenshot](images/messages-else-test.png)
