@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## आव्हान: संदेश कूटबद्ध आणि डिक्रिप्ट करत आहे
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+काही संदेश कूटबद्ध करा, आणि गुप्त चाबी सोबत मित्रास त्यांना द्या. त्यांचा प्रोग्राम वापरून ते डिक्रिप्ट करु शकतात का ते पहा!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+आपण प्रकल्प डुप्लिकेट देखील करू शकता आणि संदेश डिक्रिप्ट करण्यासाठी वेगळा प्रोग्राम तयार करा.
 
 \--- /challenge \---
