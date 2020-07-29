@@ -1,69 +1,69 @@
-## Encrypting letters
+## अक्षरे कूटबद्ध करत आहे
 
-Let's write a Python program to encrypt a single character.
+चला एक Python कार्यक्रम लिहू एकल वर्ण कूटबद्ध(encrypt) करण्यासाठी.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ रिक्त Python template Trinket उघडा: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ एका वर्तुळात वर्णमाला रेखाटणेच्या ऐवजी हे `alphabet` व्हेरिएबल म्हणून लिहा.
     
     ![screenshot](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ वर्णमालाच्या प्रत्येक अक्षराला एक स्थान असते स्थितीची सुरवात 0 वरून होते. तर अक्षर 'अ' हा वर्णमालाच्या 0 स्थितीवर आहे, आणखी 'सी' हा स्थिती २ वर.
     
     ![screenshot](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ चौकोनी विभागात स्थान लिहून तुम्ही आपल्या `alphabet` चरातून अक्षर मिळवू शकता.
     
     ![screenshot](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    आपण `print` विधान हटवू शकता एकदा आपण हे करून पाहिले असेल तर.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ पुढे आपल्याला आवश्यक आहे रहस्य `key` साठवण्याची चल मध्ये.
     
     ![screenshot](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ पुढे, वापरकर्त्याला एकच अक्षर विचारा(ज्याला `character` म्हणतात) कूटबद्ध करण्यासाठी.
     
     ![screenshot](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ `character` ची `position` शोधा.
     
     ![screenshot](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ आपण चाचणी करू शकता संग्रहित `position` छापून. उदाहरणार्थ, ते वर्ण 'e' वर्णमाला 4 व्या स्थानावर आहेत.
     
     ![screenshot](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ `character` कूटबद्ध करण्यासाठी आपण `key` जोडावे `position` वर. हे नंतर `newPosition` चल वर साठवले जाते.
     
     ![screenshot](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ नवीन वर्ण स्तिथी छापण्या साठी कोड जोडा.
     
     ![screenshot](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ आपला नवीन कोड तपासून पहा. आपली `key` 3 आहे, त्याने 3 जोडले पाहिजे `position` वर आणि संचित करा आपल्या `newPosition` चल वर.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    उदाहरणार्थ, अक्षर 'e' स्थिती 4 वर आहे. कूटबद्ध करण्यासाठी, आपण `key` जोडा(3), जो 7 देतो.
     
     ![screenshot](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ काय होते जेव्हा आपण प्रयत्न आणि कूटबद्ध करतो अक्षर 'y' ला?
     
     ![screenshot](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    `newPosition` हे 27 वर कसे आहे ते पहा, आणि वर्णमालात 27 अक्षरे नसतात!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ एकदा नवीन स्थितीत 26 वर गेल्यानंतर 0 स्थानावर परत जाण्यासाठी आपण `%` वापरू शकता.
     
     ![screenshot](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ शेवटी, आपल्याला नवीन स्थानावर अक्षर छापायचा आहे.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    उदाहरणार्थ, 'e' अक्षराची की जोडल्यास 7 मिळते, आणि अक्षराच्या 7 व्या स्थानावर असलेले अक्षर 'h' आहे.
     
     ![screenshot](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ आपला कोड वापरून पहा. आपण आपल्या काही छापलेल विधान काढू शकता, शेवटी शेवटी नवीन कॅरेक्टर प्रिंट करून.
     
     ![screenshot](images/messages-enc-test.png)
