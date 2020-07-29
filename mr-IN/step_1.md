@@ -1,6 +1,6 @@
-## Introduction:
+## परिचय:
 
-In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
+या प्रकल्पात, तुम्ही स्वतःच कूटबद्धीकरण कार्यक्रम बनवणं शिकाल, मित्रासह गुप्त संदेश पाठ्वण्या आणखी प्राप्त करण्यासाठी. हा प्रकल्प अंतराळ डायरीच्या पृष्ठ 16 वरील "पृथ्वी ते प्रिन्सिपिया" क्रियेशी संबंधित आहे.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,86 +8,86 @@ In this project, you'll learn how to make your own encryption program, to send a
   <img src="images/messages-finished.png">
 </div>
 
-### Additional information for club leaders
+### क्लब नेत्यांसाठी अतिरिक्त माहिती
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print).
+तुम्हाला जर हा प्रकल्प प्रिंट करायचा असेल तर आपण [प्रिंटर अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/secret-messages/print) चा वापर करू शकता.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: मंडळ प्रमुखासाठी टिप्पणे
 
-## Introduction:
+## परिचय:
 
-In this project, children will learn how to make an encryption program, to send and receive secret messages with a friend. This project introduces iteration (looping) over a text string.
+या प्रकल्पात, मुले कूटबद्धीकरण कार्यक्रम, मित्रासह गुप्त संदेश कसा पाठवणं आणखी प्राप्त कर्ण शिकेल. हा प्रकल्प मजकूर स्ट्रिंगवर पुनरावृत्ती (लूपिंग) सादर करतो.
 
-## Online Resources
+## ऑनलाईन संसाधने
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**हा प्रकल्प Python 3 चा वापर करतो.** आम्ही Python ऑनलाइन लिहण्याकरिता [trinket](https://trinket.io/) वापरण्याची शिफारस करतो. या प्रकल्पात पुढील Trinkets आहे:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [नवीन (रिकामं) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-There is also a trinket containing the finished project:
+येथे finished झालेले project असलेले एक trinket देखील आहे:
 
-* [‘Secret Messages’ Finished -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['गुप्त संदेश' पूर्ण -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['मैत्री कॅल्क्युलेटर' पूर्ण -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## ऑफलाइन संसाधने
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred.
+वाटल्यास हे प्रोजेक्ट [ऑफलाइन पूर्ण केलं जाऊ शकते](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-You can find the completed project in the 'Volunteer Resources' section, which contains:
+आपण पूर्ण झालेला प्रकल्प शोधू शकता स्वयंसेवक संसाधने('Volunteer Resources') मध्ये, ज्यामध्ये असते:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(वरील सर्व संसाधने प्रोजेक्ट आणि वॉलंटियर `.zip` फाइली म्हणून डाऊनलोड करण्यायोग्य देखील आहेत.)
 
-## Learning Objectives
+## शिकण्याचे उद्दिष्टे
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* ज्यामध्ये स्ट्रिंग व्हेरिएबलपेक्षा Iteration (looping) असते;
+* `find()` मेथड;
+* मॉड्यूलस ऑपरेटर (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+ह्या प्रोजेक्ट मध्ये [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) च्या अभयासक्रमातील पुढील घटकांचा समावेश आहे:
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [समस्या सोडवण्यासाठी प्रोग्रामिंग संकल्पना एकत्र करा.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## आव्हाने
 
-* Use a Caesar cipher - encrypt and decrypt letters and words manually;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* सीझर सायफर वापरा - एनक्रिप्ट आणि डिक्रिप्ट अक्षरे आणि शब्द स्वहस्ते;
+* व्हेरिएबल की - वापरकर्त्यास निवडलेली की इनपुट करण्याची परवानगी;
+* संदेश कूटबद्ध आणि डिक्रिप्ट करणे - संपूर्ण संदेश कूटबद्ध आणि डिक्रिप्ट करणे;
+* मैत्री कॅल्क्युलेटर - नवीन समस्येवर मजकूर पुनरावृत्ती लागू करत आहे.
 
-## Frequently Asked Questions
+## वारंवार विचारले जाणारे प्रश्न
 
-* When searching using `find()` or `if char in alphabet:`, note that searches are case-sensitive. Children can use:
+* जेव्हा शोधात असाल वापरत असताना `find()` or `if char in alphabet:`, लक्षात घ्या की शोध केस-सेन्सेटिव्ह आहेत. मुले वापरू शकतात:
     
     ```python
     message = input("Please enter a message to encrypt: ").lower()
     ```
     
-    to make the input lower case before searching.
+    शोधण्यापूर्वी input लोअर केस बनविणे.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: प्रकल्प साहित्य
 
-## Project resources
+## प्रकल्प संसाधने
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [सर्व प्रकल्पाची संसाधने असलेली .zip फाइल](resources/secret-messages-project-resources.zip)
+* [ऑनलाइन रिकामं Python Trinket](http://jumpto.cc/python-new)
+* [ऑफलाइन रिकामी Python फाइल](resources/new-new.py)
 
-## Club leader resources
+## क्लब प्रमुख संसाधने
 
-* [.zip file containing all completed project resources](resources/secret-messages-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/402256078c)
+* [सर्व पूर्ण झालेली प्रोजेक्ट संसाधने असलेली .zip फाइल](resources/secret-messages-volunteer-resources.zip)
+* [ऑनलाइन पूर्ण झालेले Trinket प्रोजेक्ट](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
-* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
+* [ऑनलाईन 'मैत्री कॅल्क्युलेटर' पूर्ण झालेला आव्हान](https://trinket.io/python/2e852cd687)
+* [ऑनलाईन 'मैत्री कॅल्क्युलेटर' पूर्ण झालेला आव्हान](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
