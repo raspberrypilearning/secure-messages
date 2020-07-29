@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Variable keys
+## आव्हान: चल की (variable keys)
 
-Modify your program, so that the user can enter their own key to use. You'll need to get the user's input, and store it in the `key` variable.
+आपला प्रोग्राम सुधारित करा, जेणेकरून वापरकर्ता त्यांची स्वतःची चाबी प्रविष्ट करू शकता वापरण्यासाठी. आपल्याला वापरकर्त्याचे इनपुट मिळविणे आवश्यक आहे, आणि त्याला `key` चल वर साठवा.
 
-Remember to use the `int()` function to convert the input to a whole number.
+वापरण्यासाठी लक्षात ठेवा `int()`कार्य संपूर्ण संख्येमध्ये इनपुट रूपांतरित करण्यासाठी.
 
-You can then use a negative key to decrypt messages!
+त्यानंतर आपण संदेश डिक्रिप्ट करण्यासाठी नकारात्मक चाबी वापरू शकता!
 
 \--- /challenge \---
