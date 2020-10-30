@@ -1,0 +1,28 @@
+---
+hero_image: images/secret-messages.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Mensajes secretos
+description: Crea tu propio programa de encriptación para enviar y recibir mensajes secretos.
+original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 'Introducción: '
+  - title: El cifrado César
+  - title: 'Desafío: Usa un cifrado César'
+  - title: Letras encriptadas
+  - title: 'Desafío: Llaves variables'
+  - title: Encriptar mensajes completos
+  - title: Caracteres adicionales
+  - title: 'Desafío: Encriptado y desencriptado de mensajes'
+  - title: 'Desafío: Calculadora de amistad'
