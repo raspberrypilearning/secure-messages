@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Desafío: Claves en una variable
+## Desafío: Llaves variables
 
 Modifica tu programa de manera que el usuario pueda introducir su propia clave a usar. Tendrás que obtener la entrada del usuario y almacenarla en la variable `clave`.
 
