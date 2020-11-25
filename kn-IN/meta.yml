@@ -26,9 +26,9 @@ steps:
   - 
     title: ಅಕ್ಷರಗಳನ್ನು encrypt ಮಾಡಿ
   - 
-    title: 'ಸವಾಲು: Variable keys'
+    title: 'ಸವಾಲು: ವೇರಿಯಬಲ್ ಕೀಗಳು'
   - 
-    title: ಸಂಪೂರ್ಣ messages encrypt ಮಾಡಿ
+    title: ಸಂಪೂರ್ಣ ಸಂದೇಶಗಳನ್ನು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿ
   - 
     title: ಹೆಚ್ಚುವರಿ ಅಕ್ಷರಗಳು
   - 
