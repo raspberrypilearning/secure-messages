@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Use a Caesar cipher
+## ಸವಾಲು: ಸೀಸರ್ ಸೈಫರ್ ಬಳಸಿ
 
-Can you send a secret word to a friend? You'll both need to agree on a secret key before you start.
+ನೀವು ಸ್ನೇಹಿತರಿಗೆ ರಹಸ್ಯ ಪದವನ್ನು ಕಳುಹಿಸಬಹುದೇ? ನೀವು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ನೀವು ಇಬ್ಬರೂ ರಹಸ್ಯ ಕೀಲಿ ಒಪ್ಪಿಕೊಳ್ಳಬೇಕು.
 
-You could even send entire sentences to each other!
+ನೀವು ಸಂಪೂರ್ಣ ವಾಕ್ಯಗಳನ್ನು ಪರಸ್ಪರ ಕಳುಹಿಸಬಹುದು!
 
 \--- /challenge \---
