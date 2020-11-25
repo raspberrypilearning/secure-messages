@@ -1,69 +1,69 @@
-## Encrypting letters
+## ಅಕ್ಷರಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ
 
-Let's write a Python program to encrypt a single character.
+ಒಂದು ಅಕ್ಷರ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಲು ಪೈಥಾನ್ ಯೋಜನೆ ಬರಿಯೋಣ.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ ಖಾಲಿ Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new </a> ಅನ್ನು ತೆರೆಯಿರಿ.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
++ ವೃತ್ತದಲ್ಲಿ ವರ್ಣಮಾಲೆಯನ್ನು ಚಿತ್ರಿಸುವ ಬದಲು, ಅದನ್ನು `alphabet`ವೇರಿಯಬಲ್ ಅಂತೆ ಬರೆಯೋಣ.
     
-    ![screenshot](images/messages-alphabet.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-alphabet.png)
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
++ ವರ್ಣಮಾಲೆಯ ಪ್ರತಿಯೊಂದು ಅಕ್ಷರವು ಒಂದು ಸ್ಥಾನವನ್ನು ಹೊಂದಿರುತ್ತದೆ, ಅದು 0 ನೇ ಸ್ಥಾನದಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ 'a' ಅಕ್ಷರವು ವರ್ಣಮಾಲೆಯ 0 ನೇ ಸ್ಥಾನದಲ್ಲಿದೆ ಮತ್ತು 'c' 2 ನೇ ಸ್ಥಾನದಲ್ಲಿದೆ.
     
-    ![screenshot](images/messages-array.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-array.png)
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
++ ನೀವು ಒಂದು ಪತ್ರವನ್ನು ನಿಮ್ಮ`alphabet`ವೇರಿಯಬಲ್ ಮೂಲಕ, ಸ್ಥಾನವನ್ನು ಚದರ ಆವರಣಗಳಲ್ಲಿ ಬರೆದು ಪಡೆಯಬಹುದು.
     
-    ![screenshot](images/messages-alphabet-array.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-alphabet-array.png)
     
-    You can delete the `print` statements once you've tried this out.
+    ನೀವು ಒಮ್ಮೆ ಪೆಯತ್ನಿಸಿದ ನಂತರ `print` ವಾಕ್ಯವನ್ನು ಅಳಿಸಬಹುದು.
 
-+ Next, you'll need to store the secret `key` in a variable.
++ ಮುಂದೆ, ನೀವು ರಹಸ್ಯ`key`ಅನ್ನು ವೇರಿಯೇಬಲ್ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಬೇಕಾಗುತ್ತದೆ.
     
-    ![screenshot](images/messages-key.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-key.png)
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
++ ಮುಂದೆ, ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಲು ಒಂದೇ ಅಕ್ಷರಕ್ಕಾಗಿ ಬಳಕೆದಾರರನ್ನು ಕೇಳಿ ( `character`ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).
     
-    ![screenshot](images/messages-character.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-character.png)
 
-+ Find the `position` of the `character`.
++ `character`ಇನ `position`ಅನ್ನು ಹುಡುಕಿ.
     
-    ![screenshot](images/messages-position.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-position.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ ನೀವು ಸಂಗ್ರಹಿಸಿದ`position`ಅನ್ನು ಪ್ರಿಂಟ್ ಮಾಡುವ ಮೂಲಕ ಪರೀಕ್ಷಿಸಬಹುದು. ಉದಾಹರಣೆಗೆ, 'e'ಅಕ್ಷರ ವರ್ಣಮಾಲೆಯಲ್ಲಿ 4 ನೇ ಸ್ಥಾನದಲ್ಲಿದೆ.
     
-    ![screenshot](images/messages-position-test.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-position-test.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ `character`ಅನ್ನು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲು, ನೀವು `key` ಅನ್ನು`position`ಇಗೆ ಸೇರಿಸಬೇಕು. ನಂತರ `newPosition` ವೇರಿಯಬಲ್ ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ.
     
-    ![screenshot](images/messages-newposition.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-newposition.png)
 
-+ Add code to print the new character position.
++ ಹೊಸ ಅಕ್ಷರದ ಸ್ಥಾನ ಪ್ರಿಂಟ್ ಮಾಡಲು ಕೋಡ್ ಸೇರಿಸಿ.
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-newposition-print.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ ನಿಮ್ಮ ಹೊಸ ಕೋಡ್ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ನಿಮ್ಮ`key` 3 ಆಗಿದ್ದರಿಂದ, ಅದು `position`ಇಗೆ 3 ಅನ್ನು ಸೇರಿಸಬೇಕು ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ`newPosition`ವೇರಿಯಬಲ್ ಅಲ್ಲಿ ಸಂಗ್ರಹಿಸಬೆಕು.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+    ಉದಾಹರಣೆಗೆ 'e' ಅಕ್ಷರ 4ನೇ ಸ್ಥಾನದಲ್ಲಿದೆ. ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲು`key` (3) ಸೇರಿಸಿ, 7 ನೀಡಲಾಗುತ್ತದೆ.
     
-    ![screenshot](images/messages-newposition-test.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-newposition-test.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ ನೀವು ಅಕ್ಷರ 'y ' ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿದರೆ ಏನಾಗುತ್ತದ?
     
-    ![screenshot](images/messages-modulus-bug.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-modulus-bug.png)
     
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    `new position`27 ಆಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ, ಮತ್ತು ವರ್ಣಮಾಲೆಯಲ್ಲಿ 27 ಅಕ್ಷರಗಳಿಲ್ಲ!
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ ನೀವು `%` ಬಲಿಸಬಹುದು 26 ನೇ ಸ್ಥಾನಕ್ಕೆ ತಲುಪಿದ ನಂತರ 0 ನೇ ಸ್ಥಾನಕ್ಕೆ ಹಿಂತಿರುಗಲು ಹೊಸ ಸ್ಥಾನವನ್ನು ಹೇಳಲು.
     
-    ![screenshot](images/messages-modulus.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-modulus.png)
 
-+ Finally, you want to print the letter at the new position.
++ ಅಂತಿಮವಾಗಿ, ನೀವು ಅಕ್ಷರವನ್ನು ಹೊಸ ಸ್ಥಾನದಲ್ಲಿ ಪ್ರಿಂಟ್ ಮಾಡಲು ಬಯಸುತ್ತೀರಿ.
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    ಉದಾಹರಣೆಗೆ, 'e' ಅಕ್ಷರಕ್ಕೆ ಕೀಲಿ ಸೇರಿಸುವುದು 7 ಅನ್ನು ನೀಡುತ್ತದೆ, ಮತ್ತು ವರ್ಣಮಾಲೆಯ 7 ನೇ ಸ್ಥಾನದಲ್ಲಿರುವ ಅಕ್ಷರವು 'h' ಆಗಿದೆ.
     
-    ![screenshot](images/messages-newcharacter.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-newcharacter.png)
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ ನಿಮ್ಮಕೋಡ್ ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ. ನಿಮ್ಮ ಕೆಲವು ಪ್ರಿಂಟ್ ಹೇಳಿಕೆಗಳನ್ನು ತೆಗೆದುಹಾಕಬಹುದು, ಕೊನೆಯಲ್ಲಿ ಹೊಸ ಅಕ್ಷರವನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಬಹುದು.
     
-    ![screenshot](images/messages-enc-test.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-enc-test.png)
