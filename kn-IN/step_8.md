@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Encrypting and decrypting messages
+## ಸವಾಲು: ಸಂದೇಶಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುವುದು ಮತ್ತು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡುವುದು
 
-Encrypt some messages, and give them to a friend along with the secret key. See if they can decrypt them using their program!
+ಕೆಲವು ಸಂದೇಶಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ ಮತ್ತು ರಹಸ್ಯ ಕೀಲಿಯೊಂದಿಗೆ ಸ್ನೇಹಿತರಿಗೆ ನೀಡಿ. ಅವರ ಪ್ರೋಗ್ರಾಂ ಬಳಸಿ ಅವುಗಳನ್ನು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡಬಹುದೇ ಎಂದು ನೋಡಿ!
 
-You could also duplicate the project and create a separate program for decrypting messages.
+ನೀವು ಯೋಜನೆಯನ್ನು ನಕಲು ಮಾಡಬಹುದು ಮತ್ತು ಸಂದೇಶಗಳನ್ನು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡಲು ಪ್ರತ್ಯೇಕ ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ರಚಿಸಬಹುದು.
 
 \--- /challenge \---
