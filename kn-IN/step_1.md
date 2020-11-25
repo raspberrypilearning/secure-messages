@@ -10,21 +10,21 @@
 
 ### Club leaders ಗಳಿಗೆ ಹೆಚ್ಚಿನ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಪ್ರೊಜೆಕ್ಟ್ print ಮಾಡಲು [Printer friendly version](https://projects.raspberrypi.org/en/projects/secret-messages/print) ಇದನ್ನು ಬಳಸಿ.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ](https://projects.raspberrypi.org/en/projects/secret-messages/print).
 
 ## \--- collapse \---
 
-## ಶೀರ್ಷಿಕೆ: Club leader notes
+## title: ಕ್ಲಬ್ ನಾಯಕ ಟಿಪ್ಪಣಿಗಳು
 
 ## ಪರಿಚಯ:
 
 ಈ ಪ್ರೊಜೆಕ್ಟ್, ಅಲ್ಲಿ ಮಕ್ಕಳು ತಮ್ಮ ಸ್ನೇಹಿತರಿಗೆ secret messages ಕಳಿಸಲು ಮತ್ತು ಪಡೆಯಲು ಒಂದು encryption ಪ್ರೋಗ್ರಾಂ ಮಾಡಲು ಕಲಿಯುವಿರಿ. ಈ ಪ್ರೊಜೆಕ್ಟ್iteration (looping) over a text string ಅನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ.
 
-## Online Resources
+## ಆನ್‌ಲೈನ್ ಸಂಪನ್ಮೂಲಗಳು
 
-ಈ ಪ್ರೊಜೆಕ್ಟ್Python 3 ಬಳಸುತ್ತದೆ</strong>. ನಾವು Python online ಬರೆಯಲು [trinket](https://trinket.io/) ಅನ್ನು ಬಳಸಲು ಹೇಳುತ್ತೇವೆ. ಈಪ್ರೊಜೆಕ್ಟ್ ಅಲ್ಲಿ ಹಲವು Trinkets ಇದೆ:
+**ಈ ಪ್ರಾಜೆಕ್ಟ್ Python 3 ಬಳಸುತ್ತದೆ.** ನೀವು Python ಅನ್ನು ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಬರೆಯಲು ನಾವು[trinket](https://trinket.io/) ಬಳಸಲು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ. ಈಪ್ರೊಜೆಕ್ಟ್ ಅಲ್ಲಿ ಹಲವು Trinkets ಇದೆ:
 
-* [New (blank) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [ಹೊಸ (ಖಾಲಿ) Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
 
 ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಯನ್ನು ಒಳಗೊಂಡಿರುವ trinket ಸಹ ಇದೆ:
 
@@ -32,18 +32,18 @@
 
 * [‘Friendship Calculator’ Finished -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
-## Offline Resources
+## ಆಫ್‌ಲೈನ್ ಸಂಪನ್ಮೂಲಗಳು
 
-ಈ ಪ್ರೊಜೆಕ್ಟ್ ಅನ್ನು[offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) ಅಲ್ಲಿ ಮುಗಿಸಬಹುದು.
+ಬಯಸಿದರೆ ಈ ಯೋಜನೆಯನ್ನು [ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸಬಹುದು](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/).
 
-ಈ ಪ್ರೊಜೆಕ್ಟ್ ಅನ್ನುcompleted project in the 'Volunteer Resources' section ಅಲ್ಲಿ ಹುಡುಕಬಹುದು:
+ಈ ಯೋಜನೆಯ ಪೂರ್ಣಗೊಂಡ ಆವೃತ್ತಿಯು ಸ್ವಯಂ ಸೇವಕ ಸಂಪನ್ಮೂಲಗಳ (Volunteer Resources) ವಿಭಾಗದಲ್ಲಿ ಲಭ್ಯವಿದ್ದು, ಕೆಳಗಿನ ಫೈಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 * messages-finished/messages.py
 * messages-finished/friends.py
 
-(All of the resources above are also downloadable as ಪ್ರೊಜೆಕ್ಟ್ and volunteer `.zip` files.)
+(ಮೇಲಿನ ಎಲ್ಲಾ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಯೋಜನೆ ಮತ್ತು ಸ್ವಯಂಸೇವಕ `.zip` ಫೈಲ್‌ಗಳಂತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.)
 
-## Learning Objectives
+## ಕಲಿಕೆ ಉದ್ದೇಶಗಳು
 
 * Iteration (looping) over a string variable;
 * The `find()` method;
