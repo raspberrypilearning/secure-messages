@@ -1,35 +1,35 @@
-## Encrypting entire messages
+## ಸಂಪೂರ್ಣ ಸಂದೇಶಗಳನ್ನು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿ
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
+ಒಂದು ಸಮಯದಲ್ಲಿ ಒಂದು ಅಕ್ಷರವನ್ನು ಸಂದೇಶ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡುವ ಮತ್ತು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡುವ ಬದಲು, ಸಂಪೂರ್ಣ ಸಂದೇಶಗಳನ್ನು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲು ಯೋಜನೆ ಅನ್ನು ಬದಲಾಯಿಸೋಣ!
 
-+ Firstly, check that your code looks like this:
++ ಮೊದಲನೆಯದಾಗಿ, ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ:
     
-    ![screenshot](images/messages-character-finished.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-character-finished.png)
 
-+ Create a variable to store the new encrypted message.
++ ಹೊಸ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶವನ್ನು ಸಂಗ್ರಹಿಸಲು ವೇರಿಯೇಬಲ್ಅನ್ನು ರಚಿಸಿ.
     
-    ![screenshot](images/messages-newmessage.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-newmessage.png)
 
-+ Change your code to store the user's message and not just one character.
++ ಕೇವಲ ಒಂದು ಅಕ್ಷರ ಮಾತ್ರವಲ್ಲದೆ ಬಳಕೆದಾರರ ಸಂದೇಶ ಸಂಗ್ರಹಿಸಲು ಕೋಡ್ ಬದಲಾಯಿಸಿ.
     
-    ![screenshot](images/messages-message.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-message.png)
 
-+ Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
++ ನಿಮ್ಮ ಕೋಡ್‌ಗೆ `for` ಲೂಪ್ ಸೇರಿಸಿ ಮತ್ತು ಉಳಿದ ಕೋಡ್ ಅನ್ನು ಇಂಡೆಂಟ್ ಮಾಡಿ ಇದರಿಂದ ಸಂದೇಶದಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಅಕ್ಷರಕ್ಕೂ ಪುನರಾವರ್ತನೆಯಾಗುತ್ತದೆ.
     
-    ![screenshot](images/messages-loop.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-loop.png)
 
-+ Test your code. You should see that each character in the message is encrypted and printed one at a time.
++ ನಿಮ್ಮ ಕೋಡ್ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ಸಂದೇಶದಲ್ಲಿ ಇರುವ ಪ್ರತಿ ಅಕ್ಷರ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಒಂದು ಸಮಯದಲ್ಲಿ ಒಂದನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ನೀವು ನೋಡಬೇಕು.
     
-    ![screenshot](images/messages-loop-test.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-loop-test.png)
 
-+ Let's add each encrypted character to your `newMessage` variable.
++ ನಿಮ್ಮ `newMessage`ವೇರಿಯಬಲ್ ಇಗೆ ಪ್ರತಿ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಅಕ್ಷರವನ್ನು ಸೇರಿಸೋಣ.
     
-    ![screenshot](images/messges-message-add-character.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messges-message-add-character.png)
 
-+ You can `print` the `newMessage` as it is being encrypted.
++ ನೀವು `new message` ಸಂದೇಶವನ್ನು `print` ಮಾಡಬಹುದು ಅದು ಎನ್ಕ್ರಿಪ್ಟ್ ಆಗುತಿದ್ದಅಂತೇ.
     
-    ![screenshot](images/messages-print-message-characters.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-print-message-characters.png)
 
-+ If you delete the spaces before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the character positions.
++ ನೀವು `print` ಹೇಳಿಕೆಯ ಮೊದಲು ಖಾಲಿ ಜಾಗವನ್ನು ಅಳಿಸಿದ್ದರೆ, ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶ ಕೊನೆಯಲ್ಲಿ ಒಮ್ಮೆ ಮಾತ್ರ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ. ಅಕ್ಷರ ಸ್ಥಾನಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಲು ನೀವು ಕೋಡ್ಅನ್ನು ಅಳಿಸಬಹುದು.
     
-    ![screenshot](images/messages-print-message-comment.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-print-message-comment.png)
