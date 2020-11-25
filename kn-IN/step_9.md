@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Friendship calculator
+## ಸವಾಲು: ಸ್ನೇಹ ಕ್ಯಾಲ್ಕುಲೇಟರ್
 
-Write a program to show how compatible 2 people are, by calculating a friendship score.
+ಸ್ನೇಹ ಸ್ಕೋರ್ ಅನ್ನು ಲೆಕ್ಕಹಾಕುವ ಮೂಲಕ 2 ಜನರು ಎಷ್ಟು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಾರೆ ಎಂಬುದನ್ನು ತೋರಿಸಲು ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ಬರೆಯಿರಿ.
 
-![screenshot](images/messages-friends.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-friends.png)
 
-The program could loop through each of the characters in the 2 names, and add points to a `score` variable each time certain letters are found.
+ಪ್ರೋಗ್ರಾಂ 2 ಹೆಸರುಗಳಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಅಕ್ಷರಗಳ ಮೂಲಕ ಲೂಪ್ ಮಾಡಬಹುದು ಮತ್ತು ಪ್ರತಿ ಬಾರಿಯೂ ಕೆಲವು ಅಕ್ಷರಗಳನು ಕಂಡಾಗ `score`ವೇರಿಯೇಬಲ್ ‌ಗೆ ಅಂಕಗಳನ್ನು ಸೇರಿಸಬಹುದು.
 
-You should decide on rules for awarding points. For example, you could award points for vowels, or characters that are found in the word "friend":
+ಅಂಕಗಳನ್ನು ನೀಡುವ ನಿಯಮಗಳನ್ನು ನೀವು ನಿರ್ಧರಿಸಬೇಕು. ಉದಾಹರಣೆಗೆ, ನೀವು ಸ್ವರಗಳಿಗೆ ಅಥವಾ "ಸ್ನೇಹಿತ" ಪದದಲ್ಲಿ ಕಂಡುಬರುವ ಅಕ್ಷರಗಳಿಗೆ ಅಂಕಗಳನ್ನು ನೀಡಬಹುದು:
 
-![screenshot](images/messages-friends-code.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-friends-code.png)
 
-You could also give the user a personalised message, based on their score:
+ಬಳಕೆದಾರರ ಸ್ಕೋರ್ ಆಧರಿಸಿ ನೀವು ವೈಯಕ್ತಿಕ ಸಂದೇಶವನ್ನು ಸಹ ನೀಡಬಹುದು:
 
-![screenshot](images/messages-best-friends.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-best-friends.png)
 
 \--- /challenge \---
