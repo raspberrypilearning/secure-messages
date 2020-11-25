@@ -1,31 +1,31 @@
-## Extra characters
+## ಹೆಚ್ಚುವರಿ ಅಕ್ಷರಗಳು
 
-Some characters aren't in the alphabet, which causes an error.
+ಕೆಲವು ಅಕ್ಷರಗಳು ವರ್ಣಮಾಲೆಯಲ್ಲಿಲ್ಲ, ಅದು ದೋಷ ಉಂಟುಮಾಡುತ್ತದೆ.
 
-+ Test out your code with some characters that aren't in the alphabet.
++ ವರ್ಣಮಾಲೆಯಲ್ಲಿ ಇಲ್ಲದ ಕೆಲವು ಅಕ್ಷರಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ.
     
-    For example, you could use the message `hi there!!`.
+    ಉದಾಹರಣೆಗೆ, ನೀವು `hii there!!` ಸಂದೇಶವನ್ನು ಬಳಸಬಹುದು.
     
     ![screenshot](images/messages-extra-characters.png)
     
-    Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+    ಅಂತರ ಮತ್ತು `!` ಅಕ್ಷರಗಳೆಲ್ಲವನ್ನೂ 'c' ಅಕ್ಷರದಂತೆ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ!
 
-+ To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
++ ಇದನ್ನು ಸರಿಪಡಿಸಲು, ನೀವು ಅಕ್ಷರವನ್ನು ವರ್ಣಮಾಲೆಯಲ್ಲಿದ್ದರೆ ಮಾತ್ರ ಅದನ್ನು ಅನುವಾದ ಮಾಡುತ್ತೀರಾ. ಇದನ್ನು ಮಾಡಲು, `if`ಹೇಳಿಕೆಯನ್ನು ನಿಮ್ಮ ಕೋಡ್ ಜೊತ ಸೇರಿಸಿ ಮತ್ತು ಉಳಿದ ಕೋಡ್ ಅನ್ನು ಉದ್ದೇಶ ಮಾಡಿ.
     
-    ![screenshot](images/messages-if.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-if.png)
 
-+ Test your code with the same message. What happens this time?
++ ನಿಮ್ಮ ಕೋಡ್ಯನ್ನು ಅದೇ ಸಂದೇಶದ ಜೊತ ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಏನಾಗುತ್ತದೆ ಎಂದು ನೋಡಿ?
     
-    ![screenshot](images/messages-if-test.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-if-test.png)
     
-    Now, your code just skips any character if it's not in the alphabet.
+    ಈಗ, ನಿಮ್ಮ ಕೋಡ್ ವರ್ಣಮಾಲೆಯಲ್ಲಿ ಇಲ್ಲದಿದ್ದರೆ ಯಾವುದೇ ಅಕ್ಷರವನ್ನು ಬಿಟ್ಟುಬಿಡುತ್ತದೆ.
 
-+ It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
++ ನಿಮ್ಮಕೋಡ್ ವರ್ಣಮಾಲೆಯಲ್ಲಿಲ್ಲದ ಯಾವುದೇ ಅಕ್ಷರವನ್ನು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡದಿದ್ದರೆ ಉತ್ತಮ, ಆದರೆ ಮೂಲ ಅಕ್ಷರವನ್ನು ಬಳಸಿದರೆ ಉತ್ತಮ.
     
-    Add an `else` statement to your code, which just adds the original character to the encrypted message.
+    ನಿಮ್ಮ ಕೋಡ್ಅಲ್ಲಿ`else`ಹೇಳಿಕೆ ಸೇರಿಸಿ, ಅದು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶ ಮೂಲ ಅಕ್ಷರವನ್ನು ಸೇರಿಸುತ್ತದೆ.
     
-    ![screenshot](images/messages-else.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-else.png)
 
-+ Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
++ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ವರ್ಣಮಾಲೆಯ ಯಾವುದೇ ಅಕ್ಷರವನ್ನು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ನೀವು ನೋಡಬೇಕು, ಆದರೆ ಬೇರೆ ಯಾವುದೇ ಅಕ್ಷರಗಳು ಹಾಗೆ ಉಳಿದಿವೆ!
     
-    ![screenshot](images/messages-else-test.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-else-test.png)
