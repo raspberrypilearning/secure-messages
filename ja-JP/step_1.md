@@ -50,7 +50,7 @@ title: クラブリーダーノート
 * `find()`メソッド
 * モジュラス（剰余）演算子（`%`）
 
-このプロジェクトでは 、[Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)の以下の要素をカバーしています。
+このプロジェクトでは 、[Raspberry Pi デジタル・メイキング・カリキュラム](https://rpf.io/curriculum)の以下の要素をカバーしています。
 
 * [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder)
 

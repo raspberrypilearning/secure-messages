@@ -50,7 +50,7 @@ Dovršenu verziju projekta možete pronaći i u odjeljku 'Resursi za volontere' 
 * Korištenje `find()` metode;
 * Korištenje modularnog operatora (`%`).
 
-Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Uporaba različitih programskih struktura za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
