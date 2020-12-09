@@ -50,7 +50,7 @@ title: הערות למדריכי מועדונים
 * הפונקציה `find()`;
 * האופרטור מודולו (`%`).
 
-פרויקט זה מכסה אלמנטים מהנושאים הבאים ב[תוכנית הלימודים הדיגיטלית של Raspberry Pi](http://rpf.io/curriculum):
+פרויקט זה מכסה אלמנטים מהנושאים הבאים ב[תוכנית הלימודים הדיגיטלית של Raspberry Pi](https://rpf.io/curriculum):
 
 * [שילוב מבני תוכנה לפיתרון בעיות.](https://www.raspberrypi.org/curriculum/programming/builder)
 

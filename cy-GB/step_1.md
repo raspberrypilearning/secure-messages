@@ -49,7 +49,7 @@ Gallwch hefyd ddod o hyd i fersiwn wedi'i chwblhau o'r prosiect hwn yn yr adran 
 * Y dull `find()` (darganfod);
 * Y gweithredwr modws (`%`).
 
-Mae’r prosiect hwn yn cwmpasu elfennau o’r ffrydiau canlynol o [Gwricwlwm Creu Digidol Raspberry Pi](http://rpf.io/curriculum):
+Mae’r prosiect hwn yn cwmpasu elfennau o’r ffrydiau canlynol o [Gwricwlwm Creu Digidol Raspberry Pi](https://rpf.io/curriculum):
 
 * [Cyfuno lluniadau rhaglennu i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 

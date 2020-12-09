@@ -49,7 +49,7 @@ Eine vollständige Version dieses Projekts finden Sie auch im Abschnitt "Ressour
 * Die `find()` Methode;
 * Der Modulo-Operator (`%`).
 
-Dieses Projekt umfasst Elemente aus den folgenden Zweigen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dieses Projekt umfasst Elemente aus den folgenden Zweigen des [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Kombination von verschiedenen Programmierstrukturen um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder)
 

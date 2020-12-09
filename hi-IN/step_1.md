@@ -50,7 +50,7 @@ title: क्लब नेता नोट्स
 * `find()` मेथॅड;
 * मॉडुलस ऑपरेटर (`%`)
 
-इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित पहलु सम्मिलित हैं:
+इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](https://rpf.io/curriculum) के निम्नलिखित पहलु सम्मिलित हैं:
 
 * [समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं का उपयोग करें ।](https://www.raspberrypi.org/curriculum/programming/builder)
 
