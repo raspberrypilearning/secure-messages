@@ -49,7 +49,7 @@ Vous pouvez aussi trouver une version terminée du projet dans la section "Resso
 * La méthode `find()`;
 * L'opérateur de module (`%` ).
 
-Ce projet traite les éléments suivants du [Programme Raspberry Pi de Création Numérique](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Combiner des constructions de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder)
 
