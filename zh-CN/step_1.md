@@ -49,7 +49,7 @@
 * 使用`find()`方法；
 * 模数计算符（`％` ）。
 
-本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [综合利用编程结构解决问题。](https://www.raspberrypi.org/curriculum/programming/builder)
 
