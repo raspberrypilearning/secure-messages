@@ -1,7 +1,7 @@
 #!/bin/python3
 
 wynik = 0
-imiona = input('wprowadź imiona 2 ludzi: ')
+names = input('enter the names of 2 people: ')
 
 for litera in imiona:
   if litera in 'aeiou':
