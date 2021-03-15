@@ -49,7 +49,7 @@
 * ` find() ` मेथॅड;
 * मॉडुलस ऑपरेटर (`%`)
 
-इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित पहलु सम्मिलित हैं:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं का उपयोग करें ।](https://www.raspberrypi.org/curriculum/programming/builder)
 
