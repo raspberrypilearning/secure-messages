@@ -1,69 +1,67 @@
-## Encrypting letters
+## Codificando cartas
 
-Let's write a Python program to encrypt a single character.
+Vamos escrever um programa em Python para codificar um único caractere.
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ Abre o modelo Trinket em branco do Python: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
-    
-    ![screenshot](images/messages-alphabet.png)
++ Em vez de desenhar o alfabeto num círculo, vamos escrevê-lo como uma variável</code> do alfabeto `.</p>
 
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
-    
-    ![screenshot](images/messages-array.png)
+<p><img src="images/messages-alphabet.png" alt="captura de ecrã" /></p></li>
+<li><p>Cada letra do alfabeto tem uma posição, começando na posição 0. Portanto, a letra 'a' está na posição 0 do alfabeto e 'c' está na posição 2.</p>
 
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
-    
-    ![screenshot](images/messages-alphabet-array.png)
-    
-    You can delete the `print` statements once you've tried this out.
+<p><img src="images/messages-array.png" alt="captura de ecrã" /></p></li>
+<li><p>Podes obter uma letra da variável` do alfabeto `escrevendo a posição entre colchetes.</p>
 
-+ Next, you'll need to store the secret `key` in a variable.
-    
-    ![screenshot](images/messages-key.png)
+<p><img src="images/messages-alphabet-array.png" alt="captura de ecrã" /></p>
 
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
-    
-    ![screenshot](images/messages-character.png)
+<p>Podes excluir as declarações <code>print` depois de experimentar isto.
 
-+ Find the `position` of the `character`.
++ Em seguida, vais precisar de guardar a `chave` secreta numa variável.
     
-    ![screenshot](images/messages-position.png)
+    ![captura de ecrã](images/messages-key.png)
 
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
++ Em seguida, pede ao utilizador uma única letra (chamada de `caractere`) para codificar.
     
-    ![screenshot](images/messages-position-test.png)
+    ![captura de ecrã](images/messages-character.png)
 
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
++ Encontre a `posição` do `caractere`.
     
-    ![screenshot](images/messages-newposition.png)
+    ![captura de ecrã](images/messages-position.png)
 
-+ Add code to print the new character position.
++ Podes testar a posição ` armazenada ` imprimindo-a. Por exemplo, esse caractere 'e' está na posição 4 do alfabeto.
     
-    ![screenshot](images/messages-newposition-print.png)
+    ![captura de ecrã](images/messages-position-test.png)
 
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
++ Para codificar o `caractere`, deves adicionar a `chave` à `posição`. Isso é então guardado numa variável `novaPosicao`.
     
-    For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
-    
-    ![screenshot](images/messages-newposition-test.png)
+    ![captura de ecrã](images/messages-newposition.png)
 
-+ What happens when you try and encrypt the letter 'y'?
++ Adiciona o código para imprimir a nova posição do caractere.
     
-    ![screenshot](images/messages-modulus-bug.png)
-    
-    Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
+    ![captura de ecrã](images/messages-newposition-print.png)
 
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
++ Testa o teu novo código. Como a tua `chave` é 3, ela deve adicionar 3 à `posição` e armazená-la na tua variável `novaPosicao`.
     
-    ![screenshot](images/messages-modulus.png)
+    Por exemplo, a letra 'e' está na posição 4. Para codificar, deves adicionar a `chave` (3), dando 7.
+    
+    ![captura de ecrã](images/messages-newposition-test.png)
 
-+ Finally, you want to print the letter at the new position.
++ O que acontece quando tentas e codificas a letra 'y'?
     
-    For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+    ![captura de ecrã](images/messages-modulus-bug.png)
     
-    ![screenshot](images/messages-newcharacter.png)
+    Observa como `novaPosicao` é 27 e não há 27 letras no alfabeto!
 
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
++ Tu podes usar um `%` para dizer à nova posição para voltar à posição 0 quando chegar à posição 26.
     
-    ![screenshot](images/messages-enc-test.png)
+    ![captura de ecrã](images/messages-modulus.png)
+
++ Finalmente, tu queres imprimir a letra na nova posição.
+    
+    Por exemplo, adicionar a chave à letra 'e' dá 7 e a letra na posição 7 do alfabeto é 'h'.
+    
+    ![captura de ecrã](images/messages-newcharacter.png)
+
++ Experimenta o teu código. Podes também remover algumas das tuas instruções de impressão, apenas imprimindo o novo caractere no final.
+    
+    ![captura de ecrã](images/messages-enc-test.png)
