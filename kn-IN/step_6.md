@@ -4,32 +4,32 @@
 
 + ಮೊದಲನೆಯದಾಗಿ, ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ:
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-character-finished.png)
+    ![screenshot](images/messages-character-finished.png)
 
 + ಹೊಸ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶವನ್ನು ಸಂಗ್ರಹಿಸಲು ವೇರಿಯೇಬಲ್ಅನ್ನು ರಚಿಸಿ.
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-newmessage.png)
+    ![screenshot](images/messages-newmessage.png)
 
 + ಕೇವಲ ಒಂದು ಅಕ್ಷರ ಮಾತ್ರವಲ್ಲದೆ ಬಳಕೆದಾರರ ಸಂದೇಶ ಸಂಗ್ರಹಿಸಲು ಕೋಡ್ ಬದಲಾಯಿಸಿ.
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-message.png)
+    ![screenshot](images/messages-message.png)
 
 + ನಿಮ್ಮ ಕೋಡ್‌ಗೆ `for` ಲೂಪ್ ಸೇರಿಸಿ ಮತ್ತು ಉಳಿದ ಕೋಡ್ ಅನ್ನು ಇಂಡೆಂಟ್ ಮಾಡಿ ಇದರಿಂದ ಸಂದೇಶದಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಅಕ್ಷರಕ್ಕೂ ಪುನರಾವರ್ತನೆಯಾಗುತ್ತದೆ.
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-loop.png)
+    ![screenshot](images/messages-loop.png)
 
 + ನಿಮ್ಮ ಕೋಡ್ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ಸಂದೇಶದಲ್ಲಿ ಇರುವ ಪ್ರತಿ ಅಕ್ಷರ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಒಂದು ಸಮಯದಲ್ಲಿ ಒಂದನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ನೀವು ನೋಡಬೇಕು.
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-loop-test.png)
+    ![screenshot](images/messages-loop-test.png)
 
-+ ನಿಮ್ಮ `newMessage`ವೇರಿಯಬಲ್ ಇಗೆ ಪ್ರತಿ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಅಕ್ಷರವನ್ನು ಸೇರಿಸೋಣ.
++ ನಿಮ್ಮ `newMessage` ವೇರಿಯಬಲ್ ಗೆ ಪ್ರತಿ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಅಕ್ಷರವನ್ನು ಸೇರಿಸೋಣ.
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messges-message-add-character.png)
+    ![screenshot](images/messges-message-add-character.png)
 
 + ನೀವು `new message` ಸಂದೇಶವನ್ನು `print` ಮಾಡಬಹುದು ಅದು ಎನ್ಕ್ರಿಪ್ಟ್ ಆಗುತಿದ್ದಅಂತೇ.
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-print-message-characters.png)
+    ![screenshot](images/messages-print-message-characters.png)
 
 + ನೀವು `print` ಹೇಳಿಕೆಯ ಮೊದಲು ಖಾಲಿ ಜಾಗವನ್ನು ಅಳಿಸಿದ್ದರೆ, ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶ ಕೊನೆಯಲ್ಲಿ ಒಮ್ಮೆ ಮಾತ್ರ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ. ಅಕ್ಷರ ಸ್ಥಾನಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಲು ನೀವು ಕೋಡ್ಅನ್ನು ಅಳಿಸಬಹುದು.
     
-    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/messages-print-message-comment.png)
+    ![screenshot](images/messages-print-message-comment.png)
