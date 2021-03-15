@@ -49,7 +49,7 @@ Ukończony projekt można znaleźć w sekcji "Zasoby dla wolontariuszy", która 
 * Metoda `find()`;
 * Operator modułu (`%`).
 
-Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Połącz konstrukcje programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
