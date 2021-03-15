@@ -1,7 +1,7 @@
 #!/bin/python3
 
 score = 0
-names = input('אנא הזינו שמות של שני אנשים (באנגלית): ')
+names = input('enter the names of 2 people: ')
 
 for character in names:
   if character in 'aeiou':
