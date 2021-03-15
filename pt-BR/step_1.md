@@ -49,7 +49,7 @@ Você pode encontrar o projeto concluído na seção "Recursos para Voluntários
 * O método `find()`;
 * O operador de módulo (`%`).
 
-Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Combinar construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
