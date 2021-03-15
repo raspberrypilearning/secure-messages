@@ -1,7 +1,7 @@
 #!/bin/python3
 
 sgor = 0
-enwau = input('Cofnodwch enwau 2 o bobl: ')
+names = input('enter the names of 2 people: ')
 
 for cymeriad in enwau:
   if cymeriad in 'aeiou':
