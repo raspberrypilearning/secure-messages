@@ -1,7 +1,7 @@
 #!/bin/python3
 
 punteggio = 0
-nomi = input('Scrivi i nomi di 2 persone: ')
+names = input('enter the names of 2 people: ')
 
 for lettera in nomi:
   if lettera in 'aeiou':
