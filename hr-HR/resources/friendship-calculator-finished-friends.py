@@ -1,7 +1,7 @@
 #!/bin/python3
 
 rezultat = 0
-ime = input('Unesi imena dviju osoba: ')
+names = input('enter the names of 2 people: ')
 
 for znak in ime:
   if znak in 'aeiou':
