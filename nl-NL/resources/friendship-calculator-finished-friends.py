@@ -1,7 +1,7 @@
 #!/bin/python3
 
 score = 0
-namen = input('geef twee namen: ')
+names = input('enter the names of 2 people: ')
 
 for teken in namen:
   if teken in 'aeiou':
