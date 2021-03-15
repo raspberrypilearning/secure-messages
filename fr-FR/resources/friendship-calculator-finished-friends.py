@@ -1,7 +1,7 @@
 #!/bin/python3
 
 score = 0
-names = input('entrer les noms des 2 personnes: ')
+names = input('enter the names of 2 people: ')
 
 for character in names:
   if character in 'aeiou':
