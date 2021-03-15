@@ -1,7 +1,7 @@
 #!/bin/python3
 
 puan = 0
-isimler = input('2 kişinin adını yazın: ')
+names = input('enter the names of 2 people: ')
 
 for harf in isimler:
   if harf in 'aeiou':
