@@ -49,7 +49,7 @@
 * ` find（） `方法；
 * 運算符（`％ ` ）。
 
-本專案涵蓋 [樹莓派數位化課程](http://rpf.io/curriculum)以下內容：
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [結合程式設計結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
 
