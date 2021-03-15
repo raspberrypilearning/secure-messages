@@ -49,20 +49,20 @@
 * The `find()` method;
 * The modulus operator (`%`).
 
-ಈ ಪ್ರೊಜೆಕ್ಟ್ [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ಇದರ ಪಠ್ಯಕ್ರಮವನ್ನು ಅನುಸರಿಸುತ್ತದೆ:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
-* [Programming constructs ಅನ್ನು ಸಮಸೆಯೆ ಬಗೆಹರಿಸಲು ಒಟ್ಟುಗೂಡಿಸಿ.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ರಚನೆಗಳನ್ನು ಸಂಯೋಜಿಸಿ.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## ಸವಾಲುಗಳು
 
 * ಅಕ್ಷರಗಳು ಮತ್ತು ಪದಗಳನ್ನು manually encrypt ಹಾಗೂ decrypt ಮಾಡಲು Caesar cipher ಬಳಸಿ;
-* Variable keys - allowing the user to input a chosen key;
-* Encrypting and decrypting messages - encrypting and decrypting whole messages;
-* Friendship calculator - applying text iteration to a new problem.
+* Variable keys - ಆಯ್ಕೆಮಾಡಿದ ಕೀಲಿಯನ್ನು ಇನ್ಪುಟ್ ಮಾಡಲು ಬಳಕೆದಾರರಿಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ;
+* Encrypting and decrypting messages - ಸಂಪೂರ್ಣ ಸಂದೇಶಗಳನ್ನು encrypting ಮತ್ತು decrypting ಮಾಡಲಾಗುವುದು;
+* Friendship calculator - ಹೊಸ ಪ್ರಶ್ನೆಗೆ text iteration ಅನ್ವಯಿಸಲಾಗುವುದು.
 
-## ಅಕ್ಷರಗಳು ಮತ್ತು ಪದಗನ್ನು manually encrypt ಹಾಗೂ decrypt ಮಾಡಲು Caesar cipher ಬಳಸಿ
+## ಹೆಚ್ಚಾಗಿ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು
 
-* ಹುಡುಕುವ ಮುನ್ನಉಪಯೋಗಿಸಿಕೊಂಡು`find()` ಅಥವಾ `if char in alphabet:`, ಗಮನಿಸಿ ಹುಡುಕುವುದೆಲ್ಲ ಕೇಸ್ ಸೆನ್ಸಿಟಿವ್. ಮಕ್ಕಳು ಉಪಯೋಗಿಸಬಹುದು:
+* `find()` ಅಥವಾ `if char in alphabet:` ಬಳಸಿ ಹುಡುಕುವಮುನ್ನ, ಹುಡುಕಾಟಗಳು case-sensitive ಎಂದು ಗಮನಿಸಿ. ಮಕ್ಕಳು ಬಳಸಬಹುದಾದುದು:
     
     ```python
     message = input("Please enter a message to encrypt: ").lower()
@@ -74,20 +74,20 @@
 
 ## \--- collapse \---
 
-## ಶೀರ್ಷಿಕೆ: ಪ್ರಾಜೆಕ್ಟ್ ವಸ್ತುಗಳು
+## title: ಪ್ರಾಜೆಕ್ಟ್ ವಸ್ತುಗಳು
 
 ## ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳು
 
-* [.zip file containing all project resources](resources/secret-messages-project-resources.zip)
+* [ಎಲ್ಲ ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಹೊಂದಿದ .zip file](resources/secret-messages-project-resources.zip)
 * [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [ಅಫ್ಲಿನ್ ಖಾಲಿ Python file](resources/new-new.py)
+* [Offline blank Python file](resources/new-new.py)
 
 ## Club leader resources
 
 * [ಮುಗಿದ ಪ್ರೊಜೆಕ್ಟ್ resources ಇರುವ.zip file](resources/secret-messages-volunteer-resources.zip)
-* [ಆನ್ಲೈನ್ ನಂಪೂರ್ಣ Trinket ಯೋಜನೆ](https://trinket.io/python/402256078c)
+* [ಆನ್ಲೈನ್ ಸಂಪೂರ್ಣ Trinket ಯೋಜನೆ](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [ಆನ್ಲೈನ್ ಸಂಪೂರ್ಣ 'ಸ್ನೇಹಿತ ಕ್ಯಾಲ್ಕುಲೇಟರ್' ಸವಾಲು](https://trinket.io/python/2e852cd687)
-* [ಅಫ್ಲಿನ್ ಸಂಪೂರ್ಣ 'ಸ್ನೇಹಿತ ಕ್ಯಾಲ್ಕುಲೇಟರ್' ಸವಾಲು](resources/friendship-calculator-finished-friends.py)
+* [ಆನ್ಲೈನ್ ಸಂಪೂರ್ಣಗೊಂಡ 'Friendship calculator' ಸವಾಲು](https://trinket.io/python/2e852cd687)
+* [ಆಫ್‌ಲೈನ್ ಸಂಪೂರ್ಣಗೊಂಡ 'Friendship calculator' ಸವಾಲು](resources/friendship-calculator-finished-friends.py)
 
 \--- /collapse \---
