@@ -49,7 +49,7 @@ Bu projenin tamamlanmış bir versiyonunu aşağıdakileri içeren 'Gönüllü K
 * `find()` yöntemi;
 * Modül operatörü (`%`).
 
-Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un aşağıdaki bölümlerinden unsurları kapsamaktadır:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Bir problemi çözmek için programlama yapılarını birleştirin.](https://www.raspberrypi.org/curriculum/programming/builder)
 
