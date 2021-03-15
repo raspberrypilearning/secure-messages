@@ -1,7 +1,7 @@
 #!/bin/python3
 
 score = 0
-names = input('2人分の名前を入力してください: ')
+names = input('enter the names of 2 people: ')
 
 for character in names:
   if character in 'aeiou':
