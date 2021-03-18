@@ -49,7 +49,7 @@
 * The `find()` method;
 * The modulus operator (`%`).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
+ಈ ಪ್ರಾಜೆಕ್ಟ್ [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum) ಎಳೆಗಳಿಂದ ಕೆಳಗಿನ ಅಂಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 * [ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ರಚನೆಗಳನ್ನು ಸಂಯೋಜಿಸಿ.](https://www.raspberrypi.org/curriculum/programming/builder)
 
@@ -79,8 +79,8 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 ## ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳು
 
 * [ಎಲ್ಲ ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಹೊಂದಿದ .zip file](resources/secret-messages-project-resources.zip)
-* [Online blank Python Trinket](http://jumpto.cc/python-new)
-* [Offline blank Python file](resources/new-new.py)
+* [ಆನ್‌ಲೈನ್ ಖಾಲಿ Python Trinket](http://jumpto.cc/python-new)
+* [ಅಫ್ಲಿನ್ ಖಾಲಿ Python file](resources/new-new.py)
 
 ## Club leader resources
 
