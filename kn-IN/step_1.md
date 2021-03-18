@@ -45,9 +45,9 @@
 
 ## ಕಲಿಕೆ ಉದ್ದೇಶಗಳು
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* ಸ್ಟ್ರಿಂಗ್ ವೇರಿಯೇಬಲ್(string variable) ಮೇಲೆ ಪುನರಾವರ್ತನೆ (ಲೂಪಿಂಗ್);
+* `find()` ವಿಧಾನ(method);
+* ಮಾಡ್ಯುಲಸ್ ಆಪರೇಟರ್(modulus operator) (`%`).
 
 ಈ ಪ್ರಾಜೆಕ್ಟ್ [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum) ಎಳೆಗಳಿಂದ ಕೆಳಗಿನ ಅಂಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
@@ -56,9 +56,9 @@
 ## ಸವಾಲುಗಳು
 
 * ಅಕ್ಷರಗಳು ಮತ್ತು ಪದಗಳನ್ನು manually encrypt ಹಾಗೂ decrypt ಮಾಡಲು Caesar cipher ಬಳಸಿ;
-* Variable keys - ಆಯ್ಕೆಮಾಡಿದ ಕೀಲಿಯನ್ನು ಇನ್ಪುಟ್ ಮಾಡಲು ಬಳಕೆದಾರರಿಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ;
-* Encrypting and decrypting messages - ಸಂಪೂರ್ಣ ಸಂದೇಶಗಳನ್ನು encrypting ಮತ್ತು decrypting ಮಾಡಲಾಗುವುದು;
-* Friendship calculator - ಹೊಸ ಪ್ರಶ್ನೆಗೆ text iteration ಅನ್ವಯಿಸಲಾಗುವುದು.
+* ವೇರಿಯಬಲ್ ಕೀಗಳು - ಆಯ್ಕೆಮಾಡಿದ ಕೀಲಿಯನ್ನು ಇನ್ಪುಟ್ ಮಾಡಲು ಬಳಕೆದಾರರಿಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ;
+* ಸಂದೇಶಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುವುದು ಮತ್ತು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡುವುದು - ಸಂಪೂರ್ಣ ಸಂದೇಶಗಳನ್ನು encrypting ಮತ್ತು decrypting ಮಾಡಲಾಗುವುದು;
+* ಸ್ನೇಹ ಕ್ಯಾಲ್ಕುಲೇಟರ್ - ಹೊಸ ಪ್ರಶ್ನೆಗೆ text iteration ಅನ್ವಯಿಸಲಾಗುವುದು.
 
 ## ಹೆಚ್ಚಾಗಿ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು
 
