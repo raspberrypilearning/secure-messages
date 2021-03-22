@@ -46,9 +46,9 @@ title: ಕ್ಲಬ್ ನಾಯಕ ಟಿಪ್ಪಣಿಗಳು
 
 ## ಕಲಿಕೆ ಉದ್ದೇಶಗಳು
 
-* Iteration (looping) over a string variable;
-* The `find()` method;
-* The modulus operator (`%`).
+* ಸ್ಟ್ರಿಂಗ್ ವೇರಿಯೇಬಲ್(string variable) ಮೇಲೆ ಪುನರಾವರ್ತನೆ (ಲೂಪಿಂಗ್);
+* `find()`ವಿಧಾನ(method);
+* ಮಾಡ್ಯುಲಸ್ ಆಪರೇಟರ್(modulus operator) (`%`).
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
