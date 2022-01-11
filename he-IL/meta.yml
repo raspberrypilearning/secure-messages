@@ -17,12 +17,14 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'מבוא: '
-  - title: צופן קיסר
-  - title: 'אתגר: השתמשו בצופן קיסר'
-  - title: הצפנת אותיות
-  - title: 'אתגר: מפתח משתנה'
-  - title: הצפנת הודעות שלמות
-  - title: תווים נוספים
-  - title: 'אתגר: הצפנה ופענוח של הודעות'
-  - title: 'אתגר: מחשבון חברות'
+- title: 'מבוא: '
+  completion: engaged
+- title: צופן קיסר
+- title: 'אתגר: השתמשו בצופן קיסר'
+- title: הצפנת אותיות
+- title: 'אתגר: מפתח משתנה'
+- title: הצפנת הודעות שלמות
+- title: תווים נוספים
+- title: 'אתגר: הצפנה ופענוח של הודעות'
+  completion: internal
+- title: 'אתגר: מחשבון חברות'

@@ -7,7 +7,8 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Messages secrets
-description: Créer ton propre programme de chiffrement, pour envoyer et recevoir des messages secrets.
+description: Créer ton propre programme de chiffrement, pour envoyer et recevoir des
+  messages secrets.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -17,12 +18,14 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Introduction'
-  - title: Le Code de César
-  - title: 'Défi: utiliser le Code de César'
-  - title: Crypter des lettres
-  - title: 'Défi: clés variables'
-  - title: Crypter des messages entiers
-  - title: Caractères supplémentaires
-  - title: 'Défi: crypter et décrypter des messages'
-  - title: 'Défi: calculatrice d''amitié'
+- title: Introduction
+  completion: engaged
+- title: Le Code de César
+- title: 'Défi: utiliser le Code de César'
+- title: Crypter des lettres
+- title: 'Défi: clés variables'
+- title: Crypter des messages entiers
+- title: Caractères supplémentaires
+- title: 'Défi: crypter et décrypter des messages'
+  completion: internal
+- title: 'Défi: calculatrice d''amitié'

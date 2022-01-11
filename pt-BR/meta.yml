@@ -7,7 +7,8 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Mensagens Secretas
-description: Crie seu próprio programa de criptografia para enviar e receber mensagens secretas.
+description: Crie seu próprio programa de criptografia para enviar e receber mensagens
+  secretas.
 original_url: https://codeclubprojects.org/pt-BR/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -17,12 +18,14 @@ software: python
 version: 3
 last_tested: 01/01/2017
 steps:
-  - title: 'Introdução'
-  - title: A cifra de César
-  - title: 'Desafio: use uma cifra de César'
-  - title: Criptografando letras
-  - title: 'Desafio: chaves variáveis'
-  - title: Criptografando mensagens inteiras
-  - title: Caracteres extras
-  - title: 'Desafio: criptografar e descriptografar mensagens'
-  - title: 'Desafio: calculadora de amizade'
+- title: Introdução
+  completion: engaged
+- title: A cifra de César
+- title: 'Desafio: use uma cifra de César'
+- title: Criptografando letras
+- title: 'Desafio: chaves variáveis'
+- title: Criptografando mensagens inteiras
+- title: Caracteres extras
+- title: 'Desafio: criptografar e descriptografar mensagens'
+  completion: internal
+- title: 'Desafio: calculadora de amizade'

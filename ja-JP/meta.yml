@@ -17,12 +17,14 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'はじめに： '
-  - title: シーザー暗号
-  - title: 'チャレンジ：シーザー暗号を使う'
-  - title: 文字の暗号化
-  - title: 'チャレンジ：キー番号を変える'
-  - title: メッセージ全体を暗号化する
-  - title: 余分な文字
-  - title: 'チャレンジ：メッセージの暗号化と復号'
-  - title: 'チャレンジ：なかよし計算機'
+- title: 'はじめに： '
+  completion: engaged
+- title: シーザー暗号
+- title: チャレンジ：シーザー暗号を使う
+- title: 文字の暗号化
+- title: チャレンジ：キー番号を変える
+- title: メッセージ全体を暗号化する
+- title: 余分な文字
+- title: チャレンジ：メッセージの暗号化と復号
+  completion: internal
+- title: チャレンジ：なかよし計算機

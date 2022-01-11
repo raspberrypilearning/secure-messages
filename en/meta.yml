@@ -1,3 +1,4 @@
+---
 hero_image: images/secret-messages.png
 theme: red
 duration: 2
@@ -15,8 +16,9 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: 'Introduction: '
+  completion: engaged
 - title: The Caesar cipher
 - title: 'Challenge: Use a Caesar cipher'
 - title: Encrypting letters
@@ -24,4 +26,5 @@ steps:
 - title: Encrypting entire messages
 - title: Extra characters
 - title: 'Challenge: Encrypting and decrypting messages'
+  completion: internal
 - title: 'Challenge: Friendship calculator'
