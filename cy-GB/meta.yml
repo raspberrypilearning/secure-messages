@@ -17,12 +17,16 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Cyflwyniad
-  - title: Seiffr Cesar
-  - title: 'Her: Defnyddio seiffr Cesar'
-  - title: Amgryptio llythrennau
-  - title: 'Her: Allweddi amrywiol'
-  - title: Amgryptio negeseuon cyfan
-  - title: Cymeriadau ychwanegol
-  - title: 'Her: Amgryptio a dadgryptio negeseuon'
-  - title: 'Her: Cyfrifiannell cyfeillgarwch'
+- title: Cyflwyniad
+- title: Seiffr Cesar
+- title: 'Her: Defnyddio seiffr Cesar'
+- title: Amgryptio llythrennau
+  completion:
+  - engaged
+- title: 'Her: Allweddi amrywiol'
+- title: Amgryptio negeseuon cyfan
+- title: Cymeriadau ychwanegol
+  completion:
+  - internal
+- title: 'Her: Amgryptio a dadgryptio negeseuon'
+- title: 'Her: Cyfrifiannell cyfeillgarwch'

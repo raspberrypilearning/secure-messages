@@ -17,12 +17,16 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Introduzione'
-  - title: Il cifrario di Cesare
-  - title: 'Sfida: Usa il cifrario di Cesare'
-  - title: Crittografia di lettere
-  - title: 'Sfida: Chiavi variabili'
-  - title: Criptare interi messaggi
-  - title: Caratteri extra
-  - title: 'Sfida: Cripta e decripta messaggi'
-  - title: 'Sfida: Calcolatrice di amicizia'
+- title: Introduzione
+- title: Il cifrario di Cesare
+- title: 'Sfida: Usa il cifrario di Cesare'
+- title: Crittografia di lettere
+  completion:
+  - engaged
+- title: 'Sfida: Chiavi variabili'
+- title: Criptare interi messaggi
+- title: Caratteri extra
+  completion:
+  - internal
+- title: 'Sfida: Cripta e decripta messaggi'
+- title: 'Sfida: Calcolatrice di amicizia'

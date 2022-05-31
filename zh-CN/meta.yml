@@ -17,12 +17,16 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: '介绍： '
-  - title: 凯撒密码
-  - title: '挑战：使用凯撒密码'
-  - title: 对字母进行加密
-  - title: '挑战：可变密钥'
-  - title: 加密整条消息
-  - title: 其他字符
-  - title: '挑战：加密和解密消息'
-  - title: '挑战：友情计算器'
+- title: '介绍： '
+- title: 凯撒密码
+- title: 挑战：使用凯撒密码
+- title: 对字母进行加密
+  completion:
+  - engaged
+- title: 挑战：可变密钥
+- title: 加密整条消息
+- title: 其他字符
+  completion:
+  - internal
+- title: 挑战：加密和解密消息
+- title: 挑战：友情计算器

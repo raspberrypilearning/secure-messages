@@ -7,7 +7,8 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Tajne poruke
-description: Napravi sopstveni program za šifrovanje koji ćeš koristiti za slanje i primanje tajnih poruka.
+description: Napravi sopstveni program za šifrovanje koji ćeš koristiti za slanje
+  i primanje tajnih poruka.
 original_url: https://codeclubprojects.org/en-GB/python/secret-messages
 interests: cybersecurity-and-cryptography
 technologies: python
@@ -17,12 +18,16 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Uvod'
-  - title: Cezarova šifra
-  - title: 'Izazov: Isprobaj Cezarovu šifru'
-  - title: Šifrovanje slova
-  - title: 'Izazov: Promjenljivi ključevi'
-  - title: Šifrovanje cijelih poruka
-  - title: Dodatni znakovi
-  - title: 'Izazov: Šifrovanje i dešifrovanje poruka'
-  - title: 'Izazov: Kalkulator prijateljstva'
+- title: Uvod
+- title: Cezarova šifra
+- title: 'Izazov: Isprobaj Cezarovu šifru'
+- title: Šifrovanje slova
+  completion:
+  - engaged
+- title: 'Izazov: Promjenljivi ključevi'
+- title: Šifrovanje cijelih poruka
+- title: Dodatni znakovi
+  completion:
+  - internal
+- title: 'Izazov: Šifrovanje i dešifrovanje poruka'
+- title: 'Izazov: Kalkulator prijateljstva'

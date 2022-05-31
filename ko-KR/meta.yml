@@ -17,12 +17,16 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: '들어가며:'
-  - title: 카이사르 암호
-  - title: '도전과제: 카이사르 암호 사용해보기'
-  - title: 글자 암호화하기
-  - title: '도전과제: 변수 키들'
-  - title: 전체 메시지를 암호화하기
-  - title: 추가 문자들
-  - title: '도전과제: 메시지를 암호화 하고 해석 해 보기'
-  - title: '도전과제: 우정 계산기'
+- title: '들어가며:'
+- title: 카이사르 암호
+- title: '도전과제: 카이사르 암호 사용해보기'
+- title: 글자 암호화하기
+  completion:
+  - engaged
+- title: '도전과제: 변수 키들'
+- title: 전체 메시지를 암호화하기
+- title: 추가 문자들
+  completion:
+  - internal
+- title: '도전과제: 메시지를 암호화 하고 해석 해 보기'
+- title: '도전과제: 우정 계산기'
