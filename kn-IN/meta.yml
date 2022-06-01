@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'ಪರಿಚಯ: '
-  completion: engaged
 - title: ಸೀಸರ್ ಸೈಫರ್ (The Caesar cipher)
 - title: 'ಸವಾಲು: ಸೀಸರ್ ಸೈಫರ್ ಬಳಸಿ'
 - title: ಅಕ್ಷರಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ
+  completion:
+  - engaged
 - title: 'ಸವಾಲು: ವೇರಿಯಬಲ್ ಕೀಗಳು'
 - title: ಸಂಪೂರ್ಣ ಸಂದೇಶಗಳನ್ನು ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿ
 - title: ಹೆಚ್ಚುವರಿ ಅಕ್ಷರಗಳು
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ಸಂದೇಶಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುವುದು ಮತ್ತು ಡೀಕ್ರಿಪ್ಟ್ ಮಾಡುವುದು'
-  completion: internal
 - title: 'ಸವಾಲು: ಸ್ನೇಹ ಕ್ಯಾಲ್ಕುಲೇಟರ್'

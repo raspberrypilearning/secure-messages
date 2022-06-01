@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'מבוא: '
-  completion: engaged
 - title: צופן קיסר
 - title: 'אתגר: השתמשו בצופן קיסר'
 - title: הצפנת אותיות
+  completion:
+  - engaged
 - title: 'אתגר: מפתח משתנה'
 - title: הצפנת הודעות שלמות
 - title: תווים נוספים
+  completion:
+  - internal
 - title: 'אתגר: הצפנה ופענוח של הודעות'
-  completion: internal
 - title: 'אתגר: מחשבון חברות'

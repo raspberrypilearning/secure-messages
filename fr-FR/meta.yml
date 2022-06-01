@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Le Code de César
 - title: 'Défi: utiliser le Code de César'
 - title: Crypter des lettres
+  completion:
+  - engaged
 - title: 'Défi: clés variables'
 - title: Crypter des messages entiers
 - title: Caractères supplémentaires
+  completion:
+  - internal
 - title: 'Défi: crypter et décrypter des messages'
-  completion: internal
 - title: 'Défi: calculatrice d''amitié'

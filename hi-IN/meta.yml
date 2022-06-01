@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: सीज़र साइफ़र
 - title: 'चुनौती: सीज़र साइफर का उपयोग करें'
 - title: वर्णों को इनक्रिप्ट करना
+  completion:
+  - engaged
 - title: 'चुनौती: वेरिएबल कुंजी'
 - title: पूर्ण संदेशों को इनक्रिप्ट करना
 - title: अतिरिक्त कैरेक्टर्स
+  completion:
+  - internal
 - title: 'चुनौती: संदेशों को इनक्रिप्ट और डिक्रिप्ट करना'
-  completion: internal
 - title: 'चुनौती: मित्रता कैलकुलेटर'

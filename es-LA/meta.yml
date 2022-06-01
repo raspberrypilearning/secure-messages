@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Introducción: '
-  completion: engaged
 - title: El cifrado César
 - title: 'Desafío: Usa un cifrado César'
 - title: Letras encriptadas
+  completion:
+  - engaged
 - title: 'Desafío: Llaves variables'
 - title: Encriptar mensajes completos
 - title: Caracteres adicionales
+  completion:
+  - internal
 - title: 'Desafío: Encriptado y desencriptado de mensajes'
-  completion: internal
 - title: 'Desafío: Calculadora de amistad'

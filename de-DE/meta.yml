@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Die Caesar-Verschlüsselung
 - title: 'Herausforderung: Benutze eine Caesar-Verschlüsselung'
 - title: Buchstaben verschlüsseln
+  completion:
+  - engaged
 - title: 'Herausforderung: Verschiedene Schlüssel'
 - title: Komplette Nachrichten verschlüsseln
 - title: Zusätzliche Zeichen
+  completion:
+  - internal
 - title: 'Herausforderung: Verschlüsseln und Entschlüsseln von Nachrichten'
-  completion: internal
 - title: 'Herausforderung: Freundschaftsrechner'

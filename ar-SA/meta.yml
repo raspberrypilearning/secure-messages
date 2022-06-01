@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: شفرة قيصر
 - title: 'التحدي: استخدم شفرة قيصر'
 - title: تشفير الحروف
+  completion:
+  - engaged
 - title: 'التحدي: مفاتيح المتغيرات'
 - title: تشفير الرسائل بأكملها
 - title: أحرف إضافية
+  completion:
+  - internal
 - title: 'التحدي: تشفير الرسائل وفك تشفيرها'
-  completion: internal
 - title: 'التحدي: آلة حاسبة للصداقة'

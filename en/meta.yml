@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Introduction: '
-  completion: engaged
 - title: The Caesar cipher
 - title: 'Challenge: Use a Caesar cipher'
 - title: Encrypting letters
+  completion:
+  - engaged
 - title: 'Challenge: Variable keys'
 - title: Encrypting entire messages
 - title: Extra characters
+  completion:
+  - internal
 - title: 'Challenge: Encrypting and decrypting messages'
-  completion: internal
 - title: 'Challenge: Friendship calculator'

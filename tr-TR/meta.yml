@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 'Giriş: '
-  completion: engaged
 - title: Sezar şifresi
 - title: 'Meydan okuma: Bir Sezar şifresi kullanın'
 - title: Şifreli harfler
+  completion:
+  - engaged
 - title: 'Meydan okuma: Değişken anahtarlar'
 - title: Tüm mesajları şifrelemek
 - title: Fazladan karakterler
+  completion:
+  - internal
 - title: 'Meydan okuma: Mesajları şifreleme ve şifresini çözme'
-  completion: internal
 - title: 'Meydan okuma: Arkadaşlık hesaplayıcısı'

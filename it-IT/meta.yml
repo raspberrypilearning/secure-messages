@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Il cifrario di Cesare
 - title: 'Sfida: Usa il cifrario di Cesare'
 - title: Crittografia di lettere
+  completion:
+  - engaged
 - title: 'Sfida: Chiavi variabili'
 - title: Criptare interi messaggi
 - title: Caratteri extra
+  completion:
+  - internal
 - title: 'Sfida: Cripta e decripta messaggi'
-  completion: internal
 - title: 'Sfida: Calcolatrice di amicizia'

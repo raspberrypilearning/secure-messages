@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Cezarova šifra
 - title: 'Izazov: Isprobaj Cezarovu šifru'
 - title: Šifrovanje slova
+  completion:
+  - engaged
 - title: 'Izazov: Promjenljivi ključevi'
 - title: Šifrovanje cijelih poruka
 - title: Dodatni znakovi
+  completion:
+  - internal
 - title: 'Izazov: Šifrovanje i dešifrovanje poruka'
-  completion: internal
 - title: 'Izazov: Kalkulator prijateljstva'

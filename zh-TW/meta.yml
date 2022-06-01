@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: '介紹 '
-  completion: engaged
 - title: 凱撒密碼
 - title: 挑戰：使用凱撒密碼
 - title: 加密字母
+  completion:
+  - engaged
 - title: 挑戰：可變的密鑰
 - title: 加密整段訊息
 - title: 多餘的字元
+  completion:
+  - internal
 - title: 挑戰：加密和解密消息
-  completion: internal
 - title: 挑戰：友誼計算器

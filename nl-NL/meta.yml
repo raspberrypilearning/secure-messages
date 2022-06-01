@@ -19,13 +19,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Het Caesarcijfer
 - title: 'Uitdaging: gebruik een Caesarcijfer'
 - title: Letters coderen
+  completion:
+  - engaged
 - title: 'Uitdaging: variabele sleutels'
 - title: Hele berichten versleutelen
 - title: Extra tekens
+  completion:
+  - internal
 - title: 'Uitdaging: coderen en decoderen van berichten'
-  completion: internal
 - title: 'Uitdaging: vriendschapscalculator'

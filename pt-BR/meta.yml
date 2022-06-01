@@ -19,13 +19,15 @@ version: 3
 last_tested: 01/01/2017
 steps:
 - title: Introdução
-  completion: engaged
 - title: A cifra de César
 - title: 'Desafio: use uma cifra de César'
 - title: Criptografando letras
+  completion:
+  - engaged
 - title: 'Desafio: chaves variáveis'
 - title: Criptografando mensagens inteiras
 - title: Caracteres extras
+  completion:
+  - internal
 - title: 'Desafio: criptografar e descriptografar mensagens'
-  completion: internal
 - title: 'Desafio: calculadora de amizade'

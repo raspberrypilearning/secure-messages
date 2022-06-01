@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Szyfr Cezara
 - title: 'Wyzwanie: użyj szyfru Cezara'
 - title: Szyfrowanie liter
+  completion:
+  - engaged
 - title: 'Wyzwanie: klucz jako zmienna'
 - title: Szyfrowanie całych wiadomości
 - title: Dodatkowe litery
+  completion:
+  - internal
 - title: 'Wyzwanie: szyfrowanie i rozszyfrowywanie wiadomości'
-  completion: internal
 - title: 'Wyzwanie: kalkulator przyjaźni'
