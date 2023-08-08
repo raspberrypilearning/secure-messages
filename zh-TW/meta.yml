@@ -25,12 +25,16 @@ steps:
     title: '挑戰：使用凱撒密碼'
   - 
     title: 加密字母
+    completion:
+      - engaged
   - 
     title: '挑戰：金鑰'
   - 
     title: 加密整段訊息
   - 
     title: 多餘的字元
+    completion:
+      - internal
   - 
     title: '挑戰：加密和解密消息'
   - 
