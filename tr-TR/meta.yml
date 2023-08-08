@@ -25,12 +25,16 @@ steps:
     title: 'Meydan okuma: Bir Sezar şifresi kullanın'
   - 
     title: Şifreli harfler
+    completion:
+      - engaged
   - 
     title: 'Meydan okuma: Değişken anahtarlar'
   - 
     title: Tüm mesajları şifrelemek
   - 
     title: Fazladan karakterler
+    completion:
+      - internal
   - 
     title: 'Meydan okuma: Mesajları şifreleme ve şifresini çözme'
   - 
