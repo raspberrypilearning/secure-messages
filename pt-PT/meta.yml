@@ -25,12 +25,16 @@ steps:
     title: 'Desafio: usa uma cifra de César'
   - 
     title: Codificando cartas
+    completion:
+      - engaged
   - 
     title: 'Desafio: chaves variáveis'
   - 
     title: Codificando mensagens inteiras
   - 
     title: Caracteres extra
+    completion:
+      - internal
   - 
     title: 'Desafio: codificar e descodificar mensagens'
   - 
