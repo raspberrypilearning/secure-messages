@@ -25,12 +25,16 @@ steps:
     title: 'Défi: Utiliser le Code de César'
   - 
     title: Crypter des lettres
+    completion:
+      - engaged
   - 
     title: 'Défi : Clés variables'
   - 
     title: Crypter des messages entiers
   - 
     title: Caractères supplémentaires
+    completion:
+      - internal
   - 
     title: 'Défi : Crypter et décrypter des messages'
   - 
