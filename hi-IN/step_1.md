@@ -1,6 +1,6 @@
 ## परिचय:
 
-इस प्रोजेक्ट में आप सीखेंगे कि एक मित्र के साथ गुप्त संदेश भेजने और प्राप्त करने के लिए, अपना स्वयं का एन्क्रिप्शन प्रोग्राम कैसे बनाया जाए। यह प्रोजेक्ट स्पेस डायरी के पेज 16 पर "अर्थ टू प्रिंसिपिया" एक्टिविटी के साथ जुड़ा हुआ है।
+इस प्रोजेक्ट में आप सीखेंगे कि एक मित्र के साथ गुप्त संदेश भेजने और प्राप्त करने के लिए, अपना स्वयं का एन्क्रिप्शन प्रोग्राम कैसे बनाया जाए। यह प्रोजेक्ट स्पेस डायरी के पेज 16 पर "Earth to Principia" एक्टिविटी के साथ जुड़ा हुआ है।
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -14,7 +14,7 @@
 
 ## \--- collapse \---
 
-## शीर्षक: क्लब नेता नोट्स
+## title: क्लब लीडर के नोट्स
 
 ## परिचय:
 
@@ -22,15 +22,15 @@
 
 ## ऑनलाइन संसाधन
 
-**इस प्रोजेक्ट में पाइथन 3 का उपयोग किया जाता है।**पाइथन को ऑनलाइन लिखने के लिए हम [ट्रिंकेट](https://trinket.io/) का उपयोग करने की सलाह देते हैं। इस प्रोजेक्ट में निम्नलिखित ट्रिंकेट्स हैं:
+**इस प्रोजेक्ट में पाइथन 3 का उपयोग किया जाता है।**पाइथन को ऑनलाइन लिखने के लिए हम [trinket](https://trinket.io/) का उपयोग करने की सलाह देते हैं। इस प्रोजेक्ट में निम्नलिखित trinkets हैं:
 
-* [नया (रिक्त) पाइथन ट्रिंकट - jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [नया (रिक्त) Python trinket - jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-एक ऐसा ट्रिंकट भी है जिसमें पूर्ण किया गया प्रोजेक्ट है:
+एक ऐसा trinket भी है जिसमें पूर्ण किया गया प्रोजेक्ट है:
 
-* ['Secret Messages' सम्पूर्ण - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['Secret Messages' पूर्ण - trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-* ['Friendship Calculator' सम्पूर्ण - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* [‘Friendship Calculator’ पूर्ण - trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
 ## ऑफ़लाइन संसाधन
 
@@ -46,10 +46,10 @@
 ## सीखने के उद्देश्य
 
 * एक स्ट्रिंग वेरिएबल पर आईटरेशन (लूपिंग);
-* ` find() ` मेथॅड;
+* `find()` मेथॅड;
 * मॉडुलस ऑपरेटर (`%`)
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
+इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](https://rpf.io/curriculum) के निम्नलिखित पहलु सम्मिलित हैं:
 
 * [समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं का उपयोग करें ।](https://www.raspberrypi.org/curriculum/programming/builder)
 
@@ -74,18 +74,18 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## शीर्षक: परियोजना सामग्री
+## title: प्रोजेक्ट सामग्री
 
 ## प्रोजेक्ट संसाधन
 
 * [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/secret-messages-project-resources.zip)
-* [ऑनलाइन रिक्त पाइथन ट्रिंकेट](http://jumpto.cc/python-new)
-* [ऑफ़लाइन रिक्त पाइथन फ़ाइल](resources/new-new.py)
+* [ऑनलाइन खाली Python Trinket](http://jumpto.cc/python-new)
+* [ऑफ़लाइन खाली Python फ़ाइल](resources/new-new.py)
 
-## क्लब नेता संसाधन
+## क्लब लीडर के संसाधन
 
 * [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/secret-messages-volunteer-resources.zip)
-* [ऑनलाइन पूर्ण ट्रिंकेट प्रोजेक्ट](https://trinket.io/python/402256078c)
+* [ऑनलाइन पूर्ण Trinket प्रोजेक्ट](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
 * [ऑनलाइन पूर्ण 'Friendship calculator' चुनौती](https://trinket.io/python/2e852cd687)
 * [ऑफ़लाइन पूर्ण 'Friendship calculator' चुनौती](resources/friendship-calculator-finished-friends.py)
