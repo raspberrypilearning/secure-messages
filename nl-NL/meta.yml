@@ -25,12 +25,16 @@ steps:
     title: 'Uitdaging: gebruik een Caesarcijfer'
   - 
     title: Berichten versleutelen
+    completion:
+      - engaged
   - 
     title: 'Uitdaging: variabele sleutels'
   - 
     title: Hele berichten versleutelen
   - 
     title: Extra tekens
+    completion:
+      - internal
   - 
     title: 'Uitdaging: coderen en decoderen van berichten'
   - 
