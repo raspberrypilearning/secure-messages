@@ -25,12 +25,16 @@ steps:
     title: 'Wyzwanie: użyj szyfru Cezara'
   - 
     title: Szyfrowanie liter
+    completion:
+      - engaged
   - 
     title: 'Wyzwanie: klucz jako zmienna'
   - 
     title: Szyfrowanie całych wiadomości
   - 
     title: Dodatkowe litery
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: szyfrowanie i rozszyfrowywanie wiadomości'
   - 
