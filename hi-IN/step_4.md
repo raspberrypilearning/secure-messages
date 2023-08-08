@@ -1,8 +1,8 @@
 ## अक्षरों को इनक्रिप्ट करना
 
-आइए एक अक्षर को एन्क्रिप्ट करने के लिए पायथन प्रोग्राम लिखें।
+आइए एक अक्षर को एन्क्रिप्ट करने के लिए Python प्रोग्राम लिखें।
 
-+ रिक्त पायथन टेंपलेट ट्रिंकेट खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
++ रिक्त Python टेंपलेट Trinket खोलें: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
 + किसी वृत्त में वर्णमाला बनाने के बजाय, इसे `alphabet` वेरिएबल के रूप में लिखते हैं ।
     
