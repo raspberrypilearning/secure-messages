@@ -25,12 +25,16 @@ steps:
     title: 'Izazov: Isprobaj Cezarovu šifru'
   - 
     title: Šifriranje slova
+    completion:
+      - engaged
   - 
     title: 'Izazov: Promjenjivi ključevi'
   - 
     title: Šifriranje poruka
   - 
     title: Dodatni znakovi
+    completion:
+      - internal
   - 
     title: 'Izazov: Šifriranje i dešifriranje poruka'
   - 
