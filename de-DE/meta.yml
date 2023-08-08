@@ -25,12 +25,16 @@ steps:
     title: 'Herausforderung: Benutze eine Caesar-Verschlüsselung'
   - 
     title: Buchstaben verschlüsseln
+    completion:
+      - engaged
   - 
     title: 'Herausforderung: Verschiedene Schlüssel'
   - 
     title: Komplette Nachrichten verschlüsseln
   - 
     title: Zusätzliche Zeichen
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Verschlüsseln und Entschlüsseln von Nachrichten'
   - 
