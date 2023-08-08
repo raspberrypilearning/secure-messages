@@ -25,12 +25,16 @@ steps:
     title: 'التحدي: استخدم شفرة قيصر'
   - 
     title: تشفير الحروف
+    completion:
+      - engaged
   - 
     title: 'التحدي: مفاتيح المتغيرات'
   - 
     title: تشفير الرسائل بأكملها
   - 
     title: أحرف إضافية
+    completion:
+      - internal
   - 
     title: 'التحدي: تشفير الرسائل وفك تشفيرها'
   - 
