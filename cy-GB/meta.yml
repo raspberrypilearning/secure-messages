@@ -25,12 +25,16 @@ steps:
     title: 'Her: Defnyddio seiffr Cesar'
   - 
     title: Amgryptio llythyrau
+    completion:
+      - engaged
   - 
     title: 'Her: Allweddi amrywiol'
   - 
     title: Amgryptio negeseuon cyfan
   - 
     title: Cymeriadau ychwanegol
+    completion:
+      - internal
   - 
     title: 'Her: Amgryptio a dadgryptio negeseuon'
   - 
