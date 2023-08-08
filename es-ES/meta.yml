@@ -25,12 +25,16 @@ steps:
     title: 'Desafío: Usa un cifrado César'
   - 
     title: Encriptación de letras
+    completion:
+      - engaged
   - 
     title: 'Desafío: Claves en una variable'
   - 
     title: Encriptar mensajes completos
   - 
     title: Caracteres adicionales
+    completion:
+      - internal
   - 
     title: 'Desafío: Encriptado y desencriptado de mensajes'
   - 
