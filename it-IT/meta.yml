@@ -25,12 +25,16 @@ steps:
     title: 'Sfida: Usa il cifrario di Cesare'
   - 
     title: Criptare lettere
+    completion:
+      - engaged
   - 
     title: 'Sfida: Chiavi variabili'
   - 
     title: Criptare interi messaggi
   - 
     title: Caratteri Extra
+    completion:
+      - internal
   - 
     title: 'Sfida: Criptare e decriptare messaggi'
   - 
