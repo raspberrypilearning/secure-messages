@@ -25,12 +25,16 @@ steps:
     title: 'אתגר: השתמשו בצופן קיסר'
   - 
     title: הצפנת אותיות
+    completion:
+      - engaged
   - 
     title: 'אתגר: מפתח משתנה'
   - 
     title: הצפנת הודעות שלמות
   - 
     title: תווים נוספים
+    completion:
+      - internal
   - 
     title: 'אתגר: הצפנה ופענוח של הודעות'
   - 
