@@ -2,70 +2,274 @@
 
 Let's write a Python program to encrypt a single character.
 
+--- task ---
+
+Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
+
+Open the [Secret Messages starter project](https://editor.raspberrypi.org/en/projects/secret-messages-starter){:target="_blank"}.
+
+--- /task ---
+
+--- task ---
+
+Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+--- /code ---
+
+--- /task ---
+
+Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
+
+--- task ---
+
+You can get a letter from your `alphabet` variable by writing the position in square brackets.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 2-4
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+print(alphabet[0])
+print(alphabet[6])
+print(alphabet[19])
+--- /code ---
+
+You can delete the `print` statements once you've tried this out.
+
+--- /task ---
+
+--- task ---
+
+Next, you'll need to store the secret `key` in a variable.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 2
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Next, ask the user for a single letter (called a `character`) to encrypt.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+
+character = input('Please enter a character: ')
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Find the `position` of the `character`.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+
+character = input('Please enter a character: ')
+
+position = alphabet.find(character)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 7
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+
+character = input('Please enter a character: ')
+
+position = alphabet.find(character)
+print(position)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `new_position` variable.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 9-10
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+
+character = input('Please enter a character: ')
+
+position = alphabet.find(character)
+print(position)
+
+new_position = position + key
+print(new_position)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
++est out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `new_position` variable.
+
+For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
+
+```
+Please enter a character: e
+4
+7
+```
+
+--- /task ---
+
+--- task ---
+
+What happens when you try and encrypt the letter 'y'?
+
+```
+Please enter a character: y
+24
+27
+```
+
+Notice how the `new_position` is 27, and there aren't 27 letters in the alphabet!
+
+--- /task ---
+
+--- task ---
+
+You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 9
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+
+character = input('Please enter a character: ')
+
+position = alphabet.find(character)
+print(position)
+
+new_position = (position + key) % 26
+print(new_position)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Finally, you want to print the letter at the new position.
+
+For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 12-13
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+
+character = input('Please enter a character: ')
+
+position = alphabet.find(character)
+print(position)
+
+new_position = (position + key) % 26
+print(new_position)
+
+new_character = alphabet[new_position]
+print(new_character)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Try out your code. You can also remove some of your print statements, just printing the new character at the end.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 11
+---
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 3
+
+character = input('Please enter a character: ')
+
+position = alphabet.find(character)
+
+new_position = (position + key) % 26
+
+new_character = alphabet[new_position]
+print('The new character is: ', new_character)
+--- /code ---
+--- /task ---
 
 
-+ Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
 
-+ Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
-
-	![screenshot](images/messages-alphabet.png)
-
-+ Each letter of the alphabet has a position, starting at position 0. So the letter 'a' is at position 0 of the alphabet, and 'c' is at position 2.
-
-	![screenshot](images/messages-array.png)
-
-+ You can get a letter from your `alphabet` variable by writing the position in square brackets.
-
-	![screenshot](images/messages-alphabet-array.png)
-
-	You can delete the `print` statements once you've tried this out.
-
-+ Next, you'll need to store the secret `key` in a variable.
-
-	![screenshot](images/messages-key.png)
-
-+ Next, ask the user for a single letter (called a `character`) to encrypt.
-
-	![screenshot](images/messages-character.png)
-
-+ Find the `position` of the `character`.
-
-	![screenshot](images/messages-position.png)
-
-+ You can test the stored `position` by printing it. For example, that character 'e' is at position 4 in the alphabet.
-
-	![screenshot](images/messages-position-test.png)
-
-+ To encrypt the `character`, you should add the `key` to the `position`. This is then stored in a `newPosition` variable.
-
-	![screenshot](images/messages-newposition.png)
-
-+ Add code to print the new character position. 
-
-	![screenshot](images/messages-newposition-print.png)
-
-+ Test out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `newPosition` variable.
-
-	For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
-
-	![screenshot](images/messages-newposition-test.png)
-
-+ What happens when you try and encrypt the letter 'y'?
-
-	![screenshot](images/messages-modulus-bug.png)
-
-	Notice how the `newPosition` is 27, and there aren't 27 letters in the alphabet!
-
-+ You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
-
-	![screenshot](images/messages-modulus.png)
-
-+ Finally, you want to print the letter at the new position.
-
-	For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
-
-	![screenshot](images/messages-newcharacter.png)
-
-+ Try out your code. You can also remove some of your print statements, just printing the new character at the end.
-
-	![screenshot](images/messages-enc-test.png)
