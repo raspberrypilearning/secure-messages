@@ -2,7 +2,7 @@
 
 In this project, you'll learn how to make your own encryption program, to send and receive secret messages with a friend. This project ties in with the "Earth to Principia" activity on page 16 of the Space Diary.
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/secret-messages-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 ### Additional information for club leaders
 
