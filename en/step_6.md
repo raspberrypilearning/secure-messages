@@ -39,7 +39,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights:3
+line_highlights: 3
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 3
