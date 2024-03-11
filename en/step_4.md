@@ -4,8 +4,6 @@ Let's write a Python program to encrypt a single character.
 
 --- task ---
 
-Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>.
-
 Open the [Secret Messages starter project](https://editor.raspberrypi.org/en/projects/secret-messages-starter){:target="_blank"}.
 
 --- /task ---
