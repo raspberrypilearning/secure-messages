@@ -4,7 +4,4 @@ Encrypt some messages, and give them to a friend along with the secret key. See 
 
 You could also duplicate the project and create a separate program for decrypting messages.
 
-
-
-
 --- /challenge ---
