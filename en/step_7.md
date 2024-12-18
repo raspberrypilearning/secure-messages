@@ -1,10 +1,10 @@
 ## Extra characters
 
-Some characters aren't in the alphabet, which causes an error.
+Some characters are not in the alphabet, which causes an error.
 
 --- task ---
 
-Test out your code with some characters that aren't in the alphabet.
+Test out your code with some characters that are not in the alphabet.
 
 For example, you could use the message `hi there!!`.
 
@@ -19,15 +19,15 @@ Notice that the space and the `!` characters are all encrypted as the letter 'c'
 
 --- task ---
 
-To fix this, you only want to translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
+To fix this, only translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 8
+line_number_start: 8
+line_highlights: 9
 ---
 for character in message:
     if character in alphabet:
@@ -45,20 +45,22 @@ print(new_message)
 
 --- task ---
 
-Test your code with the same message. What happens this time?
+**Test:** Click the **Run** button and test with the same message. 
+
+What happens this time?
 
 ```
 Please enter a message: hi there!!
 klwkhuh
 ```
 
-Now, your code just skips any character if it's not in the alphabet.
+Your code just skips any character if it is not in the alphabet.
 
 --- /task ---
 
---- task ---
+It would be better if your code just used the original character for anything not in the alphabet.
 
-It would be better if your code didn't encrypt anything not in the alphabet, but just used the original character.
+--- task ---
 
 Add an `else` statement to your code, which just adds the original character to the encrypted message.
 
@@ -67,8 +69,8 @@ Add an `else` statement to your code, which just adds the original character to 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 16-17
+line_number_start: 8
+line_highlights: 17-18
 ---
 for character in message:
     if character in alphabet:
@@ -87,7 +89,10 @@ print(new_message)
 --- /task ---
 
 --- task ---
-Test your code. You should see that any character in the alphabet is encrypted, but any other characters are left alone!
+
+**Test:** Click the **Run** button. 
+
+You should see that any character in the alphabet is encrypted, but any other characters are left alone!
 
 ```
 Please enter a message: hi there!!

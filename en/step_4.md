@@ -1,6 +1,6 @@
 ## Encrypting letters
 
-Let's write a Python program to encrypt a single character.
+Write a Python program to encrypt a single character.
 
 --- task ---
 
@@ -10,7 +10,7 @@ Open the [Secret Messages starter project](https://editor.raspberrypi.org/en/pro
 
 --- task ---
 
-Instead of drawing the alphabet in a circle, let's write it out as an `alphabet` variable.
+Instead of drawing the alphabet in a circle, write it out as an `alphabet` variable.
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ Each letter of the alphabet has a position, starting at position 0. So the lette
 
 --- task ---
 
-You can get a letter from your `alphabet` variable by writing the position in square brackets.
+Output a letter from your `alphabet` variable by printing the letter at the position in square brackets.
 
 --- code ---
 ---
@@ -160,7 +160,9 @@ print(new_position)
 
 --- task ---
 
-+est out your new code. As your `key` is 3, it should add 3 to the `position` and store it in your `new_position` variable.
+**Test:** Click the **Run** button. 
+
+As your `key` is 3, it should add 3 to the `position` and store it in your `new_position` variable.
 
 For example, letter 'e' is at position 4. To encrypt, you add the `key` (3), giving 7.
 
@@ -188,7 +190,7 @@ Notice how the `new_position` is 27, and there aren't 27 letters in the alphabet
 
 --- task ---
 
-You can use a `%` to tell the new position to go back to position 0 once it gets to position 26.
+Use a `%` to tell the new position to go back to position 0 once it gets to position 26.
 
 --- code ---
 ---
@@ -214,7 +216,7 @@ print(new_position)
 
 --- task ---
 
-Finally, you want to print the letter at the new position.
+Finally, print the letter at the new position.
 
 For example, adding the key to the letter 'e' gives 7, and the letter at position 7 of the alphabet is 'h'.
 
@@ -268,6 +270,3 @@ new_character = alphabet[new_position]
 print('The new character is: ', new_character)
 --- /code ---
 --- /task ---
-
-
-
