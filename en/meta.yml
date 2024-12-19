@@ -17,15 +17,20 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-- title: 'Introduction: '
+- title: What you will make
 - title: The Caesar cipher
-- title: 'Challenge: Use a Caesar cipher'
-- title: Encrypting letters
+- title: Use a Caesar cipher
+  challenge: true
   completion:
   - engaged
-- title: 'Challenge: Variable keys'
+- title: Encrypting letters
+  completion:
+  - internal
+- title: Variable keys
 - title: Encrypting entire messages
 - title: Extra characters
   completion:
-  - internal
-- title: 'Challenge: Encrypting and decrypting messages'
+  - external
+- title: Encrypting and decrypting messages
+  challenge: true
+- title: What can you do now?

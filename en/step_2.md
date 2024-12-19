@@ -6,21 +6,29 @@ You'll be using one of the oldest and most famous ciphers, the __Caesar cipher__
 
 Before we start coding, let's try using the Caesar cipher to hide a word.
 
+Hiding a word is called __encryption__.
 
+Start by encrypting the letter 'a'. 
 
-+ Hiding a word is called __encryption__.
+--- task ---
 
-	Let's start by encrypting the letter 'a'. To do this, we can draw the alphabet in a circle, like this:
+Draw the alphabet in a circle, like this:
 
-	![screenshot](images/messages-wheel.png)
+![screenshot](images/messages-wheel.png)
 
-+ To make a secret encrypted letter from a normal one, you need to have a secret key. Let's use the number 3 as the key (but you can use any number you like).
+--- /task ---
 
-	To __encrypt__ the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+To make a secret encrypted letter from a normal one, you need to have a secret key. 
 
-	![screenshot](images/messages-wheel-eg.png)
+You could use the number 3 as the key (but you can use any number you like).
 
-+ You can use what you've learnt to encrypt an entire word. For example, 'hello' encrypted is 'khoor'. Try it yourself.
+To __encrypt__ the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+
+![screenshot](images/messages-wheel-eg.png)
+
+Use what you've learnt to encrypt an entire word. 
+
+For example, 'hello' encrypted is 'khoor'. 
 
 	+ h + 3 = __k__
 	+ e + 3 = __h__
@@ -28,11 +36,10 @@ Before we start coding, let's try using the Caesar cipher to hide a word.
 	+ l + 3 = __o__
 	+ o + 3 = __r__
 
-+ Getting text back to normal is called __decryption__. To decrypt a word, just subtract the key instead of adding it:
+Getting text back to normal is called __decryption__. To decrypt a word, just subtract the key instead of adding it:
 
 	+ k - 3 = __h__
 	+ h - 3 = __e__
 	+ o - 3 = __l__
 	+ o - 3 = __l__
 	+ r - 3 = __o__	
-

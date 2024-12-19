@@ -4,33 +4,6 @@ Instead of just encrypting and decrypting messages one character at a time, let'
 
 --- task ---
 
-Firstly, check that your code looks like this:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights:
----
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
-
-character = input('Please enter a character: ')
-
-position = alphabet.find(character)
-
-new_position = (position + key) % 26
-
-new_character = alphabet[new_position]
-print('The new character is: ', new_character)
---- /code ---
-
---- /task ---
-
---- task ---
-
 Create a variable to store the new encrypted message.
 
 --- code ---
@@ -39,10 +12,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 3
+line_highlights: 4
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
+key = input('Please enter the key: ')
+key = int(key)
 new_message = ''
 
 character = input('Please enter a character: ')
@@ -67,10 +41,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5
+line_highlights: 6
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
+key = input('Please enter the key: ')
+key = int(key)
 new_message = ''
 
 message = input('Please enter a message: ')
@@ -95,10 +70,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 7
+line_highlights: 8
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
+key = input('Please enter the key: ')
+key = int(key)
 new_message = ''
 
 message = input('Please enter a message: ')
@@ -139,10 +115,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 14-15
+line_highlights: 15-16
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
+key = input('Please enter the key: ')
+key = int(key)
 new_message = ''
 
 message = input('Please enter a message: ')
@@ -170,10 +147,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 13, 15
+line_highlights: 14, 16
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
+key = input('Please enter the key: ')
+key = int(key)
 new_message = ''
 
 message = input('Please enter a message: ')
