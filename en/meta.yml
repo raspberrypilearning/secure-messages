@@ -19,18 +19,16 @@ last_tested: 2017-01-01
 steps:
 - title: What you will make
 - title: The Caesar cipher
-- title: Use a Caesar cipher
-  challenge: true
-  completion:
-  - engaged
 - title: Encrypting letters
   completion:
-  - internal
+  - engaged
 - title: Variable keys
 - title: Encrypting entire messages
+  completion:
+  - internal
 - title: Extra characters
   completion:
   - external
-- title: Encrypting and decrypting messages
+- title: Challenge
   challenge: true
 - title: What can you do now?
