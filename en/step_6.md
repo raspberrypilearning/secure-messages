@@ -1,174 +1,101 @@
-## Encrypting entire messages
+## Extra characters
 
-Instead of just encrypting and decrypting messages one character at a time, let's change the program to encrypt entire messages!
-
---- task ---
-
-Create a variable to store the new encrypted message.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 4
----
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = input('Please enter the key: ')
-key = int(key)
-new_message = ''
-
-character = input('Please enter a character: ')
-
-position = alphabet.find(character)
-
-new_position = (position + key) % 26
-
-new_character = alphabet[new_position]
-print('The new character is: ', new_character)
---- /code ---
-
---- /task ---
+Some characters are not in the alphabet, which causes an error.
 
 --- task ---
 
-Change your code to store the user's message and not just one character.
+Test out your code with some characters that are not in the alphabet.
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 6
----
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = input('Please enter the key: ')
-key = int(key)
-new_message = ''
-
-message = input('Please enter a message: ')
-
-position = alphabet.find(character)
-
-new_position = (position + key) % 26
-
-new_character = alphabet[new_position]
-print('The new character is: ', new_character)
---- /code ---
-
---- /task ---
-
---- task ---
-
-Add a `for` loop to your code, and indent the rest of the code so that it is repeated for each character in the message.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 8
----
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = input('Please enter the key: ')
-key = int(key)
-new_message = ''
-
-message = input('Please enter a message: ')
-
-for character in message:
-	position = alphabet.find(character)
-
-	new_position = (position + key) % 26
-
-	new_character = alphabet[new_position]
-	print('The new character is: ', new_character)
---- /code ---
-
---- /task ---
-
---- task ---
-
-Test your code. You should see that each character in the message is encrypted and printed one at a time.
+For example, you could use the message `hi there!!`.
 
 ```
-Please enter a message: hello
-The new character is:  k
-The new character is:  h
-The new character is:  o
-The new character is:  o
-The new character is:  r
+Please enter a message: hi there!!
+klcwkhuhcc
 ```
 
+Notice that the space and the `!` characters are all encrypted as the letter 'c'!
+
 --- /task ---
 
 --- task ---
 
-Let's add each encrypted character to your `new_message` variable.
+To fix this, only translate a character if it's in the alphabet. To do this, add an `if` statement to your code, and indent the rest of your code.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 15-16
+line_number_start: 8
+line_highlights: 9
 ---
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = input('Please enter the key: ')
-key = int(key)
-new_message = ''
-
-message = input('Please enter a message: ')
-
 for character in message:
-	position = alphabet.find(character)
-
-	new_position = (position + key) % 26
-
-	new_character = alphabet[new_position]
-	print('The new character is: ', new_character)
-	new_message += new_character
-	print(new_message)
---- /code ---
-
---- /task ---
-
---- task ---
-
-If you delete the indentation before the `print` statement, the encrypted message will only be displayed once at the end. You can also delete the code for printing the characters
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 14, 16
----
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = input('Please enter the key: ')
-key = int(key)
-new_message = ''
-
-message = input('Please enter a message: ')
-
-for character in message:
-	position = alphabet.find(character)
-
-	new_position = (position + key) % 26
-
-	new_character = alphabet[new_position]
-
-	new_message += new_character
+    if character in alphabet:
+    	position = alphabet.find(character)
+    
+    	new_position = (position + key) % 26
+    
+    	new_character = alphabet[new_position]
+    
+    	new_message += new_character
 print(new_message)
 --- /code ---
 
 --- /task ---
 
+--- task ---
 
+**Test:** Click the **Run** button and test with the same message. 
 
+What happens this time?
 
+```
+Please enter a message: hi there!!
+klwkhuh
+```
+
+Your code just skips any character if it is not in the alphabet.
+
+--- /task ---
+
+It would be better if your code just used the original character for anything not in the alphabet.
+
+--- task ---
+
+Add an `else` statement to your code, which just adds the original character to the encrypted message.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 8
+line_highlights: 17-18
+---
+for character in message:
+    if character in alphabet:
+    	position = alphabet.find(character)
+    
+    	new_position = (position + key) % 26
+    
+    	new_character = alphabet[new_position]
+    
+    	new_message += new_character
+    else:
+        new_message += character
+print(new_message)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button. 
+
+You should see that any character in the alphabet is encrypted, but any other characters are left alone!
+
+```
+Please enter a message: hi there!!
+kl wkhuh!!
+```
+--- /task ---

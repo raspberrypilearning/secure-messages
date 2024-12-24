@@ -22,9 +22,23 @@ To make a secret encrypted letter from a normal one, you need to have a secret k
 
 You could use the number 3 as the key (but you can use any number you like).
 
-To __encrypt__ the letter 'a', you just move 3 letters clockwise, which will give you the letter 'd':
+--- task ---
+
+Choose your key.
+
+--- /task ---
+
+If you have chosen '3' as your key, you can __encrypt__ the letter 'a' by moving 3 letters clockwise, which will give you the letter 'd':
+
+--- task ---
+
+Encrypt the letter 'a' with your key.
 
 ![screenshot](images/messages-wheel-eg.png)
+
+--- /task ---
+
+--- task ---
 
 Use what you've learnt to encrypt an entire word. 
 
@@ -35,6 +49,8 @@ For example, 'hello' encrypted is 'khoor'.
 	+ l + 3 = __o__
 	+ l + 3 = __o__
 	+ o + 3 = __r__
+
+--- /task ---
 
 Getting text back to normal is called __decryption__. To decrypt a word, just subtract the key instead of adding it:
 
