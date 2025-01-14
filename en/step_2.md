@@ -1,6 +1,6 @@
 ## The Caesar cipher
 
-A cipher is a type of secret code, where you swap the letters around so that no-one can read your message.
+A cipher is a type of code, where you swap the letters around so that no-one can read your message.
 
 You'll be using one of the oldest and most famous ciphers, the __Caesar cipher__, which is named after Julius Caesar.
 
@@ -18,7 +18,7 @@ Draw the alphabet in a circle, like this:
 
 --- /task ---
 
-To make a secret encrypted letter from a normal one, you need to have a secret key. 
+To make an encrypted letter from a normal one, you need to have a key. 
 
 You could use the number 3 as the key (but you can use any number you like).
 
