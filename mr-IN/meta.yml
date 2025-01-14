@@ -9,7 +9,7 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: गुप्त संदेश
 description: स्वतःच कूटबद्धीकरण (encryption) कार्यक्रम बनवा, गुप्त संदेश पाठ्वण्या
   आणखी प्राप्त करण्या साठी.
-original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+original_url: https://codeclubprojects.org/en-GB/python/secure-messages
 interests: cybersecurity-and-cryptography
 technologies: python
 site_areas: projects

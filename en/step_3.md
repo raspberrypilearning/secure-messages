@@ -4,7 +4,7 @@ Write a Python program to encrypt a single character.
 
 --- task ---
 
-Open the [Secret Messages starter project](https://editor.raspberrypi.org/en/projects/secret-messages-starter){:target="_blank"}.
+Open the [Secure Messages starter project](https://editor.raspberrypi.org/en/projects/secure-messages-starter){:target="_blank"}.
 
 --- /task ---
 
@@ -57,7 +57,7 @@ You can delete the `print` statements once you've tried this out.
 
 --- task ---
 
-Store the secret `key` in a variable.
+Store the `key` in a variable.
 
 --- code ---
 ---

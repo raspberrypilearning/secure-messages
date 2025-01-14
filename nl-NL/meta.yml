@@ -9,7 +9,7 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Geheime berichten
 description: Maak je eigen coderingsprogramma om geheime berichten te verzenden en
   ontvangen.
-original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+original_url: https://codeclubprojects.org/en-GB/python/secure-messages
 interests: cybersecurity-and-cryptography
 technologies: python
 site_areas: projects

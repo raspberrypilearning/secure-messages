@@ -8,7 +8,7 @@ copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: 秘密のメッセージ
 description: 独自の暗号化プログラムを作成し、秘密のメッセージを送受信します。
-original_url: https://codeclubprojects.org/en-GB/python/secret-messages
+original_url: https://codeclubprojects.org/en-GB/python/secure-messages
 interests: cybersecurity-and-cryptography
 technologies: python
 site_areas: projects

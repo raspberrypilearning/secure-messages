@@ -10,7 +10,7 @@ Yn y prosiect hwn, byddwch chi'n dysgu sut i wneud eich rhaglen amgryptio eich h
 
 ### Gwybodaeth ychwanegol ar gyfer arweinwyr clwb
 
-Os oes angen i chi argraffu'r prosiect hwn, defnyddiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/secret-messages/print).
+Os oes angen i chi argraffu'r prosiect hwn, defnyddiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/secure-messages/print).
 
 --- collapse ---
 ---
@@ -28,7 +28,7 @@ Yn y prosiect hwn, bydd plant yn dysgu sut i wneud rhaglen amgryptio, i anfon a 
 
 Mae hefyd trinket sy'n cynnwys y prosiect a gwblhawyd:
 
-* ['Negeseuon Secret' wedi'i gwblhau - trinket.io/python/0bc1806422](https://trinket.io/python/0bc1806422)
+* ['Negeseuon Secure' wedi'i gwblhau - trinket.io/python/0bc1806422](https://trinket.io/python/0bc1806422)
 
 * ['Cyfrifiannell Cyfeillgarwch' wedi'i gwblhau - trinket.io/python/c5ccf635f9](https://trinket.io/python/c5ccf635f9)
 
@@ -78,15 +78,15 @@ title: Deunyddiau prosiect
 ---
 ## Adnoddau'r prosiect
 
-* [.zip ffeil sy'n cynnwys holl adnoddau'r prosiect](resources/secret-messages-project-resources.zip)
+* [.zip ffeil sy'n cynnwys holl adnoddau'r prosiect](resources/secure-messages-project-resources.zip)
 * [Trinket Python gwag ar-lein](http://jumpto.cc/python-new)
 * [Ffeil wag Python all-lein](resources/new-new.py)
 
 ## Adnoddau arweinwyr clwb
 
-* [.zip ffeil sy'n cynnwys holl adnoddau'r prosiect wedi'u cwblhau](resources/secret-messages-volunteer-resources.zip)
+* [.zip ffeil sy'n cynnwys holl adnoddau'r prosiect wedi'u cwblhau](resources/secure-messages-volunteer-resources.zip)
 * [Prosiect Trinket wedi'i gwblhau ar-lein](https://trinket.io/python/0bc1806422)
-* [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
+* [secure-messages-finished/messages.py](resources/secure-messages-finished-messages.py)
 * [Her 'cyfrifiannell cyfeillgarwch' wedi'i chwblhau ar-lein](https://trinket.io/python/c5ccf635f9)
 * [her 'cyfrifiannell Cyfeillgarwch' wedi'i chwblhau all-lein](resources/friendship-calculator-finished-friends.py)
 
